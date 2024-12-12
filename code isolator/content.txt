@@ -1,0 +1,16 @@
+// Add event listeners to the links
+// document.querySelectorAll('.left-column a').forEach(link => {
+//     link.addEventListener('click', (event) => {
+//         event.preventDefault();
+//         const section = event.target.getAttribute('data-section');
+//         const contentArea = document.getElementById('content');
+
+//         contentArea.innerHTML = `
+//         <div class="section-content">
+//             <h2 class="font-medium text-2xl">${content[section].title}</h2>
+//             <p class="text-lg">${content[section].body}</p>
+//             <img src="${content[section].image}" alt="${content[section].title}" class="section-image mt-4">
+//         </div>
+//       `;
+//     });
+// });

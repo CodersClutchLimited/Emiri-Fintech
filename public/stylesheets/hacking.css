@@ -1,0 +1,116 @@
+
+.digital-h1{
+    padding-top: 150px;
+}
+
+.hacking-contact{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.hacking-button{
+    padding: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: brown;
+}
+
+.hacking-container{
+    padding-bottom: 80px;
+}
+
+.hacking-title{
+    color: #333;
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.cost-para{
+    color: #333;
+    padding-left: 55px;
+}
+
+.cost{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.cost-boxes{
+    margin-left: 45px;
+    margin-right: 45px;
+    padding-bottom: 100px;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+}
+
+.cost-padder{
+    padding: 30px;
+    border: 1px solid #111;
+}
+
+.cost-icon{
+    font-size: 2.5rem;
+}
+
+/* video*/
+.secure-button{
+    background-color: #a41818;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.video-itself{
+    width: 800px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* hire */
+.cosmic-swiper-video {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-left: 30px;
+}
+
+.hire-card {
+    background-color: #fff !important;
+    width: 90%; /* Use percentage for responsive width */
+    max-width: 440px; /* Set a maximum width */
+    height: auto;
+    aspect-ratio: unset !important;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.hire-name{
+    color: #333;
+    padding: 20px 20px;
+}
+
+.hire-name{
+    padding-top: 30px;
+}
+
+/* .galaxy-video{
+    background-color: #fff;
+    border: 1px solid black;
+} */
+
+.hire-details{
+    color: #555;
+    padding: 20px 20px;
+}
+
+.hire-button{
+    padding: 20px 20px;
+}
+
+.industry-container{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}

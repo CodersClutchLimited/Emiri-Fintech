@@ -1,0 +1,56 @@
+.career-container{
+    margin-top: 60px;
+    background-color: #f7f7f2;
+    color: #444;
+}
+
+.careers{
+    background-color: #fff;
+    margin-left: 47px;
+    margin-right: 47px;
+    border-radius: 2px;
+    padding-bottom: 100px !important;
+}
+
+.career-title{
+    padding-top: 120px;
+    padding-bottom: 75px;
+}
+
+.job-item {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 20px;
+  }
+  
+  .job-icon{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 18px;
+  }
+
+  .career-role{
+    color: #555;
+  }
+
+  .career-detail{
+    color: #999;
+  }
+
+  .career-detail span{
+    padding-right: 5px;
+  }
+
+
+  .career-detail {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .arrow-icon{
+    font-size: 1.7rem;
+    color: #999;
+  }

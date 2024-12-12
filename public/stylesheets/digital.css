@@ -1,0 +1,570 @@
+.title-container {
+    margin-top: 700px;
+}
+
+.titan-1 {
+    margin-bottom: 10px;
+}
+
+.titan-2 {
+    margin-bottom: 50px;
+}
+
+/* Default: Single line for smaller screens */
+.line-break {
+    display: inline;
+}
+
+/* Full screen: Break lines where needed */
+@media (min-width: 1024px) { /* Adjust the width to match your full-screen threshold */
+    .line-break {
+        display: block;
+    }
+}
+
+.table-content {
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #333;
+}
+
+.content-title {
+    margin-top: 110px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 785px) {
+    .table-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .left-column {
+        width: 50% !important;
+    }
+}
+
+.content-container {
+    color: black;
+    display: flex;
+    height: 100vh;
+}
+
+.left-column {
+    width: 25%;
+    padding: 15px;
+    border-left: 1px solid #ccc; /* Thin left border */
+    border-right: 1px solid #eee;
+    max-height: 450px; /* Adjust the height to show approximately 8 items */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    display: flex;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+.left-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-column li {
+    margin: 16px 0;
+}
+
+.left-column a {
+    text-decoration: none;
+    color: #666;
+}
+
+.right-column {
+    width: 75%;
+}
+
+/* Custom scrollbar styles (optional) */
+.left-column::-webkit-scrollbar {
+    width: 3px; /* Adjust scrollbar width */
+}
+
+.left-column::-webkit-scrollbar-thumb {
+    background-color: #999; /* Scrollbar thumb color */
+    border-radius: 4px; /* Rounded corners for scrollbar thumb */
+}
+
+.left-column::-webkit-scrollbar-track {
+    background-color: #f9f9f9; /* Scrollbar track color */
+}
+
+.right-container{
+    padding-left: 80px !important;
+}
+
+.section-content{
+    padding-left: 80px !important;
+}
+
+.section-content h2{
+    color: #333;
+    margin-bottom: 35px;
+}
+
+.section-content p{
+    color: #444;
+    margin-bottom: 35px;
+}
+
+.section-image{
+    height: 270px;
+    width: 700px;
+}
+
+.left-column a.active {
+    color: #111;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Sora:wght@400;700&display=swap');
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+.list-container  h1, .list-container h2, .list-container h3 {
+    font-family: 'Sora', sans-serif;
+}
+
+.sub i {
+    font-size: 3em !important;
+}
+.sub {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.list-container{
+    margin-bottom: 100px;
+    margin-top: -80px;
+}
+.list-container h1 {
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.para {
+    font-size: 20px;
+}
+
+.para2 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.back {
+    height: 400px;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkFWeST_DaK1Y--4m_xd05c1pYo6Vrcej0cQ&s');
+}
+
+/* nav navigator styling */
+
+.digital-navigator{
+    padding: 20px;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    gap: 40px;
+}
+
+.navigator-title {
+    color: #333 !important;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+}
+
+@media screen and (max-width: 785px) {
+    .navigator-title {
+        padding-left: 20px !important;
+        padding-bottom: 20px;
+    }
+    .digital-navigator{
+        padding-left: 20px;
+    }
+}
+
+.nav-navigator{
+    padding-bottom: 50px;
+}
+
+.tab-content{
+    padding-top: 35px;
+    padding-left: 55px;
+}
+
+.nav-image{
+    width: 755px;
+    padding-left: 70px;
+}
+
+@media screen and (max-width: 785px) {
+    .tab-content{
+        margin-top: -30px;
+        padding-left: 10px;
+    }
+    .nav-image{
+        padding-left: 2px;
+        padding-top: 60px;
+        width: auto;
+    }
+    
+    .nav-img{
+        width: auto;
+        height: auto;
+        object-fit: contain;
+    }
+}
+
+
+.nav-img{
+    width: 100%;
+    height: 350px;
+}
+
+
+.digital-navigator-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none; /* Hide scrollbar in IE */
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+.digital-navigator-wrapper::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Webkit browsers (Chrome, Safari, Edge) */
+}
+
+
+
+@media (max-width: 785px) {
+    .digital-navigator-wrapper {
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+   /* Digital carousel 1 design */
+.cosmic-swiper {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-left: 30px;
+}
+
+.cadder {
+    border: 1px solid black;
+    color: #333;
+    background-color: #fBfBfD;
+    width: 90%; /* Use percentage for responsive width */
+    max-width: 440px; /* Set a maximum width */
+    height: auto;
+    aspect-ratio: 2 / 3;
+    margin: auto;
+}
+
+
+.cadder:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+
+.cadder-buttons {
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+    gap: 10px; /* Add spacing between buttons */
+    justify-content: center; /* Center align buttons */
+}
+
+.digital-buttons {
+    border: 1px solid #999;
+    color: #999;
+}
+
+.digital-buttons:hover {
+    color: #990611;
+}
+
+
+.cadder-title {
+    padding: 10px 20px; /* Reduce padding for smaller screens */
+    text-align: center; /* Center align the title */
+}
+
+.zoom-img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover; /* Ensure images scale properly */
+}
+
+.zoom-img:hover {
+    transform: scale(1.1); /* Zoom in the image by 10% */
+    cursor: grab;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .cadder {
+        width: 100%; /* Full width on smaller screens */
+        max-width: 360px; /* Smaller max width */
+    }
+
+    .digital-buttons {
+        font-size: 0.8rem; /* Smaller font for mobile */
+    }
+
+    .cadder-title {
+        font-size: 1.5rem; /* Adjust title size */
+    }
+}
+
+@media (max-width: 480px) {
+    .cadder {
+        width: 100%; /* Full width */
+        max-width: 300px; /* Smaller max width for very small screens */
+    }
+
+    .digital-buttons {
+        font-size: 0.7rem; /* Further reduce font size */
+        padding: 5px 10px; /* Adjust padding */
+    }
+
+    .cadder-title {
+        font-size: 1.2rem; /* Further adjust title size */
+    }
+}
+
+
+
+
+.cosmic-swiper {
+  position: relative; /* Make the container a positioning context */
+}
+
+.orbital-wrapper .swiper-pagination {
+  position: absolute;
+  bottom: 10px; /* You can adjust this value */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally based on the width of the pagination */
+  display: flex; /* Use flexbox to arrange the bullets */
+  justify-content: center;
+  z-index: 10; /* Optional: Ensure it appears above other elements */
+}
+
+.orbital-wrapper{
+    padding-bottom: 10px !important;
+}
+
+.cosmic-swiper .swiper-pagination .swiper-pagination-bullet {
+  width: 80px;  /* Set the width of the line */
+  height: 4px;  /* Set the height (thickness) of the line */
+  margin: 0 5px; /* Space between each line */
+  background-color: #888; /* Color of the line */
+  border-radius: 0;
+  opacity: 1 !important; /* Remove rounded corners */
+}
+
+.cosmic-swiper .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #F50057; /* Active state color */
+  transform: translateY(-8px); /* Move the active bullet up */
+}
+
+.cosmic-title{
+    color: #333;
+    margin-bottom: 100px;
+    margin-top: 75px;
+    padding-left: 60px;
+}
+
+.stellar-swiper-container{
+    background-color: #fBfBfD;
+    padding-top: 40px;
+    padding-bottom: 100px;
+
+}
+
+/* logo carousel section */
+.digital-logo-container{
+    padding-top: 50px !important;
+    background-color: #f2f2f2;
+}
+
+.digital-logo-2{
+    padding-bottom: 50px !important;
+}
+
+.avenger-container{
+    background-color: #f2f2f2;
+}
+
+/* rogo section */
+.rigo-content{
+    color: #222;
+    padding-top: 250px;
+    margin-left: 50px;
+    padding-bottom: 200px;
+}
+
+.rigo-title{
+    padding-bottom: 60px;
+}
+
+.rigo-para{
+    padding-bottom: 85px;
+}
+
+.column{
+    background-color: #ffe2d1;
+}
+
+.hire-link{
+    background-color: #bd1522;
+    padding: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    color: #fff;
+}
+
+
+.boxer {
+    background-color: white;
+    color: #111;
+    margin: auto;
+    padding: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+}
+
+.boxer:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+/* toggler section */
+.book-box{
+    border: 1px solid black;
+    padding-bottom: 40px;
+}
+
+.book-box .ri-customer-service-2-line{
+    font-size: 8em;
+    padding-left: 100px;
+}
+
+.book-link{
+    margin-top: 100px;
+}
+
+.book-itself{
+    padding: 10px;
+    background-color: #bd1522;
+    padding-left: 130px;
+    padding-right: 130px;
+    color: #fff;
+}
+
+.faq-text{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.panda{
+    background-color: #fff;
+}
+
+.panda-2{
+    background-color: #f2f2f2;
+}
+
+/* recognition section */
+.avenger-container-3{
+    background-color: #1b263b;
+}
+
+.digital-logo-container-3{
+    background-color: #1b263b;
+}
+
+.avenger-3{
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* sanna's designs=============================================== */
+
+.para-container {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.container-main h1 {
+    padding-left: 70px;
+    margin-bottom: 80px;
+}
+
+.container-main h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.container-main h4 {
+    padding-left: 70px;
+    margin-bottom: 70px;
+}
+
+.para-main {
+    font-size: 19px;
+}
+
+.titles-container {
+    width: 850px;
+}
+
+.dark-brown {
+    background-color: #333333;
+}
+
+.mt {
+    margin-top: 70px;
+}
+
+
+.mozilla {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+}
+
+.last {
+    margin-top: 70px;
+}
+
+.dart {
+    background: url('https://img.freepik.com/premium-photo/modern-buildings-city-against-clear-sky_960396-275069.jpg?ga=GA1.1.1951979353.1732287376&semt=ais_hybrid');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/* TIMELINE THING */
+.oxford {
+    margin-left: 70px;
+}
+
+/* Base styles for the card */
+.dev {
+    height: 530px;
+    position: relative;
+    overflow: hidden;
+  }

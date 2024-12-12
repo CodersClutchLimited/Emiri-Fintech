@@ -1,0 +1,118 @@
+.forensic-container{
+    margin-top: 55px;
+    color: #333;
+}
+
+
+.forensic-sub{
+    border: 3px solid black;
+}
+
+.forensic-first{
+    padding-left: 130px;
+}
+
+.content-links{
+    padding: 70px;
+    padding-bottom: 90px;
+    padding-left: 110px;
+    padding-right: 80px;
+    color: #3b60e4;
+}
+
+.forensic-links{
+    max-width: 1200px;
+    margin-top: 50px;
+    padding-top: 8px;
+    border-top: 1px solid #999;
+}
+
+.forensic-links a {
+    display: inline-block; /* Ensures spacing works */
+    margin-right: 10px;    /* Adjust spacing between links */
+    text-decoration: none; /* Optional: removes underline */
+  }
+
+  .forensic-links a:hover{
+    text-decoration: underline;
+  }
+
+  .forensic-links a:last-child {
+    margin-right: 0;       /* Removes extra margin after the last link */
+  }
+
+
+  .forensic-text-div{
+    padding-left: 150px;
+    color: #444;
+    padding-bottom: 70px;
+  }
+
+  .chijo{
+    padding-bottom: 50px;
+    padding-left: 75px;
+    color: #333;
+  }
+
+  .dropper-container{
+    padding-left: 110px;
+    padding-right: 110px;
+    color: #333;
+    padding-top: 100px;
+    padding-bottom: 110px;
+  }
+
+.forensic-dropper{
+    background-color: #f2f4f8;
+}
+
+  .dropper-container .border-b{
+    border-bottom: 1px solid #999;
+  }
+
+  .dropper-container .border-t{
+    border-top: 1px solid #999;
+  }
+
+  .darker-stellar{
+    background-color: #333 !important;
+  }
+
+  .darker-stellar .cadder{
+    border: 1px solid #fff;
+    aspect-ratio: unset;
+  }
+
+  .account-cadder{
+    margin-top: 135px;
+    border: 1px solid #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .digital-button{
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+  }
+  
+
+  .digital-button-outer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+
+  .digital-button:hover{
+    background-color: #3b60e4;
+  }
+
+  .account-description{
+    display: flex;
+    justify-content: center;
+  }
+
+  .darker-cosmic{
+    color: #fff !important;
+  }
+

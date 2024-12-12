@@ -1,0 +1,242 @@
+.first-container{
+    background-color: white;
+    color: black;
+}
+
+.grid-container{
+    padding-top: 60px;
+}
+
+.stat-card {
+    padding: 2rem;
+    padding-bottom: 35px;
+    margin-bottom: 30px;
+  }
+
+  .second-container{
+    padding-top: 90px;
+    color: black;
+  }
+
+  .column-title-2{
+    padding-left: 30px;
+  }
+
+  .stat-card .role{
+    font-size: 1.1rem;
+    color: #D53F8C;
+  }
+
+  .stat-card .role.superscript {
+    vertical-align: super;  /* Align the text as superscript */
+    position: relative;  /* Position relative to adjust further if needed */
+    top: -0.5em;  /* Adjust the top position for fine-tuning */
+  }
+
+  .stat-card h2{
+    margin-bottom: 20px;
+  }
+
+  .stat-border{
+    border-left: 1px dashed #D3D3D3;
+  }
+
+  .logo-container-2{
+    background-color: white;
+  }
+
+  .logo-grid-2 {
+    padding-top: 45px;
+    padding-bottom: 15px;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space out items evenly */
+    align-items: center; /* Align items vertically */
+}
+
+.logo-item-2 img {
+    max-width: 200px; /* Increase the maximum width for larger images */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+
+.link-container{
+    background-color: #D53F8C;
+    padding: 13px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border-radius: 2px;
+}
+
+.link-container:hover{
+    background-color: #b13d77;
+}
+
+.link-container-1{
+    padding-bottom: 30px;
+}
+
+.powered-paragraph{
+    color: #333;
+}
+
+.powered-grid{
+    padding-top: 92px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.powered-container .padder{
+    margin-top: 12px;
+}
+.heart-container{
+    color: #333;
+}
+
+.heart-column-2{
+    margin-right: 140px;
+}
+
+.heart-column-1{
+    margin-left: 20px;
+}
+
+.heart-grid{
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+.drop-content{
+    margin-left: 35px;
+    margin-top: 55px;
+}
+
+.heart-link{
+    color: #fc91d9;
+}
+
+.plus-icon{
+    color: #fc91d9;
+    margin-right: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+.heart-row{
+    border-bottom: 1px solid #D3D3D3;
+    padding: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 33px;
+}
+
+.map-about{
+    color: #fc91d9;
+}
+.about-map{
+    width: 1000px;
+    height: auto;
+}
+
+.map-itself{
+    position: relative;
+    padding-top: 20px;
+}
+
+
+.purple-circles{
+    position: absolute;
+    background-color: #fc91d9;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.purple-circles i{
+    color: #b13d77;
+}
+
+.purple-circles .dropdown-box {
+    top: 30px;
+    /* left: 50%; */
+    left: 120px;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    padding: 10px;
+    display: none;
+    min-width: 140px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.purple-circles:hover .dropdown-box {
+    display: block; /* Show dropdown on hover */
+}
+
+.purple-circles .dropdown-box .dropdown-icon {
+    width: 20px; /* Adjust the size of the icon */
+    height: 20px;
+    border-radius: 50%;
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple-circles .dropdown-box .location-text {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0; /* Spacing between the lines of text */
+}
+
+.purple-circles .dropdown-box .street-name {
+    font-size: 12px;
+    color: #777; /* Lighter color for the street name */
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+/* dot1 */
+.circle-1 { top: 36%; left: 26%; } 
+/* dot2 */
+.circle-2 { top: 32%; left: 47%; }
+/* dot4 */
+.circle-3 { top: 33%; left: 50%; }
+/* dot6 */
+.circle-4 { top: 52%; left: 57%; }
+/* dot3 */
+.circle-5 { top: 35%; left: 48%; }
+/* dot5 */
+.circle-6 { top: 37%; left: 50%; }
+
+@media (max-width: 785px) {
+    /* On smaller screens, adjust positions */
+    .circle-1 { top: 39%; left: 15%; } 
+    .circle-4 { top: 50%; left: 59%; }
+    .circle-6 { top: 39%; left: 53%; }
+    .circle-3 { top: 34%; left: 53%; }
+    .circle-5 { top: 36%; left: 49%; }
+  }
+
+
+.find-column-1{
+    padding-left: 17px;
+}
+
+.find-container .find-bolder{
+    color: #333;
+}
+
+.find-grid{
+    padding-top: 24px;
+    padding-bottom: 130px;
+}

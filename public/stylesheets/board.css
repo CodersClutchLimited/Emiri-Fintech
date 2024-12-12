@@ -1,0 +1,117 @@
+/* Modal styling */
+#teamModal {
+    display: none;
+    backdrop-filter: blur(4px);
+}
+
+#teamModal.hidden {
+    display: none;
+}
+
+#teamModal:not(.hidden) {
+    display: flex;
+}
+
+/* Existing hover and transition styles remain */
+.group:hover .group-hover\:translate-y-0 {
+    transform: translateY(0%);
+}
+
+.group-hover\:translate-y-0 {
+    transform: translateY(100%);
+}
+
+.rotate-45 {
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+}
+
+.rotate-0 {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
+
+.board-text{
+    padding-top: 310px;
+}
+
+.board-container{
+    background-color: white;
+    color: black !important;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+.board-image-container{
+    background-color: white;
+    color: #ea2175 !important;
+}
+
+.modal-con{
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+
+/* Global Animation Settings */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Background Image Animation */
+.custom-board-img {
+    transition: transform 1s ease-in-out; /* Slow zoom-out */
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Text Container Animation */
+.board-text {
+    animation: fadeIn 1.5s ease-in-out 0.5s forwards;
+    opacity: 0;
+}
+
+/* Heading Animations */
+.board-h1,
+.board-h1-2 {
+    animation: slideInUp 1s ease-out 1s forwards;
+    opacity: 0;
+}
+
+/* Optional: Hover Effects */
+.custom-board:hover .custom-board-img {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+
+.custom-board:hover .board-h1, 
+.custom-board:hover .board-h1-2 {
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+}
+
+.secter {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+    margin-top: -100px !important;
+}
+
+.info {
+    padding-left: 80px;
+    padding-right: 80px;
+
+}

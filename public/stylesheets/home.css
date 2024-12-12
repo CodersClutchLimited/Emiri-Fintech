@@ -1,0 +1,572 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap'); */
+
+
+.fourth-section {
+    /* font-family: 'Poppins', sans-serif !important; */
+    background-color: white;
+    height: 750px;
+    padding-top: 13px;
+}
+
+.ri-verified-badge-line{
+  color: #8c1c13;
+}
+
+/* Style for outer container */
+.outer-container {
+    position: relative; /* Outer container as the reference */
+    width: 100%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    height: 100px;
+    background-color: white; /* Outer container background */
+    overflow: visible; /* Ensure inner container can overflow */
+}
+  
+/* Style for inner container */
+.inner-container {
+    position: absolute; /* Absolute positioning inside the outer container */
+    top: 20%;
+    left: 50%; /* Move the inner container to the middle */
+    width: 90%; /* Inner container will take 90% of outer container's width */
+    background-color: white; /* Inner container background */
+    transform: translate(-50%, -50%); /* Center the inner container both vertically and horizontally */
+    text-align: center;
+    padding: 20px;
+    color: black; /* Adjust color as necessary */
+}
+  
+#slider {
+    display: flex;
+    gap: 10px;
+    will-change: transform;
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    #slider .slide {
+      width: 40vw;
+      height: 20vh;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #slider .slide {
+      width: 60vw;
+      height: 20vh;
+    }
+  }
+
+  .dashed-border {
+    position: relative; /* Needed for positioning the pseudo-elements */
+    border-left: 1px dashed #968a8a5a; /* Default border color */
+    height: 100px; /* Set the height of your element */
+  }
+  
+  .dashed-border::before {
+    content: '';
+    position: absolute;
+    left: 0; /* Align with the left border */
+    top: 20%; /* Start the pink section at 20% of the height */
+    height: 8%; /* Make the pink section 30% of the total height */
+    width: 1px;
+    background-color: #F50057; /* The pink color for the specific part */
+  }
+  
+  
+  .para-1{
+    font-size: 15px;
+    /* font-family: sans-serif; */
+    color: #333;
+  }
+
+  .custom-circle {
+    width: 34px;  /* Adjust width to make it a perfect circle */
+    height: 34px; /* Height should match width */
+    border-radius: 50%; /* Ensure perfect circle */
+    border: 2px solid #111; /* Light gray border */
+    display: flex; /* Center icon inside */
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+}
+
+.custom-circle-2 {
+  width: 34px;  /* Adjust width to make it a perfect circle */
+  height: 34px; /* Height should match width */
+  border-radius: 50%; /* Ensure perfect circle */
+  border: 2px solid #111; /* Light gray border */
+  display: flex; /* Center icon inside */
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+}
+
+/* Adjust font size for medium and smaller screens */
+@media (max-width: 774px) {
+  .para-1 {
+      font-size: 13px; /* Smaller font size for medium screens */
+  }
+}
+
+/* Adjust font size for smaller screens */
+@media (max-width: 480px) {
+  .para-1 {
+      font-size: 12px; /* Even smaller font size for small screens */
+  }
+}
+
+/* General styling for .image-card */
+.image-card {
+  position: relative; /* To allow pseudo-elements for custom borders */
+  height: 275px;
+  padding: 1.5rem; /* Adjust padding as per your design */
+  border: 2px solid transparent; /* Initially transparent border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #FEFEFE; /* Background color of the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for the card */
+  transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Thin colored borders with specific length (1cm) */
+.image-card:nth-child(1) {
+  position: relative; /* Position relative to place the thin border */
+}
+
+.image-card:nth-child(1)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1cm; /* Set the width of the thin border */
+  height: 1px; /* Thin border (height) */
+  background-color: #dda15e; /* Red border */
+}
+
+.image-card:nth-child(2) {
+  position: relative; /* Position relative to place the thin border */
+}
+
+.image-card:nth-child(2)::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1cm; /* Set the width of the thin border */
+  height: 1px; /* Thin border (height) */
+  background-color: #dda15e; /* Blue border */
+}
+
+.image-card:nth-child(3) {
+  position: relative; /* Position relative to place the thin border */
+}
+
+.image-card:nth-child(3)::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 1cm; /* Set the width of the thin border */
+  height: 1px; /* Thin border (height) */
+  background-color: #dda15e; /* Green border */
+}
+
+/* Hover effect to highlight the card */
+.image-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  transform: translateY(-4px); /* Lift the card slightly */
+}
+
+.fourth-image {
+  background-image: url("https://www.taurushq.com/img/general/list-image.webp");
+  background-size: cover; /* Makes the image cover the entire container */
+  background-position: center; /* Centers the image within the container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.first-border {
+  position: relative; /* Needed for positioning the pseudo-elements */
+  border-left: 1px dashed #968a8a5a; /* Default border color */
+}
+
+.first-border::before {
+  content: '';
+  position: absolute;
+  left: 0; /* Align with the left border */
+  top: 20%; /* Start the pink section at 20% of the height */
+  height: 8%; /* Make the pink section 30% of the total height */
+  width: 1px;
+  background-color: #F50057; /* The pink color for the specific part */
+}
+
+.second-para{
+  color: black !important;
+  font-size: 2.5rem;
+}
+
+.unified{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 75px;
+  padding-top: 25px !important;
+}
+
+.texter{
+  color: black;
+}
+
+@media (min-width: 1200px) {
+  .inner-div {
+    width: 250px;
+  }
+}
+.topper{
+  background: white;
+  padding-top: 20px !important;
+  padding: 80px;
+}
+
+.fifth-container{
+  height: 150px;
+}
+
+.fifth-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
+}
+
+.fifth-1-2{
+  padding: 17px;
+  width: 600px;
+}
+
+.fourth-text{
+  padding-top: 45px;
+}
+
+.text-starter{
+  color: black;
+  padding-left: 24px;
+  padding-top: 85px;
+}
+
+.grid-text{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.grid-1, .grid-2{
+  position: relative;
+  border-left: 1px dashed #968a8a5a; /* Default border color */
+  padding: 10px;
+  color: black;
+}
+
+.grid-2{
+  margin-right: 20px !important;
+}
+
+.grid-1::before, .grid-2::before {
+  content: '';
+  position: absolute;
+  left: 0; /* Align with the left border */
+  top: 20%; /* Start the pink section at 20% of the height */
+  height: 25%; /* Make the pink section 30% of the total height */
+  width: 1px;
+  background-color: #F50057; /* The pink color for the specific part */
+}
+
+.seventh-container{
+  position: relative;
+  background: white;
+  color: white;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.controls{
+  position: absolute;
+  top: 85%;
+  left: 44%;
+}
+
+.seventh-text{
+  padding: 70px;
+  padding-top: 40px;
+  width: 800px;
+}
+
+.seventh-text{
+  padding-left: 75px !important;
+}
+
+
+.quote{
+  position: relative;
+  padding: 30px;
+}
+
+.quote::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7px;
+  height: 38px;
+  background-color: #F50057;
+  border-top: 3px solid #F50057;
+  box-sizing: border-box;
+}
+
+.quote::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 26px;
+  height: 8px;
+  background-color: #F50057;
+  border-right: 3px solid #F50057;
+  box-sizing: border-box;
+}
+
+.black-border {
+  position: relative;
+}
+
+.top-left-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 26px;
+  height: 7px;
+  background-color: #F50057;
+}
+
+.bottom-right-border {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 8px;
+  height: 38px;
+  background-color: #F50057;
+}
+
+.author{
+  padding-left: 30px;
+  padding-top: 48px;
+  margin-bottom: 20px;
+}
+
+.author-2{
+  padding-left: 30px;
+  padding-top: 8px;
+  margin-bottom: 20px;
+}
+
+
+.founder{
+  padding-left: 30px;
+  margin-bottom: 31px;
+}
+
+.find-more{
+  width: 255px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding: 13px;
+  margin-left: 30px;
+  background-color: #F50057;
+}
+
+.seventh-image{
+  margin-left: 88px;
+  width: 570px;
+  background-color: #8a817c;
+}
+
+.seventh-text, .seventh-image{
+  height: 473px;
+}
+
+.control-line{
+  width: 43px;
+  height: 3px;
+  background-color: #888;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.control-line.active{
+  background-color: #F50057;
+  transform: translateY(-8px);
+}
+
+/* Center the container horizontally */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  padding-top: 0px;
+  background-color: white;
+}
+
+/* Define the grid layout */
+.logo-grid {
+  background-color: white;
+  padding-top: 19px;
+  display: grid;
+  grid-template-columns: repeat(3, auto); /* Three columns, adjust based on content */
+  gap: 140px; /* Small gap between logos */
+}
+
+/* Style individual logo items */
+.logo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px; /* Padding around each logo */
+}
+
+/* Logo images */
+.logo-item img {
+  width: 225px; /* Set a fixed width for the logos */
+  height: auto; /* Maintain the aspect ratio */
+  max-width: 100%; /* Ensure logos do not exceed their container */
+}
+
+
+.insight-container{
+  background-color: white;
+}
+
+.insight-grid-1{
+  padding-left: 160px;
+  white-space: nowrap;
+  padding-bottom: 50px;
+  background-color: white;
+  color: #333;
+}
+
+.insight-grid-1 span{
+  color: #F50057;
+}
+
+.insight-link{
+  color: #F50057;
+  padding-left: 160px;
+}
+
+.insight-title{
+  color: #444;
+}
+
+.insight-grid{
+  padding-top: 150px;
+}
+
+.form-input{
+  border: none;
+}
+
+/* last section styling */
+/* Center align the Swiper container */
+.swiper-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  padding-top: 90px;
+  padding-bottom: 45px;
+}
+
+.swiper {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%; /* Make sure the swiper takes full width */
+}
+
+/* Ensure Swiper slides are displayed properly */
+.swiper-slide {
+  display: flex; /* Optional: Align slide content */
+  justify-content: center; /* Optional: Center content horizontally */
+  align-items: center; /* Optional: Center content vertically */
+}
+
+.card-link {
+  user-select: none;
+  display: block;
+  text-decoration: none;
+  border: 2px solid transparent;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+  transition: 0.2s ease;
+}
+.swiper-wrapper{
+  margin-bottom: 70px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  width: 43px;         /* Set the width of the line */
+  height: 3px;         /* Set the height (thickness) of the line */
+  margin: 0 5px;       /* Space between each line */
+  background-color: #888; /* Color of the line */
+  border-radius: 0;
+  opacity: 1 !important;    /* Remove rounded corners to make them rectangular */
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #F50057; /* Active state color (blue) */
+  transform: translateY(-8px);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #5372f0;
+  margin-top: -35px;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-wrapper {
+      margin: 0 10px 25px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+      display: none;
+  }
+}
+
+.title-date{
+  color: black;
+  margin-top: 50px;
+}
+
+.short-para{
+  color: black;
+  margin-top: 20px;
+}
+
+.date{
+  padding-top: 5px;
+}
+
+.slider-link{
+  margin-top: 27px;
+  color: #F50057;
+}
+
+.fourth-spacing{
+  padding-bottom: 35px !important;
+}
+
+.ri-arrow-right-circle-line{
+  padding-right: 4px;
+}

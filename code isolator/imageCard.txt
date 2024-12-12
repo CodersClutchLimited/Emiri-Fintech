@@ -1,0 +1,58 @@
+image-cards
+    <div class="topper grid grid-cols-2 md:grid-cols-3 gap-7 left-0 right-0">
+        <!-- Column 1 -->
+        <div class="image-card p-6 flex flex-col justify-between overflow-hidden text-center max-w-xs mx-auto">
+            <div class="flex justify-center">
+                <div class="custom-circle-2 text-xl">
+                    <!-- Remix Icon (for example, a home icon) -->
+                    <i class="ri-home-line text-pink-400"></i>
+                </div>
+            </div>
+            <h3 style="white-space: nowrap;" class=" mt-5 texter text-xl font-semibold">Fintech Softwares</h3>
+            <p class="mt-5 text-sm text-gray-600">This is a short description for the first column. It
+                explains the feature or content.</p>
+            <div class="flex justify-center">
+                <a href="#" class="mt-7 text-pink-400 flex items-center uppercase font-medium text-sm underline">
+                    Find Out More <i class="ri-arrow-right-s-line"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- Column 2 -->
+        <div class="image-card p-6 flex flex-col justify-between overflow-hidden text-center max-w-xs mx-auto">
+            <div class="flex justify-center">
+                <div class="custom-circle-2 text-xl">
+                    <!-- Remix Icon (for example, a settings icon) -->
+                    <i class="ri-settings-line text-pink-400"></i>
+                </div>
+            </div>
+            <h3 class=" mt-5 text-xl texter font-semibold">IT & Security</h3>
+            <p class="text-sm mt-5 text-gray-600">This is a short description for the second column. It
+                explains the feature or content.</p>
+            <div class="flex justify-center">
+                <a href="#" class="mt-7 text-pink-400 flex items-center uppercase font-medium text-sm underline">
+                    Find Out More <i class="ri-arrow-right-s-line"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <!-- Column 3 -->
+        <div class="image-card p-6 flex flex-col justify-between overflow-hidden text-center max-w-xs mx-auto">
+            <div class="flex justify-center">
+                <div class="custom-circle-2 text-xl">
+                    <!-- Remix Icon (for example, a user icon) -->
+                    <i class="ri-user-line text-pink-400"></i>
+                </div>
+            </div>
+            <h3 class="mt-5 text-xl texter font-semibold">Emiri Academy</h3>
+            <p class="mt-5 text-sm text-gray-600">This is a short description for the third column. It
+                explains the feature or content.</p>
+            <div class="flex justify-center ">
+                <a href="#" class="mt-7 text-pink-400 flex items-center uppercase font-medium text-sm underline">
+                    Find Out More <i class="ri-arrow-right-s-line"></i>
+                </a>
+            </div>
+        </div>
+    </div>

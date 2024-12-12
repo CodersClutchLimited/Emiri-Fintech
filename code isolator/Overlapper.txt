@@ -1,0 +1,38 @@
+<section class="secter px-[100px] py-10 flex justify-center">
+        <div class="w-full lg:w-7/12 bg-white z-50">
+            <div class="text-center mb-3 pt-10">
+                <h2 class="text-4xl font-bold text-red-600">Profile and History</h2>
+            </div>
+            <div class="info text-gray-700 leading-relaxed p-8 space-y-4 px-10 text-justify">
+                <p>
+                    Reynolds Construction Company (Nigeria) Limited is a civil engineering construction company
+                    executing projects in various sectors of Nigeria such as infrastructure, power, and oil & gas.
+                </p>
+                <p>
+                    Reynolds Construction Company (Nigeria) Limited is a subsidiary of <span class="font-semibold">SBI
+                        International Holdings AG (SBI)</span>, whose headquarters is in Switzerland. SBI is a
+                    transnational construction and development group, with subsidiaries in several countries of the
+                    world.
+                </p>
+                <p>
+                    The Group's projects span the globe with a concentration of activities in the following regions:
+                </p>
+                <ul class="list-disc list-inside">
+                    <li>Africa - Nigeria, Ivory Coast, Ghana, Togo, Benin, Cameroon, Kenya, Uganda</li>
+                    <!-- Add more items here if needed -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    .secter {
+            margin-left: 100px !important;
+            margin-right: 100px !important;
+            margin-top: -100px !important;
+        }
+
+        .info {
+            padding-left: 80px;
+            padding-right: 80px;
+
+        }
