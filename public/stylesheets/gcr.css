@@ -4,4 +4,29 @@
 
 .gena-container{
     padding-top: 130px;
+    background-color: #2F2F2F;
+}
+
+.gena-title{
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.greggo{
+    width: 80%;
+}
+
+.gena-container .border-b-bo{
+    border: 1px solid #999;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.gena-container .gena-pad{
+    margin-bottom: -30px;
+}
+
+.gena-container .gena-image{
+    height: 389px;
 }

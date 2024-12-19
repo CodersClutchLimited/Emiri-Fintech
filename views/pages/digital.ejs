@@ -65,7 +65,7 @@
 
     <!-- icon section -->
     <div class="list-container">
-        <h1 class="font-medium text-5xl text-gray-900">Advanced technologies we use</h1>
+        <h1 class="font-medium text-4xl text-gray-900">Advanced technologies we use</h1>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <div class="sub">
                 <i class="text-gray-800 mb-6 ri-cpu-line h-16 w-16"></i>
@@ -136,7 +136,7 @@
     </div>
 
     <div class="back bg-white mx-auto flex justify-around mt-6">
-        <div class="w-2/3 pl-8 lg:flex flex-col justify-center sm:hidden">
+        <div class="para-goal w-2/3 pl-8 lg:flex flex-col justify-center sm:hidden">
             <p class="para2 text-gray-200 text-lg mb-4 pt-4 items-center"> At Innowise, we’re all about building fintech
                 software solutions
                 that make business life easier. From using AI to<br>speed up data processing to securing every
@@ -584,7 +584,7 @@
                 </div>
             </div>
             <!-- Swiper Pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="digital-pagi swiper-pagination"></div>
             <!-- Swiper Navigation -->
             <!-- <div class="stellar-button-prev swiper-button-prev"></div>
             <div class="stellar-button-next swiper-button-next"></div> -->
@@ -803,7 +803,7 @@
         </div>
 
         <!-- Right Section -->
-        <div class="w-full lg:w-1/2 flex justify-center items-center">
+        <div class="digi-vid w-full lg:w-1/2 flex justify-center items-center">
             <!-- Video -->
             <video controls preload="auto" class="w-full h-full object-cover">
                 <source src="/videos/Sample.mp4" type="video/mp4" />
@@ -877,6 +877,10 @@
     </div>
 
     <!-- milestones -->
+
+    <h1 class=" mile-title text-3xl">
+        Get your project done at your convenient pace
+    </h1>
     <ol class="grid mb-10 grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-6 mt-6 oxford">
         <li class="relative mb-6">
             <div class="flex items-center">
@@ -987,9 +991,11 @@
     </ol>
 
     <!-- service option -->
-    <h1 class="text-4xl pluto-3">Choose your service option</h1>
+    <h1 class=" mile-title text-3xl">
+        Choose your Service Option
+    </h1>
     <div class="flex sercic justify-center mx-4 mb-8">
-        <div class="grid grid-cols-2 lg:grid-cols-3 gap-5 w-full max-w-screen-xl">
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-5 w-full max-w-screen-xl">
             <!-- Card 1 -->
             <div class="dev bg-white p-8 relative h-[530px] border border-black group overflow-hidden">
                 <h2 class="pluto-4 title text-2xl font-bold mb-4 transition-colors duration-500 z-10">
@@ -1099,80 +1105,102 @@
         </div>
     </div>
 
-    <!-- Heart container -->
-    <div class="heart-container panda-2 mx-auto p-4 ">
-        <h1 class="faq-text text-4xl font-medium">FAQs</h1>
-        <!-- Grid container -->
-        <div class=" heart-grid md:grid-cols-1 sm:grid-cols-1 grid gap-4" style="grid-template-columns: 2fr 3fr;">
-            <!-- First column -->
-            <div class="heart-column-1 p-4">
-                <div class="book-box">
-                    <i class="ri-customer-service-2-line"></i>
-                    <h1 class="text-2xl text-center font-bold">Feel free to book a call and<br>get all the answers
-                        you
-                        need.</h1>
-                    <div class="book-link flex items-center justify-center">
-                        <a class="book-itself text-xl text-center font-medium" href="#">Book a call</a>
-                    </div>
+    <!-- faq container -->
+    <div class="stellar-faq faq-yaani">
+        <div class="faqqer yanner">
+            <h1 class="text-3xl yaani text-center">FAQ</h1>
+            <div class="border-b py-6">
+                <button
+                    class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                    onclick="toggleSection('section3')">
+                    Banking CRM
+                    <span class="text-gray-500">+</span>
+                </button>
+                <div id="section3" class="mt-2 hidden">
+                    <p class="text-gray-700 mb-3">As part of our financial software development services at Emiri
+                        Fintech Solutions, we build flexible CRM systems to drive customer attraction and retention,
+                        optimize their journey within the sales funnel, and address customers’ growing needs
+                        proactively rather than reactively. Our CRM systems are bolstered with a high level of
+                        automation, comprehensive security features, and advanced analytics capabilities that
+                        contribute to increased employee productivity, data protection, and better adjustment to
+                        customer demands.</p>
+                    <p class="text-gray-700">To create a full-fledged portrait of the target audience, we integrate
+                        CRMs with a plethora of data sources, such as mobile apps, websites, social media platforms,
+                        email, call centers, and more. Being provided with almost endless opportunities to gain
+                        insights into your customers’ preferences, you can offer them the most relevant options that
+                        will meet their financial needs.</p>
                 </div>
-
             </div>
 
-            <!-- Second column -->
-            <div class="heart-column-2 grid grid-rows-3 gap-4">
-                <!-- Row 1 -->
-                <div class="heart-row">
-                    <div class="flex justify-between">
-                        <h2 class="text-4xl font-light">1. Zero-tolerance on security</h2>
-                        <span class="plus-icon font-thin text-4xl" data-target="content1"><i
-                                class="ri-add-line"></i></span>
-                    </div>
-                    <div class="drop-content hidden" id="content1">
-                        <p class="text-lg font-medium">Rely on a resilient and secure infrastructure</p>
-                        <p class="colum-1-paragraph mb-4 mt-5 text-md">Taurus platform provides institutional-grade,
-                            highest security and compliance standards in<br>order to guarantee sustainable and
-                            resilient
-                            operations.</p>
-                        <a href="#" class="underline heart-link text-sm"><strong>READ MORE ON SECURITY &
-                                PRIVACY></strong></a>
-                    </div>
+            <div class="border-b py-6">
+                <button
+                    class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                    onclick="toggleSection('section2')">
+                    Mobile Banking
+                    <span class="text-gray-500">+</span>
+                </button>
+                <div id="section2" class="mt-2 hidden">
+                    <p class="text-gray-700">To make banking services accessible from anywhere anytime, Emiri
+                        FinTech’s experts deliver mobile solutions that reshape and simplify communication along
+                        with increasing customer engagement and retention. With both the basic and cutting-edge
+                        features of our mobile apps, end users can 100% securely and effortlessly manage their
+                        finances, make financial transactions, and get personal assistance 24/7.</p>
+                    <ul class="unordered">
+                        <li><i class="ri-verified-badge-fill"></i> Payment scheduling</li>
+                        <li><i class="ri-verified-badge-fill"></i> Personalized customers' support</li>
+                        <li><i class="ri-verified-badge-fill"></i> Money transfer</li>
+                        <li><i class="ri-verified-badge-fill"></i> Biometric authentication</li>
+                        <li><i class="ri-verified-badge-fill"></i> Opening and managing bank accounts</li>
+                        <li><i class="ri-verified-badge-fill"></i> Voice navigation</li>
+                        <li><i class="ri-verified-badge-fill"></i> Customized alerts</li>
+                    </ul>
                 </div>
-                <!-- Row 2 -->
-                <div class="heart-row">
-                    <div class="flex justify-between">
-                        <h2 class="text-4xl font-light">1. Holistic Solutions</h2>
-                        <span class="plus-icon font-thin text-4xl" data-target="content2"><i
-                                class="ri-add-line"></i></span>
-                    </div>
-                    <div class="drop-content hidden" id="content2">
-                        <p class="text-lg font-medium">Scale depending on your business model and market.</p>
-                        <p class="colum-1-paragraph mb-4 mt-5 text-md">Clients can gradually build a global
-                            offering,
-                            with one holistic and scalable platform. Our<br>solution cover any digital asset:
-                            cryptocurrencies, tokenized securities and digital<br>currencies</p>
-                        <a href="#" class="underline heart-link text-sm"><strong>SEE OUR SOLUTIONS></strong></a>
-                    </div>
+            </div>
+
+            <div class="border-b py-6">
+                <button
+                    class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                    onclick="toggleSection('section4')">
+                    Opening Banking
+                    <span class="text-gray-500">+</span>
+                </button>
+                <div id="section4" class="mt-2 hidden">
+                    <p class="text-gray-700 mb-3">Open banking is changing the landscape of financial relationships.
+                        By getting access to open APIs, banks can cut down on integration expenses and increase
+                        client flow thanks to the information they get from their partners.</p>
+                    <p class="text-gray-700 mb-3">At Emiri Fintech Solutions, we create trustworthy solutions
+                        (Platforms) that allow banks to rapidly launch new services developed by third-party
+                        companies and easily embed innovative solutions into their ecosystems while reducing
+                        overhead costs.</p>
+                    <p class="text-gray-700 mb-3">To capture the overall value of open banking solutions without
+                        undermining their reliability, we at Emiri adhere to all the necessary security measures in
+                        compliance with regulations such as GDPR, PSD2, among others.</p>
                 </div>
-                <!-- Row 3 -->
-                <div class="heart-row">
-                    <div class="flex justify-between">
-                        <h2 class="text-4xl font-light">3. Battle Tested</h2>
-                        <span class="plus-icon font-thin text-4xl" data-target="content3"><i
-                                class="ri-add-line"></i></span>
-                    </div>
-                    <div class="drop-content hidden" id="content3">
-                        <p class="text-lg font-medium">In production with the full spectrum of banks</p>
-                        <p class="colum-1-paragraph mb-4 mt-5 text-md">We are a leader when it comes to integrating
-                            with
-                            regulated banks. Our end-to-end<br>platform has been scrutinized by all big four
-                            auditors
-                            and regulators.</p>
-                        <a href="#" class="underline heart-link text-sm"><strong>SEE OUT PLATFORM></strong></a>
-                    </div>
+            </div>
+
+            <div class="border-t border-b py-6">
+                <button
+                    class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                    onclick="toggleSection('section1')">
+                    Core Banking services
+                    <span class="text-gray-500">+</span>
+                </button>
+                <div id="section1" class="mt-2 hidden">
+                    <p class="text-gray-700">Whether you want your banking software to be on-premise or cloud-based,
+                        we can deliver a solution that will facilitate the key functions of your bank and drive your
+                        day-to-day operations.</p>
+                    <ul class="unordered">
+                        <li><i class="ri-verified-badge-fill"></i> Account management</li>
+                        <li><i class="ri-verified-badge-fill"></i> Currency exchange</li>
+                        <li><i class="ri-verified-badge-fill"></i> Payment processing</li>
+                        <li><i class="ri-verified-badge-fill"></i> Reporting tools</li>
+                        <li><i class="ri-verified-badge-fill"></i> Loan management</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
+
 
     <!-- rigo section -->
     <div class="stellar-swiper-container panda">
@@ -1251,7 +1279,7 @@
                 </div>
             </div>
             <!-- Swiper Pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="pagger swiper-pagination"></div>
             <!-- Swiper Navigation -->
             <!-- <div class="stellar-button-prev swiper-button-prev"></div>
             <div class="stellar-button-next swiper-button-next"></div> -->

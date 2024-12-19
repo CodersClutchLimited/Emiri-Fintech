@@ -1,0 +1,21 @@
+@media screen and (max-width: 770px){
+    .list-container{
+        padding-top: 50px;
+    }
+
+    .para-goal{
+        display: none;
+    }
+
+    .digital-pagi{
+        margin-bottom: -50px;
+    }
+
+    .titles-container {
+        width: unset;
+    }
+
+    .pagger{
+        margin-bottom: -50px;
+    }
+}

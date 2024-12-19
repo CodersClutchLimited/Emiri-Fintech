@@ -80,7 +80,7 @@ document.querySelectorAll('.left-column a').forEach(link => {
 
         // Update content dynamically
         contentArea.innerHTML = `
-        <div class="section-content">
+        <div class="sectar section-content">
             <h2 class="content-title font-bold text-2xl">${content[section].title}</h2>
             <p class="content-para text-lg">${content[section].body}</p>
             <img src="${content[section].image}" alt="${content[section].title}" class="section-image mt-4">
@@ -303,3 +303,56 @@ document.addEventListener("DOMContentLoaded", () => {
   
     scrollSlider();
   });
+
+  // contact expert section
+let openCont = null;
+
+// Add event listeners to all plus icons
+const plusIc = document.querySelectorAll('.plus-icon');
+plusIcons.forEach(icon => {
+    icon.addEventListener('click', (event) => {
+        const targetId = icon.getAttribute('data-target');
+        const content = document.getElementById(targetId);
+
+        // Close any other open content
+        if (openCont && openCont !== content) {
+            openCont.classList.add('hidden'); // Close the previous content
+            toggleIcon(openCont.previousElementSibling.querySelector('.plus-icon'), true);
+        }
+
+        // Toggle the current content
+        const isContentHidden = content.classList.toggle('hidden');
+        toggleIcon(icon, isContentHidden);
+
+        // Update the openContent tracker
+        openCont = isContentHidden ? null : content;
+
+        event.stopPropagation(); // Prevent the click from propagating to the body
+    });
+});
+
+// Add a global click listener to close the open content when clicking elsewhere
+document.addEventListener('click', () => {
+    if (openCont) {
+        openCont.classList.add('hidden'); // Hide the open content
+        toggleIcon(openCont.previousElementSibling.querySelector('.plus-icon'), true); // Reset icon to plus
+        openContent = null; // Reset tracker
+    }
+});
+
+// Helper function to toggle the icon between plus and minus
+let allExpanded = false; // Flag to track if all sections are expanded
+
+// Function to toggle a single section
+function toggleSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    const iconSpan = section.previousElementSibling.querySelector('span');
+    
+    if (section.classList.contains('hidden')) {
+        section.classList.remove('hidden'); // Show section
+        iconSpan.textContent = '−'; // Change icon to minus
+    } else {
+        section.classList.add('hidden'); // Hide section
+        iconSpan.textContent = '+'; // Change icon to plus
+    }
+}
