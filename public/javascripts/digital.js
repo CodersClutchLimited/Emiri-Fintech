@@ -81,8 +81,8 @@ document.querySelectorAll('.left-column a').forEach(link => {
         // Update content dynamically
         contentArea.innerHTML = `
         <div class="section-content">
-            <h2 class="font-bold text-2xl">${content[section].title}</h2>
-            <p class="text-lg">${content[section].body}</p>
+            <h2 class="content-title font-bold text-2xl">${content[section].title}</h2>
+            <p class="content-para text-lg">${content[section].body}</p>
             <img src="${content[section].image}" alt="${content[section].title}" class="section-image mt-4">
         </div>
         `;

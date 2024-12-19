@@ -1,26 +1,30 @@
 <%- layout('layouts/boilerplate') %>
 
     <!-- hero section -->
-     <main class="relative text-white h-screen">
+    <main class="z-1 all-hero relative text-white h-screen">
         <img src="/images/team.jpg" class="absolute inset-0 w-full h-full object-cover"></img>
-        <div class="relative flex flex-col items-center justify-center h-screen bg-black bg-opacity-50">
-          <div class="px-6 text-center" id="scroll-content">
-            <h1 class="rob1 text-5xl font-bold md:text-6xl">
-              FINTECH & IT SECURITY SOLUTIONS
-            </h1>
-            <div class="relative">
-              <div class=" divider w-1/3 h-2 mx-auto bg-lime-green"></div>
+        <div class="z-10 relative flex flex-col items-center justify-center h-screen bg-black bg-opacity-50">
+            <div class="px-6 text-center" id="scroll-content">
+                <h1 class="rob1 text-5xl font-bold md:text-6xl">
+                    FINTECH & IT SECURITY SOLUTIONS
+                </h1>
+                <div class="relative">
+                    <div class=" divider w-1/3 h-2 mx-auto bg-lime-green"></div>
+                </div>
+                <p class="para1 mt-10 text-2xl font-semibold">
+                    Gambia's leading Fintech Sofware Development & <span
+                        class="font-bold"></span>Defense-in-depth</span> <br />
+                    Security Company - (The Red Heart Team).
+                <div class="style-outer">
+                    <div class="style-bottom"></div>
+                </div>
+                </p>
             </div>
-            <p class="para1 mt-10 text-2xl font-semibold">
-              Gambia's leading Fintech Sofware Development & <span class="font-bold"></span>Defense-in-depth</span> <br />
-               Security Company - (The Red Heart Team).
-            </p>
-          </div>
         </div>
-      </main>
+    </main>
 
     <!-- Outer Container -->
-    <div class="outer-container">
+    <div class=" z-10 outer-container">
         <!-- Inner Container -->
         <div class="inner-container">
             <div class="relative overflow-hidden w-full h-30 max-w-[90%] ">
@@ -73,7 +77,7 @@
 
 
             <!-- Crypto-sectoin -->
-            <div class="grid grid-cols-3 gap-2">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                 <!-- Grid Box 1 -->
                 <div class="bg-white mt-4 p-6 border-l-2 h-80 dashed-border flex flex-col justify-between">
                     <div class="inner-div">
@@ -110,7 +114,8 @@
                         </div>
                         <!-- Title and Paragraph -->
                         <h3 style="white-space: nowrap;"
-                            class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">IT & Security</h3>
+                            class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">IT & Security
+                        </h3>
                         <p class="para-1 text-left">
                             Feature two offers a practical solution designed to enhance efficiency and ease of
                             use.
@@ -139,7 +144,8 @@
                         </div>
                         <!-- Title and Paragraph -->
                         <h3 style="white-space: nowrap;"
-                            class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">Digital Assets</h3>
+                            class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">Digital Assets
+                        </h3>
                         <p class="para-1 text-left">
                             Feature three offers a practical solution designed to enhance efficiency and ease of
                             use.
@@ -155,12 +161,39 @@
         </div>
     </div>
 
+    <!-- third-section -->
+    <div class="laptop-container px-4 py-8">
+        <div class="grid laptop-grid grid-cols-1 md:grid-cols-2">
+            <!-- First Column -->
+            <div class="bg-white column-1">
+                <h1 class="text-2xl font-bold"><img class="icon-image"
+                        src="https://www.taurushq.com/img/svg/logo-protect.svg" alt="Protection"></h1>
+                <h2 class="font-semibold mb-4 column-1-title">Hot, warm and cold custody platform</h2>
+                <p class="text-gray-700 column-1-text text-center">Custody and process any digital asset: crypto-assets,
+                    tokenized securities,<br>digital currencies.</p>
+                <img src="https://www.taurushq.com/img/home/image-protect.webp" alt="Laptop-image">
+                <button class="button">Find out more</button>
+            </div>
+            <!-- Second Column -->
+            <div class="bg-white  column-2">
+                <h1 class="text-2xl font-bold"><img class="icon-image"
+                        src="https://www.taurushq.com/img/svg/logo-capital.svg" alt="capital"></h1>
+                <h2 class="text-2xl font-bold mb-4 column-2-title">Digital issuance and tokenization platform</h2>
+                <p class="text-gray-700 column-2-text text-center">Digitally issue, book, and manage tokenized assets
+                    across their full<br>lifecycle without limit. On any standard.</p>
+                <img src="https://www.taurushq.com/img/home/image-capital.webp" alt="Laptop-image">
+                <button class="button">Find out more</button>
+            </div>
+        </div>
+    </div>
+
     <!-- fourth-section -->
-    <div class="fourth-section container pl-5 grid grid-cols-1 md:grid-cols-2">
+    <div class="fourth-section container pl-5 grid grid-cols-1 lg:grid-cols-2">
         <!-- Column 1 -->
         <div class=" fourth-text pl-10">
             <div class="fourth-spacing">
-                <p style="white-space: nowrap;" class=" mb-3 font-poppins text-left text-5xl text-pink-400">Industry-leading
+                <p style="white-space: nowrap;" class=" mb-3 font-poppins text-left text-5xl text-pink-400">
+                    Industry-leading
                 </p>
                 <p class="texter font-poppins text-left text-5xl mb-4">technology.</p>
                 <p style="white-space: nowrap;" class="font-poppins text-left text-5xl mb-4 text-pink-400">Fast and
@@ -168,27 +201,33 @@
                 <p class="texter font-poppins text-left text-5xl mb-4">deployment.</p>
             </div>
             <div class=" first-border mt-6 font-poppins text-left text-xl space-y-6">
-                <p style="white-space: nowrap;" class="texter pl-5 pb-3"><i class="ri-verified-badge-line"></i> Certified, award-winning technology</p>
-                <p style="white-space: nowrap;" class="texter pl-5 pb-3"><i class="ri-verified-badge-line"></i> On premise, SaaS, hybrid deployment</p>
-                <p style="white-space: nowrap;" class="texter pl-5 pb-3"><i class="ri-verified-badge-line"></i> Synergistic growth from co-marketing</p>
-                <p style="white-space: nowrap;" class="texter pl-5 pb-3"><i class="ri-verified-badge-line"></i> Customized Training tailored to your needs</p>
-                <p style="white-space: nowrap;" class="texter pl-5 pb-3"><i class="ri-verified-badge-line"></i> Leader in public, private blockchains, and tokenized assets</p>
+                <p style="white-space: nowrap;" class="texter pl-5 pb-3"><i class="ri-verified-badge-line"></i>
+                    Certified, award-winning technology</p>
+                <p style="white-space: nowrap;" class="texter pl-5 pb-3"><i class="ri-verified-badge-line"></i> On
+                    premise, SaaS, hybrid deployment</p>
+                <p style="white-space: nowrap;" class="texter pl-5 pb-3"><i class="ri-verified-badge-line"></i>
+                    Synergistic growth from co-marketing</p>
+                <p style="white-space: nowrap;" class="texter pl-5 pb-3"><i class="ri-verified-badge-line"></i>
+                    Customized Training tailored to your needs</p>
+                <p style="white-space: nowrap;" class="texter pl-5 pb-3"><i class="ri-verified-badge-line"></i> Leader
+                    in public, private blockchains, and tokenized assets</p>
             </div>
         </div>
 
 
         <!-- Column 2 -->
-        <div class="">
-            <img src="" alt="">
+        <div class="just-image">
+            <img src="https://img.freepik.com/free-photo/international-day-education-futuristic-style_23-2150998685.jpg?t=st=1734337000~exp=1734340600~hmac=6ea664273292290b0bf7a31d1a6752f46017db8664d9bd47ae1ac852f8850bb8&w=740"
+                alt="">
         </div>
     </div>
 
     <!-- fifth-section -->
-    <div class="fifth-container grid grid-cols-2 gap-4">
+    <div class="fifth-container grid grid-cols-1 lg:grid-cols-2 gap-4">
         <!-- First Column -->
         <div class="fifth-1">
             <div class="fifth-1-2 bg-pink-600 rounded-sm text-white text-center">
-                <a style="white-space: nowrap;" href="#" class=" font-semibold">
+                <a href="#" class=" font-semibold">
                     FIND OUT MORE ABOUT WHAT MAKE EMIRI FINTECH UNIQUE.
                 </a>
             </div>
@@ -196,22 +235,22 @@
 
 
         <!-- Second Column -->
-        <div class="bg-white"></div>
+        <div class="bg-white gombu"></div>
     </div>
 
     <!-- sixth-section -->
     <div class="sixth-container bg-white p-8 space-x-5">
         <div class="text-starter text-left text-5xl">
-            <p style="white-space: nowrap;">
+            <p>
                 <span class="text-pink-400"># 1 fintech</span> partner. See why
             </p>
         </div>
-        <div class="grid-text grid grid-cols-2">
+        <div class="grid-text grid grid-cols-1 lg:grid-cols-2">
             <!-- First Column -->
             <div class="">
                 <div class="grid-1  overflow-hidden">
-                    <p class="text-xl" style="white-space: nowrap;">
-                        <strong>More than half of banks</strong> offering digital assets run on<br>Taurus infrastructure
+                    <p class="text-xl">
+                        <strong>More than half of banks</strong> offering digital assets run on Taurus infrastructure
                         in Switzerland.
                     </p>
                 </div>
@@ -220,8 +259,8 @@
             <!-- Second Column -->
             <div class="">
                 <div class="grid-2  overflow-hidden">
-                    <p class="text-xl" style="white-space: nowrap;">
-                        <strong>Entrusted and in production</strong> with the full spectrum of<br>financial institutions
+                    <p class="text-xl">
+                        <strong>Entrusted and in production</strong> with the full spectrum of financial institutions
                     </p>
                 </div>
             </div>
@@ -230,7 +269,7 @@
 
     <!-- seventh-container -->
     <div class="seventh-container">
-        <div class=" grid grid-cols-2">
+        <div class=" grid grid-cols-1 lg:grid-cols-2">
             <!-- First Column: Content Carousel -->
             <div class="seventh-text bg-gray-800">
                 <div id="content-carousel" class="relative">
@@ -240,32 +279,15 @@
                             <div class="quote black-border">
                                 <div class="top-left-border"></div>
                                 <div class="bottom-right-border"></div>
-                                <p class="text-xl" style="white-space: nowrap;">We are deligted to have found a very
+                                <p class="text-xl">We are deligted to have found a very
                                     innovative partner
-                                    in <br> Emiri Fintech. With Emiri's products, we can offer our customers an
-                                    <br>expanded range of investment opportunities in the field of <br>digital assets.
+                                    in Emiri Fintech. With Emiri's products, we can offer our customers an
+                                    expanded range of investment opportunities in the field of digital assets.
                                 </p>
                             </div>
                             <p class="author text-xl"><strong>Paulo Buzzi</strong></p>
-                            <p style="white-space: nowrap;" class="founder text-md">Co-founder and Deputy CEO,
+                            <p class="founder text-md">Co-founder and Deputy CEO,
                                 Swissquote</p>
-                            <div class="find-more rounded-sm">
-                                <a href="#">
-                                    <strong>FIND OUT MORE</strong>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carousel-item hidden">
-                            <div class="quote black-border">
-                                <div class="top-left-border"></div>
-                                <div class="bottom-right-border"></div>
-                                <p class="text-xl" style="white-space: nowrap;">Emiri is leading the field in
-                                    cryptography and blockchain<br>Technology. By joining forces, we can help banks to
-                                    bridge the<br>gap between traditional investments and digital assets
-                                </p>
-                            </div>
-                            <p class="author text-xl"><strong>Alexandre Duret</strong></p>
-                            <p style="white-space: nowrap;" class="founder text-md">Product Director, Temenos</p>
                             <div class="find-more rounded-sm">
                                 <a href="#">
                                     <strong>FIND OUT MORE</strong>
@@ -277,15 +299,30 @@
                             <div class="quote black-border">
                                 <div class="top-left-border"></div>
                                 <div class="bottom-right-border"></div>
-                                <p class="text-xl" style="white-space: nowrap;">As the digital asset space is expected
-                                    to encompass trillions<br>of dollars of assets, it's bound to be seen as one of
-                                    the<br>priorities for investors and corporations alike. As such,<br>custodians must
-                                    start adapting to support their clients, This<br>is why we are excited to partner
-                                    with Taurus, a leading digita<br>asset infrastructure provider with a proven track
-                                    record and<br>extensive expertise in the crypto and tokenization space.</p>
+                                <p class="text-xl">Emiri is leading the field in
+                                    cryptography and blockchain Technology. By joining forces, we can help banks to
+                                    bridge the gap between traditional investments and digital assets
+                                </p>
+                            </div>
+                            <p class="author text-xl"><strong>Alexandre Duret</strong></p>
+                            <p class="founder text-md">Product Director, Temenos</p>
+                            <div class="find-more rounded-sm">
+                                <a href="#">
+                                    <strong>FIND OUT MORE</strong>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item hidden">
+                            <div class="quote black-border">
+                                <div class="top-left-border"></div>
+                                <div class="bottom-right-border"></div>
+                                <p class="text-xl">With digital assets set to become a multi-trillion-dollar market,
+                                    custodians must adapt. We're excited to partner with Taurus, a proven leader in
+                                    crypto and tokenization.</p>
                             </div>
                             <p class="author-2 text-xl"><strong>Paul Maley</strong></p>
-                            <p style="white-space: nowrap;" class="founder text-md">Global Head of Securities Services
+                            <p class="founder text-md">Global Head of Securities Services
                                 at Deutsche Bank AG</p>
                             <div class="find-more rounded-sm">
                                 <a href="#">
@@ -346,7 +383,7 @@
 
     <!-- insight section -->
     <div class="insight-container mx-auto p-4">
-        <div class="insight-grid grid grid-cols-2">
+        <div class="insight-grid grid grid-cols-1 lg:grid-cols-2">
             <div class="insight-outer">
                 <div class="insight-grid-1  text-5xl">Emiri <span>Insights</span></div>
                 <a href="#" class="insight-link text-sm font-medium underline">VISIT OUR BLOG ></a>
@@ -354,7 +391,7 @@
 
             <div class="insight-outer">
                 <div>
-                    <h2 style="white-space: nowrap;" class=" text-start insight-title text-2xl mb-1">Learn about
+                    <h2 class=" text-start insight-title text-2xl mb-1">Learn about
                         technology, use cases and market insights</h2>
                     <form style="white-space: nowrap;">
                         <input type="email" placeholder="Email*"
@@ -541,7 +578,7 @@
 
             </div>
             <!-- Swiper Pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="fatic swiper-pagination"></div>
             <!-- Swiper Navigation -->
             <!-- <div class="swiper-button-prev"></div> -->
             <!-- <div class="swiper-button-next"></div> -->

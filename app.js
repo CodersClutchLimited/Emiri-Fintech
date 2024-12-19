@@ -56,9 +56,41 @@ app.get('/cloud', (req, res) =>{
     res.render('pages/cloud')
 })
 
+app.get('/digital2', (req, res) =>{
+    res.render('pages/digital2')
+})
 
+app.get('/lending', (req, res) =>{
+    res.render('pages/lending')
+})
 
+app.get('/online-payment', (req, res) =>{
+    res.render('pages/payment')
+})
 
+app.get('/insutech', (req, res) =>{
+    res.render('pages/insutech')
+})
+
+app.get('/investment', (req, res) =>{
+    res.render('pages/investment')
+})
+
+app.get('/personal-finance', (req, res) =>{
+    res.render('pages/finance')
+})
+
+app.get('/ai', (req, res) =>{
+    res.render('pages/ai')
+})
+
+app.get('/business', (req, res) =>{
+    res.render('pages/business')
+})
+
+app.get('/gcr', (req, res) =>{
+    res.render('pages/gcr')
+})
 
 
 

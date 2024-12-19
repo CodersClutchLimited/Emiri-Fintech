@@ -1,22 +1,77 @@
-.forensic-container{
+/* .forensic-container{
     margin-top: 55px;
     color: #333;
+} */
+
+/* ================================================= */
+.forensic-hero {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+  background: url('https://img.freepik.com/free-photo/accountant-calculating-profit-with-financial-analysis-graphs_74855-4937.jpg?uid=R176520851&ga=GA1.1.438080985.1725988205&semt=ais_tags_boosted') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.forensic-hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.heart-grid{
+  width: 75%;
+}
+
+.heart-gridder{
+  display: flex;
+  justify-content: center;
+}
+
+.forensic-hero-content {
+  z-index: 1;
+}
+
+.forensic-hero h1 {
+  margin-top: 110px;
+  font-size: 4rem;
+}
+
+.forensic-hero-content span{
+  margin-left: -65px;
+}
+
+.inner-content{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner-content .gemini{
+  margin-top: 50px;
+  max-width: 450px;
+  height: auto;
+}
+
+.inner-content .gemini img{
+  object-fit: cover;
 }
 
 
-.forensic-sub{
-    border: 3px solid black;
-}
 
-.forensic-first{
-    padding-left: 130px;
-}
+
+/* ================================== */
 
 .content-links{
-    padding: 70px;
-    padding-bottom: 90px;
-    padding-left: 110px;
-    padding-right: 80px;
+  margin-top: -50px;
+    padding-bottom: 40px;
     color: #3b60e4;
 }
 
@@ -116,3 +171,45 @@
     color: #fff !important;
   }
 
+
+ .heart-column-1 .container {
+    width: 450px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.heart-column-1 .icon {
+    font-size: 60px;
+    color: #000;
+    margin-bottom: 15px;
+}
+.heart-column-1 h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #333;
+}
+
+.heart-column-1 p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.heart-column-1 .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D62027;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.heart-column-1 .btn:hover {
+    background-color: #b81d21;
+}

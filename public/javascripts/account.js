@@ -70,14 +70,45 @@ document.addEventListener('click', () => {
 });
 
 // Helper function to toggle the icon between plus and minus
-function toggleIcon(icon, isClosed) {
-    const iconElement = icon.querySelector('i'); // Select the <i> inside the span
-    if (isClosed) {
-        iconElement.classList.remove('ri-subtract-line'); // Remove minus icon
-        iconElement.classList.add('ri-add-line'); // Add plus icon
+let allExpanded = false; // Flag to track if all sections are expanded
+
+// Function to toggle a single section
+function toggleSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    const iconSpan = section.previousElementSibling.querySelector('span');
+    
+    if (section.classList.contains('hidden')) {
+        section.classList.remove('hidden'); // Show section
+        iconSpan.textContent = '−'; // Change icon to minus
     } else {
-        iconElement.classList.remove('ri-add-line'); // Remove plus icon
-        iconElement.classList.add('ri-subtract-line'); // Add minus icon
+        section.classList.add('hidden'); // Hide section
+        iconSpan.textContent = '+'; // Change icon to plus
     }
 }
 
+// Function to toggle all sections (expand or collapse)
+function toggleAllSections(event) {
+    event.preventDefault(); // Prevent default anchor behavior
+
+    const sections = document.querySelectorAll('.border-b .mt-2');
+    const icons = document.querySelectorAll('.border-b span');
+    const expandCollapseLink = event.target;
+
+    if (allExpanded) {
+        // Collapse all sections
+        sections.forEach((section, index) => {
+            section.classList.add('hidden'); // Hide section
+            icons[index].textContent = '+'; // Change icon to plus
+        });
+        expandCollapseLink.innerHTML = 'Expand All'; // Change text to "Expand All"
+    } else {
+        // Expand all sections
+        sections.forEach((section, index) => {
+            section.classList.remove('hidden'); // Show section
+            icons[index].textContent = '−'; // Change icon to minus
+        });
+        expandCollapseLink.innerHTML = 'Collapse All'; // Change text to "Collapse All"
+    }
+
+    allExpanded = !allExpanded; // Toggle the state
+}

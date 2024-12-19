@@ -104,7 +104,6 @@
 
 .section-content h2{
     color: #333;
-    margin-bottom: 35px;
 }
 
 .section-content p{
@@ -499,7 +498,34 @@ body {
 }
 
 /* sanna's designs=============================================== */
+.pluto{
+    padding-top: 80px;
+}
 
+.pluto-1, .pluto-3, .pluto-4, .description{
+    color: #333;
+}
+.pluto-3{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    margin-left: 120px !important;
+}
+
+.sercic{
+    padding-bottom: 70px;
+}
+
+.attacher{
+    margin-top: 20px;
+}
+
+.dev:hover{
+    background-color: #333;
+    color: #fff !important;
+}
+.dev:hover .pluto-4, .dev:hover .description{
+    color: #fff;
+}
 .para-container {
     padding-left: 70px;
     padding-right: 70px;

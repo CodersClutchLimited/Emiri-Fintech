@@ -1,5 +1,26 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap'); */
 
+.all-hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.style-outer{
+  display: flex;
+  justify-content: center;
+}
+
+.style-bottom{
+  padding-bottom: 8px;
+  border-bottom: 8px solid white;
+  width: 300px;
+}
+
 
 .fourth-section {
     /* font-family: 'Poppins', sans-serif !important; */
@@ -441,6 +462,14 @@
   max-width: 100%; /* Ensure logos do not exceed their container */
 }
 
+@media (max-width: 768px) {
+  .logo-grid {
+    grid-template-columns: repeat(3, auto); /* Three columns, adjust based on content */
+      gap: unset; /* Adjust spacing for smaller screens */
+  }
+}
+
+
 
 .insight-container{
   background-color: white;
@@ -469,6 +498,21 @@
 
 .insight-grid{
   padding-top: 150px;
+}
+
+@media (max-width: 768px) {
+  .insight-grid-1 {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .insight-container{
+    margin-top: -70px;
+  }
+
+  .fatic{
+    display: none;
+  }
 }
 
 .form-input{
@@ -569,4 +613,136 @@
 
 .ri-arrow-right-circle-line{
   padding-right: 4px;
+}
+
+.just-image{
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .just-image, .gombu, .seventh-image{
+    display: none;
+  }
+
+  .fifth-1-2{
+    width: 98%;
+  }
+}
+
+/* laptops section */
+.laptop-container{
+  margin-left: 33px;
+  margin-right: 33px;
+}
+
+.laptop-grid{
+  gap: 30px;
+}
+
+.laptop-container .column-1, .laptop-container .column-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #FAFAFA;
+}
+
+.laptop-container h2{
+  color: #333;
+}
+
+.laptop-container h1{
+  padding-top: 38px;
+  padding-bottom: 15px;
+  color: #222;
+}
+
+.laptop-container .column-1, .laptop-container .column-2{
+  padding: 24px;
+  padding-bottom: 47px;
+}
+
+.laptop-container .column-1-title, .laptop-container .column-2-title{
+  font-size: 1.33rem;
+}
+
+.laptop-container .button {
+  display: inline-block;
+  background-color: #ff4fff;
+  color: #ffffff;
+  padding: 13px 75px;
+  margin-top: 65px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.laptop-container img{
+  margin-top: 68px;
+  width: 500px;
+  height: auto;
+}
+
+.laptop-container .icon-image{
+  width: 177px;
+  height: auto;
+  margin-top: -20px;
+}
+
+@media screen and (max-width: 768px) {
+  .seventh-container {
+    padding: 1rem;
+  }
+
+  .seventh-container .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .seventh-text{
+    height: 85vh;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .seventh-text {
+    background: #333; /* Maintain distinct background color */
+    border-radius: 0.5rem;
+  }
+
+  .quote {
+    font-size: 1rem; /* Adjust font size for readability */
+    line-height: 1.5;
+    white-space: normal; /* Wrap long text */
+  }
+
+  .author, .founder {
+    font-size: 0.9rem; /* Adjust text for smaller screens */
+  }
+
+  .find-more {
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  
+  .carousel-content {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .carousel-item {
+    flex: 0 0 100%;
+    display: block; /* Show items in horizontal scrolling */
+  }
+
+  .carousel-item img {
+    border-radius: 0.5rem;
+  }
+  .controls{
+    left: 33%;
+  }
 }

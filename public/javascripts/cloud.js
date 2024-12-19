@@ -1,4 +1,3 @@
-
 const cloudServicesContent = {
     "Cloud Backup Services": {
         title: "Cloud Backup Services",
@@ -60,7 +59,6 @@ const cloudServicesContent = {
             "Cost-efficient storage options"
         ]
     },
-
     "Private Cloud Services": {
         title: "Private Cloud Services",
         description1: "Transform your organization with easy migration, improved performance, and increased security with Private Cloud Services. Looking at our flexible and scalable services, you will see that eSparkBiz provides private cloud solutions according to your requirements.",
@@ -97,51 +95,36 @@ const cloudServicesContent = {
             "Scalable solutions to match business growth"
         ]
     }
-    // Add similar entries for other services.
 };
 
-// Add event listeners to all links
 document.querySelectorAll('.list a').forEach(link => {
     link.addEventListener('click', (event) => {
-        event.preventDefault(); // Prevent default link behavior
-
-        // Remove 'active' class from all links and add it to the clicked one
+        event.preventDefault();
         document.querySelectorAll('.list a').forEach(l => l.classList.remove('active'));
         link.classList.add('active');
-
-        // Get the text of the clicked link
         const selectedService = link.textContent.trim();
-
-        // Fetch the content for the selected service
         const content = cloudServicesContent[selectedService];
         if (content) {
-            // Update the content section dynamically
             const contentArea = document.querySelector('.content');
-            contentArea.innerHTML = `
-                <div class="p-8">
-                    <h3 class="text-white text-3xl font-bold mb-8">${content.title}</h3>
-                    <p class="leading-relaxed text-lg text-white text-justify mb-8">${content.description1}</p>
-                    <p class="leading-relaxed text-lg text-white text-justify">${content.description2}</p>
-                    <div class="left">
-                        <h1 class="text-white text-2xl font-bold mb-8">Key benefits of ${content.title}:</h1>
-                        <ol class="text-white">
-                            ${content.benefits.map(benefit => `<li><i class="fas text-green-400 fa-check-circle mr-2"></i>${benefit}</li>`).join('')}
-                        </ol>
-                    </div>
+            contentArea.innerHTML = `<div class="acord-b p-6">
+                <h3 class="text-white text-3xl font-bold mb-6">${content.title}</h3>
+                <p class="leading-relaxed text-lg text-white mb-4">${content.description1}</p>
+                <p class="leading-relaxed text-lg text-white mb-4">${content.description2}</p>
+                <div>
+                    <h4 class="list-tit text-white text-2xl font-bold mb-4">Key benefits of ${content.title}:</h4>
+                    <ol class=" list-disc list-none  pl-5 text-white">
+                        ${content.benefits.map(benefit => `<li class="mb-2"><i class=" ri-verified-badge-line"></i> ${benefit}</li>`).join('')}
+                    </ol>
                 </div>
-            `;
+            </div>`;
         }
     });
 });
 
-// Load default content on page load
 document.addEventListener('DOMContentLoaded', () => {
-    document.querySelector('.list a').click(); // Simulate a click on the first link
+    document.querySelector('.list a').click();
 });
 
-
-
-// COLLAPSIBLE CONTENT: 
 function toggleContent(id) {
     const content = document.getElementById('content-' + id);
     const arrow = document.getElementById('arrow-' + id);

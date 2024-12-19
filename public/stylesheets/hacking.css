@@ -1,69 +1,117 @@
-
-.digital-h1{
+.digital-h1 {
     padding-top: 150px;
 }
 
-.hacking-contact{
+.hacking-contact {
     padding-top: 50px;
     padding-bottom: 100px;
+}  
+
+.white-r {
+    width: 650px;
+    border-top: 4px solid #fff;
+    margin-top: 60px;
 }
 
-
-.hacking-button{
-    padding: 13px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: brown;
+.hacking-solid{
+    margin-top: -170px;
 }
 
-.hacking-container{
+.hacking-solid-outer{
+    height: 65vh;
+}
+
+.hacking-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #D13B3B; /* Initial background color */
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+  }
+  
+  .hacking-button:hover {
+    background-color: #a41818; /* Background color on hover */
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+  }
+  
+
+  .benef{
+    padding-bottom: 70px;
+  }
+
+.hacking-container {
     padding-bottom: 80px;
 }
 
-.hacking-title{
+.hacking-title {
     color: #333;
     padding-left: 50px;
-    padding-top: 100px;
-    padding-bottom: 70px;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
-.cost-para{
+.benef-container .benef{
+    width: 75%;
+}
+.benef-container{
+    display: flex;
+    justify-content: center;
+}
+
+.cost-boxex{
+    margin-top: -40px;
+}
+
+.cost-para {
     color: #333;
     padding-left: 55px;
 }
 
-.cost{
+.cost {
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
-.cost-boxes{
+.cost-boxes {
     margin-left: 45px;
     margin-right: 45px;
     padding-bottom: 100px;
     color: #333;
     margin-bottom: 20px;
-    border-bottom: 1px solid #999;
 }
 
-.cost-padder{
-    padding: 30px;
+
+.zero-pad {
+    background: linear-gradient(to bottom, #fafafa, #fff);
+}
+
+.hrr {
+    margin-top: 30px;
+    border: none;
+    height: 2px;
+    background-color: #999;
+}
+
+
+.cost-padder {
+    padding: 25px;
     border: 1px solid #111;
 }
 
-.cost-icon{
+.cost-icon {
     font-size: 2.5rem;
 }
 
 /* video*/
-.secure-button{
+.secure-button {
     background-color: #a41818;
     padding: 15px;
     padding-left: 25px;
     padding-right: 25px;
 }
 
-.video-itself{
+.video-itself {
     width: 800px;
     padding-left: 50px;
     padding-right: 50px;
@@ -79,38 +127,62 @@
 
 .hire-card {
     background-color: #fff !important;
-    width: 90%; /* Use percentage for responsive width */
-    max-width: 440px; /* Set a maximum width */
+    width: 90%;
+    /* Use percentage for responsive width */
+    max-width: 440px;
+    /* Set a maximum width */
     height: auto;
     aspect-ratio: unset !important;
     margin: auto;
     border: 1px solid black;
 }
 
-.hire-name{
+.hire-name {
     color: #333;
     padding: 20px 20px;
 }
 
-.hire-name{
+.cost-whiter{
+    border: 1px solid #fff;
+}
+
+.hire-name {
     padding-top: 30px;
 }
 
-/* .galaxy-video{
-    background-color: #fff;
-    border: 1px solid black;
-} */
-
-.hire-details{
+.hire-details {
     color: #555;
     padding: 20px 20px;
 }
 
-.hire-button{
+.hire-button {
     padding: 20px 20px;
 }
 
-.industry-container{
+.industry-container {
     padding-top: 100px;
     padding-bottom: 70px;
+}
+
+.struggle{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.swiper-slide {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.active-slide .hire-card{
+    transform: scale(1.06);
+    background-color: #222 !important;
+    z-index: 10;
+}
+
+.active-slide .hire-card .hire-details{
+    color: #fff;
+}
+
+.active-slide .hire-card .hire-name{
+    color: #fff;
 }

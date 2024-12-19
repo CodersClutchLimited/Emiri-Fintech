@@ -1,0 +1,53 @@
+.digital-hero{
+  background-color: #2D2832;
+  height: 60vh;
+  color:#FFFFFF;
+}
+
+.digital-texts{
+  padding-top: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.title-1{
+margin-top: -70px;
+}
+.title-1 span{
+  padding-right: 20px;
+
+}
+.acordion{
+  display: flex;
+  justify-content: center;
+}
+.forensic-dropper{
+  max-width: 80%;
+  margin-top: -100px;
+}
+.acord-starter{
+  margin-top: -50px;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+ .acord-starter .acord-2{
+  padding-bottom: 20px;
+}
+
+.acord-2{
+  display: flex;
+  justify-content: center;
+}
+
+.unordered{
+  padding-top: 13px;
+}
+
+.unordered i{
+  color: #1E90FF;
+}
+
+.digital-hero i{
+  color: #F061F5;
+}

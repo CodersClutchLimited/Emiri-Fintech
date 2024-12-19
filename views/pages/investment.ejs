@@ -1,0 +1,92 @@
+<%- layout('layouts/boilerplate') %>
+
+<div class="digital-hero">
+    <div class="digital-texts">
+        <div class=" title-1 font-bold text-5xl flex flex-row gap-7"><span><i class="ri-bar-chart-line"></i></span> INVESTMENT MANAGEMENT</div>
+    </div>
+</div>
+
+<div class="acordion">
+    <div class="forensic-dropper">
+        <div class="dropper-container">
+            <div class="acord-starter">
+                <p class="acord-2 mb-3">Ranging from financial institutions, real estate firms, investment advisors, or individuals, Emiri Fintech Solutions provide clients with fintech software development services that anticipate change and capitalizes on emerging opportunities of a complex, ever-changing investment management landscape.</p>
+                <p class="acord-2">Ranging from financial institutions, real estate firms, investment advisors, or individuals, Emiri Fintech Solutions provide clients with fintech software development services that anticipate change and capitalizes on emerging opportunities of a complex, ever-changing investment management landscape.</p>
+            </div>
+    
+            <div class="dropper-expand flex justify-between">
+                <h1 class="text-3xl font-bold mb-6">Be in Charge of your Investment Decisions</h1>
+                <a href="#" class="text-blue-600 text-lg" onclick="toggleAllSections(event)"><strong>Expand All</strong></a></div>
+
+            <div class="border-t border-b py-6">
+                <button class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                    onclick="toggleSection('section1')">
+                    Stock Trading
+                    <span class="text-gray-500">+</span>
+                </button>
+                <div id="section1" class="mt-2 hidden">
+                    <p class="text-gray-700 mb-3">At Emiri Fintech Solutions, we build full-fledged stock trading solutions or create standalone modules to automate data-heavy tasks out of the investment. Our software helps track and analyze stock behavior in real time, advance trading operations, and make smarter investment decisions.</p>
+                    <p class="text-gray-700">For users to stay on top of their investment strategy, experts at Emiri Fintech bolster our software products with alerts and notifications that inform about a target stock price, percentage change, exponential moving average, and more.</p>
+                    <ul class="unordered">
+                        <li><i class="ri-verified-badge-fill"></i> Concurrent data monitoring</li>
+                        <li><i class="ri-verified-badge-fill"></i> Risk rebalancing</li>
+                        <li><i class="ri-verified-badge-fill"></i> Trading algorithms</li>
+                        <li><i class="ri-verified-badge-fill"></i> Fraud detection</li>
+                        <li><i class="ri-verified-badge-fill"></i> Integration with multiple stock data service providers</li>
+                        <li><i class="ri-verified-badge-fill"></i> Comprehensible and engaging data visualization</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-b py-6">
+                <button class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                    onclick="toggleSection('section4')">
+                    Risk Management
+                    <span class="text-gray-500">+</span>
+                </button>
+                <div id="section4" class="mt-2 hidden">
+                    <p class="text-gray-700">Emiri Fintech risk mitigation approach includes multi-factor risk modeling and stress scenario testing so that users can opt for safer and more rewarding investments.</p>
+                </div>
+            </div>
+
+            <div class="border-b py-6">
+                <button class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                    onclick="toggleSection('section3')">
+                    Predictive Analytics
+                    <span class="text-gray-500">+</span>
+                </button>
+                <div id="section3" class="mt-2 hidden">
+                    <p class="text-gray-700">Empowered with artificial intelligence, data mining, and machine learning, Engineers at Emiri Fintech create forecasting models that help identify financial market trends, predict business outcomes, highlight untapped opportunities, and expose hidden risks.</p>
+                </div>
+            </div>
+
+
+            <div class="border-b py-6">
+                <button class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                    onclick="toggleSection('section2')">
+                    Portfolio Management
+                    <span class="text-gray-500">+</span>
+                </button>
+                <div id="section2" class="mt-2 hidden">
+                    <p class="text-gray-700">The algorithms implemented by Emiri Fintech Solutions help better forecast stock behavior, analyze asset classes, and maximize the expected return, while minimizing the risk of loss. With integration capabilities of our solutions, users get the opportunity to track their portfolios on a single platform rather than checking multiple applications to view their assets.</p>
+                </div>
+            </div>
+
+
+            <div class="border-b py-6">
+                <button class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                    onclick="toggleSection('section6')">
+                    AI-Powered Automation
+                    <span class="text-gray-500">+</span>
+                </button>
+                <div id="section6" class="mt-2 hidden">
+                    <p class="text-gray-700 mb-3">Financial services, paired with AI technology, take over the market and ensure an agile, customer-centric, digitally mature approach to financial management.</p>
+                    <p class="text-gray-700 mb-3">Merging data mining and machine learning technologies, experts at Emiri Fintech Solutions create platforms that analyze vast amounts of financial data, forecast stock fluctuations, calculate stock volatility, and make recommendations on trading strategies</p>
+                    <p class="text-gray-700 mb-3">AI-driven robo-advisers analyze millions of data points, capturing information that current statistical models can’t, and execute trades under optimal conditions.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="/javascripts/account.js"></script>

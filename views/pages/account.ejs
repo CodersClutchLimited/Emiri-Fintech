@@ -1,136 +1,168 @@
 <%- layout('layouts/boilerplate') %>
-    <div class="forensic-container">
-        <div class=" forensic-sub grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <!-- First Column -->
-            <div class="forensic-first">
-                <h1 class="text-5xl font-bold mb-4">Your Title Here</h1>
-                <p class="text-gray-600 mb-6">
-                    This is a sample paragraph. You can add your descriptive content<br>here to provide context or
-                    information about your.
-                </p>
-                <button class="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
-                    Call to Action
-                </button>
-            </div>
 
-            <!-- Second Column -->
-            <div class="forensic-second">
-                <img src="https://img.freepik.com/free-photo/detective-looking-evidence-board-comparing-with-police-report-investigator-holding-folder-with-forensic-expertise-analyzing-clues-photos-attached-office-wall_482257-71512.jpg?uid=R176520851&ga=GA1.1.438080985.1725988205&semt=ais_tags_boosted"
-                    alt="Sample Image" class="w-full object-cover" />
+    <div class="digital-hero">
+        <div class="digital-texts">
+            <div class=" title-1 font-bold text-5xl flex flex-col justify-center gap-7"><span><i
+                        class="ri-macbook-line"></i> Forensic Accounting</span>
+                <div class="white-r"></div>
             </div>
         </div>
     </div>
 
+    <div class="acordion">
+        <div class="forensic-dropper">
+            <div class=" dropper-container zero-pad">
+                <div class="acord-starter">
+                    <div class="content-links">
+                        <div class="font-bold forensic-links">
+                            <a href="#overview">Overview</a>
+                            <a href="#insights">Latest insights</a>
+                            <a href="#book">Book a Call</a>
+                            <a href="#events">Events</a>
+                        </div>
+                    </div>
 
-    <div class="content-links">
-        <div class="font-bold forensic-links">
-            <a href="#">Overview</a>
-            <a href="#">Engagements</a>
-            <a href="#">Latest insights</a>
-            <a href="#">Upcoming events</a>
-            <a href="#">Recent events</a>
+                    <p id="overview" class="acord-2 corder">Emiri FinTech delivers expert forensic accounting solutions
+                        to address
+                        allegations of fraud, embezzlement, financial misstatements, bribery, money laundering, and
+                        related misconduct. We support businesses in independent investigations, regulatory responses,
+                        litigation, and white-collar defense, ensuring integrity and compliance. Our cross-trained teams
+                        provide swift, actionable insights, empowering clients to navigate complex challenges
+                        effectively.
+                        <hr class="hrr">
+                    </p>
+                </div>
+
+                <div class="dropper-expand flex justify-between corder">
+                    <h1 class="text-3xl font-bold mb-6">Cross-Trained Teams for Deeper Expertise.</h1>
+                    <a href="#" class="text-blue-600 text-lg" onclick="toggleAllSections(event)"><strong>Expand
+                            All</strong></a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-12">
+                    <div class="colo-1">
+                        <div class="border-b py-6">
+                            <button
+                                class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                                onclick="toggleSection('section2')">
+                                Corporate Investigations
+                                <span class="text-gray-500">+</span>
+                            </button>
+                            <div id="section2" class="mt-2 hidden">
+                                <p class="text-gray-700">When responding to allegations and regulatory inquiries, our
+                                    clients seek a mix of the right experience, technical capabilities, and footprint.
+                                    Our forensic accountants check each box and have worked side-by-side with attorneys,
+                                    corporate officers, and government officials to execute investigations involving
+                                    allegations of financial statement fraud, layered instances of asset
+                                    misappropriation, and cleverly orchestrated corruption. We understand how to manage
+                                    the complexity of structured and unstructured data sets to make sense of what took
+                                    place, how it happened, how extensive is the issue, and how can we remediate it.</p>
+                            </div>
+                        </div>
+
+                        <div class="border-b py-6">
+                            <button
+                                class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                                onclick="toggleSection('section3')">
+                                Financial Reporting Fraud
+                                <span class="text-gray-500">+</span>
+                            </button>
+                            <div id="section3" class="mt-2 hidden">
+                                <p class="text-gray-700">We help clients investigate and respond to allegations of
+                                    accounting and financial reporting (GAAP) fraud, as well as underlying model errors,
+                                    breaches of fiduciary obligations, money laundering, embezzlement, white-collar
+                                    crimes, and other acts of misconduct or non-compliance that may give rise to
+                                    financial statement misstatements and create financial reporting fraud risks.</p>
+                            </div>
+                        </div>
+
+                        <div class="border-b py-6">
+                            <button
+                                class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                                onclick="toggleSection('section4')">
+                                Compliance and Fraud Risk Management
+                                <span class="text-gray-500">+</span>
+                            </button>
+                            <div id="section4" class="mt-2 hidden">
+                                <p class="text-gray-700">Fraud prevention remains one of the best investments a firm can
+                                    make. Having responded to a myriad of allegations over our collective careers, CRA’s
+                                    forensic accountants bring a methodical and well-informed approach to the design,
+                                    communication, and implementation of an enhanced fraud and compliance framework. Any
+                                    compliance program is susceptible to fraud or corruption risks, and therefore,
+                                    properly timed and executed assessments can test the effectiveness of even the most
+                                    well-intentioned programs. Whether performing risk assessments, evolving compliance
+                                    systems, measuring progress, or simply educating the organization, CRA tailors
+                                    compliance and fraud risk management procedures to align with the priorities of our
+                                    clients.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="colo-2">
+                        <div class="border-b py-6">
+                            <button
+                                class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                                onclick="toggleSection('section5')">
+                                Inability to Pay Analysis
+                                <span class="text-gray-500">+</span>
+                            </button>
+                            <div id="section5" class="mt-2 hidden">
+                                <p class="text-gray-700">CRA assists clients that are faced with potentially
+                                    catastrophic government-imposed fines by independently assessing and credibly
+                                    communicating our opinions as to their ability or inability to pay. We leverage our
+                                    deep accounting, finance, and economic skills to analyze and quantify the impact
+                                    that a fine will have on the organization; on the marketplace, workforce, and other
+                                    stakeholders; and on the organization’s ability to subsequently comply with other
+                                    laws and regulations. We consider guidance, where appropriate, from the government
+                                    agencies themselves, and from our sources such as the FASB, PCAOB, AICPA, IRS,
+                                    Bankruptcy Code, and case law.</p>
+                            </div>
+                        </div>
+
+                        <div class="border-b py-6">
+                            <button
+                                class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                                onclick="toggleSection('section6')">
+                                Model Error Investigations
+                                <span class="text-gray-500">+</span>
+                            </button>
+                            <div id="section6" class="mt-2 hidden">
+                                <p class="text-gray-700">Businesses frequently rely upon models to support investment
+                                    decisions, ensure accurate financial reporting, perform customer transaction
+                                    monitoring, engage in capital stress testing, and more. Numerous regulators in the
+                                    US and UK have engaged in enforcement actions against companies who have used and
+                                    relied upon models, but which were later discovered to have had errors, inadequate
+                                    controls, poor governance, and/or been used in ways other than intended. Model
+                                    errors often lead to fines, monitors, litigation, and other sanctions. Our team
+                                    helps clients investigate allegations of model errors, enhance model governance, and
+                                    defend against litigation and regulatory scrutiny.</p>
+                            </div>
+                        </div>
+
+                        <div class="border-b py-6">
+                            <button
+                                class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                                onclick="toggleSection('section7')">
+                                Transactional Due Diligence
+                                <span class="text-gray-500">+</span>
+                            </button>
+                            <div id="section7" class="mt-2 hidden">
+                                <p class="text-gray-700">In addition to cloud application development services, we
+                                    assess cloud applications and infrastructures for vulnerabilities and loopholes,
+                                    focusing on infrastructure security hardening, access control, and network security
+                                    testing. This is crucial for businesses relying on a cloud environment in their
+                                    business routines.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
-
-
-    <div class="forensic-text-content container mx-auto p-6">
-        <h1 class="text-4xl font-bold chijo">Cross-trained teams for deeper expertise.</h1>
-        <div class="forensic-text-div text-2xl space-y-4">
-            CRA provides deep forensic accounting expertise to help respond to<br>allegations of fraud,
-            embezzlement, financial reporting (GAAP) misstatements,<br>bribery, money laundering, and
-            related misconduct and non-compliance. We<br>are skilled at delivering these services in
-            a wide variety of contexts, such as in<br>an independent investigation, commercial litigation,
-            in response to a<br>regulatory inquiry, international arbitration, or white collar defense matters.
-            </p>
-            <p>
-                CRA supports companies’ commitment to integrity by assisting them and their<br>counsel in independently
-                responding to allegations of fraud, waste, abuse,<br>misconduct, and non-compliance. We are noted for
-                deploying cross-trained<br>teams of forensic professionals to assist our clients in gaining deeper
-                insights<br>
-                and greater value more quickly.
-            </p>
-        </div>
-    </div>
-
-    <!-- forensic dropper -->
-    <div class="forensic-dropper">
-        <div class="dropper-container mx-auto py-10">
-            <div class="dropper-expand flex justify-between">
-                <h1 class="text-4xl font-bold mb-6">Our focus areas</h1>
-                <a href="#" class="text-blue-600 text-lg"><strong>Expand All</strong></a>
-            </div>
-
-            <div class="border-t border-b py-6">
-                <button class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
-                    onclick="toggleSection('section1')">
-                    Compliance and Fraud Risk Management
-                    <span class="text-gray-500">+</span>
-                </button>
-                <div id="section1" class="mt-2 hidden">
-                    <p class="text-gray-700">Details about compliance and fraud risk management go here.</p>
-                </div>
-            </div>
-
-            <div class="border-b py-6">
-                <button class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
-                    onclick="toggleSection('section2')">
-                    Corporate Investigations
-                    <span class="text-gray-500">+</span>
-                </button>
-                <div id="section2" class="mt-2 hidden">
-                    <p class="text-gray-700">Details about corporate investigations go here.</p>
-                </div>
-            </div>
-
-            <div class="border-b py-6">
-                <button class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
-                    onclick="toggleSection('section3')">
-                    Financial Reporting Fraud
-                    <span class="text-gray-500">+</span>
-                </button>
-                <div id="section3" class="mt-2 hidden">
-                    <p class="text-gray-700">Details about financial reporting fraud go here.</p>
-                </div>
-            </div>
-
-            <div class="border-b py-6">
-                <button class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
-                    onclick="toggleSection('section4')">
-                    Inability to Pay Analysis
-                    <span class="text-gray-500">+</span>
-                </button>
-                <div id="section4" class="mt-2 hidden">
-                    <p class="text-gray-700">Details about inability to pay analysis go here.</p>
-                </div>
-            </div>
-
-            <div class="border-b py-6">
-                <button class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
-                    onclick="toggleSection('section5')">
-                    Model error investigation
-                    <span class="text-gray-500">+</span>
-                </button>
-                <div id="section5" class="mt-2 hidden">
-                    <p class="text-gray-700">Details about inability to pay analysis go here.</p>
-                </div>
-            </div>
-
-            <div class="border-b py-6">
-                <button class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
-                    onclick="toggleSection('section6')">
-                    Transactional due diligence
-                    <span class="text-gray-500">+</span>
-                </button>
-                <div id="section6" class="mt-2 hidden">
-                    <p class="text-gray-700">Details about inability to pay analysis go here.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- card-container -->
-    <div class="darker-stellar stellar-swiper-container">
-        <h1 class="darker-cosmic cosmic-title text-4xl font-medium">Case studies</h1>
+    <div id="insights" class="darker-stellar stellar-swiper-container">
+        <h1 class="darker-cosmic cosmic-title text-4xl font-medium">Latest Insights</h1>
         <div class="cosmic-swiper">
             <div class="orbital-wrapper swiper-wrapper">
                 <!-- card 1 -->
@@ -181,7 +213,7 @@
                             <button class="digital-button"><a href="#">Read more</a></button>
                         </div>
 
-                        
+
                     </div>
                 </div>
 
@@ -324,73 +356,83 @@
     </div>
 
     <!-- contact-expert section -->
-    <div class="heart-container panda-2 mx-auto p-4 ">
-        <h1 class="faq-text text-4xl font-medium"> <span class="related-underline underline">Related</span> capabilities</h1>
+
+    <div id="book" class="heart-container panda-2 mx-auto p-4 ">
+        <h1 class="faq-text text-4xl font-semibold text-center"> <span
+                class="related-underline underline">Related</span> capabilities
+        </h1>
         <!-- Grid container -->
-        <div class=" heart-grid md:grid-cols-1 sm:grid-cols-1 grid gap-4" style="grid-template-columns: 2fr 3fr;">
-            <!-- First column -->
-            <div class="heart-column-1 p-4">
-                <div class="book-box">
-                    <i class="ri-customer-service-2-line"></i>
-                    <h1 class="text-2xl text-center font-bold">Feel free to book a call and<br>get all the answers you
-                        need.</h1>
-                    <div class="book-link flex items-center justify-center">
-                        <a class="book-itself text-xl text-center font-medium" href="#">Book a call</a>
+        <div class="heart-gridder">
+            <div class=" heart-grid md:grid-cols-1 sm:grid-cols-1 grid gap-4" style="grid-template-columns: 2fr 3fr;">
+                <!-- First column -->
+                <div class="heart-column-1 p-4">
+                    <div class="container">
+                        <i class="ri-headphone-line icon"></i>
+                        <h3>Feel free to book a call and get all the answers you need.</h3>
+                        <a href="#" class="btn">Book a call</a>
                     </div>
                 </div>
 
-            </div>
+                <!-- Second column -->
+                <div class="heart-column-2 grid grid-rows-3 gap-4">
+                    <div class="border-b py-6">
+                        <button
+                            class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                            onclick="toggleSection('section10')">
+                            GCR & Anti Fraud
+                            <span class="text-gray-500">+</span>
+                        </button>
+                        <div id="section10" class="mt-2 hidden">
+                            <p class="text-gray-700">CRA assists clients that are faced with potentially
+                                catastrophic government-imposed fines by independently assessing and credibly
+                                communicating our opinions as to their ability or inability to pay. We leverage our
+                                deep accounting, finance, and economic skills to analyze and quantify the impact
+                                that a fine will have on the organization; on the marketplace, workforce, and other
+                                stakeholders; and on the organization’s ability to subsequently comply with other
+                                laws and regulations. We consider guidance, where appropriate, from the government
+                                agencies themselves, and from our sources such as the FASB, PCAOB, AICPA, IRS,
+                                Bankruptcy Code, and case law.</p>
+                        </div>
+                    </div>
 
-            <!-- Second column -->
-            <div class="heart-column-2 grid grid-rows-3 gap-4">
-                <!-- Row 1 -->
-                <div class="heart-row">
-                    <div class="flex justify-between">
-                        <h2 class="text-4xl font-light">1. Ethical Hacking</h2>
-                        <span class="plus-icon font-thin text-4xl" data-target="content1"><i
-                                class="ri-add-line"></i></span>
+                    <div class="border-b py-6">
+                        <button
+                            class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                            onclick="toggleSection('section11')">
+                            Model Error Investigations
+                            <span class="text-gray-500">+</span>
+                        </button>
+                        <div id="section11" class="mt-2 hidden">
+                            <p class="text-gray-700">Businesses frequently rely upon models to support investment
+                                decisions, ensure accurate financial reporting, perform customer transaction
+                                monitoring, engage in capital stress testing, and more. Numerous regulators in the
+                                US and UK have engaged in enforcement actions against companies who have used and
+                                relied upon models, but which were later discovered to have had errors, inadequate
+                                controls, poor governance, and/or been used in ways other than intended. Model
+                                errors often lead to fines, monitors, litigation, and other sanctions. Our team
+                                helps clients investigate allegations of model errors, enhance model governance, and
+                                defend against litigation and regulatory scrutiny.</p>
+                        </div>
                     </div>
-                    <div class="drop-content hidden" id="content1">
-                        <p class="text-lg font-medium">Rely on a resilient and secure infrastructure</p>
-                        <p class="colum-1-paragraph mb-4 mt-5 text-md">Taurus platform provides institutional-grade,
-                            highest security and compliance standards in<br>order to guarantee sustainable and resilient
-                            operations.</p>
-                        <a href="#" class="underline heart-link text-sm"><strong>READ MORE ON SECURITY &
-                                PRIVACY></strong></a>
+
+                    <div class="border-b py-6">
+                        <button
+                            class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                            onclick="toggleSection('section12')">
+                            Transactional Due Diligence
+                            <span class="text-gray-500">+</span>
+                        </button>
+                        <div id="section12" class="mt-2 hidden">
+                            <p class="text-gray-700">In addition to cloud application development services, we
+                                assess cloud applications and infrastructures for vulnerabilities and loopholes,
+                                focusing on infrastructure security hardening, access control, and network security
+                                testing. This is crucial for businesses relying on a cloud environment in their
+                                business routines.</p>
+                        </div>
                     </div>
-                </div>
-                <!-- Row 2 -->
-                <div class="heart-row">
-                    <div class="flex justify-between">
-                        <h2 class="text-4xl font-light">2. GCR & Anti Fraud</h2>
-                        <span class="plus-icon font-thin text-4xl" data-target="content2"><i
-                                class="ri-add-line"></i></span>
-                    </div>
-                    <div class="drop-content hidden" id="content2">
-                        <p class="text-lg font-medium">Scale depending on your business model and market.</p>
-                        <p class="colum-1-paragraph mb-4 mt-5 text-md">Clients can gradually build a global offering,
-                            with one holistic and scalable platform. Our<br>solution cover any digital asset:
-                            cryptocurrencies, tokenized securities and digital<br>currencies</p>
-                        <a href="#" class="underline heart-link text-sm"><strong>SEE OUR SOLUTIONS></strong></a>
-                    </div>
-                </div>
-                <!-- Row 3 -->
-                <div class="heart-row">
-                    <div class="flex justify-between">
-                        <h2 class="text-4xl font-light">3. Artificial Intelligence & ML</h2>
-                        <span class="plus-icon font-thin text-4xl" data-target="content3"><i
-                                class="ri-add-line"></i></span>
-                    </div>
-                    <div class="drop-content hidden" id="content3">
-                        <p class="text-lg font-medium">In production with the full spectrum of banks</p>
-                        <p class="colum-1-paragraph mb-4 mt-5 text-md">We are a leader when it comes to integrating with
-                            regulated banks. Our end-to-end<br>platform has been scrutinized by all big four auditors
-                            and regulators.</p>
-                        <a href="#" class="underline heart-link text-sm"><strong>SEE OUT PLATFORM></strong></a>
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-
     <script src="/javascripts/account.js"></script>

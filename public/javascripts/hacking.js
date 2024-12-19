@@ -1,7 +1,12 @@
 var swiper = new Swiper('.cosmic-swiper-video', {
-    slidesPerView: 3, // Default number of slides per view
-    spaceBetween: 30, // Default space between slides
-    loop: true,  // Enable looping
+    slidesPerView: 3,
+    centeredSlides: true,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -11,17 +16,51 @@ var swiper = new Swiper('.cosmic-swiper-video', {
         prevEl: '.stellar-button-prev',
     },
     breakpoints: {
-        320: { // For small screens (e.g., smartphones)
+        320: {
             slidesPerView: 1,
+            centeredSlides: false,
             spaceBetween: 10,
         },
-        730: { // For medium screens (e.g., tablets)
+        730: {
             slidesPerView: 2,
+            centeredSlides: false,
             spaceBetween: 20,
         },
-        1024: { // For larger screens (e.g., desktops)
+        1024: {
             slidesPerView: 3,
+            centeredSlides: true,
             spaceBetween: 30,
+        }
+    },
+    on: {
+        init: function () {
+            const slides = document.querySelectorAll('.swiper-slide');
+            slides.forEach(slide => slide.classList.remove('active-slide'));
+
+            const activeSlide = document.querySelector('.swiper-slide.swiper-slide-active');
+            if (activeSlide) {
+                activeSlide.classList.add('active-slide');
+            }
+        },
+        transitionStart: function () {
+            const slides = document.querySelectorAll('.swiper-slide');
+            slides.forEach(slide => slide.classList.remove('active-slide'));
+
+            const activeSlide = document.querySelector('.swiper-slide.swiper-slide-active');
+
+            if (activeSlide) {
+                activeSlide.classList.add('active-slide');
+            }
+        },
+        slideChangeTransitionEnd: function () {
+            const slides = document.querySelectorAll('.swiper-slide');
+            slides.forEach(slide => slide.classList.remove('active-slide'));
+
+            const activeSlide = document.querySelector('.swiper-slide.swiper-slide-active');
+
+            if (activeSlide) {
+                activeSlide.classList.add('active-slide');
+            }
         }
     }
 });

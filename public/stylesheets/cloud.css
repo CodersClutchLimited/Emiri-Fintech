@@ -23,7 +23,7 @@
 
 
 .imageDiv {
-    margin-left: 50px;
+    margin-left: 220px;
 
 }
 
@@ -74,9 +74,16 @@
 
 }
 
+.acord-b{
+    margin-top: 50px;
+}
+
+
 .list li {
+    padding: 20px;
+    border: 1px solid #fff;
     margin-bottom: 25px;
-    font-size: 30px;
+    font-size: 1rem;
     margin-bottom: 20px;
 }
 
@@ -85,6 +92,23 @@
     padding-top: 100px;
     padding-bottom: 100px;
 
+}
+
+.list-disc{
+    margin-left: -120px;
+}
+
+.list-disc .ri-verified-badge-line{
+    color: #b9e000;
+}
+
+.list-tit{
+    margin-top: -70px;
+    margin-left: -100px;
+}
+
+.greene-icon{
+    color: #b9e000;
 }
 
 .lambda {
@@ -139,14 +163,22 @@
 
 }
 
+.grayson{
+    padding-bottom: 70px;
+    background: linear-gradient(to bottom, #f0f0f0, #ffffff);
+}
+
+
 .color {
     color: rgb(2, 2, 53);
 }
 
 .pad {
     border: 0.5px solid rgb(224, 206, 206);
-    border-radius: 10px;
+}
 
+.grayon{
+    background: linear-gradient(to top, #d9d9d9, #ffffff);
 }
 
 .padme {
@@ -160,6 +192,10 @@
     margin-top: 100px;
     margin-left: 150px;
     margin-right: 150px;
+}
+
+.service-item{
+    margin-top: 35px;
 }
 
 .hr {
@@ -235,6 +271,8 @@
 
 .cube-title{
     color: #333;
+    margin-left: -16px;
+    width: 70%;
 }
 
 .deliver-title{

@@ -1,0 +1,126 @@
+.reduce-height{
+    margin-bottom: 50px;
+    height: 50vh;
+}
+
+.solid-pad{
+    padding-top: 90px;
+}
+
+.ziga{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.coastal{
+    color: #333 !important;
+}
+
+.ai-steller{
+    background-color: #fff !important;
+}
+
+.ai-steller .dess{
+    padding-bottom: 30px;
+}
+
+.acord-quote{
+    height: 65vh;
+}
+
+.acord-quote .pakinese{
+    margin-bottom: 20px;
+    margin-left: -3px;
+    width: 300px;
+    height: 350px;
+}
+
+.dropper-accord{
+    width: 70%;
+}
+
+.ai-swiper{
+    width: 80%;
+    overflow: hidden;
+}
+
+/* challenges with AI */
+
+.tech-container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    padding: 2rem;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tech-text {
+    max-width: 50%;
+}
+
+.tech-text h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    padding-bottom: 30px;
+}
+
+.tech-text p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    color: #bfbfbf;
+    padding-bottom: 30px;
+}
+
+.tech-button {
+    background-color: #e63946;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.tech-button:hover {
+    background-color: #d62839;
+}
+
+.tech-image {
+    position: relative;
+    max-width: 50%;
+}
+
+.tech-image img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tech-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tech-text, .tech-image {
+        max-width: 100%;
+    }
+
+    .tech-button {
+        margin: 0 auto;
+    }
+}
+
+.ai-contact{
+    padding-top: 50px;
+}

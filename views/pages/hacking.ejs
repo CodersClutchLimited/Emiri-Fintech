@@ -1,97 +1,200 @@
 <%- layout('layouts/boilerplate') %>
 
-    <div class="digital-board relative text-white h-screen">
-        <img class="digital-img absolute inset-0 w-full h-full object-cover"
-            src="https://img.freepik.com/premium-photo/battling-bug-virus-black-man-safeguarding-digital-security-with-vigilance-technology_983420-234940.jpg?uid=R176520851&ga=GA1.1.438080985.1725988205&semt=ais_tags_boosted"
-            alt="">
-
-        <div class="digital-text relative min-h-screen bg-black bg-opacity-50 flex items-center">
-            <div class="title-container absolute left-8">
-                <h1 class="text-6xl font-bold titan-1">Security testing services </h1>
-                <p class="text-2xl font-normal">
-                    With an unwavering focus on digital safety, Innowise understands the
-                    <span class="line-break">criticality of robust cybersecurity measures. From vulnerability</span>
-                    <span class="line-break">assessment and compliance reviews to penetration testing and</span>
-                    <span class="line-break">security audits, we shield data, applications, and IT systems,</span>
-                </p>
+    <!-- hero section -->
+    <div class="digital-hero">
+        <div class="digital-texts">
+            <div class=" title-1 font-bold text-5xl flex flex-col justify-center gap-7"><span><i
+                        class="ri-shield-line"></i>Security Testing Services</span>
+                <div class="white-r"></div>
             </div>
-
         </div>
     </div>
 
-    <div class="hacking-container">
-        <h1 class="hacking-title text-4xl font-medium">Security testing services we provide</h1>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <div class="sub">
-                <i class="text-gray-800 mb-6 ri-cpu-line h-16 w-16"></i>
-                <h2 class="text-2xl text-gray-900 font-bold mb-6">Machine Learning</h2>
-                <p class="para text-sm leading-relaxed text-gray-700">
-                    We build ML-powered applications that support a huge variety of financial software use cases with
-                    predictive analytics, algorithmic trading, process automation, and more.
-                </p>
-            </div>
+    <div class="acordion">
+        <div class="forensic-dropper">
+            <div class=" dropper-container zero-pad">
+                <div class="acord-starter">
+                    <p class="acord-2 corder">With an unwavering focus on digital safety, Innowise understands the
+                        criticality
+                        of robust cybersecurity measures. From vulnerability assessment and compliance reviews to
+                        penetration testing and security audits, we shield data, applications, and IT systems,
+                        guaranteeing comprehensive protection 24/7. Our experienced specialists regularly examine
+                        digital assets and security policies to strengthen cyber defenses drastically.
+                        <hr class="hrr">
+                    </p>
+                </div>
 
-            <div class="sub">
-                <i class="text-gray-800 mb-6 ri-global-line h-16 w-16"></i>
-                <h2 class="text-2xl text-gray-900 font-bold mb-6">IoT in finance</h2>
-                <p class="para text-sm leading-relaxed text-gray-700">
-                    With IoT, our Fintech developers launch innovative solutions that exceed clients’ expectations and
-                    offer advanced options to tackle everyday needs.
-                </p>
-            </div>
-            <div class="sub">
-                <i class="text-gray-800 mb-6 ri-money-dollar-circle-line h-16 w-16"></i>
-                <h2 class="text-2xl text-gray-900 font-bold mb-6">Cryptocurrency solutions</h2>
-                <p class="para text-sm leading-relaxed text-gray-700">
-                    Our experts roll out sophisticated and efficient apps that make it easy and secure for users to
-                    purchase, trade, and store cryptocurrencies.
-                </p>
-            </div>
-            <div class="sub">
-                <i class="text-gray-800 mb-6 ri-database-2-line h-16 w-16"></i>
-                <h2 class="text-2xl text-gray-900 font-bold mb-6">Big data in finance</h2>
-                <p class="para text-sm leading-relaxed text-gray-700">
-                    In BFSI, big data is key for refining anti-fraud detection along with other activities. With big
-                    data development services, you can turn raw info into actionable insights to protect your business.
-                </p>
-            </div>
-            <div class="sub">
-                <i class="text-gray-800 mb-6 ri-links-line h-16 w-16"></i>
-                <h2 class="text-2xl text-gray-900 font-bold mb-6">FinTech blockchain</h2>
-                <p class="para text-sm leading-relaxed text-gray-700">
-                    Innowise creates custom blockchain solutions to reinforce data security, automate transaction
-                    processes, and optimize operational efficiency for FinTech ecosystems.
-                </p>
-            </div>
-            <div class="sub">
-                <i class="text-gray-800 mb-6 ri-cloud-line h-16 w-16"></i>
-                <h2 class="text-2xl text-gray-900 font-bold mb-6">Cloud Solutions</h2>
-                <p class="para text-sm leading-relaxed text-gray-700">
-                    We develop cloud-native FinTech applications and help transfer on-premise software to the cloud to
-                    achieve better flexibility, security, and cost-effectiveness.
-                </p>
-            </div>
-            <div class="sub">
-                <i class="text-gray-800 mb-6 ri-settings-3-line h-16 w-16"></i>
-                <h2 class="text-2xl text-gray-900 font-bold mb-6">Devops For FinTech</h2>
-                <p class="para text-sm leading-relaxed text-gray-700">
-                    We at Innowise ensure development and operation teams work side by side, aiming to reach fast
-                    product delivery and keep up with the latest FinTech industry trends.
-                </p>
-            </div>
-            <div class="sub">
-                <i class="text-gray-800 mb-6 ri-brain-line h-16 w-16"></i>
-                <h2 class="text-2xl text-gray-900 font-bold mb-6">AI financial services</h2>
-                <p class="para text-sm leading-relaxed text-gray-700">
-                    Innowise masters AI-based financial software to improve operational performance with fraud detection
-                    systems, smart chatbots, and risk management solutions.
-                </p>
+                <div class="dropper-expand flex justify-between corder">
+                    <h1 class="text-3xl font-bold mb-6">A Grasp of Modern Banking</h1>
+                    <a href="#" class="text-blue-600 text-lg" onclick="toggleAllSections(event)"><strong>Expand
+                            All</strong></a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-12">
+                    <div class="colo-1">
+                        <div class="border-b py-6">
+                            <button
+                                class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                                onclick="toggleSection('section2')">
+                                Security Consulting
+                                <span class="text-gray-500">+</span>
+                            </button>
+                            <div id="section2" class="mt-2 hidden">
+                                <p class="text-gray-700">Innowise offers expert guidance in developing and implementing
+                                    robust security strategies. Our company provides tailored advice to tackle unique
+                                    cybersecurity challenges, align security practices with business goals, and ensure
+                                    customers face digital threats with confidence over the long-term outlook.</p>
+                            </div>
+                        </div>
+
+                        <div class="border-b py-6">
+                            <button
+                                class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                                onclick="toggleSection('section3')">
+                                Penetration Testing
+                                <span class="text-gray-500">+</span>
+                            </button>
+                            <div id="section3" class="mt-2 hidden">
+                                <p class="text-gray-700"> Penetration testing services involve simulating real-world
+                                    cyber attacks to identify
+                                    bottlenecks in digital systems. By conducting an ethical hacking audit, we identify
+                                    security vulnerabilities that can be exploited, strengthening digital defenses and
+                                    enhancing security resilience.</p>
+                            </div>
+                        </div>
+
+                        <div class="border-b py-6">
+                            <button
+                                class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                                onclick="toggleSection('section4')">
+                                Vulnerability Assessment
+                                <span class="text-gray-500">+</span>
+                            </button>
+                            <div id="section4" class="mt-2 hidden">
+                                <p class="text-gray-700">Our teams use scanning tools and manual analysis to
+                                    identify security vulnerabilities in business IT infrastructures. Upon completing
+                                    these checkups, our specialists deliver detailed insights and actionable
+                                    recommendations to reinforce digital defenses.</p>
+                            </div>
+                        </div>
+
+                        <div class="border-t border-b py-6">
+                            <button
+                                class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                                onclick="toggleSection('section1')">
+                                Secure Code Review
+                                <span class="text-gray-500">+</span>
+                            </button>
+                            <div id="section1" class="mt-2 hidden">
+                                <p class="text-gray-700">Our specialists thoroughly examine an application’s source code
+                                    manually or through automation, pinpointing potential security flaws or
+                                    vulnerabilities. We identify and remediate logic errors, check specification
+                                    implementations, and inspect adherence to style guidelines.</p>
+                            </div>
+                        </div>
+
+                        <div class="border-t border-b py-6">
+                            <button
+                                class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                                onclick="toggleSection('section8')">
+                                Compliane Testing
+                                <span class="text-gray-500">+</span>
+                            </button>
+                            <div id="section8" class="mt-2 hidden">
+                                <p class="text-gray-700">We determine if the security measures in the software and IT
+                                    infrastructure conform to industry-critical regulatory standards, such as HIPAA, PCI
+                                    DSS, GLBA, GDPR, and more. This is critical for avoiding legal liabilities and
+                                    building trust with authorities and target audiences.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="colo-2">
+                        <div class="border-b py-6">
+                            <button
+                                class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                                onclick="toggleSection('section5')">
+                                Social Engineering Testing
+                                <span class="text-gray-500">+</span>
+                            </button>
+                            <div id="section5" class="mt-2 hidden">
+                                <p class="text-gray-700">Our security experts replicate cybercriminals’ techniques
+                                    to determine whether businesses can be duped into revealing sensitive information.
+                                    By simulating phishing attacks and other social engineering tactics, we help
+                                    businesses strengthen their awareness.</p>
+                            </div>
+                        </div>
+
+                        <div class="border-b py-6">
+                            <button
+                                class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                                onclick="toggleSection('section6')">
+                                IoT Security Testing
+                                <span class="text-gray-500">+</span>
+                            </button>
+                            <div id="section6" class="mt-2 hidden">
+                                <p class="text-gray-700">Besides rendering top-tier IoT software development services,
+                                    Innowise guarantees sophisticated IoT-driven software is secure and consistent. We
+                                    test back-end logic, wireless connections, exposed ports, etc., alleviating insecure
+                                    device-to-device communication and remediating privacy concerns.</p>
+                            </div>
+                        </div>
+
+                        <div class="border-b py-6">
+                            <button
+                                class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                                onclick="toggleSection('section7')">
+                                Cloud Security Testing
+                                <span class="text-gray-500">+</span>
+                            </button>
+                            <div id="section7" class="mt-2 hidden">
+                                <p class="text-gray-700">In addition to cloud application development services, we
+                                    assess cloud applications and infrastructures for vulnerabilities and loopholes,
+                                    focusing on infrastructure security hardening, access control, and network security
+                                    testing. This is crucial for businesses relying on a cloud environment in their
+                                    business routines.</p>
+                            </div>
+                        </div>
+
+                        <div class="border-t border-b py-6">
+                            <button
+                                class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                                onclick="toggleSection('section8')">
+                                Application Security Testing
+                                <span class="text-gray-500">+</span>
+                            </button>
+                            <div id="section8" class="mt-2 hidden">
+                                <p class="text-gray-700">We identify and mitigate security risks in source code,
+                                    providing top-tier static and dynamic application security testing. Our specialists
+                                    provide application security testing services to ensure digital solutions are
+                                    resilient to potential weaknesses and maintain integrity and reliability.</p>
+                            </div>
+                        </div>
+
+                        <div class="border-t border-b py-6">
+                            <button
+                                class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                                onclick="toggleSection('section9')">
+                                DevSecOps Security Testing
+                                <span class="text-gray-500">+</span>
+                            </button>
+                            <div id="section9" class="mt-2 hidden">
+                                <p class="text-gray-700">By integrating security practices into the DevOps lifecycle,
+                                    Innowise ensures continuous security assessment. On top of DevSecOps consulting, we
+                                    encourage collaboration between engineers, security specialists, and others to build
+                                    efficient and reliable software.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
 
     <div class="hacking-solid-outer bg-cover bg-center flex items-center justify-center"
-        style="background-image: url('https://img.freepik.com/premium-photo/technology-innovation-abstract-background_889227-74645.jpg?uid=R176520851&ga=GA1.1.438080985.1725988205&semt=ais_tags_boosted');">
+        style="background-image: url('https://www.icertglobal.com/images/thesiliconreview-digital-frontier-crucial-role-of-cybersecurity.webp');">
         <div class="hacking-solid text-center">
             <h1 class="digital-h1 text-4xl text-white ">Secure your digital frontier with FinTech</h1>
             <div class="hacking-contact flex justify-center">
@@ -100,50 +203,58 @@
         </div>
     </div>
 
-    <div class="cost-container">
-        <div class="cost">
-            <h1 class="hacking-title text-4xl font-medium">How much do our security testing services cost?</h1>
-            <div class="cost-para">
-                <p class="text-2xl font-medium">Determining the cost of cyber security testing services involves a</p>
-                <p class="text-2xl font-medium">comprehensive, one-to-one approach tailored to meet each client’s</p>
-                <p class="text-2xl font-medium">unique needs. The final cost varies significantly based on multiple</p>
-                <p class="text-2xl font-medium">factors, making each project’s pricing unique. We thoroughly analyze</p>
-            </div>
-        </div>
-        <div class="cost-boxes">
-            <div class="grid grid-cols-3 gap-8">
-                <!-- First Row -->
-                <div class="cost-padder text-2xl font-medium flex items-center space-x-4">
-                    <i class="cost-icon fas fa-coins text-yellow-500"></i>
-                    <span>Solution's complexity</span>
-                </div>
-                <div class="cost-padder text-2xl font-medium flex items-center space-x-4">
-                    <i class="cost-icon fas fa-leaf text-green-500"></i>
-                    <span>Testing scope and depth</span>
-                </div>
-                <div class="cost-padder text-2xl font-medium flex items-center space-x-4">
-                    <i class="cost-icon fas fa-rocket text-blue-500"></i>
-                    <span>The type of testing involved</span>
+    <div class="acordion">
+        <div class="forensic-dropper">
+            <div class=" dropper-container zero-pad">
+                <div class="acord-starter">
+                    <p class="acord-2 corder">Determining the cost of cyber security testing services involves a
+                        comprehensive, one-to-one approach tailored to meet each client’s unique needs. The final cost
+                        varies significantly based on multiple factors, making each project’s pricing unique. We
+                        thoroughly analyze
+                        <hr class="hrr">
+                    </p>
                 </div>
 
-                <!-- Second Row -->
-                <div class="cost-padder text-2xl font-medium flex items-center space-x-4">
-                    <i class="cost-icon fas fa-tools text-gray-500"></i>
-                    <span>The type of testing involved</span>
+                <div class="dropper-expand flex justify-center corder text-center">
+                    <h1 class="text-3xl font-bold mb-6">We Thoroughly Analyze</h1>
                 </div>
-                <div class="cost-padder text-2xl font-medium flex items-center space-x-4">
-                    <i class="cost-icon fas fa-heart text-red-500"></i>
-                    <span>
-                        Specialized expertise</span>
+
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="colo-1 space-y-6">
+                        <div class="cost-padder text-xl font-medium flex items-center space-x-4">
+                            <i class="ri-command-line"></i>
+                            <span>Solution's complexity</span>
+                        </div>
+                        <div class="cost-padder text-xl font-medium flex items-center space-x-4">
+                            <i class="ri-microscope-line"></i>
+                            <span>Testing scope and depth</span>
+                        </div>
+                        <div class="cost-padder text-xl font-medium flex items-center space-x-4">
+                            <i class="ri-menu-search-line"></i>
+                            <span>The type of testing involved</span>
+                        </div>
+
+                    </div>
+
+                    <div class="colo-2 space-y-6">
+                        <div class="cost-padder text-xl font-medium flex items-center space-x-4">
+                            <i class="ri-command-line"></i>
+                            <span>Solution's complexity</span>
+                        </div>
+                        <div class="cost-padder text-xl font-medium flex items-center space-x-4">
+                            <i class="ri-microscope-line"></i>
+                            <span>Testing scope and depth</span>
+                        </div>
+                        <div class="cost-padder text-xl font-medium flex items-center space-x-4">
+                            <i class="ri-menu-search-line"></i>
+                            <span>The type of testing involved</span>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="cost-padder text-2xl font-medium flex items-center space-x-4">
-                    <i class="cost-icon fas fa-globe text-purple-500"></i>
-                    <span>
-                        Post-testing support</span>
-                </div>
+
             </div>
         </div>
-
     </div>
 
     <div class="bg-gray-900 quotation-back mx-auto flex justify-around mt-6">
@@ -160,6 +271,46 @@
         <img src="/images/image.png" alt="Description of the image" class="mx-auto mt-4">
     </div>
 
+    <div class="benef-container">
+        <div class="benef">
+            <div class="cost">
+                <h1 class="hacking-title text-3xl font-bold text-center">Benefits of security testing for business</h1>
+            </div>
+            <div class="cost-boxes cost-boxex">
+                <div class="grid grid-cols-2 gap-8">
+                    <!-- First Row -->
+                    <div class="cost-padder text-xl font-medium flex items-center space-x-4">
+                        <i class="ri-shield-check-fill"></i>
+                        <span class="font-semibold">Enhanced Data Protection</span>
+                    </div>
+                    <div class="cost-padder text-xl font-medium flex items-center space-x-4">
+                        <i class="ri-discount-percent-fill"></i>
+                        <span class="font-semibold">Cost Reduction</span>
+                    </div>
+                    <div class="cost-padder text-xl font-medium flex items-center space-x-4">
+                        <i class="ri-emotion-happy-fill"></i>
+                        <span class="font-semibold">Improved Customer Confidence</span>
+                    </div>
+
+                    <!-- Second Row -->
+                    <div class="cost-padder text-xl font-medium flex items-center space-x-4">
+                        <i class="ri-award-fill"></i>
+                        <span class=" font-semibold">Compliance with Regulations</span>
+                    </div>
+                    <div class="cost-padder text-xl font-medium flex items-center space-x-4">
+                        <i class="ri-creative-commons-sa-fill"></i>
+                        <span class="font-semibold">Business Continuity</span>
+                    </div>
+                    <div class="cost-padder text-xl font-medium flex items-center space-x-4">
+                        <i class="ri-medal-fill"></i>
+                        <span class="font-semibold">Competitive Advantage</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
     <!-- This section will be outside of the .back div on small screens -->
     <div class="w-2/3 pl-8 sm:flex flex-col justify-center lg:hidden">
         <p class=" text-gray-900 text-lg mb-4 pt-4 items-center"> At Innowise, we’re all about building fintech software
@@ -172,96 +323,6 @@
         <p class=" text-gray-800">FinTech Expert at Innowise</p>
     </div>
 
-    <div class="hacking-container">
-        <h1 class="hacking-title text-4xl font-medium">Benefits of security testing for business</h1>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <div class="sub">
-                <i class="text-gray-800 mb-6 ri-cpu-line h-16 w-16"></i>
-                <h2 class="text-2xl text-gray-900 font-bold mb-6">Machine Learning</h2>
-                <p class="para text-sm leading-relaxed text-gray-700">
-                    We build ML-powered applications that support a huge variety of financial software use cases with
-                    predictive analytics, algorithmic trading, process automation, and more.
-                </p>
-            </div>
-
-            <div class="sub">
-                <i class="text-gray-800 mb-6 ri-global-line h-16 w-16"></i>
-                <h2 class="text-2xl text-gray-900 font-bold mb-6">IoT in finance</h2>
-                <p class="para text-sm leading-relaxed text-gray-700">
-                    With IoT, our Fintech developers launch innovative solutions that exceed clients’ expectations and
-                    offer advanced options to tackle everyday needs.
-                </p>
-            </div>
-            <div class="sub">
-                <i class="text-gray-800 mb-6 ri-money-dollar-circle-line h-16 w-16"></i>
-                <h2 class="text-2xl text-gray-900 font-bold mb-6">Cryptocurrency solutions</h2>
-                <p class="para text-sm leading-relaxed text-gray-700">
-                    Our experts roll out sophisticated and efficient apps that make it easy and secure for users to
-                    purchase, trade, and store cryptocurrencies.
-                </p>
-            </div>
-            <div class="sub">
-                <i class="text-gray-800 mb-6 ri-database-2-line h-16 w-16"></i>
-                <h2 class="text-2xl text-gray-900 font-bold mb-6">Big data in finance</h2>
-                <p class="para text-sm leading-relaxed text-gray-700">
-                    In BFSI, big data is key for refining anti-fraud detection along with other activities. With big
-                    data development services, you can turn raw info into actionable insights to protect your business.
-                </p>
-            </div>
-            <div class="sub">
-                <i class="text-gray-800 mb-6 ri-links-line h-16 w-16"></i>
-                <h2 class="text-2xl text-gray-900 font-bold mb-6">FinTech blockchain</h2>
-                <p class="para text-sm leading-relaxed text-gray-700">
-                    Innowise creates custom blockchain solutions to reinforce data security, automate transaction
-                    processes, and optimize operational efficiency for FinTech ecosystems.
-                </p>
-            </div>
-            <div class="sub">
-                <i class="text-gray-800 mb-6 ri-cloud-line h-16 w-16"></i>
-                <h2 class="text-2xl text-gray-900 font-bold mb-6">Cloud Solutions</h2>
-                <p class="para text-sm leading-relaxed text-gray-700">
-                    We develop cloud-native FinTech applications and help transfer on-premise software to the cloud to
-                    achieve better flexibility, security, and cost-effectiveness.
-                </p>
-            </div>
-            <div class="sub">
-                <i class="text-gray-800 mb-6 ri-settings-3-line h-16 w-16"></i>
-                <h2 class="text-2xl text-gray-900 font-bold mb-6">Devops For FinTech</h2>
-                <p class="para text-sm leading-relaxed text-gray-700">
-                    We at Innowise ensure development and operation teams work side by side, aiming to reach fast
-                    product delivery and keep up with the latest FinTech industry trends.
-                </p>
-            </div>
-            <div class="sub">
-                <i class="text-gray-800 mb-6 ri-brain-line h-16 w-16"></i>
-                <h2 class="text-2xl text-gray-900 font-bold mb-6">AI financial services</h2>
-                <p class="para text-sm leading-relaxed text-gray-700">
-                    Innowise masters AI-based financial software to improve operational performance with fraud detection
-                    systems, smart chatbots, and risk management solutions.
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="video-container mx-auto p-6 flex flex-col md:flex-row items-center gap-6">
-        <!-- Video Section -->
-        <div class="video-itself md:w-1/3">
-            <video controls class="w-full">
-                <source src="your-video-source.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-
-        <!-- Text Section -->
-        <div class="w-full md:w-2/3 flex flex-col items-start gap-4">
-            <h2 class="text-2xl font-bold text-gray-800 pb-6">Struggling with security flaws?</h2>
-            <p class="text-gray-600 text-lg pb-6">Identify and fix security loopholes with our specialized<br>testing
-                techniques.</p>
-            <button class="secure-button text-white transition">Secure now</button>
-        </div>
-    </div>
-    
-
     <div class="stellar-swiper-container">
         <h1 class="cosmic-title text-4xl font-medium">Hire security testers from Innowise</h1>
         <div class="cosmic-swiper-video">
@@ -270,22 +331,25 @@
                 <div class="galaxy-slide galaxy-video swiper-slide">
                     <div class="hire-card cadder overflow-hidden">
                         <div class="hire-name flex justify-between">
-                            <h1 class="name text-4xl">Jacob A</h1>
-                            <h1 class="nam-1 font-bold text-4xl">QA</h1>
+                            <h1 class="name text-4xl">Eric A</h1>
+                            <h1 class="nam-1 font-bold text-4xl">PT</h1>
                         </div>
                         <div class="hire-details">
-                            <p>Senior QA Engineer</p>
-                            <p class="mb-5">5+ years experience</p>
-                            <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quasi, qui hic nemo nobis nulla similique neque voluptate, iusto libero, omnis sunt eos illo modi.</p>
+                            <p>Senior PT Engineer</p>
+                            <p class="mb-5">8+ years experience</p>
+                            <p class="mb-3">Eric Assem is a skilled penetration tester with 8+ years of experience
+                                helping clients secure their systems against emerging threats.
+                            </p>
                         </div>
                         <!-- Links below the title -->
                         <div class=" cadder-buttons">
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">FinTech</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">Java</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Kotlin</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Mobile</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">React</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Swift</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">SQL</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">API</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Cloud Architecture</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">OWASP ZAPP</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Cryptography</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Metasploit</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">10+</a>
                         </div>
 
                         <div class="hire-button mt-5 mb-5">
@@ -295,26 +359,29 @@
                     </div>
                 </div>
 
-                <!-- card 1 -->
+                <!-- card 2 -->
                 <div class="galaxy-slide swiper-slide">
                     <div class="hire-card cadder overflow-hidden">
                         <div class="hire-name flex justify-between">
-                            <h1 class="name text-4xl">Jacob A</h1>
+                            <h1 class="name text-4xl">Francis A</h1>
                             <h1 class="nam-1 font-bold text-4xl">QA</h1>
                         </div>
                         <div class="hire-details">
                             <p>Senior QA Engineer</p>
                             <p class="mb-5">5+ years experience</p>
-                            <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quasi, qui hic nemo nobis nulla similique neque voluptate, iusto libero, omnis sunt eos illo modi.</p>
+                            <p class="mb-3">Francis A is a skilled QA engineer with 5+ years of experience improving
+                                software quality and ensuring smooth user experiences for various clients.
+                            </p>
                         </div>
                         <!-- Links below the title -->
                         <div class=" cadder-buttons">
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">FinTech</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">Java</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Kotlin</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Mobile</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">React</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Swift</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">Chrome Dev Tools</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">Gira</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Postman</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Swagger</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">TestRail</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">SoapUI</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">2+</a>
                         </div>
 
                         <div class="hire-button mt-5 mb-5">
@@ -323,26 +390,30 @@
                     </div>
                 </div>
 
-                <!-- card 1 -->
+                <!-- card 3 -->
                 <div class="galaxy-slide swiper-slide">
                     <div class="hire-card cadder overflow-hidden">
                         <div class="hire-name flex justify-between">
-                            <h1 class="name text-4xl">Jacob A</h1>
+                            <h1 class="name text-4xl">Christian N</h1>
                             <h1 class="nam-1 font-bold text-4xl">QA</h1>
                         </div>
                         <div class="hire-details">
-                            <p>Senior QA Engineer</p>
-                            <p class="mb-5">5+ years experience</p>
-                            <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quasi, qui hic nemo nobis nulla similique neque voluptate, iusto libero, omnis sunt eos illo modi.</p>
+                            <p>Senior CS Engineer</p>
+                            <p class="mb-5">3+ years experience</p>
+                            <p class="mb-3">
+                                Christian N is a Cloud Security engineer with 3+ years of experience securing cloud
+                                infrastructures and protecting data for various clients.
+                            </p>
                         </div>
                         <!-- Links below the title -->
                         <div class=" cadder-buttons">
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">FinTech</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">Java</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Kotlin</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Mobile</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">React</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Swift</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">API</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">Azure Data Studio</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Azure DevOps</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Charles Prox</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Cypress</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Github</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">5+</a>
                         </div>
 
                         <div class="hire-button mt-5 mb-5">
@@ -351,26 +422,29 @@
                     </div>
                 </div>
 
-                <!-- card 1 -->
+                <!-- card 4 -->
                 <div class="galaxy-slide swiper-slide">
                     <div class="hire-card cadder overflow-hidden">
                         <div class="hire-name flex justify-between">
-                            <h1 class="name text-4xl">Jacob A</h1>
+                            <h1 class="name text-4xl">Francis A</h1>
                             <h1 class="nam-1 font-bold text-4xl">QA</h1>
                         </div>
                         <div class="hire-details">
                             <p>Senior QA Engineer</p>
                             <p class="mb-5">5+ years experience</p>
-                            <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quasi, qui hic nemo nobis nulla similique neque voluptate, iusto libero, omnis sunt eos illo modi.</p>
+                            <p class="mb-3">Francis A is a skilled QA engineer with 5+ years of experience improving
+                                software quality and ensuring smooth user experiences for various clients.
+                            </p>
                         </div>
                         <!-- Links below the title -->
                         <div class=" cadder-buttons">
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">FinTech</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">Java</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Kotlin</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Mobile</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">React</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Swift</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">Chrome Dev Tools</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">Gira</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Postman</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Swagger</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">TestRail</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">SoapUI</a>
+                            <a href="#" class="inline-block py-1 px-2 digital-buttons">2+</a>
                         </div>
 
                         <div class="hire-button mt-5 mb-5">
@@ -379,150 +453,58 @@
                     </div>
                 </div>
 
-                <!-- card 1 -->
-                <div class="galaxy-slide swiper-slide">
-                    <div class="hire-card cadder overflow-hidden">
-                        <div class="hire-name flex justify-between">
-                            <h1 class="name text-4xl">Jacob A</h1>
-                            <h1 class="nam-1 font-bold text-4xl">QA</h1>
-                        </div>
-                        <div class="hire-details">
-                            <p>Senior QA Engineer</p>
-                            <p class="mb-5">5+ years experience</p>
-                            <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quasi, qui hic nemo nobis nulla similique neque voluptate, iusto libero, omnis sunt eos illo modi.</p>
-                        </div>
-                        <!-- Links below the title -->
-                        <div class=" cadder-buttons">
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">FinTech</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">Java</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Kotlin</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Mobile</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">React</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Swift</a>
-                        </div>
 
-                        <div class="hire-button mt-5 mb-5">
-                            <button class="secure-button text-white transition">Request full CV</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- card 1 -->
-                <div class="galaxy-slide swiper-slide">
-                    <div class="hire-card cadder overflow-hidden">
-                        <div class="hire-name flex justify-between">
-                            <h1 class="name text-4xl">Jacob A</h1>
-                            <h1 class="nam-1 font-bold text-4xl">QA</h1>
-                        </div>
-                        <div class="hire-details">
-                            <p>Senior QA Engineer</p>
-                            <p class="mb-5">5+ years experience</p>
-                            <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quasi, qui hic nemo nobis nulla similique neque voluptate, iusto libero, omnis sunt eos illo modi.</p>
-                        </div>
-                        <!-- Links below the title -->
-                        <div class=" cadder-buttons">
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">FinTech</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">Java</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Kotlin</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Mobile</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">React</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Swift</a>
-                        </div>
-
-                        <div class="hire-button mt-5 mb-5">
-                            <button class="secure-button text-white transition">Request full CV</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- card 1 -->
-                <div class="galaxy-slide swiper-slide">
-                    <div class="hire-card cadder overflow-hidden">
-                        <div class="hire-name flex justify-between">
-                            <h1 class="name text-4xl">Jacob A</h1>
-                            <h1 class="nam-1 font-bold text-4xl">QA</h1>
-                        </div>
-                        <div class="hire-details">
-                            <p>Senior QA Engineer</p>
-                            <p class="mb-5">5+ years experience</p>
-                            <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quasi, qui hic nemo nobis nulla similique neque voluptate, iusto libero, omnis sunt eos illo modi.</p>
-                        </div>
-                        <!-- Links below the title -->
-                        <div class=" cadder-buttons">
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">FinTech</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons ">Java</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Kotlin</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Mobile</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">React</a>
-                            <a href="#" class="inline-block py-1 px-2 digital-buttons">Swift</a>
-                        </div>
-
-                        <div class="hire-button mt-5 mb-5">
-                            <button class="secure-button text-white transition">Request full CV</button>
-                        </div>
-                    </div>
-                </div>
             </div>
-            <!-- Swiper Pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- Swiper Navigation -->
-            <!-- <div class="stellar-button-prev swiper-button-prev"></div>
-            <div class="stellar-button-next swiper-button-next"></div> -->
+            <!-- <div class="swiper-pagination"></div> -->
         </div>
     </div>
 
+
     <div class="bg-gray-900 industry-container">
         <div class="max-w-7xl mx-auto px-6 py-16">
-            <h1 class="text-4xl font-bold mb-8">Security testing services for industries</h1>
-            <p class="text-lg leading-relaxed mb-8">
-                With over 40 business domains covered, Innowise, as a recognized security testing services company, can efficiently fill the knowledge gap, offering unparalleled security testing services in fintech, healthcare, eCommerce, manufacturing, and many others. From ambitious startups to established SMEs, our security experts align services precisely with client requirements, ensuring a solid safety posture.
-            </p>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <ul class="space-y-4">
-                    <li class="flex items-center">
-                        <span class="w-2 h-2 bg-red-500 rounded-full mr-3"></span>
-                        Information technologies
-                    </li>
-                    <li class="flex items-center">
-                        <span class="w-2 h-2 bg-red-500 rounded-full mr-3"></span>
-                        Fintech
-                    </li>
-                    <li class="flex items-center">
-                        <span class="w-2 h-2 bg-red-500 rounded-full mr-3"></span>
-                        Telecommunications
-                    </li>
-                </ul>
-                <ul class="space-y-4">
-                    <li class="flex items-center">
-                        <span class="w-2 h-2 bg-red-500 rounded-full mr-3"></span>
-                        Retail
-                    </li>
-                    <li class="flex items-center">
-                        <span class="w-2 h-2 bg-red-500 rounded-full mr-3"></span>
-                        Travel and hospitality
-                    </li>
-                    <li class="flex items-center">
-                        <span class="w-2 h-2 bg-red-500 rounded-full mr-3"></span>
-                        Education
-                    </li>
-                </ul>
-                <ul class="space-y-4">
-                    <li class="flex items-center">
-                        <span class="w-2 h-2 bg-red-500 rounded-full mr-3"></span>
-                        Social media
-                    </li>
-                    <li class="flex items-center">
-                        <span class="w-2 h-2 bg-red-500 rounded-full mr-3"></span>
-                        eCommerce
-                    </li>
-                    <li class="flex items-center">
-                        <span class="w-2 h-2 bg-red-500 rounded-full mr-3"></span>
-                        Real estate
-                    </li>
-                </ul>
+            <h1 class="text-4xl font-bold mb-8 text-center">Industries we Serve</h1>
+            <div class="grid grid-cols-2 gap-8">
+                <!-- First Row -->
+                <div class="cost-padder cost-whiter text-xl font-medium flex items-center space-x-4">
+                    <i class="ri-shield-check-fill"></i>
+                    <span class="font-semibold">FinTech</span>
+                </div>
+                <div class="cost-padder cost-whiter text-xl font-medium flex items-center space-x-4">
+                    <i class="ri-discount-percent-fill"></i>
+                    <span class="font-semibold">Real Estate</span>
+                </div>
+                <div class="cost-padder cost-whiter text-xl font-medium flex items-center space-x-4">
+                    <i class="ri-emotion-happy-fill"></i>
+                    <span class="font-semibold">Telecommunication</span>
+                </div>
+
+                <!-- Second Row -->
+                <div class="cost-padder cost-whiter text-xl font-medium flex items-center space-x-4">
+                    <i class="ri-award-fill"></i>
+                    <span class=" font-semibold">Retail and Ecommerce</span>
+                </div>
+                <div class="cost-padder cost-whiter text-xl font-medium flex items-center space-x-4">
+                    <i class="ri-creative-commons-sa-fill"></i>
+                    <span class="font-semibold">Information Technology</span>
+                </div>
+                <div class="cost-padder cost-whiter text-xl font-medium flex items-center space-x-4">
+                    <i class="ri-medal-fill"></i>
+                    <span class="font-semibold">Education and Healthcare/span>
+                </div>
             </div>
+        </div>
+    </div>
+
+    <div class="struggle">
+        <h2 class="text-3xl font-bold text-gray-800 pb-6 text-center"><span>Struggling with security
+                flaws?</span></h2>
+        <p class="text-gray-600 flex justify-center text-lg pb-6">Identify and fix security loopholes with our
+            specialized testing techniques.</p>
+        <div class="bot flex justify-center">
+            <button class="secure-button text-white transition">Secure now</button>
         </div>
     </div>
 
 
     <script src="/javascripts/hacking.js"></script>
+    <script src="/javascripts/account.js"></script>
