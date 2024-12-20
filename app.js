@@ -92,6 +92,11 @@ app.get('/gcr', (req, res) =>{
     res.render('pages/gcr')
 })
 
+app.get('/crypto', (req, res) =>{
+    res.render('pages/crypto')
+})
+
+
 
 
 

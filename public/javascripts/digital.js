@@ -64,21 +64,17 @@ const content = {
 // Add event listeners to the links
 document.querySelectorAll('.left-column a').forEach(link => {
     link.addEventListener('click', (event) => {
-        event.preventDefault(); // Prevent default link behavior
+        event.preventDefault();
 
-        // Remove active class from all links
         document.querySelectorAll('.left-column a').forEach(item => {
             item.classList.remove('active');
         });
 
-        // Add active class to the clicked link
         event.target.classList.add('active');
 
-        // Get the associated section
         const section = event.target.getAttribute('data-section');
         const contentArea = document.getElementById('content');
 
-        // Update content dynamically
         contentArea.innerHTML = `
         <div class="sectar section-content">
             <h2 class="content-title font-bold text-2xl">${content[section].title}</h2>
@@ -86,6 +82,23 @@ document.querySelectorAll('.left-column a').forEach(link => {
             <img src="${content[section].image}" alt="${content[section].title}" class="section-image mt-4">
         </div>
         `;
+    });
+});
+
+// table content smaller screen responsiveness handler
+document.querySelectorAll('.accordion-title-unique').forEach(title => {
+    title.addEventListener('click', () => {
+        const content = title.nextElementSibling;
+
+        // Toggle visibility of the content
+        content.classList.toggle('active');
+
+        // Optionally close other sections if required
+        document.querySelectorAll('.accordion-content-unique').forEach(section => {
+            if (section !== content) {
+                section.classList.remove('active');
+            }
+        });
     });
 });
 

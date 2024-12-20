@@ -2,10 +2,22 @@
     border-bottom: 5px solid #fff;
 }
 
+/* .locomote{
+    margin-top: -70px;
+} */
+
 .gena-container{
     padding-top: 130px;
-    background-color: #2F2F2F;
+    background-color: #00072d;
     padding-bottom: 150px;
+    height: 680px;
+}
+.gena-cont-2{
+    background-color: #FFF;
+}
+
+.gena-cont-2 .gena-title, .border-b-bo p{
+    color: #333;
 }
 
 .gena-title{
@@ -13,12 +25,21 @@
     padding-top: 40px;
     padding-bottom: 50px;
     margin-left: 150px;
+    margin-top: -70px;
+}
+
+.gemi-image{
+    width: 800px !important;
 }
 
 .greggo{
     margin-left: 150px !important;
     margin-right: 150px !important;
 }
+
+/* .greggo-2{
+    margin-right: 230px !important;
+} */
 
 .gena-container .border-b-bo{
     border: 1px solid #999;
@@ -32,8 +53,30 @@
 
 .gena-container .gena-image{
     height: 390px;
+    width: 800px !important;
 }
 
 .border-b-bo p{
     color: #fff !important;
+}
+
+.gena-cont-2 .border-b-bo p{
+    color: #333 !important;
+}
+
+.visitor{
+    color: #fff;
+    background-color: #00072d;
+    padding: 12px;
+    padding-left: 40px;
+    border-radius: 5px;
+    padding-right: 40px;
+}
+
+.visitor:hover{
+    background-color: #222e50;
+}
+
+.visitor-hour{
+    margin-top: 60px;
 }
