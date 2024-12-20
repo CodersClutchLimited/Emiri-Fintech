@@ -5,16 +5,19 @@
 .gena-container{
     padding-top: 130px;
     background-color: #2F2F2F;
+    padding-bottom: 150px;
 }
 
 .gena-title{
     color: #fff;
     padding-top: 40px;
     padding-bottom: 50px;
+    margin-left: 150px;
 }
 
 .greggo{
-    width: 80%;
+    margin-left: 150px !important;
+    margin-right: 150px !important;
 }
 
 .gena-container .border-b-bo{
@@ -28,5 +31,9 @@
 }
 
 .gena-container .gena-image{
-    height: 389px;
+    height: 390px;
+}
+
+.border-b-bo p{
+    color: #fff !important;
 }
