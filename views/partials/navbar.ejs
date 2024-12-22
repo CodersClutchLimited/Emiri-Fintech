@@ -1,662 +1,876 @@
-<nav
-    class="outer-flex-container dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
-    <div class="flex-container flex flex-wrap items-center justify-between px-2">
-        <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="/images/whitemiri.png" class="h-8" alt="Flowbite Logo">
-        </a>
-
-        <div class="flex lg:order-2 space-x-3 lg:space-x-0 rtl:space-x-reverse book-spacer">
-            <button type="button"
-                class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 booking-box"><a
-                    href="/contact"> <i class="ri-mail-line text-xl"></i>
-                </a></i>
-            </button>
-            <button type="button"
-                class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 booking-box">BOOK
-                A MEETING</button>
-            <!-- Updated toggle button -->
-            <button data-collapse-toggle="navbar-sticky" type="button"
-                class="inline-flex items-center w-10 h-10 justify-center text-sm text-white rounded-lg lg:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                aria-controls="navbar-sticky" aria-expanded="false">
-                <span class="sr-only">Open main menu</span>
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                    viewBox="0 0 17 14">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M1 1h15M1 7h15M1 13h15" />
-                </svg>
-            </button>
-        </div>
-        <!-- Updated navbar-sticky div -->
-        <div class="nav-items items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1"
-            id="navbar-sticky">
-            <ul
-                class="nav-items flex flex-col p-4 lg:p-0 mt-4 font-normal border border-gray-100 rounded-lg lg:space-x-4 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700">
-                <li class="menu-item">
-                    <a href="#"
-                        class="naver block py-2 px-3 nav-text rounded lg:hover:bg-transparent lg:p-0 lg:dark:hover:bg-transparent">COMPANY</a>
-                    <div class="mega-menu">
-                        <div class="menu-column">
-                            <h4 class="font-medium">Development</h4>
-                            <ul>
-                                <li><a class="nav-text" href="/about">About Us</a></li>
-                                <li><a class="nav-text" href="/board">Board of Directors</a></li>
-                                <li><a class="nav-text" href="/board">Security & Privacy</a></li>
-                            </ul>
-                        </div>
-                        <div class="menu-column menu-column-2">
-                            <h4 class="font-medium">Marketing</h4>
-                            <ul>
-                                <li><a class="nav-text" href="#">Ecosystems</a></li>
-                                <li><a class="nav-text" href="/careers">Careers</a></li>
-                                <li><a class="nav-text" href="#">CSR</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="menu-item">
-                    <a href="#"
-                        class="naver block py-2 px-3 nav-text rounded lg:hover:bg-transparent lg:p-0 lg:dark:hover:bg-transparent">DIGITAL
-                        ASSETS</a>
-                    <div class="mega-menu mega-menu-width-3">
-                        <div class="menu-column">
-                            <div class="grid grid-cols-3 gap-2">
-                                <!-- Grid Box 1 -->
-                                <div
-                                    class="bg-white mt-4 p-6 border-l-2 h-80 dashed-border flex flex-col justify-between">
-                                    <div class="inner-div">
-                                        <!-- Icon Box -->
-                                        <div class="flex justify-start mb-3">
-                                            <div class="custom-circle text-xl text-pink-400">
-                                                <i class="ri-money-dollar-circle-line"></i>
-                                            </div>
-                                        </div>
-                                        <!-- Title and Paragraph -->
-                                        <h3
-                                            class=" texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                            Cryptocurrencies</h3>
-                                        <p class="para-1  text-left">
-                                            Feature one offers a practical solution designed to enhance efficiency and
-                                            ease of
-                                            use. <span class="read_more read-digital" onclick="window.location.href='/crypto'">read more</span></p>
-                                        <div class="mt-10">
-                                            <a href="#"
-                                                class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                Find Out More <i class="ri-arrow-right-s-line"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <!-- Grid Box 2 -->
-                                <div
-                                    class="bg-white p-6 mt-4 border-l-2 dashed-border h-80 flex flex-col justify-between">
-                                    <div class="inner-div">
-                                        <!-- Icon Box -->
-                                        <div class="flex justify-start mb-3">
-                                            <div class="custom-circle text-xl text-pink-400">
-                                                <i class="ri-stack-line"></i>
-                                            </div>
-                                        </div>
-                                        <!-- Title and Paragraph -->
-                                        <h3 style="white-space: nowrap;"
-                                            class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                            Tokenized
-                                            assets</h3>
-                                        <p class="para-1 text-left">
-                                            Feature two offers a practical solution designed to enhance efficiency and
-                                            ease of
-                                            use.
-                                        </p>
-
-
-                                        <div class="mt-10">
-                                            <a href="#"
-                                                class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                Find Out More <i class="ri-arrow-right-s-line"></i>
-                                            </a>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-
-
-                                <!-- Grid Box 3 -->
-                                <div
-                                    class="bg-white mt-4 p-6 border-l-2 dashed-border h-80 flex flex-col justify-between">
-                                    <div class="inner-div">
-                                        <!-- Icon Box -->
-                                        <div class="flex justify-start mb-3">
-                                            <div class="custom-circle text-xl text-pink-400">
-                                                <i class="ri-bank-line"></i>
-                                            </div>
-                                        </div>
-                                        <!-- Title and Paragraph -->
-                                        <h3 style="white-space: nowrap;"
-                                            class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                            Digital
-                                            currencies</h3>
-                                        <p class="para-1 text-left">
-                                            Feature three offers a practical solution designed to enhance efficiency and
-                                            ease of
-                                            use.
-                                        </p>
-                                        <div class="mt-10">
-                                            <a href="#"
-                                                class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                Find Out More <i class="ri-arrow-right-s-line"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="menu-item">
-                    <a href="/digital-banking"
-                        class="naver block py-2 px-3 nav-text rounded lg:hover:bg-transparent lg:p-0 lg:dark:hover:bg-transparent">FINTECH
-                        SOFTWARES</a>
-                    <div class="mega-menu mega-menu-width-2">
-                        <div class="grid">
-                            <div class="menu-column">
-                                <div class="grid grid-cols-3 gap-2">
-                                    <!-- Grid Box 1 -->
-                                    <div
-                                        class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
-                                        <div class="inner-div">
-                                            <!-- Icon Box -->
-                                            <div class="flex justify-start mb-3">
-                                                <div class="custom-circle text-xl text-pink-400">
-                                                    <i class="ri-money-dollar-box-line"></i>
-                                                </div>
-                                            </div>
-                                            <!-- Title and Paragraph -->
-                                            <h3
-                                                class=" texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                                Digital Banking</h3>
-                                            <p class="para- 1 text-left">
-                                                With about half a decade of proven experience in financial software development, we <span class="read_more read-digital" onclick="window.location.href='/digital2'">read more</span>
-                                            </p>
-                                            <div class="mt-10">
-                                                <a href="#"
-                                                    class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                    Find Out More <i class="ri-arrow-right-s-line"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <!-- Grid Box 2 -->
-                                    <div
-                                        class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
-                                        <div class="inner-div">
-                                            <!-- Icon Box -->
-                                            <div class="flex justify-start mb-3">
-                                                <div class="custom-circle text-xl text-pink-400">
-                                                    <i class="ri-exchange-funds-line"></i>
-                                                </div>
-                                            </div>
-                                            <!-- Title and Paragraph -->
-                                            <h3 style="white-space: nowrap;"
-                                                class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                                Lending Software</h3>
-                                            <p class="para-1 text-left">
-                                                To ensure well-informed loan decision-making and reduce the time and costs of loan delivery <span class="read_more read-digital" onclick="window.location.href='/lending'">read more</span>
-                                            </p>
-
-
-                                            <div class="mt-10">
-                                                <a href="#"
-                                                    class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                    Find Out More <i class="ri-arrow-right-s-line"></i>
-                                                </a>
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-
-
-                                    <!-- Grid Box 3 -->
-                                    <div
-                                        class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
-                                        <div class="inner-div">
-                                            <!-- Icon Box -->
-                                            <div class="flex justify-start mb-3">
-                                                <div class="custom-circle text-xl text-pink-400">
-                                                    <i class="ri-qr-code-line"></i>
-                                                </div>
-                                            </div>
-                                            <!-- Title and Paragraph -->
-                                            <h3 style="white-space: nowrap;"
-                                                class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                                Online Payment</h3>
-                                            <p class="para-1 text-left">
-                                                At Emiri Fintech Solutions we help our clients conduct business 24/7 by accepting secure and <span class="read_more read-digital" onclick="window.location.href='/online-payment'">read more</span>
-                                            </p>
-                                            <div class="mt-10">
-                                                <a href="#"
-                                                    class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                    Find Out More <i class="ri-arrow-right-s-line"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu-column">
-                                <div class="grid grid-cols-3 gap-2">
-                                    <!-- Grid Box 1 -->
-                                    <div
-                                        class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
-                                        <div class="inner-div">
-                                            <!-- Icon Box -->
-                                            <div class="flex justify-start mb-3">
-                                                <div class="custom-circle text-xl text-pink-400">
-                                                    <i class="ri-shield-check-line"></i>
-                                                </div>
-                                            </div>
-                                            <!-- Title and Paragraph -->
-                                            <h3
-                                                class=" texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                                Insurance Technology</h3>
-                                            <p class="para-1  text-left">
-                                                Skilled in developing solutions at the junction of cutting-edge technologies and finance, Emiri Fintech <span class="read_more read-digital" onclick="window.location.href='/insutech'">read more</span>
-                                            </p>
-                                            <div class="mt-10">
-                                                <a href="#"
-                                                    class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                    Find Out More <i class="ri-arrow-right-s-line"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <!-- Grid Box 2 -->
-                                    <div
-                                        class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
-                                        <div class="inner-div">
-                                            <!-- Icon Box -->
-                                            <div class="flex justify-start mb-3">
-                                                <div class="custom-circle text-xl text-pink-400">
-                                                    <i class="ri-bar-chart-line"></i>
-                                                </div>
-                                            </div>
-                                            <!-- Title and Paragraph -->
-                                            <h3 style="white-space: nowrap;"
-                                                class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                                Investment Management</h3>
-                                            <p class="para-1 text-left">
-                                                Ranging from financial institutions, real estate firms, investment advisors, or individuals,
-                                                <span class="read_more read-digital" onclick="window.location.href='/investment'">read more</span>
-                                            </p>
-
-
-                                            <div class="mt-10">
-                                                <a href="#"
-                                                    class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                    Find Out More <i class="ri-arrow-right-s-line"></i>
-                                                </a>
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-
-
-                                    <!-- Grid Box 3 -->
-                                    <div
-                                        class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
-                                        <div class="inner-div">
-                                            <!-- Icon Box -->
-                                            <div class="flex justify-start mb-3">
-                                                <div class="custom-circle text-xl text-pink-400">
-                                                    <i class="ri-user-5-line"></i>
-                                                </div>
-                                            </div>
-                                            <!-- Title and Paragraph -->
-                                            <h3 style="white-space: nowrap;"
-                                                class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                                Personal Finance Management</h3>
-                                            <p class="para-1 text-left">
-                                                Large technology firms have set new and higher bars for customer experience. Here, at Emiri <span class="read_more read-digital" onclick="window.location.href='/personal-finance'">read more</span>
-                                            </p>
-                                            <div class="mt-10">
-                                                <a href="#"
-                                                    class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                    Find Out More <i class="ri-arrow-right-s-line"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="menu-item">
-                    <a href="#"
-                        class="naver block py-2 px-3 nav-text rounded lg:hover:bg-transparent lg:p-0 lg:dark:hover:bg-transparent">IT
-                        & SECURITY</a>
-                    <div class="mega-menu mega-menu-width-1">
-                        <div class="grid">
-                            <div class="menu-column">
-                                <div class="grid grid-cols-3 gap-2">
-                                    <!-- Grid Box 1 -->
-                                    <div
-                                        class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
-                                        <div class="inner-div">
-                                            <!-- Icon Box -->
-                                            <div class="flex justify-start mb-3">
-                                                <div class="custom-circle text-xl text-pink-400">
-                                                    <i class="ri-brain-line"></i>
-                                                </div>
-                                            </div>
-                                            <!-- Title and Paragraph -->
-                                            <h3
-                                                class=" texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                                AI & ML</h3>
-                                            <p class="para-1  text-left">
-                                                Supercharge your business outcomes with our end-to-end data science,
-                                                artificial <span class="read_more" onclick="window.location.href='/ai'">read more ></span>
-                                            </p>
-                                            <div class="mt-10">
-                                                <a href="#"
-                                                    class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                    Find Out More <i class="ri-arrow-right-s-line"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <!-- Grid Box 2 -->
-                                    <div
-                                        class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
-                                        <div class="inner-div">
-                                            <!-- Icon Box -->
-                                            <div class="flex justify-start mb-3">
-                                                <div class="custom-circle text-xl text-pink-400">
-                                                    <i class="ri-cloud-line"></i>
-                                                </div>
-                                            </div>
-                                            <!-- Title and Paragraph -->
-                                            <h3 style="white-space: nowrap;"
-                                                class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                                Cloud Computing</h3>
-                                            <p class="para-1 text-left">
-                                                We provide modern cutting-edge IT Infrastructure Solutions and Cloud
-                                                Services for your <span class="read_more" onclick="window.location.href='/cloud'">read more ></span>
-                                            </p>
-
-
-                                            <div class="mt-10">
-                                                <a href="#"
-                                                    class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                    Find Out More <i class="ri-arrow-right-s-line"></i>
-                                                </a>
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-
-
-                                    <!-- Grid Box 3 -->
-                                    <div
-                                        class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
-                                        <div class="inner-div">
-                                            <!-- Icon Box -->
-                                            <div class="flex justify-start mb-3">
-                                                <div class="custom-circle text-xl text-pink-400">
-                                                    <i class="ri-search-eye-line"></i>
-                                                </div>
-                                            </div>
-                                            <!-- Title and Paragraph -->
-                                            <h3 style="white-space: nowrap;"
-                                                class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                                GCR & Anti Fraud</h3>
-                                            <p class="para-1 text-left">
-                                                Build Trust and Stay Compliant with Solutions that help Mitigate Risks ,
-                                                Enforce Privacy,  <span class="read_more" onclick="window.location.href='/gcr'">read more ></span>
-                                            </p>
-                                            <div class="mt-10">
-                                                <a href="#"
-                                                    class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                    Find Out More <i class="ri-arrow-right-s-line"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu-column">
-                                <div class="grid grid-cols-3 gap-2">
-                                    <!-- Grid Box 1 -->
-                                    <div
-                                        class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
-                                        <div class="inner-div">
-                                            <!-- Icon Box -->
-                                            <div class="flex justify-start mb-3">
-                                                <div class="custom-circle text-xl text-pink-400">
-                                                    <i class="ri-node-tree"></i>
-                                                </div>
-                                            </div>
-                                            <!-- Title and Paragraph -->
-                                            <h3
-                                                class=" texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                                Business Process Automation</h3>
-                                            <p class="para-1  text-left">
-                                                Gain Competitive Advantage with Digital Platforms and Capabilities that
-                                                Transform your Operations <span class="read_more" onclick="window.location.href='/business'">read more ></span>
-                                            </p>
-                                            <div class="mt-10">
-                                                <a href="#"
-                                                    class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                    Find Out More <i class="ri-arrow-right-s-line"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <!-- Grid Box 2 -->
-                                    <div
-                                        class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
-                                        <div class="inner-div">
-                                            <!-- Icon Box -->
-                                            <div class="flex justify-start mb-3">
-                                                <div class="custom-circle text-xl text-pink-400">
-                                                    <i class="ri-file-search-line"></i>
-                                                </div>
-                                            </div>
-                                            <!-- Title and Paragraph -->
-                                            <h3 style="white-space: nowrap;"
-                                                class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                                Forensic Accounting</h3>
-                                            <p class="para-1 text-left">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-                                                luctus nec ullamcorper mattis, <span class="read_more" onclick="window.location.href='/forensic-accounting'">read more
-                                                    ></span>
-                                            </p>
-
-                                            <div class="mt-10">
-                                                <a href="#"
-                                                    class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                    Find Out More <i class="ri-arrow-right-s-line"></i>
-                                                </a>
-                                            </div>
-
-
-                                        </div>
-                                    </div>
-
-
-                                    <!-- Grid Box 3 -->
-                                    <div
-                                        class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
-                                        <div class="inner-div">
-                                            <!-- Icon Box -->
-                                            <div class="flex justify-start mb-3">
-                                                <div class="custom-circle text-xl text-pink-400">
-                                                    <i class="ri-shield-line"></i>
-                                                </div>
-                                            </div>
-                                            <!-- Title and Paragraph -->
-                                            <h3 style="white-space: nowrap;"
-                                                class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                                Ethical Hacking</h3>
-                                            <p class="para-1 text-left">
-                                                Intelligent Set of Security Solutions (Defense-in-depth) from our Red
-                                                Heart Team that Guarantee and Sound <span class="read_more" onclick="window.location.href='/ethical-hacking'">read more
-                                                    ></span>
-                                            </p>
-                                            <div class="mt-10">
-                                                <a href="#"
-                                                    class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                    Find Out More <i class="ri-arrow-right-s-line"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="menu-item">
-                    <a href="#"
-                        class="naver block py-2 px-3 nav-text rounded lg:hover:bg-transparent lg:p-0 lg:dark:hover:bg-transparent">PRODUCT</a>
-                    <div class="mega-menu  mega-menu-width">
-                        <div class="menu-column">
-                            <div class="grid grid-cols-3 gap-2">
-                                <!-- Grid Box 1 -->
-                                <div
-                                    class="bg-white mt-4 p-6 border-l-2 h-80 dashed-border flex flex-col justify-between">
-                                    <div class="inner-div">
-                                        <!-- Icon Box -->
-                                        <div class="flex justify-start mb-3">
-                                            <div class="custom-circle text-xl text-pink-400">
-                                                <i class="ri-coin-line"></i>
-                                            </div>
-                                        </div>
-                                        <!-- Title and Paragraph -->
-                                        <h3
-                                            class=" texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                            Emiri Coin</h3>
-                                        <p class="para-1  text-left">
-                                            Feature one offers a practical solution designed to enhance efficiency and
-                                            ease of
-                                            use.
-                                        </p>
-                                        <div class="mt-10">
-                                            <a href="#"
-                                                class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                Find Out More <i class="ri-arrow-right-s-line"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <!-- Grid Box 2 -->
-                                <div
-                                    class="bg-white p-6 mt-4 border-l-2 dashed-border h-80 flex flex-col justify-between">
-                                    <div class="inner-div">
-                                        <!-- Icon Box -->
-                                        <div class="flex justify-start mb-3">
-                                            <div class="custom-circle text-xl text-pink-400">
-                                                <i class="ri-wallet-line"></i>
-                                            </div>
-                                        </div>
-                                        <!-- Title and Paragraph -->
-                                        <h3 style="white-space: nowrap;"
-                                            class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                            Emiri Pay</h3>
-                                        <p class="para-1 text-left">
-                                            Feature two offers a practical solution designed to enhance efficiency and
-                                            ease of
-                                            use.
-                                        </p>
-
-
-                                        <div class="mt-10">
-                                            <a href="#"
-                                                class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                Find Out More <i class="ri-arrow-right-s-line"></i>
-                                            </a>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-
-
-                                <!-- Grid Box 3 -->
-                                <div
-                                    class="bg-white mt-4 p-6 border-l-2 dashed-border h-80 flex flex-col justify-between">
-                                    <div class="inner-div">
-                                        <!-- Icon Box -->
-                                        <div class="flex justify-start mb-3">
-                                            <div class="custom-circle text-xl text-pink-400">
-                                                <i class="ri-switch-line"></i>
-                                            </div>
-                                        </div>
-                                        <!-- Title and Paragraph -->
-                                        <h3 style="white-space: nowrap;"
-                                            class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
-                                            OneSwitch</h3>
-                                        <p class="para-1 text-left">
-                                            Feature three offers a practical solution designed to enhance efficiency and
-                                            ease of
-                                            use.
-                                        </p>
-                                        <div class="mt-10">
-                                            <a href="#"
-                                                class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
-                                                Find Out More <i class="ri-arrow-right-s-line"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="menu-item">
-                    <a href="#"
-                        class="naver block py-2 px-3 nav-text rounded lg:hover:bg-transparent lg:p-0 lg:dark:hover:bg-transparent">DEVELOPERS</a>
-                    <div class="mega-menu mega-developer">
-                        <div class="menu-column">
-                            <h4 class="font-medium">API</h4>
-                            <div class="developer-detatil">
-                                <p style="white-space: nowrap;">Documentation and guide to get started<span
-                                        class="text-red-400"> ></span></p>
-                            </div>
-                        </div>
-                        <div class="menu-column menu-column-2">
-                            <h4 class="font-medium">Contributions</h4>
-                            <div class="developer-detatil">
-                                <p style="white-space: nowrap;">Open source environments</p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-
-                <li class="menu-item">
-                    <a href="#"
-                        class="naver block py-2 px-3 nav-text rounded lg:hover:bg-transparent lg:p-0 lg:dark:hover:bg-transparent">EMR-ACADEMY</a>
-                </li>
-            </ul>
-        </div>
+<link rel="stylesheet" href="/stylesheets/navbares.css">
+<nav style="background-color: white;" class=" border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <!-- <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" /> -->
+      <span style="color: #222;" class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">EmiriFintech</span>
+    </a>
+    <div class="flex items-center space-x-4 rtl:space-x-reverse">
+      <li class="book-box-2 tablet-2">
+        <button type="button"
+          class="hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 booking-box">BOOK
+          A MEETING</button>
+      </li>
+      <button data-collapse-toggle="navbar-dropdown" type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-dropdown" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
     </div>
+    
+    <div class="nav-seek hidden w-full lg:block lg:w-auto" id="navbar-dropdown">
+      <ul
+        class="flex flex-col font-medium p-4 lg:p-0 mt-4 border-gray-100 lg:bg-transparent rounded-lg  lg:space-x-8 rtl:space-x-reverse lg:flex-row lg:mt-0 lg:border-0 dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700">
+        <!-- mega menu display -->
+        <li class="menu-item">
+          <a href="#"
+           style="color: #222;" class="yoda block font-semibold py-2 px-3 bg-blue-700 rounded lg:bg-transparent lg:text-blue-700 lg:p-0 lg:dark:text-blue-500 dark:bg-blue-600 lg:dark:bg-transparent"
+            aria-current="page">COMPANY</a>
+          <div class="bani mega-menu omega">
+            <div class="menu-column">
+              <h4 class="font-semibold">Development</h4>
+              <ul class="development">
+                <li><a class="nav-text" href="/about">About Us</a></li>
+                <li><a class="nav-text" href="/board">Board of Directors</a></li>
+                <li><a class="nav-text" href="/board">Security & Privacy</a></li>
+              </ul>
+            </div>
+            <div class="menu-column menu-column-2">
+              <h4 class="font-semibold">Marketing</h4>
+              <ul class="development">
+                <li><a class="nav-text" href="#">Ecosystems</a></li>
+                <li><a class="nav-text" href="/careers">Careers</a></li>
+                <li><a class="nav-text" href="#">CSR</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="menu-item">
+          <a href="#"
+          style="color: #222;" class="yoda block font-semibold py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">DIGITAL
+            ASSETS</a>
+          <div class="mega-menu mega-menu-width-3">
+            <div class="menu-column">
+              <div class="grid grid-cols-3 gap-2">
+                <!-- Grid Box 1 -->
+                <div class="bg-white mt-4 p-6 border-l-2 h-80 dashed-border flex flex-col justify-between">
+                  <div class="inner-div">
+                    <!-- Icon Box -->
+                    <div class="flex justify-start mb-3">
+                      <div class="custom-circle text-xl text-pink-400">
+                        <i class="ri-money-dollar-circle-line"></i>
+                      </div>
+                    </div>
+                    <!-- Title and Paragraph -->
+                    <h3 class=" texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                      Cryptocurrencies</h3>
+                    <p class="para-1  text-left">
+                      Feature one offers a practical solution designed to enhance efficiency and
+                      ease of
+                      use. <span class="read_more read-digital" onclick="window.location.href='/crypto'">read
+                        more</span></p>
+                  </div>
+                </div>
+
+
+
+
+                <!-- Grid Box 2 -->
+                <div class="bg-white p-6 mt-4 border-l-2 dashed-border h-80 flex flex-col justify-between">
+                  <div class="inner-div">
+                    <!-- Icon Box -->
+                    <div class="flex justify-start mb-3">
+                      <div class="custom-circle text-xl text-pink-400">
+                        <i class="ri-stack-line"></i>
+                      </div>
+                    </div>
+                    <!-- Title and Paragraph -->
+                    <h3 style="white-space: nowrap;"
+                      class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                      Tokenized
+                      assets</h3>
+                    <p class="para-1 text-left">
+                      Feature two offers a practical solution designed to enhance efficiency and
+                      ease of
+                      use.
+                    </p>
+                  </div>
+                </div>
+
+
+
+
+                <!-- Grid Box 3 -->
+                <div class="bg-white mt-4 p-6 border-l-2 dashed-border h-80 flex flex-col justify-between">
+                  <div class="inner-div">
+                    <!-- Icon Box -->
+                    <div class="flex justify-start mb-3">
+                      <div class="custom-circle text-xl text-pink-400">
+                        <i class="ri-bank-line"></i>
+                      </div>
+                    </div>
+                    <!-- Title and Paragraph -->
+                    <h3 style="white-space: nowrap;"
+                      class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                      Digital
+                      currencies</h3>
+                    <p class="para-1 text-left">
+                      Feature three offers a practical solution designed to enhance efficiency and
+                      ease of
+                      use.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="menu-item">
+          <a href="/digital-banking"
+          style="color: #222;"  class="yoda block font-semibold py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">FINTECH
+            SOFTWARES</a>
+          <div class="mega-menu mega-menu-width-2 alpha">
+            <div class="grid">
+              <div class="menu-column">
+                <div class="grid grid-cols-3 gap-2">
+                  <!-- Grid Box 1 -->
+                  <div class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
+                    <div class="inner-div">
+                      <!-- Icon Box -->
+                      <div class="flex justify-start mb-3">
+                        <div class="custom-circle text-xl text-pink-400">
+                          <i class="ri-money-dollar-box-line"></i>
+                        </div>
+                      </div>
+                      <!-- Title and Paragraph -->
+                      <h3 class=" texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                        Digital Banking</h3>
+                      <p class="para- 1 text-left">
+                        With about half a decade of proven experience in financial software development, we <span
+                          class="read_more read-digital" onclick="window.location.href='/digital2'">read more</span>
+                      </p>
+                      <div class="mt-10">
+                        <a href="#" class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
+                          Find Out More <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                  <!-- Grid Box 2 -->
+                  <div class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
+                    <div class="inner-div">
+                      <!-- Icon Box -->
+                      <div class="flex justify-start mb-3">
+                        <div class="custom-circle text-xl text-pink-400">
+                          <i class="ri-exchange-funds-line"></i>
+                        </div>
+                      </div>
+                      <!-- Title and Paragraph -->
+                      <h3 style="white-space: nowrap;"
+                        class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                        Lending Software</h3>
+                      <p class="para-1 text-left">
+                        To ensure well-informed loan decision-making and reduce the time and costs of loan delivery
+                        <span class="read_more read-digital" onclick="window.location.href='/lending'">read more</span>
+                      </p>
+
+
+
+
+                      <div class="mt-10">
+                        <a href="#" class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
+                          Find Out More <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                      </div>
+
+
+
+
+                    </div>
+                  </div>
+
+
+
+
+                  <!-- Grid Box 3 -->
+                  <div class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
+                    <div class="inner-div">
+                      <!-- Icon Box -->
+                      <div class="flex justify-start mb-3">
+                        <div class="custom-circle text-xl text-pink-400">
+                          <i class="ri-qr-code-line"></i>
+                        </div>
+                      </div>
+                      <!-- Title and Paragraph -->
+                      <h3 style="white-space: nowrap;"
+                        class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                        Online Payment</h3>
+                      <p class="para-1 text-left">
+                        At Emiri Fintech Solutions we help our clients conduct business 24/7 by accepting secure and
+                        <span class="read_more read-digital" onclick="window.location.href='/online-payment'">read
+                          more</span>
+                      </p>
+                      <div class="mt-10">
+                        <a href="#" class="text-pink-400 flex items-center uppercase font-medium text-sm underline">
+                          Find Out More <i class="ri-arrow-right-s-line"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-column">
+                <div class="grid grid-cols-3 gap-2">
+                  <!-- Grid Box 1 -->
+                  <div class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
+                    <div class="inner-div">
+                      <!-- Icon Box -->
+                      <div class="flex justify-start mb-3">
+                        <div class="custom-circle text-xl text-pink-400">
+                          <i class="ri-shield-check-line"></i>
+                        </div>
+                      </div>
+                      <!-- Title and Paragraph -->
+                      <h3 class=" texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                        Insurance Technology</h3>
+                      <p class="para-1  text-left">
+                        Skilled in developing solutions at the junction of cutting-edge technologies and finance, Emiri
+                        Fintech <span class="read_more read-digital" onclick="window.location.href='/insutech'">read
+                          more</span>
+                      </p>
+                    </div>
+                  </div>
+
+
+
+
+                  <!-- Grid Box 2 -->
+                  <div class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
+                    <div class="inner-div">
+                      <!-- Icon Box -->
+                      <div class="flex justify-start mb-3">
+                        <div class="custom-circle text-xl text-pink-400">
+                          <i class="ri-bar-chart-line"></i>
+                        </div>
+                      </div>
+                      <!-- Title and Paragraph -->
+                      <h3 style="white-space: nowrap;"
+                        class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                        Investment Management</h3>
+                      <p class="para-1 text-left">
+                        Ranging from financial institutions, real estate firms, investment advisors, or individuals,
+                        <span class="read_more read-digital" onclick="window.location.href='/investment'">read
+                          more</span>
+                      </p>
+                    </div>
+                  </div>
+
+
+
+
+                  <!-- Grid Box 3 -->
+                  <div class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
+                    <div class="inner-div">
+                      <!-- Icon Box -->
+                      <div class="flex justify-start mb-3">
+                        <div class="custom-circle text-xl text-pink-400">
+                          <i class="ri-user-5-line"></i>
+                        </div>
+                      </div>
+                      <!-- Title and Paragraph -->
+                      <h3 style="white-space: nowrap;"
+                        class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                        Personal Finance Management</h3>
+                      <p class="para-1 text-left">
+                        Large technology firms have set new and higher bars for customer experience. Here, at Emiri
+                        <span class="read_more read-digital" onclick="window.location.href='/personal-finance'">read
+                          more</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="menu-item">
+          <a href="#"
+          style="color: #222;"  class="yoda block font-semibold py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">IT
+            & SECURITY</a>
+          <div class="mega-menu mega-menu-width-1 gamma">
+            <div class="grid">
+              <div class="menu-column">
+                <div class="grid grid-cols-3 gap-2">
+                  <!-- Grid Box 1 -->
+                  <div class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
+                    <div class="inner-div">
+                      <!-- Icon Box -->
+                      <div class="flex justify-start mb-3">
+                        <div class="custom-circle text-xl text-pink-400">
+                          <i class="ri-brain-line"></i>
+                        </div>
+                      </div>
+                      <!-- Title and Paragraph -->
+                      <h3 class=" texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                        AI & ML</h3>
+                      <p class="para-1  text-left">
+                        Supercharge your business outcomes with our end-to-end data science,
+                        artificial <span class="read_more" onclick="window.location.href='/ai'">read more ></span>
+                      </p>
+                    </div>
+                  </div>
+
+
+
+
+                  <!-- Grid Box 2 -->
+                  <div class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
+                    <div class="inner-div">
+                      <!-- Icon Box -->
+                      <div class="flex justify-start mb-3">
+                        <div class="custom-circle text-xl text-pink-400">
+                          <i class="ri-cloud-line"></i>
+                        </div>
+                      </div>
+                      <!-- Title and Paragraph -->
+                      <h3 style="white-space: nowrap;"
+                        class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                        Cloud Computing</h3>
+                      <p class="para-1 text-left">
+                        We provide modern cutting-edge IT Infrastructure Solutions and Cloud
+                        Services for your <span class="read_more" onclick="window.location.href='/cloud'">read more
+                          ></span>
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Grid Box 3 -->
+                  <div class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
+                    <div class="inner-div">
+                      <!-- Icon Box -->
+                      <div class="flex justify-start mb-3">
+                        <div class="custom-circle text-xl text-pink-400">
+                          <i class="ri-search-eye-line"></i>
+                        </div>
+                      </div>
+                      <!-- Title and Paragraph -->
+                      <h3 style="white-space: nowrap;"
+                        class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                        GCR & Anti Fraud</h3>
+                      <p class="para-1 text-left">
+                        Build Trust and Stay Compliant with Solutions that help Mitigate Risks ,
+                        Enforce Privacy, <span class="read_more" onclick="window.location.href='/gcr'">read more
+                          ></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-column">
+                <div class="grid grid-cols-3 gap-2">
+                  <!-- Grid Box 1 -->
+                  <div class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
+                    <div class="inner-div">
+                      <!-- Icon Box -->
+                      <div class="flex justify-start mb-3">
+                        <div class="custom-circle text-xl text-pink-400">
+                          <i class="ri-node-tree"></i>
+                        </div>
+                      </div>
+                      <!-- Title and Paragraph -->
+                      <h3 class=" texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                        Business Process Automation</h3>
+                      <p class="para-1  text-left">
+                        Gain Competitive Advantage with Digital Platforms and Capabilities that
+                        Transform your <span class="read_more"
+                          onclick="window.location.href='/business'">read more ></span>
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Grid Box 2 -->
+                  <div class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
+                    <div class="inner-div">
+                      <!-- Icon Box -->
+                      <div class="flex justify-start mb-3">
+                        <div class="custom-circle text-xl text-pink-400">
+                          <i class="ri-file-search-line"></i>
+                        </div>
+                      </div>
+                      <!-- Title and Paragraph -->
+                      <h3 style="white-space: nowrap;"
+                        class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                        Forensic Accounting</h3>
+                      <p class="para-1 text-left">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                        luctus nec ullamcorper mattis, <span class="read_more"
+                          onclick="window.location.href='/forensic-accounting'">read more
+                          ></span>
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- Grid Box 3 -->
+                  <div class="bg-white nav-crypto border-l-2 dashed-border flex flex-col justify-between">
+                    <div class="inner-div">
+                      <!-- Icon Box -->
+                      <div class="flex justify-start mb-3">
+                        <div class="custom-circle text-xl text-pink-400">
+                          <i class="ri-shield-line"></i>
+                        </div>
+                      </div>
+                      <!-- Title and Paragraph -->
+                      <h3 style="white-space: nowrap;"
+                        class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                        Ethical Hacking</h3>
+                      <p class="para-1 text-left">
+                        Intelligent Set of Security Solutions (Defense-in-depth) from our Red
+                        Heart Team that Guarantee and Sound <span class="read_more"
+                          onclick="window.location.href='/ethical-hacking'">read more
+                          ></span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="menu-item">
+          <a href="#"
+          style="color: #222;"  class="yoda block font-semibold py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">PRODUCT</a>
+          <div class="mega-menu  mega-menu-width beita">
+            <div class="menu-column">
+              <div class="grid grid-cols-3 gap-2">
+                <!-- Grid Box 1 -->
+                <div class="bg-white mt-4 p-6 border-l-2 h-80 dashed-border flex flex-col justify-between">
+                  <div class="inner-div">
+                    <!-- Icon Box -->
+                    <div class="flex justify-start mb-3">
+                      <div class="custom-circle text-xl text-pink-400">
+                        <i class="ri-coin-line"></i>
+                      </div>
+                    </div>
+                    <!-- Title and Paragraph -->
+                    <h3 class=" texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                      Emiri Coin</h3>
+                    <p class="para-1  text-left">
+                      Feature one offers a practical solution designed to enhance efficiency and
+                      ease of
+                      use.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Grid Box 2 -->
+                <div class="bg-white p-6 mt-4 border-l-2 dashed-border h-80 flex flex-col justify-between">
+                  <div class="inner-div">
+                    <!-- Icon Box -->
+                    <div class="flex justify-start mb-3">
+                      <div class="custom-circle text-xl text-pink-400">
+                        <i class="ri-wallet-line"></i>
+                      </div>
+                    </div>
+                    <!-- Title and Paragraph -->
+                    <h3 style="white-space: nowrap;"
+                      class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                      Emiri Pay</h3>
+                    <p class="para-1 text-left">
+                      Feature two offers a practical solution designed to enhance efficiency and
+                      ease of
+                      use.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Grid Box 3 -->
+                <div class="bg-white mt-4 p-6 border-l-2 dashed-border h-80 flex flex-col justify-between">
+                  <div class="inner-div">
+                    <!-- Icon Box -->
+                    <div class="flex justify-start mb-3">
+                      <div class="custom-circle text-xl text-pink-400">
+                        <i class="ri-switch-line"></i>
+                      </div>
+                    </div>
+                    <!-- Title and Paragraph -->
+                    <h3 style="white-space: nowrap;"
+                      class="texter text-lg md:text-2xl lg:text-3xl font-semibold mb-5 text-left">
+                      OneSwitch</h3>
+                    <p class="para-1 text-left">
+                      Feature three offers a practical solution designed to enhance efficiency and
+                      ease of
+                      use.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="menu-item">
+          <a href="#"
+          style="color: #222;"  class="yoda block font-semibold py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">DEVELOPERS</a>
+          <div class="mega-menu mega-developer ray">
+            <div class="menu-column">
+              <h4 class="font-semibold">API</h4>
+              <div class="developer-detatil">
+                <p>Documentation and guide to get started<span class="text-red-400">
+                    ></span></p>
+              </div>
+            </div>
+            <div class="menu-column menu-column-2">
+              <h4 class="font-semibold">Contributions</h4>
+              <div class="developer-detatil">
+                <p>Open source environments</p>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="menu-item">
+          <a href="#"
+          style="color: #222;"  class="yoda block font-semibold py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-white lg:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent">EMR-ACADEMY</a>
+        </li>
+
+        <!-- accordion display -->
+        <li class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            <span>COMPANY</span>
+            <span>+</span>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-column">
+              <h4>Development</h4>
+              <ul>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/board">Board of Directors</a></li>
+                <li><a href="/board">Security & Privacy</a></li>
+              </ul>
+            </div>
+            <div class="accordion-column">
+              <h4>Marketing</h4>
+              <ul>
+                <li><a href="#">Ecosystems</a></li>
+                <li><a href="/careers">Careers</a></li>
+                <li><a href="#">CSR</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="asset-accordion-item">
+          <div class="asset-accordion-header" onclick="toggleAssetAccordion(this)">
+            <span>DIGITAL ASSETS</span>
+            <span>+</span>
+          </div>
+          <div class="asset-accordion-content">
+            <div class="asset-grid">
+              <!-- Grid Box 1 -->
+              <div class="asset-box">
+                <div>
+                  <div class="icon"><i class="ri-money-dollar-circle-line"></i></div>
+                  <h3>Cryptocurrencies</h3>
+                  <p>Feature one offers a practical solution designed to enhance efficiency and ease of use.
+                    <span class="read_more" onclick="window.location.href='/crypto'">read more</span>
+                  </p>
+                </div>
+              </div>
+
+              <!-- Grid Box 2 -->
+              <div class="asset-box">
+                <div>
+                  <div class="icon"><i class="ri-stack-line"></i></div>
+                  <h3>Tokenized assets</h3>
+                  <p>Feature two offers a practical solution designed to enhance efficiency and ease of use.</p>
+                </div>
+              </div>
+
+              <!-- Grid Box 3 -->
+              <div class="asset-box">
+                <div>
+                  <div class="icon"><i class="ri-bank-line"></i></div>
+                  <h3>Digital currencies</h3>
+                  <p>Feature three offers a practical solution designed to enhance efficiency and ease of use.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="fintech-accordion-item">
+          <div class="fintech-accordion-header" onclick="toggleFintechAccordion(this)">
+            <span>FINTECH SOFTWARES</span>
+            <span>+</span>
+          </div>
+          <div class="fintech-accordion-content">
+            <div class="fintech-grid">
+              <!-- Section 1 -->
+              <div class="fintech-grid">
+                <!-- Grid Box 1 -->
+                <div class="fintech-box">
+                  <div>
+                    <div class="icon"><i class="ri-money-dollar-box-line"></i></div>
+                    <h3>Digital Banking</h3>
+                    <p>
+                      With about half a decade of proven experience in financial software development,
+                      <span class="read_more" onclick="window.location.href='/digital2'">read more</span>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Grid Box 2 -->
+                <div class="fintech-box">
+                  <div>
+                    <div class="icon"><i class="ri-exchange-funds-line"></i></div>
+                    <h3>Lending Software</h3>
+                    <p>
+                      To ensure well-informed loan decision-making and reduce the time and costs of loan delivery,
+                      <span class="read_more" onclick="window.location.href='/lending'">read more</span>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Grid Box 3 -->
+                <div class="fintech-box">
+                  <div>
+                    <div class="icon"><i class="ri-qr-code-line"></i></div>
+                    <h3>Online Payment</h3>
+                    <p>
+                      At Emiri Fintech Solutions we help our clients conduct business 24/7 by accepting secure payments.
+                      <span class="read_more" onclick="window.location.href='/online-payment'">read more</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Section 2 -->
+              <div class="fintech-grid">
+                <!-- Grid Box 4 -->
+                <div class="fintech-box">
+                  <div>
+                    <div class="icon"><i class="ri-shield-check-line"></i></div>
+                    <h3>Insurance Technology</h3>
+                    <p>
+                      Skilled in developing solutions at the junction of cutting-edge technologies and finance,
+                      <span class="read_more" onclick="window.location.href='/insutech'">read more</span>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Grid Box 5 -->
+                <div class="fintech-box">
+                  <div>
+                    <div class="icon"><i class="ri-bar-chart-line"></i></div>
+                    <h3>Investment Management</h3>
+                    <p>
+                      Ranging from financial institutions to real estate firms and investment advisors,
+                      <span class="read_more" onclick="window.location.href='/investment'">read more</span>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Grid Box 6 -->
+                <div class="fintech-box">
+                  <div>
+                    <div class="icon"><i class="ri-user-5-line"></i></div>
+                    <h3>Personal Finance Management</h3>
+                    <p>
+                      Large technology firms have set new and higher bars for customer experience.
+                      <span class="read_more" onclick="window.location.href='/personal-finance'">read more</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="it-security-accordion-item">
+          <div class="it-security-accordion-header" onclick="toggleItSecurityAccordion(this)">
+            <span>IT & SECURITY</span>
+            <span>+</span>
+          </div>
+          <div class="it-security-accordion-content">
+            <div class="it-security-grid">
+              <!-- Section 1 -->
+              <div class="it-security-grid">
+                <!-- Grid Box 1 -->
+                <div class="it-security-box">
+                  <div>
+                    <div class="icon"><i class="ri-brain-line"></i></div>
+                    <h3>AI & ML</h3>
+                    <p>
+                      Supercharge your business outcomes with our end-to-end data science, artificial intelligence, and
+                      machine learning solutions.
+                      <span class="read_more" onclick="window.location.href='/ai'">read more ></span>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Grid Box 2 -->
+                <div class="it-security-box">
+                  <div>
+                    <div class="icon"><i class="ri-cloud-line"></i></div>
+                    <h3>Cloud Computing</h3>
+                    <p>
+                      We provide modern cutting-edge IT infrastructure solutions and cloud services for your business.
+                      <span class="read_more" onclick="window.location.href='/cloud'">read more ></span>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Grid Box 3 -->
+                <div class="it-security-box">
+                  <div>
+                    <div class="icon"><i class="ri-search-eye-line"></i></div>
+                    <h3>GCR & Anti Fraud</h3>
+                    <p>
+                      Build trust and stay compliant with solutions that help mitigate risks and enforce privacy.
+                      <span class="read_more" onclick="window.location.href='/gcr'">read more ></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Section 2 -->
+              <div class="it-security-grid">
+                <!-- Grid Box 4 -->
+                <div class="it-security-box">
+                  <div>
+                    <div class="icon"><i class="ri-node-tree"></i></div>
+                    <h3>Business Process Automation</h3>
+                    <p>
+                      Gain a competitive advantage with digital platforms and capabilities that transform your
+                      operations.
+                      <span class="read_more" onclick="window.location.href='/business'">read more ></span>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Grid Box 5 -->
+                <div class="it-security-box">
+                  <div>
+                    <div class="icon"><i class="ri-file-search-line"></i></div>
+                    <h3>Forensic Accounting</h3>
+                    <p>
+                      Explore our forensic accounting services to detect fraud and prevent financial crimes.
+                      <span class="read_more" onclick="window.location.href='/forensic-accounting'">read more ></span>
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Grid Box 6 -->
+                <div class="it-security-box">
+                  <div>
+                    <div class="icon"><i class="ri-shield-line"></i></div>
+                    <h3>Ethical Hacking</h3>
+                    <p>
+                      Intelligent security solutions (Defense-in-depth) from our red heart team to guarantee protection.
+                      <span class="read_more" onclick="window.location.href='/ethical-hacking'">read more ></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="asset-accordion-item">
+          <div class="asset-accordion-header" onclick="toggleAssetAccordion(this)">
+            <span>PRODUCTS</span>
+            <span>+</span>
+          </div>
+          <div class="asset-accordion-content">
+            <div class="asset-grid">
+              <!-- Grid Box 1 -->
+              <div class="asset-box">
+                <div>
+                  <div class="icon"><i class="ri-coin-line"></i></div>
+                  <h3>Emiri Coin</h3>
+                  <p>Feature one offers a practical solution designed to enhance efficiency and
+                    ease of
+                    use.</p>
+                </div>
+              </div>
+
+              <!-- Grid Box 2 -->
+              <div class="asset-box">
+                <div>
+                  <div class="icon"><i class="ri-wallet-line"></i></div>
+                  <h3>Emiri Pay</h3>
+                  <p>Feature two offers a practical solution designed to enhance efficiency and
+                    ease of
+                    use.</p>
+                </div>
+              </div>
+
+              <!-- Grid Box 3 -->
+              <div class="asset-box">
+                <div>
+                  <div class="icon"><i class="ri-switch-line"></i></div>
+                  <h3>OneSwitch</h3>
+                  <p>Feature three offers a practical solution designed to enhance efficiency and
+                    ease of
+                    use.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="accordion-item">
+          <div class="accordion-header acordo" onclick="toggleAccordion(this)">
+            <span>COMPANY</span>
+            <span>+</span>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-column">
+              <h4>API</h4>
+              <ul>
+                <li><a href="#">Documentation and guide to get started</a></li>
+              </ul>
+            </div>
+            <div class="accordion-column">
+              <h4>Contributions</h4>
+              <ul>
+                <li><a href="#">Open source environments</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="accordion-item">
+          <div class="accordion-header acordo">
+            <span><a href="#">EMR-ACADEMY</a></span>
+          </div>
+        </li>
+
+        <li class="book-box-2">
+          <button type="button"
+            class="hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 booking-box"><i
+              class="ri-mail-line"></i></button>
+        </li>
+
+        <li class="book-box-2 tablet">
+          <button type="button"
+            class="hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 booking-box">BOOK
+            A MEETING</button>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
+<script src="/javascripts/navbar.js"></script>

@@ -86,7 +86,20 @@
     border-left: 1px dashed #968a8a5a; /* Default border color */
     height: 100px; /* Set the height of your element */
   }
-  
+  .does{
+    border-right: 1px dashed #968a8a5a;
+  }
+
+  .does::after {
+    content: '';
+    position: absolute;
+    right: 0; /* Align with the right border */
+    top: 20%; /* Start the pink section at 20% of the height */
+    height: 8%; /* Make the pink section 8% of the total height */
+    width: 1px;
+    background-color: #F50057; /* The pink color for the specific part */
+}
+
   .dashed-border::before {
     content: '';
     position: absolute;
@@ -302,11 +315,14 @@
 }
 
 .seventh-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   background: white;
   color: white;
-  padding-left: 48px;
-  padding-right: 48px;
+  /* padding-left: 48px;
+  padding-right: 48px; */
 }
 
 .controls{
@@ -319,11 +335,12 @@
   padding: 70px;
   padding-top: 40px;
   width: 800px;
+  /* width: 80%; */
 }
 
-.seventh-text{
+/* .seventh-text{
   padding-left: 75px !important;
-}
+} */
 
 
 .quote{
@@ -407,19 +424,19 @@
   background-color: #F50057;
 }
 
-.seventh-image{
+/* .seventh-image{
   margin-left: 88px;
   width: 570px;
   background-color: #8a817c;
-}
+} */
 
-.seventh-text, .seventh-image{
+.seventh-text{
   height: 473px;
 }
 
 .control-line{
   width: 43px;
-  height: 3px;
+  height: 5px;
   background-color: #888;
   transition: transform 0.2s, background-color 0.2s;
 }

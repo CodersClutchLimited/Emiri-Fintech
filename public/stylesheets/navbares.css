@@ -1,0 +1,16 @@
+@media screen and (max-width:1023px){
+    .menu-item{
+        display: none;
+    }
+
+    .book-box-2{
+        margin-left: -10px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .accordion-item, .asset-accordion-item, .fintech-accordion-item, .it-security-accordion-item{
+        display: none;
+    }
+}
+
