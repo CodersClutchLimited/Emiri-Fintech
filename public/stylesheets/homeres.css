@@ -40,10 +40,14 @@
   }
 }
   
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 431px) {
     .fifth-1 {
         display: none !important;
       }
+    
+    .fortress{
+      margin-top: 25px;
+    }
 }
   
 @media screen and (max-width: 350px) {
@@ -77,9 +81,9 @@
     display: none;
   }
 
-  .inner-container{
+  /* .inner-container{
     width: 100%;
-  }
+  } */
 }
 
 
