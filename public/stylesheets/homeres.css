@@ -88,16 +88,16 @@
 
 
 @media screen and (max-width: 1400px) {
-
+/* 
 .just-image{
   display: none;
-}
+} */
 }
 
 @media screen and (max-width: 1150px) {
-    .just-image{
+    /* .just-image{
       display: none;
-    }    
+    }     */
 
     .insight-container{
         display: flex;
@@ -107,7 +107,8 @@
     }
 }
 
-@media screen and (max-width: 1400px) {
+/* 1400 */
+@media screen and (max-width: 1283px) {
   .just-image{
     display: none;
   }
