@@ -23,10 +23,11 @@
 
 
 .fourth-section {
-    /* font-family: 'Poppins', sans-serif !important; */
     background-color: white;
     height: 750px;
     padding-top: 13px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .ri-verified-badge-line{
@@ -280,6 +281,7 @@
 
 .fourth-text{
   padding-top: 45px;
+  padding-left: 10px;
 }
 
 .text-starter{

@@ -142,3 +142,14 @@
   }
 }
 
+/* @media screen and (min-width:1537px){
+
+  .fourth-section {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+  .just-image{
+    padding-left: 300px;
+  }
+} */
