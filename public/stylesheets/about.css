@@ -143,7 +143,10 @@
 }
 
 .location-box .box{
-    padding-left: 20px;
+    border: 1px solid #555;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,8 +159,14 @@
 
 .location-box .box p{
     color: #333;
-    font-size: 1rem  !important;
+    font-size: 1.1rem;
 }
+
+.location-box .find-bolder{
+    color: #333;
+    font-size: 1.3rem !important;
+}
+
 
 
 .map-about{
@@ -264,6 +273,7 @@
 .find-container{
     display: flex;
     justify-content: center;
+    padding-bottom: 50px !important;
 }
 
 .location-box{
@@ -299,11 +309,4 @@
 .at-border{
     padding-left: 8px !important;
     padding-right: 8px !important;
-}
-
-
-
-.find-container .find-bolder{
-    color: #333;
-    font-size: 1.2rem !important;
 }
