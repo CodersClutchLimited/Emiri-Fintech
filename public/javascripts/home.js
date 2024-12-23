@@ -80,3 +80,28 @@ new Swiper('.swiper', {
       },
   },
 });
+
+const indicatorButtons = document.querySelectorAll('.carousel-indicator');
+const testimonialSlides = document.querySelectorAll('#testimonial-carousel .carousel-slide');
+const imageCarouselSlides = document.querySelectorAll('#image-carousel .carousel-slide');  // If image-carousel is used
+
+function switchSlide(activeIndex) {
+  testimonialSlides.forEach((slide, index) => {
+    slide.classList.toggle('hidden', index !== activeIndex);
+  });
+  imageCarouselSlides.forEach((slide, index) => {
+    slide.classList.toggle('hidden', index !== activeIndex);
+  });
+
+  indicatorButtons.forEach((button, index) => {
+    button.classList.toggle('active', index === activeIndex);
+  });
+}
+
+// Attach event listeners to indicator buttons
+indicatorButtons.forEach((button, index) => {
+  button.addEventListener('click', () => switchSlide(index));
+});
+
+// Initialize with the first slide visible and the first indicator active
+switchSlide(0);
