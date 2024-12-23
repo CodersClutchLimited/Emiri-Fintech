@@ -143,14 +143,14 @@
   }
 }
 
-/* @media screen and (min-width:1537px){
-
-  .fourth-section {
-    display: flex !important;
-    justify-content: space-between;
+/* @media screen and (min-width:1535x){
+  .sheep{
+    display: none;
+  }
 }
 
-  .just-image{
-    padding-left: 300px;
+@media screen and (max-width:1534px){
+  .goat{
+    display: none;
   }
 } */

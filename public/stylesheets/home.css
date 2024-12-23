@@ -267,6 +267,10 @@
   height: 150px;
 }
 
+.protlogo{
+  color: #F50057;
+}
+
 .fifth-1{
   display: flex;
   align-items: center;
@@ -431,6 +435,21 @@
   width: 570px;
   background-color: #8a817c;
 } */
+
+.seventh-image{
+  height: 473px !important;
+}
+
+.carousel-item img{
+  height: 472.9px !important;
+  margin-left: 70px;
+}
+
+.goat{
+  margin-left: 90px;
+}
+
+.logo-container
 
 .seventh-text{
   height: 473px;
@@ -648,7 +667,7 @@
 .laptop-container h1{
   padding-top: 38px;
   padding-bottom: 15px;
-  color: #222;
+  color: #333;
 }
 
 .laptop-container .column-1, .laptop-container .column-2{
