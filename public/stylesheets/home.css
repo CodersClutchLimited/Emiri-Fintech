@@ -285,7 +285,7 @@
 
 .fourth-text{
   padding-top: 45px;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .text-starter{
@@ -327,8 +327,6 @@
   position: relative;
   background: white;
   color: white;
-  /* padding-left: 48px;
-  padding-right: 48px; */
 }
 
 @media screen and (min-width:1463px) {
@@ -348,12 +346,7 @@
   padding: 70px;
   padding-top: 40px;
   width: 800px;
-  /* width: 80%; */
 }
-
-/* .seventh-text{
-  padding-left: 75px !important;
-} */
 
 
 .quote{
@@ -437,11 +430,6 @@
   background-color: #F50057;
 }
 
-/* .seventh-image{
-  margin-left: 88px;
-  width: 570px;
-  background-color: #8a817c;
-} */
 
 .seventh-image{
   height: 473px !important;
@@ -449,11 +437,7 @@
 
 .carousel-item img{
   height: 472.9px !important;
-  margin-left: 70px;
-}
-
-.goat{
-  margin-left: 90px;
+  /* margin-left: 70px; */
 }
 
 .logo-container

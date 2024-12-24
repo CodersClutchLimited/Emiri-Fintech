@@ -1,9 +1,17 @@
+.nav-back {
+    position: sticky;
+    background-color: transparent !important;
+    top: 0;
+    z-index: 1000;
+}
 
-.menu-column .development a:hover, .developer-detatil p:hover{
+
+.menu-column .development a:hover,
+.developer-detatil p:hover {
     color: #ec4899;
 }
 
-.developer-detatil p{
+.developer-detatil p {
     cursor: pointer;
 }
 
@@ -20,7 +28,7 @@
     border: 2px solid #ec4899;
 }
 
-.booking-box:hover{
+.booking-box:hover {
     background-color: #ec4899 !important;
 }
 
@@ -88,32 +96,33 @@
         width: 800px !important;
         left: -450% !important;
     }
+
     .mega-menu-width {
         width: 950px ! important;
         left: -730% !important;
     }
-    
+
     .mega-menu-width-1 {
         width: 950px;
         left: -480% !important;
     }
-    
-    
+
+
     .mega-menu-width-2 {
         width: 950px;
         left: -300% !important;
     }
-    
-    
+
+
     .mega-menu-width-3 {
         width: 950px ! important;
         left: -390%;
-    }    
-    
+    }
+
 }
 
-@media (min-width:1300px) and (max-width:1500px){
-    .omega{
+@media (min-width:1300px) and (max-width:1500px) {
+    .omega {
         left: -310%;
     }
 
@@ -121,7 +130,7 @@
         width: 950px ! important;
         left: -290%;
     }
-    
+
     .mega-menu-width-2 {
         width: 950px;
         left: -250% !important;
@@ -151,7 +160,7 @@
 
     .mega-menu-width-3 {
         width: 800px ! important;
-        left: -570%  !important;
+        left: -570% !important;
     }
 
     .mega-menu-width-2.alpha {
@@ -243,9 +252,6 @@
     padding-left: 35px;
     border-left: 2px solid #edebe8;
 }
-
-
-
 
 @media(max-width: 785px) {
     .mega-menu {
@@ -375,15 +381,15 @@
         cursor: pointer;
     }
 
-    .chalk{
+    .chalk {
         font-size: .9rem;
     }
 
-    .acordo{
-        background-color:#5B5362 !important;
+    .acordo {
+        background-color: #5B5362 !important;
     }
 
-    .acordo.open{
+    .acordo.open {
         background-color: #443D4A !important;
     }
 
@@ -663,11 +669,11 @@
 }
 
 @media screen and (min-width: 490px) and (max-width: 1023px) {
-    .tablet-2{
+    .tablet-2 {
         margin-top: -15px;
     }
 
-    .tablet{
+    .tablet {
         display: none;
     }
 }
@@ -675,14 +681,13 @@
 
 /* book a meeting display*/
 @media screen and (min-width: 1024px) {
-    .tablet-2{
+    .tablet-2 {
         display: none;
     }
 }
 
 @media screen and (max-width: 490px) {
-    .tablet-2{
+    .tablet-2 {
         display: none;
     }
 }
-
