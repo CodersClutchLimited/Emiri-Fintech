@@ -1,11 +1,3 @@
-.nav-back {
-    position: sticky;
-    background-color: transparent !important;
-    top: 0;
-    z-index: 1000;
-}
-
-
 .menu-column .development a:hover,
 .developer-detatil p:hover {
     color: #ec4899;
@@ -424,7 +416,7 @@
 
     .accordion-column ul {
         list-style: none;
-        padding-left: 0;
+        padding-left: 9px;
     }
 
     .accordion-column ul li {

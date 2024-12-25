@@ -10,63 +10,44 @@ document.querySelectorAll('.menu-item').forEach(item => {
   });
 });
 
-function toggleAccordion(header) {
-  const content = header.nextElementSibling;
-  const isOpen = content.classList.contains('open');
-  // Close all open accordions
-  document.querySelectorAll('.accordion-content.open').forEach(item => {
-    item.classList.remove('open');
-    item.previousElementSibling.classList.remove('open');
-  });
-  // Toggle the clicked accordion
-  if (!isOpen) {
-    content.classList.add('open');
-    header.classList.add('open');
-  }
-}
+document.addEventListener('DOMContentLoaded', () => {
+  function toggleAccordion(header, contentClass) {
+    const content = header.nextElementSibling;
+    const isOpen = content.classList.contains('open');
 
-function toggleAssetAccordion(header) {
-  const content = header.nextElementSibling;
-  const isOpen = content.classList.contains('open');
-  // Close all open accordions
-  document.querySelectorAll('.asset-accordion-content.open').forEach(item => {
-    item.classList.remove('open');
-    item.previousElementSibling.classList.remove('open');
-  });
-  // Toggle the clicked accordion
-  if (!isOpen) {
-    content.classList.add('open');
-    header.classList.add('open');
-  }
-}
+    // Close all open accordions across all groups
+    document.querySelectorAll('.open').forEach(item => {
+      item.classList.remove('open');
+    });
 
-function toggleFintechAccordion(header) {
-  const content = header.nextElementSibling;
-  const isOpen = content.classList.contains('open');
-  // Close all open accordions
-  document.querySelectorAll('.fintech-accordion-content.open').forEach(item => {
-    item.classList.remove('open');
-    item.previousElementSibling.classList.remove('open');
-  });
-  // Toggle the clicked accordion
-  if (!isOpen) {
-    content.classList.add('open');
-    header.classList.add('open');
+    // Open the clicked accordion if it wasn't already open
+    if (!isOpen) {
+      content.classList.add('open');
+      header.classList.add('open');
+    }
   }
-}
 
-function toggleItSecurityAccordion(header) {
-  const content = header.nextElementSibling;
-  const isOpen = content.classList.contains('open');
-  // Close all open accordions
-  document.querySelectorAll('.it-security-accordion-content.open').forEach(item => {
-    item.classList.remove('open');
-    item.previousElementSibling.classList.remove('open');
+  // Attach event listeners to each accordion header for all categories
+  const allHeaderClasses = [
+    { headerClass: 'accordion-header', contentClass: 'accordion-content' },
+    { headerClass: 'asset-accordion-header', contentClass: 'asset-accordion-content' },
+    { headerClass: 'fintech-accordion-header', contentClass: 'fintech-accordion-content' },
+    { headerClass: 'it-security-accordion-header', contentClass: 'it-security-accordion-content' }
+  ];
+
+  allHeaderClasses.forEach(group => {
+    document.querySelectorAll(`.${group.headerClass}`).forEach(header => {
+      header.addEventListener('click', (event) => {
+        event.stopPropagation(); // Prevent closing when clicking on the accordion header
+        toggleAccordion(header, group.contentClass);
+      });
+    });
   });
-  // Toggle the clicked accordion
-  if (!isOpen) {
-    content.classList.add('open');
-    header.classList.add('open');
-  }
-}
 
+  // Close all open accordions when clicking outside of them
+  document.addEventListener('click', () => {
+    document.querySelectorAll('.open').forEach(item => {
+      item.classList.remove('open');
+    });
+  });
+});

@@ -18,4 +18,8 @@
     .master{
         display: none;
     }
+
+    .mail-button{
+        display: none;
+    }
 }

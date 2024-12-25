@@ -1,5 +1,13 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap'); */
 
+.all-hero{
+  height: 100vh;
+}
+
+.inner-hero{
+  height: 100vh;
+}
+
 .all-hero::after {
   content: "";
   position: absolute;
@@ -10,6 +18,11 @@
   background: rgba(0, 0, 0, 0.4);
 }
 
+
+.divider{
+  width: 33.333333%;
+  height: 0.5rem;
+}
 .style-outer{
   display: flex;
   justify-content: center;
@@ -22,13 +35,6 @@
 }
 
 
-.fourth-section {
-    background-color: white;
-    height: 750px;
-    padding-top: 13px;
-    display: flex;
-    justify-content: space-between;
-}
 
 .ri-verified-badge-line{
   color: #8c1c13;
@@ -213,28 +219,6 @@
   transform: translateY(-4px); /* Lift the card slightly */
 }
 
-.fourth-image {
-  background-image: url("https://www.taurushq.com/img/general/list-image.webp");
-  background-size: cover; /* Makes the image cover the entire container */
-  background-position: center; /* Centers the image within the container */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-}
-
-.first-border {
-  position: relative; /* Needed for positioning the pseudo-elements */
-  border-left: 1px dashed #968a8a5a; /* Default border color */
-}
-
-.first-border::before {
-  content: '';
-  position: absolute;
-  left: 0; /* Align with the left border */
-  top: 20%; /* Start the pink section at 20% of the height */
-  height: 8%; /* Make the pink section 30% of the total height */
-  width: 1px;
-  background-color: #F50057; /* The pink color for the specific part */
-}
-
 .second-para{
   color: black !important;
   font-size: 2.5rem;
@@ -245,12 +229,9 @@
   align-items: center;
   justify-content: center;
   padding: 75px;
-  padding-top: 25px !important;
+  padding-top: 65px !important;
 }
 
-.texter{
-  color: black;
-}
 
 @media (min-width: 1200px) {
   .inner-div {
@@ -263,61 +244,8 @@
   padding: 80px;
 }
 
-.fifth-container{
-  height: 150px;
-}
-
 .protlogo{
   color: #F50057;
-}
-
-.fifth-1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: auto;
-}
-
-.fifth-1-2{
-  padding: 17px;
-  width: 600px;
-}
-
-.fourth-text{
-  padding-top: 45px;
-  padding-left: 20px;
-}
-
-.text-starter{
-  color: black;
-  padding-left: 24px;
-  padding-top: 85px;
-}
-
-.grid-text{
-  margin-top: 50px;
-  margin-bottom: 40px;
-}
-
-.grid-1, .grid-2{
-  position: relative;
-  border-left: 1px dashed #968a8a5a; /* Default border color */
-  padding: 10px;
-  color: black;
-}
-
-.grid-2{
-  margin-right: 20px !important;
-}
-
-.grid-1::before, .grid-2::before {
-  content: '';
-  position: absolute;
-  left: 0; /* Align with the left border */
-  top: 20%; /* Start the pink section at 20% of the height */
-  height: 25%; /* Make the pink section 30% of the total height */
-  width: 1px;
-  background-color: #F50057; /* The pink color for the specific part */
 }
 
 .seventh-container{
@@ -505,10 +433,9 @@
 }
 
 .insight-grid-1{
-  padding-left: 160px;
   white-space: nowrap;
-  padding-bottom: 50px;
   background-color: white;
+  padding-top: 50px;
   color: #333;
 }
 
@@ -516,9 +443,10 @@
   color: #F50057;
 }
 
+
 .insight-link{
   color: #F50057;
-  padding-left: 160px;
+  /* padding-left: 160px; */
 }
 
 .insight-title{
@@ -621,17 +549,10 @@
   color: #F50057;
 }
 
-.fourth-spacing{
-  padding-bottom: 35px !important;
-}
-
 .ri-arrow-right-circle-line{
   padding-right: 4px;
 }
 
-.just-image{
-  margin-top: 40px;
-}
 
 /* laptops section */
 .laptop-container{
@@ -697,3 +618,45 @@
   margin-top: -20px;
 }
 
+/* sectiton fourth, fifth, sixth */
+.four-custom-height {
+  height: 400px;
+}
+
+
+
+.four-outer-container{
+  margin-left: 33px;
+  margin-right: 33px;
+  padding-bottom: 100px;
+}
+
+.four-title{
+  font-size: 2.8rem;
+}
+
+.four-title .four-1{
+  color: #FA64FF;
+}
+
+.four-title .four-2, .four-list{
+  color: #212529;
+}
+
+.four-list{
+  position: relative;
+  font-size: 1.2rem;
+  padding-left: 23px;
+  border-left: 1px dashed #968a8a5a;
+}
+
+
+.four-list::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 20%;
+  height: 8%;
+  width: 1px;
+  background-color: #F50057;
+}
