@@ -365,6 +365,7 @@
 
 @media (min-width: 1524px) and (max-width:2027px) {
   .four-outer-container{
-    padding-bottom: 120px !important;
+    padding-top: 70px;
+    padding-bottom: 180px !important;
   }  
 }
