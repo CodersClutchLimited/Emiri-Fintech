@@ -97,8 +97,8 @@ app.get('/crypto', (req, res) =>{
 })
 
 
-app.get('/api/docs', (req, res) =>{
-    res.render('pages/api')
+app.get('/developer', (req, res) =>{
+    res.render('pages/developer')
 })
 
 
