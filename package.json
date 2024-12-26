@@ -16,7 +16,6 @@
     "emiri-fintech": "file:",
     "express": "^4.21.1",
     "flowbite": "^2.5.2",
-    "git": "^0.1.5",
     "node": "^20.18.1",
     "nodemon": "^3.1.7",
     "path": "^0.12.7",
