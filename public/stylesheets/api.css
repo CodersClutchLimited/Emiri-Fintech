@@ -1,0 +1,43 @@
+.border-b-dev{
+    border-bottom: 4px solid #555;
+}
+.developer-container{
+height: 100vh;
+}
+
+.developer-box{
+    height: 216px;
+    width: 229px;
+    cursor: pointer;
+}
+
+.developer-box:hover{
+    border: 1px solid  #A9A9A9;
+}
+
+.developer-1{
+    padding-top: 55px;
+}
+
+.developer-item{
+    padding-top: 35px;
+}
+
+.icon-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    color: #FA64FF;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 428px){
+    .dev-search{
+        display: none;
+    }
+}

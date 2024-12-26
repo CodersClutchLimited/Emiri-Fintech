@@ -62,6 +62,10 @@
     padding: 20px;
     color: black; /* Adjust color as necessary */
 }
+
+.texter{
+  color: #2D2832;
+}
   
 #slider {
     display: flex;
@@ -229,7 +233,9 @@
   align-items: center;
   justify-content: center;
   padding: 75px;
-  padding-top: 65px !important;
+  /* padding-top: 65px !important; */
+  padding-top: 40px !important;
+  margin-bottom: -20px;
 }
 
 
@@ -659,4 +665,73 @@
   height: 8%;
   width: 1px;
   background-color: #F50057;
+}
+
+
+.four-left-column .button {
+  display: none;
+  background-color: #ff6fff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 30px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.four-left-column  .button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.five-outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.five-inner{
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-bottom: 60px;
+}
+
+.grid-text{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.grid-1, .grid-2{
+  position: relative;
+  border-left: 1px dashed #968a8a5a; /* Default border color */
+  padding: 10px;
+  color: black;
+}
+
+.grid-1{
+  padding-right: 20px !important;
+}
+
+
+
+
+.grid-1::before, .grid-2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 20%; /* Start the pink section at 20% of the height */
+  height: 25%; /* Make the pink section 30% of the total height */
+  width: 1px;
+  background-color: #F50057; /* The pink color for the specific part */
+}
+
+
+.text-starter{
+  color: black;
+  /* padding-left: 24px; */
+  padding-top: 15px;
 }

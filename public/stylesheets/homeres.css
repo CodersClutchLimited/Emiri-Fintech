@@ -347,13 +347,13 @@
 
 @media (min-width: 454px) and (max-width:767px) {
   .four-1 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 .four-2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .four-list p {
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 .four-outer-container{
@@ -366,6 +366,34 @@
 @media (min-width: 1524px) and (max-width:2027px) {
   .four-outer-container{
     padding-top: 70px;
-    padding-bottom: 180px !important;
+    padding-bottom: 190px !important;
   }  
+
+  .four-list{
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .five-inner {
+    margin-left: 25px;
+    margin-right: 25px;
+  
+  }
+}
+
+@media (max-width: 768px) {
+  .text-starter p {
+      font-size: 1.5rem; /* Adjust for small screens */
+  }
+  .grid-text p {
+      font-size: 0.9rem; /* Even smaller for small screens */
+  }
+}
+
+
+@media screen and (min-width:1500px){
+  .four-left-column .button {
+    display: inline-block;  
+  }
 }

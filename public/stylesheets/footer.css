@@ -5,3 +5,13 @@
 .border-gray-600:hover{
     border-color: #FA64FF;
 }
+
+
+/* footer responsiveness */
+
+@media screen and (max-width:350px){
+    .footer-grid{
+        padding-right: 30px;
+    }
+    
+}
