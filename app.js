@@ -96,14 +96,21 @@ app.get('/crypto', (req, res) =>{
     res.render('pages/crypto')
 })
 
-
 app.get('/developer', (req, res) =>{
     res.render('pages/developer')
 })
 
+app.get('/why', (req, res) =>{
+    res.render('pages/why')
+})
 
+app.get('/getting-started', (req, res) =>{
+    res.render('pages/getting-started')
+})
 
-
+app.get('/emr', (req, res) =>{
+    res.render('pages/emr')
+})
 
 app.listen(1000, () => {
     console.log("LISTENING ON PORT 1000");
