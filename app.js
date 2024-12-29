@@ -121,6 +121,11 @@ app.get('/open-source', (req, res) =>{
     res.render('sanna/open-source')
 })
 
+
+app.get('/book', (req, res) =>{
+    res.render('pages/book')
+})
+
 app.listen(1000, () => {
     console.log("LISTENING ON PORT 1000");
 })
