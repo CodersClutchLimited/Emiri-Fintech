@@ -1,0 +1,98 @@
+.google {
+    width: 100%;
+    height: auto;
+    background: #2D2832;
+}
+.intro {
+    padding: 50px;
+}
+.anchor {
+   width: 150px;
+   height: 40px;
+   border-radius: 5px;
+}
+
+.gif {
+    max-width: 500px;
+}
+
+@media (max-width: 768px) {
+    .gapper + .gapper {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .gapper-container {
+        gap: 50px;
+    }
+}
+
+.parag {
+ font-weight: 500;
+}
+
+.gapper-container {
+    margin-top: 20px;
+}
+
+.excel {
+    padding-top: 90px !important;
+    padding-bottom: 90px !important;
+}
+
+.container1 {
+    background: #2D2832;
+
+}
+
+.sub1 {
+padding-left: 60px;
+}
+
+.sub2 {
+padding-right: 60px;
+
+}
+
+.sub2 img {
+    width: auto; 
+    height: 400px;
+    max-width: 475px;
+    object-fit: contain;
+}
+
+
+.card-container {
+    padding: 0 50px;
+    margin-top: 100px;
+}
+
+
+.push{
+    margin-top: 80px;
+    padding-bottom: 60px;
+}
+
+.container4 {
+    background: #FFFFFF;
+    padding-top: 30px;
+}
+
+.container5 {
+    background: #F1F3F4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.heck {
+    background: #F1F3F4;
+}
+
+.pusher {
+    padding-top: 300px;
+}
+
+.coin {
+    height: 245px;
+}

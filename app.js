@@ -112,6 +112,15 @@ app.get('/emr', (req, res) =>{
     res.render('pages/emr')
 })
 
+
+app.get('/blockchain-development-company', (req, res) =>{
+    res.render('sanna/web3')
+})
+
+app.get('/open-source', (req, res) =>{
+    res.render('sanna/open-source')
+})
+
 app.listen(1000, () => {
     console.log("LISTENING ON PORT 1000");
 })

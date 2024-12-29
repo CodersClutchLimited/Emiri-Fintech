@@ -1,0 +1,123 @@
+    <div class="container5 w-full">
+        <!-- portion 1 -->
+        <div class="flex flex-col lg:flex-row items-center justify-between">
+            <div class=" sub1 flex flex-col space-y-2 pl">
+                <h1 class="text-2xl font-normal text-gray-900">Featured blogs</h1>
+                <p class="text-gray-900 text-left text-base max-w-3xl">On the Google Open Source blog, you'll find
+                    exciting news about Google releases, projects, and program updates, as well as guest posts from our
+                    project partners and program participants.</p>
+            </div>
+            <div class="sub2 flex">
+                <img src="https://opensource.google/static/images/featured-blogs-icon.svg"
+                    class="h-32 w-32 object-cover" alt="">
+            </div>
+        </div>
+
+        <!-- portion 2 -->
+        <div class="heck mx-auto max-w-7xl">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                <!-- project 1 -->
+                <div class="bg-white border border-gray-200 rounded-lg shadow-md flex flex-col justify-between h-full">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGkMcQkTcMxeWdrytLd_PeruB1foXQWiUfH7j10rXpIbtzXcCLXeca5wXlR9ueHIJnIAg7p3F3afB7kYslg-BYW4TxGx-BJssH2Ady1xPtZzl8CL5xzAjwEXyE8WR1WdTJbZi1lotF-1AscOc24UGDL9LXCu_6A_nlFZ2O59MhvTdtIdvJeaQ2-GmlYYU/s1600/Social%20-%20OSS%20-%20Kubernetes%20Gateway%20API%20graduates%20to%20GA.png"
+                        alt="Kubernetes Logo" class="mx-auto mb-4 rounded-t-lg" />
+
+                    <div class="pl-4 text-left">
+                        <p class="text-2xl text-black">
+                            Kubernetes 1.32 is now available on GKE
+                        </p>
+                    </div>
+                    <div class="flex mt-7 pl-4 pr-4">
+                        <p class="text-base text-gray-800">
+                            Kubernetes 1.32 is now available in the Google Kubernetes Engine (GKE) Rapid Channel, just
+                            one week after the OSS release! For more information about the
+                        </p>
+                    </div>
+                    <div class="mt-auto pl-4 pb-6">
+                        <a href="#"
+                            class="mt-2 bg-white border border-gray-600 hover:bg-gray-50 text-blue-600 font-medium py-2 px-4 rounded">Read
+                            more</a>
+                    </div>
+                </div>
+
+                <!-- project 2 -->
+                <div class="bg-white border border-gray-200 rounded-lg shadow-md flex flex-col justify-between h-full">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJBYerUEDOh1oDTAZtlw8bLEYwwsleH7strk3rVoDwgUC2XtBxk2WG0AC_Ia8g9ho3JGqPctIxf9xgq0DWIWS2yBRiws7P4pwzy6dD81UbKOefbgw-ZuPIpZYKEAatn_o2kxce-aNMajdIIyAvDw97NoScaF-kOKwDduz7VIuKqJo7BdnQMcD3TpWRvUU/s1600/Social-Season-of-Docs.png"
+                        alt="Kubernetes Logo" class="mx-auto mb-4 rounded-t-lg" />
+
+                    <div class="pl-4 text-left">
+                        <p class="text-2xl text-black">
+                            Google Season of Docs announces results of 2024 program
+                        </p>
+                    </div>
+                    <div class="flex mt-7 pl-4 pr-4 pb-5">
+                        <p class="text-base text-gray-800">
+                            Google Season of Docs is happy to announce the 2024 program results, including the project
+                            case studies. Google Season of Docs is a grant-based program
+                        </p>
+                    </div>
+                    <div class="mt-auto pl-4 pb-6">
+                        <a href="#"
+                            class="mt-2 bg-white border border-gray-600 hover:bg-gray-50 text-blue-600 font-medium py-2 px-4 rounded">Read
+                            more</a>
+                    </div>
+                </div>
+
+                <!-- project 3 -->
+                <div class="bg-white border border-gray-200 rounded-lg shadow-md flex flex-col justify-between h-full">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlxTdeYvDhx6wpfmJMsUffM-IFwmoUwrH-aexYi_bsq4P0fE296FCvN69d-S7VCDMoYljMWgbA0KWN9a_VVoVnM0HBRa44HTNlfJg_aEKwp5gQN31N5CJMknk9fFeBePOW-KAUWF_vLSg8lV9oddvlZ63wre7xv4rEcjNChbeNbfeSAevICzEzXu7iB5o/s1600/Social-Bazel.png"
+                        alt="Kubernetes Logo" class="mx-auto mb-4 rounded-t-lg" />
+
+                    <div class="pl-4 text-left">
+                        <p class="text-2xl text-black">
+                            BazelCon 2024: A celebration of community and the launch of Bazel 8
+                        </p>
+                    </div>
+                    <div class="flex mt-7 pl-4 pr-4 pb-5">
+                        <p class="text-base text-gray-800">
+                            The Bazel community celebrated a landmark year at BazelCon 2024. With a record-breaking 330+
+                            attendees, 125+ talk proposal submissions, and a renewed
+                        </p>
+                    </div>
+                    <div class="mt-auto pl-4 pb-6">
+                        <a href="#"
+                            class="mt-2 bg-white border border-gray-600 hover:bg-gray-50 text-blue-600 font-medium py-2 px-4 rounded">Read
+                            more</a>
+                    </div>
+                </div>
+
+                <!--project 4  -->
+                <div class="bg-white border border-gray-200 rounded-lg shadow-md flex flex-col justify-between h-full">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8ULqW7hZEMBHD9yWCR9KXIivY5HI1PKOSabXvei2Xjc-4DvbIchNxDuQjRXzX-RozrEUPekmRndDDoaY-I3TV0FZ9tc4WZj_0-CJUcfUtz3hFhyMOZyzpHrGGIz1ewexG8aIL557xBHkl4YyOB0osjnZtg9OiRwEWh93FvInpALrpliJyGBbnIkvGbME/s1600/Robust-Open-Democratizing-social-multi@2x.png"
+                        alt="Kubernetes Logo" class="mx-auto mb-4 rounded-t-lg" />
+
+                    <div class="pl-4 text-left">
+                        <p class="text-2xl text-black">
+                            A Robust Open Ecosystem for All: Accelerating AI Infrastructure
+                        </p>
+                    </div>
+                    <div class="flex mt-7 pl-4 pr-4 pb-5">
+                        <p class="text-base text-gray-800">
+                            Open source software is the foundation of machine learning. It accelerates innovation
+                            through an ethos of flexibility and collaboration. This philosophy drives the
+                        </p>
+                    </div>
+                    <div class="mt-auto pl-4 pb-6">
+                        <a href="#"
+                            class="mt-2 bg-white border border-gray-600 hover:bg-gray-50 text-blue-600 font-medium py-2 px-4 rounded">Read
+                            more</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="text-center mt-8 pt-4 pusher">
+                <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded">View all
+                    projects</a>
+            </div>
+
+
+        </div>
+
+    </div>

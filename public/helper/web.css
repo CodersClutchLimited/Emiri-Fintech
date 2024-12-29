@@ -1,0 +1,57 @@
+.cont {
+    height: 450px;
+}
+
+.stack {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.stack h3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ontop {
+    border-top: 1px solid #000;
+}
+
+.hexer {
+    padding: 0 75px;
+}
+
+.main {
+    padding-bottom: 50px;
+}
+
+.next {
+padding: 100px 20px; 
+}
+
+.title {
+    padding-bottom: 80px;
+}
+
+.logo {
+    padding-bottom: 40px;
+}
+
+.logo-title {
+    padding-bottom: 40px;
+}
+
+.grid-container {
+    padding: 0 40px;
+}
+
+.stacks {
+    padding-bottom: 40px;
+}
+
+.hex {
+    padding-bottom: 30px;
+}
+
+.inner-para {
+    padding: 20px;
+}
