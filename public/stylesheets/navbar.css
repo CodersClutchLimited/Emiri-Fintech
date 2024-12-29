@@ -13,7 +13,7 @@
 
 
 .booking-box {
-    background-color: #2D2832 !important;
+    /* background-color: #2D2832 !important; */
     margin-top: -8px;
     font-size: 0.8rem !important;
     color: #fff;
@@ -682,4 +682,16 @@
     .tablet-2 {
         display: none;
     }
+}
+
+.mega-menu button{
+    color: #ec4899;
+}
+
+.mega-menu button:hover{
+    color: #fff !important;
+}
+
+.mega-beta{
+    height: 550px;
 }

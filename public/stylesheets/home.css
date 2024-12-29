@@ -254,6 +254,10 @@
   color: #F50057;
 }
 
+.flexon{
+  width: 99%;
+}
+
 .seventh-container{
   display: none;
   justify-content: center;
@@ -649,6 +653,7 @@
   color: #212529;
 }
 
+
 .four-list{
   position: relative;
   font-size: 1.2rem;
@@ -676,11 +681,16 @@
   font-weight: bold;
   text-align: center;
   padding: 15px 30px;
+  padding-bottom: 70px;
   border: none;
   text-transform: uppercase;
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.four-left-column{
+  padding-bottom: 40px;
 }
 
 .four-left-column  .button:hover {
@@ -734,4 +744,50 @@
   color: black;
   /* padding-left: 24px; */
   padding-top: 15px;
+}
+
+
+.find-taurus{
+  margin-top: -145px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45.7%;
+  background-color: #2D2832;
+  margin-left: 70px;
+  margin-bottom: 80px;
+}
+
+.find-taurus button{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #ff6fff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 80px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.four-right-column img{
+  width: auto;
+  height: 504px;
+}
+
+.hero-bots{
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.hero-bots .booko-1{
+  background-color: #EC4899;
+}
+
+.hero-bots .booko-1:hover{
+  background-color: transparent !important;
 }
