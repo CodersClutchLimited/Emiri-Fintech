@@ -126,6 +126,14 @@ app.get('/book', (req, res) =>{
     res.render('pages/book')
 })
 
+app.get('/privacy', (req, res) =>{
+    res.render('pages/privacy')
+})
+
+app.get('/eco', (req, res) =>{
+    res.render('pages/eco')
+})
+
 app.listen(1000, () => {
     console.log("LISTENING ON PORT 1000");
 })

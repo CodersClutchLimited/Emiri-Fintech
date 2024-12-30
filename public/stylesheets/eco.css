@@ -1,0 +1,160 @@
+/* eco hero */
+.eco-hero-container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 3%;
+    padding-top: 5.5%;
+    background-color: #FAFAFA;
+  }
+
+  .eco-hero-content {
+    max-width: 50%;
+  }
+
+  .eco-hero-content-title {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 1.6rem;
+  }
+
+  .eco-hero-content-title span{
+    color: #FA68FF;
+  }
+
+  .eco-hero-content-paragraph {
+    font-size: 1.28rem;
+    color: #444;
+    margin-bottom: 2.5rem;
+    letter-spacing: .4px;
+  }
+
+  .eco-hero-content-button {
+    width: 245px;
+    padding: 15px 30px;
+    font-size: .85rem;
+    color: #fff;
+    background-color: #FA64FF;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .eco-hero-content-button:hover {
+    background-color: #CE38D4;
+  }
+
+  .eco-hero-image-container {
+    max-width: 40%;
+  }
+
+  .eco-hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  /* thorne section */
+  .thorne-section-container {
+    width: 93%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between columns */
+    margin-top: 70px;
+    padding-bottom: 140px;
+}
+
+.academia{
+    margin-top: 0px;
+    padding-bottom: 95px;
+}
+
+.thorne-column {
+    padding: 20px 25px;
+    width: 95%;
+}
+
+.thorne-title {
+    color: #333;
+    font-size: 2.4rem;
+    margin-bottom: 17px;
+}
+
+.thorne-description {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 55px;
+}
+
+.thorne-logos {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 logos per row */
+    gap: 70px;
+    row-gap: 80px;
+}
+
+.thorne-logo {
+    width: 160px;
+    height: 50px; /* Set a consistent height */
+    object-fit: contain; /* Maintain aspect ratio without distorting */
+    margin: 0 auto; /* Center the logos */
+}
+
+.thorne-column-1 {
+    position: relative;
+}
+
+.thorne-column-1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 7.4%;
+    bottom: 0;
+    width: 1px;
+    height: 8%;
+    background-color: #FA64FF;
+}
+
+
+.thorne-column-2 {
+    position: relative;
+}
+
+.thorne-column-2::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 7.4%;
+    bottom: 0;
+    width: 1px;
+    height: 8%;
+    background-color: #FA64FF;
+}
+
+/* become a partner */
+.partner-container {
+    padding: 110px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    gap: 15%;
+  }
+
+  .partner-heading {
+    color: #333;
+    font-size: 2.9rem;
+  }
+
+  .partner-subheading {
+    font-size: 16px;
+    color: #333;
+  }
+
+  .partner-button {
+  }

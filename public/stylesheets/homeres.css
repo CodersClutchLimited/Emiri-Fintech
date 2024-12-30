@@ -397,3 +397,46 @@
     display: inline-block;  
   }
 }
+
+/* 1705px*/
+ @media screen and (min-width:1700px){
+  .seventh-text{
+    width: 58%;
+  }
+ }
+
+ @media (min-width:1600px) and (max-width: 1700px) {
+  .seventh-text{
+    width: 56.5%;
+  }
+ }
+
+ @media (min-width:1572px) and (max-width: 1600px) {
+  .seventh-text{
+    width: 55%;
+  }
+ }
+
+ @media (min-width:1537px) and (max-width: 1572px) {
+  .seventh-text{
+    width: 54%;
+  }
+ }
+
+ @media (min-width:1586px) and (max-width: 1650px) {
+  .find-taurus{
+    width: 45.9%;
+  }
+ }
+
+ @media (min-width:1551px) and (max-width: 1700px) {
+  .find-taurus{
+    width: 46%;
+  }
+ }
+
+ @media screen and (min-width: 1701px) {
+  .find-taurus{
+    width: 46.2%;
+  }
+ }
