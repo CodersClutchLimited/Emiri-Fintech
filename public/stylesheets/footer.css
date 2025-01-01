@@ -1,4 +1,10 @@
-.title{
+.footer-container{
+    padding-left: 50px;
+padding-right: 50px;
+
+}
+
+.footer-title{
     color: #FA64FF;
 }
 
@@ -20,5 +26,15 @@
     width: 500px;
 }
 
-footer .social-icons{
+footer{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.first-footer{
+    padding-bottom: 40px;
+}
+
+.footer-contact{
+    margin-left: -50px;
 }

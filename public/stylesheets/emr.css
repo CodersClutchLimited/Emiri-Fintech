@@ -46,7 +46,7 @@
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 12px;
     cursor: pointer;
     font-size: 1.1em;
 }
@@ -242,7 +242,7 @@
     padding-top: 40px;
 }
 
-.indivi-container {
+.indivi-container, .unique-indivi-container {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -269,7 +269,7 @@
     border-bottom: 1px solid #888;
   }
 
-  .indivi-nav-item{
+  .indivi-nav-item, .unique-indivi-nav-item{
     cursor: pointer;
   }
 
@@ -294,6 +294,14 @@
 
   .indivi-course-tile:hover{
     border: 1.7px solid #007EA8;
+  }
+
+  .unique-tile{
+    border: 1.7px solid #fafafa;
+  }
+
+  .unique-tile:hover{
+    border: 1.7px solid #A23F97;
   }
 
 .tile-header {
@@ -350,18 +358,25 @@
     cursor: pointer;
   }
 
+  .unique-indivi-view-pricing-btn{
+    background-color: #A23F97;
+  }
 
   .indivi-view-pricing-btn.btn-1{
     margin-top: 60px;
   }
 
-  .indivi-container {
-    display: none; /* Hide all by default */
+  .indivi-container, .unique-indivi-container {
+    display: none;
 }
 
 
 .indivi-nav-item.active {
     color: #007EA8;
+}
+
+.unique-indivi-nav-item.active{
+  color: #A23F97;
 }
 
 .indivi-g{
@@ -389,6 +404,13 @@
     border: 2px solid #007EA8; /* Adds a black border with 2px thickness */
     border-radius: 9px; /* Optional: Adds rounded corners */
   }
+
+  .unique-bot{
+    color: #A23F97;
+    border: 2px solid #A23F97;
+  }
+
+  
   
   /* award section */
   .fortune-2{
@@ -416,7 +438,15 @@
   }
 
   /* organizations */
+  .close-call{
+    color: #A23F97;
+  }
 
+.unique-indivi-nav-item:hover{
+  color: #A23F97;
+
+}
+  
   .unique-indivi-buttons{
     padding-bottom: 70px;
   }
@@ -491,3 +521,4 @@
     padding-top: 100px;
     padding-bottom: 10px;
 }
+

@@ -1,0 +1,81 @@
+.crypto-carder{
+    background-color: transparent;
+    border: 1px solid #222 !important;
+}
+
+.ziga{
+padding: 30px;
+}
+
+.cadder-title{
+    padding-top: 30px;
+}
+
+.blackner{
+    color: #333;
+}
+
+.depart-para{
+    font-size: 16.6px !important;
+}
+
+
+.innertext .custom-circle {
+    margin-bottom: 40px;
+}
+
+.hexmen {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 70px;
+    background-color: transparent !important;
+    border-bottom: 1px solid #111;
+}
+
+
+.mainer {
+    padding: 0 0px !important;
+    padding-bottom: 0px;
+}
+
+
+.kaira-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #333;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.kaira-text {
+    max-width: 70%;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.kaira-author {
+    padding-top: 48px;
+}
+
+.kaira-author h4 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kaira-author p {
+    margin: 5px 0 0;
+    font-size: 17px;
+    color: #ABABAB;
+}
+
+.kaira-image {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.kaira-image img {
+    object-fit: cover;
+}

@@ -134,6 +134,11 @@ app.get('/eco', (req, res) =>{
     res.render('pages/eco')
 })
 
+app.get('/nft', (req, res) =>{
+    res.render('pages/nft')
+})
+
+
 app.listen(1000, () => {
     console.log("LISTENING ON PORT 1000");
 })

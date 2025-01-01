@@ -1,0 +1,539 @@
+/* second section */
+.nft-does{
+height: 401px !important;
+}
+
+/* third section */
+
+.thug-header {
+    text-align: left;
+    margin-bottom: 0px !important; ;
+}
+
+
+.thug-header p {
+    font-size: 20px;
+    padding-bottom: 10px !important;
+    color: #333;
+    padding-top: 50px;
+}
+
+
+.custom-nft{
+    padding-bottom: 40px;
+}
+
+.gridder {
+    gap: 40px;
+    row-gap: 0px !important;
+}
+
+/* fourth section */
+.table-content{
+    padding-top: 1px !important;
+    background-color: #2E2E2E;
+}
+
+.hexmen{
+    border-bottom: none !important;
+    padding-bottom: 70px !important;
+}
+
+.table-content{
+    /* padding-top: .1px !important; */
+    color: #fff;
+}
+
+.left-column{
+    width: 35%;
+}
+
+.content-container{
+    padding-bottom: 90px !important;
+    height: unset !important;
+    width: 100% !important;
+}
+
+.content-container{
+    color: #fff !important;
+}
+/* ==================== */
+.left-column a{
+    color: #fff !important;
+}
+
+.left-column a.active {
+    color: #D13B3B !important;
+}
+
+.section-content h2{
+    color: #D13B3B !important;
+}
+
+.section-content p{
+    color: #fff !important;
+}
+
+
+.right-container h2, .section-content h2{
+    padding-bottom: 30px !important;
+}
+
+.right-container p, .section-content p{
+    padding-bottom: 40px !important;
+}
+
+.right-container img, .section-image{
+    height: 280px !important;
+}
+
+
+/* sixth section */
+.kaira-image {
+    margin-left: -100px;
+}
+
+.kaira-text{
+    margin-right: 70px;
+    white-space: nowrap;
+    margin-left: -50px;
+}
+
+.kaira-text .kaira-crypto{
+    font-size: 2.4rem;
+}
+
+.crypto-1-para{
+    font-size: 1.27rem;
+    margin-top: 50px;
+}
+
+.crypto-kairo{
+    margin-top: 60px;
+}
+.crypto-button{
+    padding: 20px 40px;
+    background-color: #C63031;
+}
+
+/* seventh-section */
+.that-para{
+    letter-spacing: .4px;
+}
+
+.innertext .text-base{
+    font-size: 1.1rem;
+}
+
+.mainer{
+    width: 92% !important;
+}
+
+
+/* eight section */
+
+.util-outer{
+    background-color: #FBFBFD;
+    padding-bottom: 5px;
+}
+
+.util-container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.util-title {
+    padding-top: 70px;
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.util-description {
+    padding: 60px 0px;
+    margin: 10px 0 20px;
+    color: #333;
+    font-size: 1.27rem;
+    letter-spacing: .5px;
+}
+
+.util-section {
+    margin-bottom: 20px;
+}
+
+.util-section-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.util-grid {
+    gap: 20px;
+    row-gap: 70px;
+    padding-bottom: 75px;
+}
+
+.util-grid-item {
+    color: #333;
+    border-radius: 5px;
+}
+
+.util-grid-item-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.util-grid-item-description {
+    font-size: 17px;
+    margin: 0;
+}
+
+/* nine section */
+.meta-outer {
+    background-image: url('https://innowise.com/wp-content/themes/hello-elementor/assets/images/nft/NFT%20bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.meta-container{
+    padding: 100px 65px;
+}
+
+.meta-title{
+    font-size: 35px;
+    padding-bottom: 70px;
+}
+.meta-para{
+    font-size: 21px;
+    letter-spacing: .3px;
+    max-width: 840px;
+}
+
+.meta-para.pb-9{
+    padding-bottom: 40px;
+}
+
+/* tenth section */
+
+.darker-stellar{
+    background-color: #fff !important;
+}
+
+.neft{
+    color: #333;
+    padding-top: 60px;
+    font-size: 35px;
+    padding-bottom: 65px;
+    margin-left: 50px;
+}
+
+
+/* eleventh section */
+.device-container{
+    color: #333;
+    background-color: #FBFBFD;
+}
+
+.devicer{
+    width: 90%;
+}
+
+ .device-container h2 {
+    font-size: 35px;
+    padding-bottom: 70px;
+    padding-top: 100px;
+}
+
+.diverse{
+    padding-top: 30px !important;
+}
+
+.device-container p {
+    font-size: 21px;
+    padding-bottom: 15px;
+}
+
+.diverse-text{
+    font-size: 20px !Important;
+    padding-bottom: 150px !Important;
+    border-bottom: 1px solid #222;
+}
+
+.device-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.device-container li {
+    font-size: 21px;
+    margin-bottom: .8rem;
+    position: relative;
+}
+
+.device-container li p{
+    text-indent: 40px;
+}
+
+.device-container i{
+    color: #C63031;
+}
+
+.vidify-1{
+    width: 70%;
+}
+
+.vidify-title{
+    font-size: 24px !important;
+    margin-bottom: 1.5rem;
+}
+
+.vidify-question{
+    font-size: 17.7px !important;
+}
+
+.vidify-button{
+    background-color: #C63031;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 15px 30px;
+}
+
+.fire{
+    padding-top: 40px;
+}
+
+.vidify-container{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.let-space{
+    margin-left: -165px ;
+}
+/* twelveth section */
+
+.tech-stack{
+    color: #333;
+    width: 70%;
+    margin: 0 50px;
+}
+.tech-text{
+    padding-top: 100px;
+    padding-bottom: 15px;
+    color: #333;
+    font-size: 38px;
+}
+
+
+.tech-stack .border-b{
+    padding: 50px 0;
+    border-bottom: 1px solid black;
+}
+
+.tech-stack .border-b p{
+    padding-left: 90px;
+}
+
+.tech-stack .border-b:hover{
+    background-color: #2E2E2E;
+    color: #fff;
+}
+
+.tech-stack .border-b:hover .tech-stack  p{
+    color: #fff;
+}
+
+.tech-stack span.text-gray-500{
+    color: #D13B3B;
+    font-size: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.border-b.no-bottom{
+    border-bottom: none;
+}
+
+/* thirteenth section */
+.step-content{
+    margin-top: 30px;
+}
+
+/* fourteenth section */
+.dev-cost-outer{
+    color: #333;
+}
+
+/* .dev-cost{
+    padding-left: 60px;
+} */
+
+.dev-cost-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev-cost-container{
+    width: 92%;
+}
+
+.diverse-dev{
+    border-bottom: none;
+    padding-bottom: 25px !Important;
+}
+
+.dev-title{
+    font-size: 35px;
+    padding-bottom: 60px;
+    padding-top: 100px;
+}
+
+.dev-cost span{
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
+.canva-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.canva-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.canva-list li {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.canva-list span{
+    color: #D13B3B;
+}
+
+.canva-list p{
+    text-indent: 10px;
+}
+
+.canva-image-container {
+    position: relative;
+    width: 50%;
+}
+
+.canva-image {
+    width: 100%;
+    height: 330px;
+}
+
+.canva-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cava-v{
+    padding-top: 30px;
+}
+
+/* fifteenth */
+
+.util-grid-item span{
+    margin-right: 10px;
+    color: #D13B3B;
+}
+
+.fifteenth-one{
+    font-size: 25px;
+}
+
+.second-kaira .kaira-container{
+    margin: 0px 140px;
+    width: 70%;
+}
+
+.second-kaira .kaira-author{
+    margin-top: 0px;
+}
+
+.second-kaira .kaira-author h4{
+    font-size: 22px !important;
+}
+
+.second-kaira .kaira-author p{
+    letter-spacing: .3px;
+    font-size: 19px !important;
+}
+
+.second-kaira .kaira-text .bigger{
+    font-size: 20px;
+    letter-spacing: .5px;
+}
+
+/* seventeenth */
+
+.seventer{
+    padding-top: 20px;
+}
+
+/* eighteenth */
+.nft-business{
+    background-color: #FBFBFD !important;
+}
+
+.nft-related{
+    padding-top:90px;
+}
+
+.nft-business:hover{
+    color: #222 !important;
+}
+
+/* nineteenth */
+.nft-white{
+    background-color: #fff !important;
+}
+
+/* twenty */
+
+.nft-lexus{
+    background-color: #FBFBFD;
+}
+
+.nft-lexus .border-b p{
+    padding-top: 50px;
+}
+
+/* twenty-one */
+.nft-bug{
+    background-color: #FBFBFD !important;
+}
+
+/* last section */
+
+.nft-final{
+    width: 97%;
+}
+
+.next-container {
+    height: 70% !important;
+}
+
+.nft-boxer{
+    height: 150px;
+    background-color: #FBFBFD !important;
+}
+
+.nft-boxer:hover{
+    background-color: #222 !important;
+}
