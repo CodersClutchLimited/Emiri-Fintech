@@ -166,7 +166,13 @@
 }
 .step-res {
     align-items: center;
-    padding-left: 100px;
+    padding-left: 20px;
+}
+
+.step-res .step{
+    padding-left: 300px;
+    padding-right: 75px;
+    width: 200%;
 }
 
 @media screen and (max-width: 768px) {
@@ -180,14 +186,14 @@
     
 }
 
-/* .stepper {
-    padding-right: 100px;
-} */
+.stepper {
+    width: 65%;
+}
 
 @media screen and (min-width: 768px) {
     .step {
         align-items: start;
-        max-width: 50%;
+        max-width: 100%;
         padding-left: 200px;
     }
 }

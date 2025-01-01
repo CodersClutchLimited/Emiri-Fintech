@@ -45,7 +45,7 @@ height: 401px !important;
 }
 
 .left-column{
-    width: 35%;
+    width: 35% !important;
 }
 
 .content-container{
@@ -503,6 +503,11 @@ height: 401px !important;
 .nft-white{
     background-color: #fff !important;
 }
+
+.cadder.smart-geck:hover{
+    background-color: #2E2E2E !important;
+}
+
 
 /* twenty */
 

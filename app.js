@@ -138,6 +138,9 @@ app.get('/nft', (req, res) =>{
     res.render('pages/nft')
 })
 
+app.get('/smart-contracts', (req, res) =>{
+    res.render('pages/smart')
+})
 
 app.listen(1000, () => {
     console.log("LISTENING ON PORT 1000");
