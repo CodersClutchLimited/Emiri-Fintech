@@ -1,0 +1,318 @@
+/* section 1 */
+
+/* section 2 */
+
+/* section 3 */
+
+.hexmen.make-gray{
+    background-color: #FBFBFD !important;
+}
+
+.expertise-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 65px;
+    padding-bottom: 40px;
+    gap: 37px;
+}
+
+.expertise-card {
+    background-color: #F5F5F7;
+    text-align: start;
+    padding: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.expertise-card:hover{
+    background-color: #2E2E2E;
+}
+
+.expertise-card:hover h3{
+    color: #fff;
+}
+
+.expertise-card h3 {
+    padding-bottom: 18px;
+    font-size: 15px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.expertise-card .icon {
+    padding-left: 20px;
+    font-size: 40px;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+/* section 4 */
+.latest-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 37px;
+    padding-top: 65px;
+    padding-bottom: 40px;
+
+}
+
+.latest-card {
+    cursor: pointer;
+    background-color: #F5F5F7;
+    border-radius: 2px;
+    text-align: left;
+    padding: 20px 30px;
+    width: 440px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.latest-card h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+}
+
+.latest-card .icon {
+    font-size: 25px;
+    color: #333;
+}
+
+.latest-card:hover{
+    background-color: #2E2E2E;
+}
+
+.latest-card:hover h3{
+    color: #fff;
+}
+
+.latest-card:hover .icon{
+    color: #e63946;
+}
+
+/* section 5 */
+
+.owner .para2 {
+    font-size: 21px;
+}
+.owner .d{
+    color: #fff;
+}
+
+.owner .d2{
+    color: #666;
+}
+
+/* section 6 */
+.augstaff-grid-container {
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.augstaff-column {
+    padding: 30px;
+    padding-top: 40px;
+    border: 1px solid #222;
+    border-radius: 2px;
+}
+
+.augstaff-column span{
+    font-size: 22px;
+}
+
+.augstaff-column ul span{
+    color: #e63946;
+    margin-right: 5px;
+}
+
+.augstaff-column ul{
+    padding-top: 20px;
+    font-size: 17.3px;
+}
+
+.augstaff-column ul li{
+    padding-bottom: 15px;
+}
+
+/* section 7 */
+
+.nav-navigator.aug-nav{
+    margin-top: 20px;
+}
+
+/* section 8 */
+
+.aug-nova {
+    background: linear-gradient(to right, #FAE4E5, #FCFCFD) !important;
+}
+
+
+.aug-nova h1{
+    font-size: 2.5rem;
+}
+
+.aug-nova p{
+    font-size: 21px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #222;
+}
+
+.aug-nova button{
+    font-size: 17px;
+    width: 264px;
+    height: 50px;
+}
+
+/* section 9*/
+.core-container {
+    padding-bottom: 30px;
+    padding-top: 50px;
+    display: flex;
+    width: 100%;
+    gap: 50px;
+}
+.core-tabs {
+    width: 20%;
+    border-left: 1px solid #888;
+    display: flex;
+    flex-direction: column;
+}
+
+.core-tab {
+    font-size: 16px;
+    padding: 15px;
+    cursor: pointer;
+    text-align: left;
+    color: #888;
+}
+.core-tab:hover, .core-tab.active {
+    color: #e63946;
+}
+
+.core-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+.core-content > div {
+    display: none;
+}
+
+.tab-gridder{
+    gap: 50px;
+    /* row-gap: 0px; */
+}
+
+.core-content h2{
+    padding-bottom: 50px;
+    font-size: 24px;
+    color: #444;
+}
+
+.core-content span{
+    font-size: 18px;
+    color: #444;
+}
+
+.core-content > div.active {
+    display: block;
+}
+.core-tech-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #777;
+}
+
+.core-tech-item:hover span{
+    color: #e63946;
+}
+
+.core-tech-item img {
+    filter: grayscale(100%);
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.core-tech-item:hover img{
+    filter: none;
+}
+
+/* section 10 */
+.aug-spacer{
+    gap: 110px !important;
+    row-gap: 50px !important;
+}
+
+/* section 11 */
+
+.aug-card-gap{
+    padding-top: 70px;
+    gap: 40px !important;
+}
+
+.aug-card-gap  .dev{
+    border: 1px solid #222;
+}
+
+.aug-card-gap  .dev:hover{
+    background-color: #333333 !important;
+}
+
+.aug-card-gap .bottom-4{
+    padding-bottom: 20px;
+}
+
+/* section 12 */
+
+
+.aug-ox.oxford{
+    margin-left: 0px;
+    padding-top: 40px;
+}
+
+/* section 13 */
+
+.aug-g{
+    background-color: #2E2E2E;
+}
+
+.aug-g{
+    font-size: 23px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.aug-dura{
+    font-size: 2.5rem;
+}
+
+/* section-14 */
+
+/* section-15 */
+
+/* section-16 */
+.related-underline{
+    font-weight: normal !important;
+}
+
+.aug-heart span{
+    color: #e63946;
+}
+
+.heart-column-1.aut-heart .container{
+    height: 430px !important;
+}
+
+.aug-heart span{
+    font-size: 25px;
+    margin-right: 15px;
+}

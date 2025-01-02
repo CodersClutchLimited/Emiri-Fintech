@@ -142,6 +142,12 @@ app.get('/smart-contracts', (req, res) =>{
     res.render('pages/smart')
 })
 
+
+app.get('/augmented', (req, res) =>{
+    res.render('pages/augmented')
+})
+
+
 app.listen(1000, () => {
     console.log("LISTENING ON PORT 1000");
 })
