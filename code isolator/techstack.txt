@@ -1,0 +1,112 @@
+document.addEventListener("DOMContentLoaded", function () {
+    // Content for each mini card
+    const cardContent = {
+        "data-content": {
+            title: "Front-end",
+            text: "User experience drives modern web design. Our frontend services deliver sleek, intuitive, and responsive interfaces for all devices.",
+            rightContent: ["React", "Angular", "Vue.js", "Javascript"]
+        },
+        "database-content": {
+            title: "Back-end",
+            text: "Efficiency powers modern web development. Our backend services provide robust, secure, and scalable solutions to handle your application's core functionality.",
+            rightContent: ["Java",
+                ".NET",
+                "Python",
+                "PHP",
+                "Rust",
+                "C/C++",
+                "Node.js",
+                "Unity",
+                "Ruby",
+                "Golang",
+                "Unreal Engine",
+                "Cobol"]
+        },
+        "app-content": {
+            title: "Mobile",
+            text: "Innovation drives mobile app development. Our services create responsive, feature-rich, and user-friendly apps for seamless on-the-go experiences.",
+            rightContent: [
+                "iOS",
+                "Android",
+                "Flutter",
+                "React Native",
+                "Xamarin",
+                ".NET MAUI",
+                "Swift",
+                "Kotlin"
+              ]
+        },
+        "server-content": {
+            title: "Cloud",
+            text: "Scalability powers cloud solutions. Our services ensure secure, efficient, and reliable cloud computing for your data and applications.",
+            rightContent: [
+                "AWS",
+                "Azure",
+                "GCP",
+                "Sharepoint"
+              ]              
+        },
+        "security-content": {
+            title: "ERP & CRM",
+            text: "Our ERP solutions streamline business processes with efficient, integrated systems, while our CRM services help you manage and nurture customer relationships for growth and satisfaction.",
+            rightContent: [
+                "SAP",
+                "MS Dynamics 365",
+                "Odoo",
+                "Salesforce"
+              ]
+              
+        },
+        "modernization-content": {
+            title: "Cybersecurity",
+            text: "Our cybersecurity services protect your digital assets with advanced, proactive solutions, ensuring secure systems and data against evolving threats.",
+            rightContent: ["AWS Lambda", "Azure Functions", "Kubernetes", "Docker"]
+        }
+    };
+
+    // Function to set content dynamically
+    function setContent(target) {
+        const content = cardContent[target];
+        if (content) {
+            // Update left side content
+            document.getElementById("content-title").innerText = content.title;
+            document.getElementById("content-text").innerHTML = content.text;
+
+            // Update right side content
+            const rightSideContainer = document.getElementById("right-side-content");
+            rightSideContainer.innerHTML = ""; // Clear existing right side content
+
+            content.rightContent.forEach(item => {
+                const p = document.createElement("p");
+                p.classList.add("border", "border-1", "text-black", "bg-gray-300", "rounded-lg", "p-2", "mb-2", "mr-2", "text-center");
+                p.innerText = item;
+                rightSideContainer.appendChild(p);
+            });
+        }
+    }
+
+    // Add event listeners to each mini card
+    document.querySelectorAll(".mini-card").forEach(card => {
+        card.addEventListener("click", function (e) {
+            e.preventDefault();
+
+            // Remove active class from all mini cards
+            document.querySelectorAll(".mini-card").forEach(item => item.classList.remove("bg-black", "text-white"));
+
+            // Add active class to clicked card
+            this.classList.add("bg-black", "text-white");
+
+            // Update content based on the clicked card
+            const target = this.getAttribute("data-target");
+            setContent(target);
+        });
+    });
+
+    // Initialize content with the first card ("Data")
+    const firstCard = document.querySelector(".mini-card");
+    if (firstCard) {
+        firstCard.classList.add("bg-black", "text-white");
+        const initialTarget = firstCard.getAttribute("data-target");
+        setContent(initialTarget);
+    }
+});

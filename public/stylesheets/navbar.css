@@ -3,6 +3,54 @@
     color: #ec4899;
 }
 
+.menu-column .staff-augmen{
+    position: relative;
+    margin-top: 15px;
+    border: 1px solid #999;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.menu-column .staff-augmen::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 1px;
+    height: 30px;
+    background-color: #EC4899;
+}
+
+.menu-column .staff-augmen::after{
+    content: "";
+    position: absolute;
+    top: 80%;
+    right: 0;
+    width: 1px;
+    height: 30px;
+    background-color: #EC4899;
+}
+
+.staff-aug-text{
+    color: #333;
+}
+
+.staff-ages{
+    padding-top: 5px;
+}
+
+.staff-aug-button{
+    cursor: pointer;
+    padding: 5px 35px;
+    border: 1.5px solid #EC4899;
+    margin-top: 10px;
+}
+
+.staff-aug-button:hover{
+    background-color: #EC4899;
+}
+
 .developer-detatil p {
     cursor: pointer;
 }

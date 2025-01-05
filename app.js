@@ -147,6 +147,13 @@ app.get('/augmented', (req, res) =>{
     res.render('pages/augmented')
 })
 
+app.get('/technology', (req, res) =>{
+    res.render('pages/technology')
+})
+
+app.get('/industry', (req, res) =>{
+    res.render('pages/industry')
+})
 
 app.listen(1000, () => {
     console.log("LISTENING ON PORT 1000");
