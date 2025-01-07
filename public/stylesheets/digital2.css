@@ -16,7 +16,7 @@
   margin-top: -70px;
 }
 .title-1 span{
-  padding-right: 20px;
+  padding-right: 8px;
 
 }
 .acordion{
@@ -30,12 +30,12 @@
 
 .acord-starter{
   margin-top: -50px;
-  padding-top: 60px;
-  padding-bottom: 70px;
+  /* padding-top: 60px; */
+  /* padding-bottom: 70px; */
 }
 
  .acord-starter .acord-2{
-  padding-bottom: 20px;
+  padding-bottom: 45px;
 }
 
 .acord-2{
@@ -56,29 +56,117 @@
 }
 
 
-/* Responsive design */
+/* Responsive design for accordion */
 
-@media screen and (max-width:965px){
+@media screen and (max-width:500px){
   .forensic-dropper{
     max-width: 100% !important;
   }
   .dropper-container{
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+
+@media (min-width: 501px) and (max-width:850px){
+  .forensic-dropper{
+    max-width: 95% !important;
+  }
+
+  .dropper-container{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
   }
 
 }
 
-@media screen and (max-width:570px){
+@media (min-width: 851px) and (max-width:1024px){
+  .forensic-dropper{
+    max-width: 90% !important;
+  }
+
+  .dropper-container{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+
+}
+
+@media (min-width: 1025px) and (max-width:1400px){
+  .forensic-dropper{
+    max-width: 85% !important;
+  }
+
+  .dropper-container{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+
+}
+
+@media screen and (max-width: 768px){
+  .dropper-expand a{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .acordion button{
+    font-size: 1.1rem;
+  }
+  .dropper-expand h1, .dropper-expand strong{
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 421px) and (max-width: 460px) {
+  .acordion button{
+    font-size: 1.3rem;
+  }
+  .dropper-expand h1, .dropper-expand strong{
+    font-size: 1.3rem;
+  }
+}
+
+/* responsive design for hero */
+
+@media screen and (max-width: 344px){
+
+  .digital-hero{
+    height: 38vh;
+  }
+
   .title-1{
-    flex-direction: column;
-    text-align: center;
+    margin-top: -160px !important;
+    font-size: 1.2rem;
   }
-    .title-1 span{
-      padding-right: 0px !important;
-      padding-bottom: 15px;
-      text-align: center !important;
-    
-    }
-    
 }
+
+@media (min-width:345px) and (max-width:389px){
+  .digital-hero{
+    height: 40vh;
+  }
+
+  .title-1{
+    margin-top: -200px !important;
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width:390px) and (max-width:450px){
+  .digital-hero{
+    height: 40vh;
+  }
+
+  .title-1{
+    margin-top: -160px !important;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 451px) {
+  .title-1{
+    font-size: 2.3rem;
+  }
+}
+

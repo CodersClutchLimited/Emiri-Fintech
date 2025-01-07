@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const teamMembers = [
         {
             "id": 1,
-            "name": "Stéphanie Poscia",
-            "position": "HR Business Partner",
+            "name": "Longs Michael James, II",
+            "position": "Co-Founder & CEO",
             "company": "Arab Bank (Switzerland) Ltd.",
             "description": "Stéphanie has over 10 years of experience in HR management, specializing in workforce development and organizational leadership. She is passionate about building strong teams and fostering professional growth.",
             "content": "Since 2009, she has been the Head of Treasury at Arab Bank (Switzerland) Ltd. Appointed to the Executive Committee in 2014, she is now in charge of Treasury, Trading, Digital Assets, Financial Institutions, and Marketing.",
@@ -12,67 +12,67 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             "id": 2,
-            "name": "John Doe",
-            "position": "Chief Technology Officer",
+            "name": "Richard Kofi Asante",
+            "position": "Co-Founder",
             "company": "Innovative Solutions Inc.",
             "description": "John has over 15 years of experience in software development and leading tech teams. He excels in driving innovation and digital transformation within organizations.",
             "content": "John has spearheaded multiple groundbreaking projects at Innovative Solutions Inc., shaping the company’s technological roadmap and ensuring the adoption of cutting-edge solutions.",
-            "image": "https://img.freepik.com/free-photo/medium-shot-man-working-as-real-estate-agent_23-2151064824.jpg?ga=GA1.1.1951979353.1732287376&semt=ais_hybrid"
+            "image": "https://codersclutch.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-11-at-09.57.09-uai-720x720.jpeg"
         },
         {
             "id": 3,
-            "name": "Maria Gutierrez",
-            "position": "Marketing Director",
+            "name": "Eric kabutey",
+            "position": "Co-Founder & CTO",
             "company": "Global Tech Enterprises",
             "description": "Maria has been leading marketing strategies for over 12 years, with a focus on digital marketing and brand development.",
             "content": "At Global Tech Enterprises, Maria has been responsible for driving innovative marketing campaigns that have increased brand visibility and customer engagement worldwide.",
-            "image": "https://img.freepik.com/free-photo/medium-shot-man-working-as-real-estate-agent_23-2151064826.jpg?ga=GA1.1.1951979353.1732287376&semt=ais_hybrid"
+            "image": "https://codersclutch.com/wp-content/uploads/2024/12/cto-e1734026678161-uai-720x720.jpg"
         },
         {
             "id": 4,
-            "name": "Ahmed Al-Mansoori",
-            "position": "Chief Financial Officer",
+            "name": "Isata P.B Dainkeh",
+            "position": "Director - Public Relations",
             "company": "Middle East Financial Group",
             "description": "With over 20 years of experience in financial planning and analysis, Ahmed is known for his expertise in managing complex financial structures and investment strategies.",
             "content": "Ahmed joined Middle East Financial Group in 2015 and has played a critical role in streamlining financial operations and guiding the company through various market challenges.",
-            "image": "https://img.freepik.com/premium-photo/professional-young-man-posing-smart-suit-tie-exuding-confidence-success_1103944-11955.jpg?ga=GA1.1.1951979353.1732287376&semt=ais_hybrid"
+            "image": "https://codersclutch.com/wp-content/uploads/2024/10/hhhkkknb-uai-720x720.jpeg"
         },
         {
             "id": 5,
-            "name": "Sophie Laurent",
-            "position": "Product Development Manager",
+            "name": "Abdoulie Jeng",
+            "position": "Director - Business Development & Marketing",
             "company": "Tech Innovations Ltd.",
             "description": "Sophie specializes in the design and development of new products, with a strong background in consumer research and market analysis.",
             "content": "She has led several successful product launches at Tech Innovations Ltd., ensuring that customer needs are at the heart of every product designed.",
-            "image": "https://img.freepik.com/free-photo/portrait-elegant-professional-businessman_23-2150916994.jpg?ga=GA1.1.1951979353.1732287376&semt=ais_hybrid"
+            "image": "https://codersclutch.com/wp-content/uploads/2025/01/gg-1-uai-720x720.jpg"
         },
         {
             "id": 6,
-            "name": "Liam Matthews",
-            "position": "Chief Marketing Officer",
+            "name": "Muhammed Sillah",
+            "position": "Director - Public Relations & Global Product Delivery",
             "company": "NextGen Digital",
             "description": "Liam has 14 years of experience in digital marketing, with a focus on data-driven strategies that optimize customer acquisition and brand growth.",
             "content": "At NextGen Digital, Liam has led the company’s expansion into new markets, leveraging innovative digital campaigns that increased the brand’s reach by over 40%.",
-            "image": "https://t4.ftcdn.net/jpg/02/14/74/61/240_F_214746128_31JkeaP6rU0NzzzdFC4khGkmqc8noe6h.jpg"
+            "image": "https://codersclutch.com/wp-content/uploads/2025/01/jgh.jpg"
         },
-        {
-            "id": 7,
-            "name": "Emma Rodriguez",
-            "position": "Lead Data Scientist",
-            "company": "Tech Innovations Ltd.",
-            "description": "Emma specializes in data analytics and machine learning, using big data to drive business decisions and enhance customer experiences.",
-            "content": "She leads a team of analysts at Tech Innovations, developing predictive models and advanced analytics to inform strategic initiatives and operational efficiencies.",
-            "image": "https://t3.ftcdn.net/jpg/02/44/03/14/240_F_244031424_vuoomQH4eR1DD2lY4RcZsXEesy2KGFm1.jpg"
-        },
-        {
-            "id": 8,
-            "name": "Carlos Ramirez",
-            "position": "Operations Manager",
-            "company": "Global Logistics Partners",
-            "description": "Carlos has extensive experience in supply chain management and logistics, ensuring smooth operations and optimizing efficiency across global networks.",
-            "content": "He has successfully streamlined operations at Global Logistics Partners, reducing costs and improving the speed of deliveries to clients worldwide.",
-            "image": "https://t4.ftcdn.net/jpg/03/07/57/35/240_F_307573513_Tfy0Uxi7doNQMu4sU68OGFLZoENqLF5e.jpg"
-        }
+        // {
+        //     "id": 7,
+        //     "name": "Emma Rodriguez",
+        //     "position": "Lead Data Scientist",
+        //     "company": "Tech Innovations Ltd.",
+        //     "description": "Emma specializes in data analytics and machine learning, using big data to drive business decisions and enhance customer experiences.",
+        //     "content": "She leads a team of analysts at Tech Innovations, developing predictive models and advanced analytics to inform strategic initiatives and operational efficiencies.",
+        //     "image": "https://t3.ftcdn.net/jpg/02/44/03/14/240_F_244031424_vuoomQH4eR1DD2lY4RcZsXEesy2KGFm1.jpg"
+        // },
+        // {
+        //     "id": 8,
+        //     "name": "Carlos Ramirez",
+        //     "position": "Operations Manager",
+        //     "company": "Global Logistics Partners",
+        //     "description": "Carlos has extensive experience in supply chain management and logistics, ensuring smooth operations and optimizing efficiency across global networks.",
+        //     "content": "He has successfully streamlined operations at Global Logistics Partners, reducing costs and improving the speed of deliveries to clients worldwide.",
+        //     "image": "https://t4.ftcdn.net/jpg/03/07/57/35/240_F_307573513_Tfy0Uxi7doNQMu4sU68OGFLZoENqLF5e.jpg"
+        // }
     ]
 
 
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const infoText = document.createElement("div");
         const namePosition = document.createElement("h3");
-        namePosition.classList.add("text-lg", "font-normal");
+        namePosition.classList.add("text-sm", "font-normal");
         namePosition.textContent = member.position;
 
         const name = document.createElement("p");

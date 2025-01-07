@@ -40,7 +40,6 @@ height: 401px !important;
 }
 
 .table-content{
-    /* padding-top: .1px !important; */
     color: #fff;
 }
 
@@ -364,6 +363,7 @@ height: 401px !important;
 /* fourteenth section */
 .dev-cost-outer{
     color: #333;
+    padding-bottom: 70px;
 }
 
 /* .dev-cost{
@@ -541,4 +541,13 @@ height: 401px !important;
 
 .nft-boxer:hover{
     background-color: #222 !important;
+}
+
+.tech-lister span{
+    color: #C63031;
+    margin-right: 10px;
+}
+
+.tech-lister li{
+    padding-top: 10px;
 }

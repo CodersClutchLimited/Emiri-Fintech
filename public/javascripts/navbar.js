@@ -51,3 +51,30 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+
+const navbar = document.querySelector('.sticky-navbar');
+const stickyOffset = navbar.offsetTop;
+
+// Create a placeholder element
+const placeholder = document.createElement('div');
+placeholder.style.height = `${navbar.offsetHeight}px`;
+
+// Add scroll event listener
+window.addEventListener('scroll', () => {
+  if (window.pageYOffset >= stickyOffset) {
+    // Add the placeholder to maintain layout
+    if (!navbar.nextElementSibling?.isSameNode(placeholder)) {
+      navbar.parentNode.insertBefore(placeholder, navbar.nextSibling);
+    }
+    navbar.style.position = 'fixed';
+    navbar.style.top = '0';
+    navbar.style.width = '100%';
+  } else {
+    // Remove the placeholder when not sticky
+    if (navbar.nextElementSibling?.isSameNode(placeholder)) {
+      navbar.parentNode.removeChild(placeholder);
+    }
+    navbar.style.position = '';
+  }
+});

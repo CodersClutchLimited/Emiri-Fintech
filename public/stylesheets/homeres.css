@@ -199,7 +199,8 @@
 
 @media screen and (max-width:540px) {
   .all-hero {
-    height: 50vh;
+    /* height: 50vh; */
+    height: 70vh;
   }
 
   .inner-hero {
@@ -302,7 +303,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1300px) {
   .four-right-column{
     display: none !important;
   }

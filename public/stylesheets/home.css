@@ -780,6 +780,13 @@
   height: 504px;
 }
 
+/* .four-right-column img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+} */
+
+
 .hero-bots{
   margin-top: 50px;
   gap: 20px;
