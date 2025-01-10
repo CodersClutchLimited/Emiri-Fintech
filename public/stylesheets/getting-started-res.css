@@ -1,0 +1,301 @@
+/* starting hero */
+@media (max-width: 1024px) {
+    .starting-hero {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .starting-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .starting-content .starting-title {
+        font-size: 2.5rem;
+    }
+
+    .starter-dec {
+        font-size: 1.1rem;
+    }
+
+    .start-button {
+        padding-top: 30px;
+    }
+
+    .starting-image {
+        max-width: 60%;
+        margin: 20px 0 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .starting-content .starting-title {
+        font-size: 2rem;
+    }
+
+    .starter-dec {
+        font-size: 1rem;
+    }
+
+    .starting-content button {
+        padding: 10px 40px;
+        font-size: 0.85rem;
+    }
+
+    .starting-image {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .starting-hero {
+        padding: 1rem;
+    }
+
+    .starting-content .starting-title {
+        font-size: 1.8rem;
+    }
+
+    .starter-dec {
+        font-size: 0.9rem;
+    }
+
+    .starting-content button {
+        padding: 8px 30px;
+        font-size: 0.8rem;
+    }
+
+    .starting-image {
+        max-width: 100%;
+    }
+}
+
+/* issue section */
+@media (max-width: 1024px) {
+    .issue-outer {
+        margin-left: 20px;
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .issue-title {
+        font-size: 1.1rem;
+    }
+
+    .issue {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .issue-outer {
+        margin-left: 10px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        text-align: center; /* Center alignment for smaller screens */
+    }
+
+    .issue-title {
+        font-size: 1rem;
+    }
+
+    .issue {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .issue-outer {
+        margin-left: 0;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center; /* Keep centered alignment for very small screens */
+    }
+
+    .issue-title {
+        font-size: 0.9rem;
+    }
+
+    .issue {
+        font-size: 1.5rem;
+    }
+}
+
+/* trade box */
+@media (min-width: 1025px) and (max-width: 1300px) {
+    .trade-card {
+        flex: 1 1 calc(33.33% - 20px); /* 3 cards per row */
+    }
+}
+
+@media (max-width: 1024px) {
+    .trade-card {
+        flex: 1 1 calc(50% - 20px); /* 2 cards per row */
+    }
+
+    .trade-card h2 {
+        font-size: 1.4rem;
+    }
+
+    .trade-card p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .trade-card {
+        flex: 1 1 calc(100% - 20px); /* Single column */
+    }
+
+    .trade-card h2 {
+        font-size: 1.3rem;
+    }
+
+    .trade-card p {
+        font-size: 0.9rem;
+    }
+
+    .trade-card a {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .trade-container {
+        padding: 20px; /* Reduce padding for small screens */
+    }
+
+    .trade-card {
+        padding: 15px; /* Smaller padding */
+    }
+
+    .trade-card h2 {
+        font-size: 1.2rem;
+    }
+
+    .trade-card p {
+        font-size: 0.85rem;
+    }
+
+    .trade-card a {
+        font-size: 0.8rem;
+    }
+}
+
+/* custody section */
+@media (min-width: 768px) {
+    .custody-container {
+        gap: 50px;
+    }
+
+    .custody-image {
+        flex: 1 1 40%; /* Image takes 40% on medium screens */
+    }
+
+    .right-custody {
+        flex: 1 1 55%; /* Text takes 55% on medium screens */
+    }
+
+    .custody-section {
+        gap: 40px;
+        flex-wrap: nowrap;
+    }
+
+    .custody-content {
+        flex: 1 1 50%;
+    }
+
+    .custody-icons-list {
+        flex: 1 1 50%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .custody-container {
+        gap: 50px;
+        flex-wrap: nowrap; /* Prevent wrapping */
+    }
+
+    .custody-image {
+        flex: 1 1 40%; /* Image takes 40% on larger screens */
+    }
+
+    .right-custody {
+        flex: 1 1 55%; /* Text takes 55% on larger screens */
+    }
+
+    .custody-section {
+        gap: 60px;
+    }
+
+    .custody-content {
+        flex: 1 1 40%;
+    }
+
+    .custody-icons-list {
+        flex: 1 1 60%;
+    }
+}
+
+@media (min-width: 1300px) {
+    .custody-container {
+        gap: 100px;
+    }
+
+    .custody-image {
+        flex: 1 1 30%; /* Image takes 30% on very large screens */
+    }
+
+    .right-custody {
+        flex: 1 1 65%; /* Text takes 65% on very large screens */
+    }
+}
+
+/* private section */
+@media screen and (max-width: 640px){
+    .private-grid{
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .private-title {
+        font-size: 2rem; /* Slightly smaller font on medium screens */
+        padding-top: 40px; /* Adjust top padding */
+        padding-bottom: 60px; /* Adjust bottom padding */
+    }
+}
+
+/* Small screens (max-width: 768px) */
+@media (max-width: 768px) {
+    .private-title {
+        font-size: 1.8rem; /* Smaller font on small screens */
+        margin-left: 20px; /* Adjust left margin */
+        margin-right: 20px; /* Adjust right margin */
+        padding-top: 30px; /* Adjust top padding */
+        padding-bottom: 50px; /* Adjust bottom padding */
+        text-align: center; /* Center title for small screens */
+    }
+}
+
+/* Very small screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .private-title {
+        font-size: 1.5rem; /* Much smaller font for very small screens */
+        margin-left: 15px; /* Adjust left margin for very small screens */
+        margin-right: 15px; /* Adjust right margin for very small screens */
+        padding-top: 20px; /* Adjust top padding for very small screens */
+        padding-bottom: 40px; /* Adjust bottom padding for very small screens */
+    }
+}
+
+/* blockchain section */
+@media screen and (max-width: 443px){
+    .csp{
+        display: none;
+    }
+}
+

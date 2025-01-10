@@ -1,0 +1,97 @@
+@media screen and (max-width:1089px){
+    .wallet-container{
+        flex-direction: column;
+    }
+
+    .infrastructure{
+        padding-right: 4%;
+    }
+
+    .infrastructure-2{
+        padding-left: 4%;
+    }
+
+    .audit-1, .audit-2{
+        padding-left: 1%;
+    }
+    
+    .wallet-image{
+        display: none;
+    }
+}
+
+@media (min-width: 1089px) and (max-width:1207px){
+    .wallet-container{
+        flex-direction: column;
+    }
+
+    .infrastructure{
+        padding-right: 4%;
+    }
+
+    .infrastructure-2{
+        padding-left: 4%;
+    }
+
+    .audit-1, .audit-2{
+        padding-left: .1%;
+    }
+
+    .wallet-image{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .wallet-content h1, .risk-title, .risk-certification h2, .private-hero-title {
+        font-size: 2rem;
+    }
+
+    .private-hero-para{
+        font-size: 1.2rem;
+        padding: 0 5%;
+    }
+
+    .privacy-main{
+        height: 50vh;
+    }
+
+    .risk-certifications{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .risk-certification p{
+        padding-top: 0px !important;
+        padding-bottom: 40px;
+    }
+
+    .risk-title {
+        margin-bottom: 40px;
+    }    
+}
+
+@media screen and (max-width: 1116px){
+    .risk-certifications{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .risk-certification p{
+        padding-top: 0px !important;
+        padding-bottom: 40px;
+    }
+
+    .risk-title {
+        margin-bottom: 40px;
+    }    
+
+}
+
+@media (min-width:601px) and (max-width: 900px){
+    .wallet-content h1, .risk-title {
+        font-size: 2.5rem;
+    }
+}

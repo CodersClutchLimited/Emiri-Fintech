@@ -105,8 +105,7 @@
 }
 
 .secter {
-    margin-left: 100px !important;
-    margin-right: 100px !important;
+    max-width: 80%;
     margin-top: -100px !important;
     padding-bottom: 100px;
 }

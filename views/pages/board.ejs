@@ -1,5 +1,6 @@
 <%- layout('layouts/boilerplate') %>
-    <div class="custom-board relative text-white h-screen">
+    <link rel="stylesheet" href="/stylesheets/boardres.css">
+    <!-- <div class="custom-board relative text-white h-screen">
         <img class="custom-board-img absolute inset-0 w-full h-full object-cover"
             src="https://img.freepik.com/free-photo/group-people-stands-room-with-table-that-says-number-4-it_1340-35828.jpg?uid=R176520851&ga=GA1.1.438080985.1725988205&semt=ais_hybrid"
             alt="">
@@ -14,17 +15,28 @@
                 </h1>
             </div>
         </div>
+    </div> -->
+    <div class="digital-hero">
+        <div class="digital-texts">
+            <div class=" title-1 font-bold gap-7"><span><i class="ri-money-dollar-box-line"></i></span>
+                <div>Our Board</div>
+            </div>
+        </div>
     </div>
 
-    <section class="secter px-[100px] py-10 flex justify-center">
-        <div class="w-full lg:w-7/12 bg-white z-50">
-            <div class="text-center mb-3 pt-10">
-                <h2 style="color: #444; padding-bottom: 60px;" class=" font-normal text-3xl pt-8">We are a team of entrepreneurs and experts building the future of<br>capital markets</h2>
-            </div>
-            <div class="board-image-container pl-2 pr-2">
-                <div class="modal-con grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1" id="team-container">
+    <div class="boarder flex justify-center items-center">
+        <section class="secter px-[100px] py-10 flex justify-center">
+            <div class="w-full lg:w-7/12 bg-white z-10">
+                <div class="board-texter text-center mb-3 pt-10">
+                    <h2 style="color: #444; padding-bottom: 60px;" class=" font-normal text-2xl md:text-3xl pt-8">We are a team of
+                        entrepreneurs and experts building the future of capital markets</h2>
                 </div>
-            </div>        
-        </div>
-    </section>
+                <div class="board-image-container pl-2 pr-2">
+                    <div class="modal-con grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1" id="team-container">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
     <script src="/javascripts/board.js"></script>
