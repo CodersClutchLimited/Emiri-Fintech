@@ -15,12 +15,12 @@
 
 
   .deliver-content{
-    padding-left: 150px !important;
-    padding-right: 150px !important;
+    padding-left: 10% ;
+    padding-right: 10% ;
   }
 
   .second-container{
-    padding-top: 90px;
+    /* padding-top: 90px; */
     color: black;
   }
 
@@ -81,8 +81,18 @@
     background-color: #b13d77;
 }
 
+.gerard.link-container-1{
+    padding-bottom: 70px;
+}
+
 .link-container-1{
+    margin-top: 40px;
+    margin-bottom: 40px;
     padding-bottom: 30px;
+}
+
+.text-mapper{
+    padding-bottom: 20px;
 }
 
 .powered-paragraph{
@@ -96,9 +106,15 @@
 }
 
 .powered-container{
-    padding-left: 130px;
-    padding-right: 130px;
+    padding-left: 10% ;
+    padding-right: 10% ;
 
+}
+
+.heart-about{
+    padding-left: 8% ;
+    padding-right: 8% ;
+    padding-bottom: 50px;
 }
 
 .powered-container .padder{
@@ -167,7 +183,10 @@
     font-size: 1.3rem !important;
 }
 
-
+.aboutok{
+    padding-left: 7%;
+    padding-right: 7%;
+}
 
 .map-about{
     color: #fc91d9;
@@ -271,6 +290,7 @@
 }
 
 .find-container{
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     padding-bottom: 50px !important;

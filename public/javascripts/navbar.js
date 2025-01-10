@@ -52,18 +52,15 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-
+// js for navbar stickiness
 const navbar = document.querySelector('.sticky-navbar');
 const stickyOffset = navbar.offsetTop;
 
-// Create a placeholder element
 const placeholder = document.createElement('div');
 placeholder.style.height = `${navbar.offsetHeight}px`;
 
-// Add scroll event listener
 window.addEventListener('scroll', () => {
   if (window.pageYOffset >= stickyOffset) {
-    // Add the placeholder to maintain layout
     if (!navbar.nextElementSibling?.isSameNode(placeholder)) {
       navbar.parentNode.insertBefore(placeholder, navbar.nextSibling);
     }

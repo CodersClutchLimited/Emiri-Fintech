@@ -1,9 +1,8 @@
 <%- layout('layouts/boilerplate') %>
+<link rel="stylesheet" href="/stylesheets/aboutres.css">
     <div class="digital-hero">
         <div class="digital-texts">
-            <div class=" title-1 text-center font-bold text-5xl flex flex-col justify-center gap-7"><span><i
-                        class="ri-book-open-line"></i> Our Story</span>
-                <div class="white-r"></div>
+            <div class=" title-1 font-bold gap-7"><span><i class="ri-book-open-line"></i> Our Story</span>
             </div>
         </div>
     </div>
@@ -11,7 +10,7 @@
     <div class="acordion">
         <div class="forensic-dropper">
             <div class=" dropper-container zero-pad">
-                <div class="grid grid-cols-2 gap-12">
+                <div class=" acord-starter grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div class="colo-1 about-colo">
                         <p class="mb-3">We believe that distributed ledger technologies/blockchain will increasingly and
                             positively impact our economy, starting with capital markets whose
@@ -35,10 +34,9 @@
     <!-- second container -->
 
     <div class="second-container bg-white ">
-
         <div class="deliver-content">
             <!-- Title Section -->
-            <h2 class="column-title-2 text-5xl font-light  mb-8">We deliver results</h2>
+            <h2 class="column-title-2 text-3xl md:text-5xl font-light  mb-8">We deliver results</h2>
 
             <!-- Grid Section for the stats -->
             <div class="deliver-column grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
@@ -47,7 +45,7 @@
                     <h2 class="text-5xl font-bold text-gray-800 mb-2">
                         35+ <span class="role superscript">clients</span>
                     </h2>
-                    <p style="white-space: nowrap;" class="">We work with leading financial institutions<br>and
+                    <p  class="">We work with leading financial institutions and
                         pioneering
                         companies</p>
                 </div>
@@ -73,9 +71,9 @@
     </div>
 
     <!-- logo container -->
-    <div class="logo-container-2">
+    <div class="about-logos logo-container-2">
         <!-- Grid container -->
-        <div class="logo-grid-2">
+        <div class="aboutok logo-grid-2">
             <!-- Column 1: Logo -->
             <div class="logo-item-2">
                 <img src="/images/quote1.jpg" alt="Logo 1">
@@ -96,7 +94,7 @@
     </div>
 
     <!-- why container -->
-    <div class="link-container-1 flex items-center justify-center bg-white">
+    <div class="gerard link-container-1 flex items-center justify-center bg-white">
         <div class="link-container">
             <a href="#" class="text-white font-medium">
                 WHY EMIRI
@@ -107,17 +105,17 @@
     <!-- powered section -->
     <div class="powered-container mx-auto  bg-white">
         <!-- Grid Container -->
-        <div class="powered-grid zero-pad-1 grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+        <div class="powered-grid zero-pad-1 grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
             <!-- First Column: Paragraph of Texts -->
             <div class="powered-paragraph">
-                <h2 class="text-5xl mb-8 font-light">Powered by world class<br>expertise.</h2>
+                <h2 class="text-3xl md:text-5xl mb-8 font-light">Powered by world class expertise.</h2>
                 <p class="colum-1-paragraph mb-5 text-md">
-                    We are a technology company first: more than 70% of our employees are PhDs,<br>engineers and
-                    cybersecurity experts. They are among the few teams in the world<br>that master the full technology
-                    stack across software development, secure<br>DevOps, cryptography and blockchain technology.
+                    We are a technology company first: more than 70% of our employees are PhDs,engineers and
+                    cybersecurity experts. They are among the few teams in the worldthat master the full technology
+                    stack across software development, secure DevOps, cryptography and blockchain technology.
                 </p>
                 <p class="colum-1-paragraph mb-5 text-md">
-                    We combine with this technology DNA financial services and regulatory expertise:<br>our co-founders
+                    We combine with this technology DNA financial services and regulatory expertise: our co-founders
                     are experienced financial services and regulatory executives.
                 </p>
             </div>
@@ -137,21 +135,21 @@
     </div>
 
     <!-- Heart container -->
-    <div class="heart-container flex justify-center mx-auto p-4 bg-white">
+    <div class="heart-container heart-about flex justify-center mx-auto bg-white">
         <!-- Grid container -->
         <div class=" heart-grid">
             <!-- First column -->
             <div class="heart-column-1 text-center p-4">
-                <h2 class="text-5xl mb-8 font-light">At the heart of Taurus</h2>
+                <h2 class="text-3xl md:text-5xl mb-8 font-light">At the heart of Taurus</h2>
                 <p class="colum-1-paragraph mb-5 text-lg">We are committed to equip our clients with unrivalled
                     capabilities to unlock the potential of digital assets.</p>
             </div>
 
             <!-- Second column -->
             <div class="heart-column-2 grid grid-rows-3 gap-4">
-                <div class="border at-border py-6">
+                <div class="border-b at-border py-6">
                     <button
-                        class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                        class="flex justify-between items-center w-full text-left text-xl font-semibold text-blue-600"
                         onclick="toggleSection('section3')">
                         Banking CRM
                         <span class="text-gray-500">+</span>
@@ -172,9 +170,9 @@
                     </div>
                 </div>
 
-                <div class="border at-border py-6">
+                <div class="border-b at-border py-6">
                     <button
-                        class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                        class="flex justify-between items-center w-full text-left text-xl font-semibold text-blue-600"
                         onclick="toggleSection('section2')">
                         Mobile Banking
                         <span class="text-gray-500">+</span>
@@ -197,9 +195,9 @@
                     </div>
                 </div>
 
-                <div class="border at-border py-6">
+                <div class="border-b at-border py-6">
                     <button
-                        class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                        class="flex justify-between items-center w-full text-left text-xl font-semibold text-blue-600"
                         onclick="toggleSection('section4')">
                         Opening Banking
                         <span class="text-gray-500">+</span>
@@ -218,9 +216,9 @@
                     </div>
                 </div>
 
-                <div class="border at-border py-6">
+                <div class="border-b at-border py-6">
                     <button
-                        class="flex justify-between items-center w-full text-left text-2xl font-semibold text-blue-600"
+                        class="flex justify-between items-center w-full text-left text-xl font-semibold text-blue-600"
                         onclick="toggleSection('section1')">
                         Core Banking services
                         <span class="text-gray-500">+</span>
@@ -239,7 +237,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
 
@@ -251,10 +249,10 @@
             <p class="map-about text-lg text-center font-semibold mb-3">About Us</p>
 
             <!-- Title -->
-            <h2 class="text-center text-4xl font-bold text-gray-900 mb-4">Global coverage, distributed team</h2>
+            <h2 class="text-center text-3xl md:text-4xl font-bold text-gray-900 mb-4">Global coverage, distributed team</h2>
 
             <!-- Short Paragraph -->
-            <p class="text-xl text-center text-gray-600">We have technology offices and teams all around the world.</p>
+            <p class="text-mapper text-lg md:text-xl text-center text-gray-600">We have technology offices and teams all around the world.</p>
         </div>
 
         <!-- Map Container -->
@@ -346,7 +344,7 @@
 
     <!-- find us container -->
     <div class="bg-white find-container mx-auto">
-        <div class="location-box grid grid-cols-3 gap-4">
+        <div class="location-box grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div class="box-1 box text-center">
                 <i class="ri-map-pin-line"></i>
                 <p class="font-bold find-bolder mb-2">Geneva, CH</p>

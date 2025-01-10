@@ -200,12 +200,13 @@
 @media screen and (max-width:540px) {
   .all-hero {
     /* height: 50vh; */
-    height: 70vh;
+    height: 60vh;
   }
 
   .inner-hero {
     height: 50vh;
-    padding-top: 30px;
+    /* padding-top: 30px; */
+    padding-top: 100px;
   }
 
   .responsive-heading {

@@ -1,0 +1,22 @@
+@media screen and (max-width: 500px){
+    .deliver-content, .powered-container, .heart-about{
+        padding-left: 6% ;
+        padding-right: 6% ;
+      }
+
+      .second-container{
+        padding-top: 0px;
+      }  
+
+      .powered-grid{
+        padding-top: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+@media screen and (max-width: 861px){
+    .about-logos{
+        display: none;
+    }
+}

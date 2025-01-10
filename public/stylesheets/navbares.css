@@ -6,6 +6,16 @@
     .book-box-2{
         margin-left: -10px;
     }
+
+    .sticky-navbar {
+        overflow-y: auto;
+        max-height: 100vh;
+        scrollbar-width: none;
+    }  
+
+    .sticky-navbar::-webkit-scrollbar {
+        display: none;
+      }
 }
 
 @media screen and (min-width:1024px){
