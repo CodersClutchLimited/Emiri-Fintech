@@ -1,0 +1,11 @@
+/* .dropper-container{
+    padding-left: 0%;
+    padding-right: 0%;
+} */
+
+
+@media screen and (max-width: 634px){
+    .career-role span, .startre, .joba-kunda{
+        display: none;
+    }
+}

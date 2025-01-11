@@ -1,29 +1,30 @@
-  document.addEventListener("DOMContentLoaded", () => {
-    const dropdown1 = document.getElementById("dropdown1");
-    const dropdown2 = document.getElementById("dropdown2");
-    const jobItems = document.querySelectorAll(".job-item");
+document.addEventListener('DOMContentLoaded', function() {
+  const dropdown1 = document.getElementById('dropdown1');
+  const dropdown2 = document.getElementById('dropdown2');
+  const jobList = document.getElementById('job-list');
+  const jobItems = document.querySelectorAll('.job-item');
 
-    function filterJobs() {
-      const selectedCategory = dropdown1.value;
-      const selectedLocation = dropdown2.value;
+  function filterJobs() {
+    const categoryFilter = dropdown1.value;
+    const locationFilter = dropdown2.value;
 
-      jobItems.forEach(item => {
-        const itemCategory = item.dataset.category;
-        const itemLocation = item.dataset.location;
+    jobItems.forEach(job => {
+      const jobCategory = job.getAttribute('data-category');
+      const jobLocation = job.getAttribute('data-location');
 
-        // Check if the item matches the selected filters
-        const matchesCategory = selectedCategory === "" || itemCategory === selectedCategory;
-        const matchesLocation = selectedLocation === "" || itemLocation === selectedLocation;
+      const matchesCategory = categoryFilter ? jobCategory === categoryFilter : true;
+      const matchesLocation = locationFilter ? jobLocation === locationFilter : true;
 
-        if (matchesCategory && matchesLocation) {
-          item.style.display = "flex"; // Show item
-        } else {
-          item.style.display = "none"; // Hide item
-        }
-      });
-    }
+      if (matchesCategory && matchesLocation) {
+        job.style.display = 'flex';
+      } else {
+        job.style.display = 'none';
+      }
+    });
+  }
 
-    // Attach event listeners to both dropdowns
-    dropdown1.addEventListener("change", filterJobs);
-    dropdown2.addEventListener("change", filterJobs);
-  });
+  dropdown1.addEventListener('change', filterJobs);
+  dropdown2.addEventListener('change', filterJobs);
+
+  filterJobs();
+});

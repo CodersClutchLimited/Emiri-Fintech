@@ -1,60 +1,64 @@
 /* eco hero */
 .eco-hero-container {
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-    height: 100vh;
-    padding: 0 3%;
-    padding-top: 5.5%;
-    background-color: #FAFAFA;
-  }
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+  padding: 0 3%;
+  padding-top: 5.5%;
+  background-color: #FAFAFA;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
 
-  .eco-hero-content {
-    max-width: 50%;
-  }
+.eco-hero-content {
+  max-width: 50%;
+  flex: 1; /* Ensure content takes available space */
+  margin-bottom: 20px;
+}
 
-  .eco-hero-content-title {
-    font-size: 3rem;
-    color: #333;
-    margin-bottom: 1.6rem;
-  }
+.eco-hero-content-title {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
 
-  .eco-hero-content-title span{
-    color: #FA68FF;
-  }
+.eco-hero-content-title span {
+  color: #FA68FF;
+}
 
-  .eco-hero-content-paragraph {
-    font-size: 1.28rem;
-    color: #444;
-    margin-bottom: 2.5rem;
-    letter-spacing: .4px;
-  }
+.eco-hero-content-paragraph {
+  font-size: 1.28rem;
+  color: #444;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.4px;
+}
 
-  .eco-hero-content-button {
-    width: 245px;
-    padding: 15px 30px;
-    font-size: .85rem;
-    color: #fff;
-    background-color: #FA64FF;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+.eco-hero-content-button {
+  width: 245px;
+  padding: 15px 30px;
+  font-size: 0.85rem;
+  color: #fff;
+  background-color: #FA64FF;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
-  .eco-hero-content-button:hover {
-    background-color: #CE38D4;
-  }
+.eco-hero-content-button:hover {
+  background-color: #CE38D4;
+}
 
-  .eco-hero-image-container {
-    max-width: 40%;
-  }
+.eco-hero-image-container {
+  max-width: 40%;
+  flex: 1; /* Ensure the image container takes available space */
+  text-align: center; /* Center the image for smaller screens */
+}
 
-  .eco-hero-image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
+.eco-hero-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
 
   /* thorne section */
   .thorne-section-container {
@@ -67,7 +71,7 @@
     padding-bottom: 140px;
 }
 
-.academia{
+.academia {
     margin-top: 0px;
     padding-bottom: 95px;
 }
@@ -90,44 +94,29 @@
 }
 
 .thorne-logos {
-    width: 90%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 logos per row */
-    gap: 70px;
-    row-gap: 80px;
+    gap: 20px;
+    row-gap: 20px;
 }
 
 .thorne-logo {
-    width: 160px;
-    height: 50px; /* Set a consistent height */
+    width: 100px;
+    height: 40px; /* Adjust height for smaller screens */
     object-fit: contain; /* Maintain aspect ratio without distorting */
     margin: 0 auto; /* Center the logos */
 }
 
-.thorne-column-1 {
-    position: relative;
-}
-
-.thorne-column-1::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 7.4%;
-    bottom: 0;
-    width: 1px;
-    height: 8%;
-    background-color: #FA64FF;
-}
-
-
+.thorne-column-1,
 .thorne-column-2 {
     position: relative;
 }
 
+.thorne-column-1::before,
 .thorne-column-2::after {
     content: '';
     position: absolute;
-    right: 0;
     top: 7.4%;
     bottom: 0;
     width: 1px;
@@ -135,8 +124,15 @@
     background-color: #FA64FF;
 }
 
+.thorne-column-1::before {
+    left: 0;
+}
+
+.thorne-column-2::after {
+    right: 0;
+}
 /* become a partner */
-.partner-container {
+/* .partner-container {
     padding: 110px 0;
     display: flex;
     justify-content: center;
@@ -157,4 +153,27 @@
   }
 
   .partner-button {
-  }
+  } */
+
+  .partner-container {
+    padding: 60px 20px; /* Adjust padding for smaller screens */
+    display: flex;
+    flex-direction: column; /* Stacks content vertically on small screens */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    gap: 20px; /* Consistent spacing */
+}
+
+.partner-heading {
+    color: #333;
+    font-size: 2rem; /* Scaled down font size */
+    margin-bottom: 10px;
+}
+
+.partner-subheading {
+    font-size: 1rem; /* Use rem for better scaling */
+    color: #333;
+    /* max-width: 100%; */
+}

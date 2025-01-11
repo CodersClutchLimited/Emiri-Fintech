@@ -327,8 +327,8 @@
 .inter-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    padding: 50px;
+    align-items: center;
+    padding: 3.2%;
     color: #fff;
     margin-top: 100px;
     background-color: #2D2832;
@@ -421,32 +421,38 @@
     height: auto;
 }
 
-
 .compatible-container {
-    padding: 20px 0; /* Adjust padding as needed */
-    background-color: #2D2832; /* Dark background color */
-    color: #fff; /* Gray text color */
-    padding-bottom: 130px;
-  }
-  
-  .compatible-text {
-    font-size: 2.7rem;
-    margin-bottom: 20px;
-    margin-left: 60px;
-  }
-  
-  .compatible-logos {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 95%;
-    margin-left: -37px;
-  }
-  
-  .compatible-logo {
-    max-width: 250px; /* Adjust max-width as needed */
-    opacity: 0.5; /* Semi-transparent logos */
-  }
+  padding: 20px 0; /* Adjust padding as needed */
+  background-color: #2D2832; /* Dark background color */
+  color: #fff; /* Gray text color */
+  padding-bottom: 130px;
+  text-align: left; /* Center align text for smaller screens */
+}
+
+.compatible-text {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.compatible-logos {
+  display: flex;
+  flex-wrap: wrap; /* Allow logos to wrap on smaller screens */
+  justify-content: center; /* Center logos on smaller screens */
+  gap: 20px; /* Add space between logos */
+  width: 100%; /* Ensure the container takes full width */
+  margin: 0 auto; /* Center the container */
+}
+
+.compatible-logo {
+  max-width: 150px; /* Adjust max-width for smaller screens */
+  opacity: 0.7; /* Adjust opacity if needed */
+  transition: opacity 0.3s ease;
+}
+
+.compatible-logo:hover {
+  opacity: 1; /* Make logos fully visible on hover */
+}
+
 
   .micro-container {
     display: flex;
@@ -492,7 +498,7 @@
   }
   
   .micro-image-container {
-    flex: 1; /* Takes up half of the container */
+    flex: 1;
     height: 100vh; /* Ensures the image container takes full height */
     display: flex;
     justify-content: center;
@@ -508,7 +514,7 @@
   .goaters{
     padding-top: 100px;
     padding-bottom: 70px;
-    margin-left: 73px;
+    margin-left: 5.5%;
   }
 
   .tested {

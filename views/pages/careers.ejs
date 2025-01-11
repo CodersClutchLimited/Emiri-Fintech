@@ -1,143 +1,146 @@
 <%- layout('layouts/boilerplate') %>
-<div class="career-container max-h-screen">
-    <div class="career-title text-center">
-        <p class="text-normal text-5xl">Careers</p>
-    </div>
-
-    <!-- Outer Container -->
-    <div class="careers p-6">
-      <!-- Inner Container with Two Columns -->
-      <div class="grid grid-cols-2 gap-4">
-        <!-- First Column -->
-        <div class="w-full mt-4">
-          <select id="dropdown1" class="w-full p-2 border border-gray-300 rounded-md">
-            <option value="">All Categories</option>
-            <option value="Software Development">Software Development</option>
-            <option value="Legal Department">Legal Department</option>
-            <option value="System and Network Administration">System and Network Administration</option>
-            <option value="Engineering">Engineering</option>
-            <option value="Other">Other</option>
-          </select>
-        </div>
-        <!-- Second Column -->
-        <div class="w-full mt-4">
-          <select id="dropdown2" class="w-full p-2 border border-gray-300 rounded-md">
-            <option value="">All locations</option>
-            <option value="Geneva, Switzerland">Geneva, Switzerland</option>
-            <option value="Lausanne, Switzerland">Lausanne, Switzerland</option>
-            <option value="Vancouver, Canada">Vancouver, Canada</option>
-          </select>
-        </div>
-      </div>
-  
-      <!-- Job List -->
-      <div class="mt-8">
-        <!-- Single Job Item -->
-        <div class="job-item bg-white rounded-lg mb-4 flex items-center shadow-md">
-            <!-- Icon Image -->
-            <img src="/images/emiri.png" alt="Job Icon" class="job-icon">
-          
-            <!-- Job Details -->
-            <div class="flex-1">
-              <!-- Job Title -->
-              <h3 class="text-lg font-medium career-role mb-2">Head of Trading Sales & Distribution [Geneva / Lausanne / Zurich]</h3>
-              <!-- Job Info Row -->
-              <div class="flex space-x-4 text-lg font-normal career-detail">
-                <p><span><i class="ri-map-pin-2-fill"></i></span> Geneva, Switzerland</p>
-                <p><span><i class="ri-briefcase-3-line"></i></span> Employee</p>
-                <p><span><i class="ri-folder-line"></i></span> Other</p>
-              </div>
-            </div>
-            <div class="arrow">
-                <a class="arrow-icon" href="#"><i class="ri-arrow-right-s-line"></i></a>
-            </div>
-          </div>
-          
-        <!-- Single Job Item -->
-        <div class="job-item bg-white rounded-lg mb-4 flex items-center shadow-md">
-            <!-- Icon Image -->
-            <img src="/images/emiri.png" alt="Job Icon" class="job-icon">
-          
-            <!-- Job Details -->
-            <div class="flex-1">
-              <!-- Job Title -->
-              <h3 class="text-lg font-medium career-role mb-2">Legal Officer [Switzerland / Paris / London]</h3>
-              <!-- Job Info Row -->
-              <div class="flex space-x-4 text-lg font-normal career-detail">
-                <p><span><i class="ri-map-pin-2-fill"></i></span> Geneva, Switzerland</p>
-                <p><span><i class="ri-briefcase-3-line"></i></span> Employee</p>
-                <p><span><i class="ri-folder-line"></i></span> Legal Department</p>
-              </div>
-            </div>
-            <div class="arrow">
-                <a class="arrow-icon" href="#"><i class="ri-arrow-right-s-line"></i></a>
-            </div>
-          </div>
-
-        <!-- Single Job Item -->
-        <div class="job-item bg-white rounded-lg mb-4 flex items-center shadow-md" data-category="Other" data-location="Geneva, Switzerland">
-            <!-- Icon Image -->
-            <img src="/images/emiri.png" alt="Job Icon" class="job-icon">
-          
-            <!-- Job Details -->
-            <div class="flex-1">
-              <!-- Job Title -->
-              <h3 class="text-lg font-medium career-role mb-2">Senior Platform Engineer / Senior Devops Engineer [Geneva / Zurich / Lausanne]</h3>
-              <!-- Job Info Row -->
-              <div class="flex space-x-4 text-lg font-normal career-detail">
-                <p><span><i class="ri-map-pin-2-fill"></i></span> Geneva, Switzerland</p>
-                <p><span><i class="ri-briefcase-3-line"></i></span> Employee</p>
-                <p><span><i class="ri-folder-line"></i></span> Engineering</p>
-              </div>
-            </div>
-            <div class="arrow">
-                <a class="arrow-icon" href="#"><i class="ri-arrow-right-s-line"></i></a>
-            </div>
-          </div>
-
-          <div class="job-item bg-white rounded-lg mb-4 flex items-center shadow-md"  data-category="Software Development" data-location="Lausanne, Switzerland">
-            <!-- Icon Image -->
-            <img src="/images/emiri.png" alt="Job Icon" class="job-icon">
-          
-            <!-- Job Details -->
-            <div class="flex-1">
-              <!-- Job Title -->
-              <h3 class="text-lg font-medium career-role mb-2">Senior Site Reliability Engineer [Vancouver]</h3>
-              <!-- Job Info Row -->
-              <div class="flex space-x-4 text-lg font-normal career-detail">
-                <p><span><i class="ri-map-pin-2-fill"></i></span> Vancouver, Canada (hybrid)</p>
-                <p><span><i class="ri-briefcase-3-line"></i></span> Employee</p>
-                <p><span><i class="ri-folder-line"></i></span> System and Network Administration</p>
-              </div>
-            </div>
-            <div class="arrow">
-                <a class="arrow-icon" href="#"><i class="ri-arrow-right-s-line"></i></a>
-            </div>
-          </div>
-
-          <div class="job-item bg-white rounded-lg mb-4 flex items-center shadow-md">
-            <!-- Icon Image -->
-            <img src="/images/emiri.png" alt="Job Icon" class="job-icon">
-          
-            <!-- Job Details -->
-            <div class="flex-1">
-              <!-- Job Title -->
-              <h3 class="text-lg font-medium career-role mb-2">Team Lead - Software Engineering [Lausanne / Geneva / Zurich]</h3>
-              <!-- Job Info Row -->
-              <div class="flex space-x-4 text-lg font-normal career-detail">
-                <p style="white-space: nowrap;"><span><i class="ri-map-pin-2-fill"></i></span> Lausanne, Switzerland</p>
-                <p style="white-space: nowrap;"><span><i class="ri-briefcase-3-line"></i></span> Employee</p>
-                <p style="white-space: nowrap;"><span><i class="ri-folder-line"></i></span> Software Development</p>
-              </div>
-            </div>
-
-            <div class="arrow">
-                <a class="arrow-icon" href="#"><i class="ri-arrow-right-s-line"></i></a>
-            </div>
-          </div>
-
+  <link rel="stylesheet" href="/stylesheets/careeres.css">
+  <div class="digital-hero">
+    <div class="digital-texts">
+      <div class=" title-1 font-bold gap-7"><span><i class="ri-briefcase-line"></i></span>
+        <div>CAREERS</div>
       </div>
     </div>
   </div>
-  
+
+  <div class="acordion">
+    <div class="forensic-dropper">
+      <div class="dropper-container zero-pad">
+        <div class="acord-starter">
+          <div class="careers">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="w-full mt-4">
+                <select id="dropdown1" class="w-full p-2 border border-gray-300 rounded-md">
+                  <option value="">All Categories</option>
+                  <option value="Software Development">Software Development</option>
+                  <option value="Legal Department">Legal Department</option>
+                  <option value="System and Network Administration">System and Network Administration</option>
+                  <option value="Engineering">Engineering</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <div class="w-full mt-4">
+                <select id="dropdown2" class="w-full p-2 border border-gray-300 rounded-md">
+                  <option value="">All locations</option>
+                  <option value="Geneva, Switzerland">Geneva, Switzerland</option>
+                  <option value="Lausanne, Switzerland">Lausanne, Switzerland</option>
+                  <option value="Vancouver, Canada">Vancouver, Canada</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <div class="job-item bg-white rounded-lg mb-4 flex items-center shadow-md">
+                <img
+                  src="https://img.freepik.com/free-photo/teammates-manager-assembling-big-data-room-go-their-results_482257-91027.jpg?t=st=1736602452~exp=1736606052~hmac=2c03492092151978ccc8c297f7abd80653bcf978231d41a3bf696c8d158e8047&w=996"
+                  alt="Job Icon" class="job-icon">
+
+                <div class="flex-1">
+                  <h3 class="text-lg font-medium career-role mb-2">Head of Trading Sales <span>& Distribution [Geneva /
+                      Lausanne /
+                      Zurich]</span></h3>
+                  <div class="flex space-x-4 text-lg font-normal career-detail">
+                    <p><span><i class="ri-map-pin-2-fill"></i></span> Geneva, Switzerland</p>
+                    <p  class="startre"><span><i class="ri-briefcase-3-line"></i></span> Employee</p>
+                    <p  class="startre"><span><i class="ri-folder-line"></i></span> Other</p>
+                  </div>
+                </div>
+                <div class="arrow">
+                  <a class="arrow-icon" href="#"><i class="ri-arrow-right-s-line"></i></a>
+                </div>
+              </div>
+
+              <div class="job-item bg-white rounded-lg mb-4 flex items-center shadow-md">
+                <img
+                  src="https://img.freepik.com/free-psd/3d-rendering-lawyer-character_23-2151688909.jpg?uid=R176520851&ga=GA1.1.438080985.1725988205&semt=ais_hybrid"
+                  alt="Job Icon" class="job-icon">
+
+                <div class="flex-1">
+                  <h3 class="text-lg font-medium career-role mb-2">Legal Officer <span>[Switzerland / Paris /
+                      London]</span></h3>
+                  <div class="flex space-x-4 text-lg font-normal career-detail">
+                    <p><span><i class="ri-map-pin-2-fill"></i></span> Geneva, Switzerland</p>
+                    <p  class="startre"><span><i class="ri-briefcase-3-line"></i></span> Employee</p>
+                    <p  class="startre"><span><i class="ri-folder-line"></i></span> Legal Department</p>
+                  </div>
+                </div>
+                <div class="arrow">
+                  <a class="arrow-icon" href="#"><i class="ri-arrow-right-s-line"></i></a>
+                </div>
+              </div>
+
+              <div class="job-item bg-white rounded-lg mb-4 flex items-center shadow-md" data-category="Other"
+                data-location="Geneva, Switzerland">
+                <img
+                  src="https://img.freepik.com/premium-photo/teenage-girl-focused-schoolwork_1030879-77807.jpg?uid=R176520851&ga=GA1.1.438080985.1725988205&semt=ais_hybrid"
+                  alt="Job Icon" class="job-icon">
+
+                <div class="flex-1">
+                  <h3 class="text-lg font-medium career-role mb-2">Senior Platform Engineer <span>/ Senior Devops
+                      Engineer [Geneva /
+                      Zurich / Lausanne]</span></h3>
+                  <div class="flex space-x-4 text-lg font-normal career-detail">
+                    <p><span><i class="ri-map-pin-2-fill"></i></span> Geneva, Switzerland</p>
+                    <p  class="startre"><span><i class="ri-briefcase-3-line"></i></span> Employee</p>
+                    <p  class="startre"><span><i class="ri-folder-line"></i></span> Engineering</p>
+                  </div>
+                </div>
+                <div class="arrow">
+                  <a class="arrow-icon" href="#"><i class="ri-arrow-right-s-line"></i></a>
+                </div>
+              </div>
+
+              <div class="job-item bg-white rounded-lg mb-4 flex items-center shadow-md"
+                data-category="System and Network Administration" data-location="Vancouver, Canada">
+                <img
+                  src="https://img.freepik.com/free-photo/man-safety-equipment-showing-tablet-mock-up_23-2148242988.jpg?uid=R176520851&ga=GA1.1.438080985.1725988205&semt=ais_hybrid"
+                  alt="Job Icon" class="job-icon">
+
+                <div class="flex-1">
+                  <h3 class="text-lg font-medium career-role mb-2">Senior Site
+                    <span>Reliability</span>Engineer<span>[Vancouver]</span></h3>
+                  <div class="flex space-x-4 text-lg font-normal career-detail">
+                    <p><span><i class="ri-map-pin-2-fill"></i></span> Vancouver, Canada <span class="joba-kunda">(hybrid)</span></p>
+                    <p  class="startre"><span><i class="ri-briefcase-3-line"></i></span> Employee</p>
+                    <p  class="startre"><span><i class="ri-folder-line"></i></span> System and Network Administration</p>
+                  </div>
+                </div>
+                <div class="arrow">
+                  <a class="arrow-icon" href="#"><i class="ri-arrow-right-s-line"></i></a>
+                </div>
+              </div>
+
+              <div class="job-item bg-white rounded-lg mb-4 flex items-center shadow-md">
+                <img
+                  src="https://img.freepik.com/premium-photo/business-colleagues-reading-sticky-notes-glass_107420-81627.jpg?uid=R176520851&ga=GA1.1.438080985.1725988205&semt=ais_hybrid"
+                  alt="Job Icon" class="job-icon">
+
+                <div class="flex-1">
+                  <h3 class="text-lg font-medium career-role mb-2"><span class="joba-kunda">Team Lead - </span>Software Engineer<span class="joba-kunda">ing</span><span> [Lausanne /
+                      Geneva /
+                      Zurich]</span></h3>
+                  <div class="flex space-x-4 text-lg font-normal career-detail">
+                    <p style="white-space: nowrap;"><span><i class="ri-map-pin-2-fill"></i></span> Lausanne, Switzerland
+                    </p>
+                    <p  class="startre" style="white-space: nowrap;"><span><i class="ri-briefcase-3-line"></i></span> Employee</p>
+                    <p  class="startre" style="white-space: nowrap;"><span><i class="ri-folder-line"></i></span> Software Development</p>
+                  </div>
+                </div>
+
+                <div class="arrow">
+                  <a class="arrow-icon" href="#"><i class="ri-arrow-right-s-line"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
   <script src="/javascripts/careers.js"></script>

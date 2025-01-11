@@ -1,0 +1,133 @@
+@media (max-width: 1130px) {
+    .eco-hero-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .eco-hero-content {
+        max-width: 100%;
+    }
+
+    .eco-hero-content-title {
+        font-size: 2rem;
+    }
+
+    .eco-hero-content-paragraph {
+        font-size: 1rem;
+    }
+
+    .eco-hero-image-container {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .eco-hero-content-title {
+        font-size: 1.8rem;
+    }
+
+    .eco-hero-content-paragraph {
+        font-size: 0.9rem;
+    }
+
+    .eco-hero-content-button {
+        width: 200px;
+        padding: 10px 20px;
+        font-size: 0.8rem;
+    }
+
+    .eco-hero-image-container{
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .thorne-section-container {
+        grid-template-columns: 1fr; /* Stack columns on smaller screens */
+        gap: 40px;
+    }
+    .thorne-description {
+        font-size: 14px;
+        text-align: center; /* Align text for smaller screens */
+    }
+    .thorne-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .thorne-logos {
+        grid-template-columns: repeat(2, 1fr); /* 2 logos per row */
+        gap: 15px;
+    }
+    .thorne-logo {
+        width: 80px;
+        height: 30px;
+    }
+
+    .thorne-title {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .thorne-title {
+        font-size: 1.4rem;
+    }
+
+    .thorne-description {
+        font-size: 14px;
+        text-align: unset;
+    }
+    .thorne-logos {
+        grid-template-columns: 1fr; /* 1 logo per row */
+        gap: 10px;
+    }
+    .thorne-logo {
+        width: 70px;
+        height: 25px;
+    }
+}
+
+/* Media Queries for Responsiveness */
+@media (min-width: 768px) {
+    .partner-container {
+        flex-direction: row; /* Side by side on larger screens */
+        gap: 15%;
+        padding: 80px 40px;
+    }
+
+    .partner-heading {
+        font-size: 2.5rem;
+    }
+
+    .partner-subheading {
+        font-size: 1.125rem;
+    }
+
+    .partner-button {
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .partner-container {
+        padding: 110px 60px;
+    }
+
+    .partner-heading {
+        font-size: 2.9rem;
+    }
+
+    .partner-subheading {
+        font-size: 1.25rem;
+    }
+
+    .partner-button {
+        font-size: 1.25rem;
+    }
+}
