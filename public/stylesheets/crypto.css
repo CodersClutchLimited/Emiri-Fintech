@@ -42,6 +42,9 @@ padding: 30px;
     padding-bottom: 0px;
 }
 
+.goaler.gridder{
+    padding-top: 0px !important;
+}
 
 .kaira-container {
     display: flex;
@@ -51,6 +54,20 @@ padding: 30px;
     background-color: #333;
     margin-top: 50px;
     color: #fff;
+}
+
+.meddle.cosmic-swiper{
+    margin-left: 7%;
+    margin-right: 8%;
+}
+
+.meddle.kaira-text{
+    margin-left: 180px;
+}
+
+.meddle.kaira-image img{
+    margin-left: 100px;
+    margin-bottom: 90px;
 }
 
 .kaira-text {
@@ -88,6 +105,10 @@ padding: 30px;
 
 /* section 2 */
 
+.claire.nft-does{
+    height: 500px !important;
+}
+
 /* section 3 */
 .cryptol{
     gap: 170px;
@@ -113,6 +134,7 @@ padding: 30px;
 /* section-7 */
 .cryptol-apm.thug-title{
     color: #fff;
+    padding-bottom: 50px !important;
 }
 
 .cryptol-apm.that-para{
@@ -139,6 +161,10 @@ padding: 30px;
     width: 95%;
     height: .3px;
     background-color: #888;
+}
+
+.accord-vid{
+    margin-left: 100px;
 }
 
 
@@ -186,4 +212,14 @@ padding: 30px;
 
 .nft-boxer{
     cursor: pointer;
+}
+
+.crypt-util{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.golbat{
+    border: 1px solid #ccc;
+    padding: 20px;
 }
