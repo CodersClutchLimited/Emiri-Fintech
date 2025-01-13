@@ -80,28 +80,13 @@ document.querySelectorAll('.left-column a').forEach(link => {
 
         // Update content dynamically
         contentArea.innerHTML = `
-        <div class="section-content">
+        <div class="ajebo section-content">
+        <div class="aday divares">
             <h2 class="content-title font-bold text-2xl">${content[section].title}</h2>
             <p class="content-para text-lg">${content[section].body}</p>
             <img src="${content[section].image}" alt="${content[section].title}" class="section-image mt-4">
+            </div>
         </div>
         `;
     });
-});
-
-
-const stickyBox = document.querySelector('.sticky-box');
-const stickyOffset = stickyBox.offsetTop; // Get the initial position
-
-window.addEventListener('scroll', function() {
-    // Check the current scroll position
-    if (window.pageYOffset >= stickyOffset) {
-        // If scrolled past initial position, make the element sticky
-        stickyBox.style.position = 'fixed';
-        stickyBox.style.top = '20px'; // Keep it at a fixed position from the top
-    } else {
-        // If scrolled back up, remove the sticky effect
-        stickyBox.style.position = 'absolute';
-        stickyBox.style.top = `${stickyOffset}px`; // Reset to the original position
-    }
 });

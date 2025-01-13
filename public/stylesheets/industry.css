@@ -1,3 +1,4 @@
+
 .industrial.core-container{
     padding-top: 0px;
 }
@@ -54,8 +55,3 @@
 .l-core-tech-item:hover img{
     filter: none;
 }
-
-
-/* .tab-gridder{
-    column-gap: 70px !important;
-} */

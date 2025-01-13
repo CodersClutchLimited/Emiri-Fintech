@@ -9,3 +9,15 @@
         display: none;
     }
 }
+
+@media screen and (max-width:600px){
+    .career-dropper.forensic-dropper{
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 700px){
+    .career-dropper.forensic-dropper{
+        width: 95%;
+    }
+}

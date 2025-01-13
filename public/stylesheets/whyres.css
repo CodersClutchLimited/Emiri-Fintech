@@ -1,0 +1,259 @@
+/* why-hero */
+@media (max-width: 1024px) {
+    .why-p {
+        font-size: 36px;
+    }
+    .why-texter {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .why-p {
+        font-size: 28px;
+    }
+    .why-texter {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .why-p {
+        font-size: 22px;
+    }
+    .why-texter {
+        font-size: 1rem;
+    }
+    .why-hero {
+        height: auto; /* Allow height to adjust for smaller screens */
+        padding: 2rem 1rem; /* Add more padding for content spacing */
+    }
+}
+
+/* logo section */
+@media (max-width: 1024px) {
+    .why-container {
+        grid-template-columns: repeat(4, 1fr); /* 4 columns for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .why-container {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for smaller tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .why-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile */
+        gap: 10px; /* Reduce gap for smaller screens */
+        padding: 10px; /* Reduce padding for compact screens */
+    }
+
+    .why-logo {
+        height: 80px; /* Adjust height for smaller screens */
+    }
+
+    .why-logo img {
+        max-width: 70%; /* Slightly larger images on smaller screens */
+        max-height: 70%;
+    }
+}
+
+/* descript section */
+@media (max-width: 1024px) {
+    .whyd-grid-container {
+        grid-template-columns: 1fr; /* Single column for tablets */
+        text-align: center; /* Center-align for smaller layouts */
+    }
+
+    .whyd-content {
+        padding: 20px; /* Simplify padding for smaller screens */
+    }
+
+    .whyd-title {
+        font-size: 2.5rem; /* Adjust title size for tablets */
+    }
+
+    .whyd-paragraph {
+        font-size: 15px; /* Slightly smaller font for paragraphs */
+    }
+}
+
+@media (max-width: 768px) {
+    .whyd-title {
+        font-size: 2rem; /* Further reduce title size */
+    }
+
+    .whyd-paragraph {
+        font-size: 14px; /* Smaller font size for compact screens */
+        line-height: 1.4;
+    }
+
+    .whyd-logo {
+        margin: 0 auto; /* Center the logo for single-column layout */
+    }
+}
+
+@media (max-width: 480px) {
+    .whyd-grid-container {
+        padding: 10px; /* Minimize padding on mobile */
+    }
+
+    .whyd-title {
+        font-size: 1.8rem; /* Adjust title for smaller devices */
+    }
+
+    .whyd-paragraph {
+        font-size: 13px;
+    }
+}
+
+/* trust section */
+@media (max-width: 1024px) {
+    .trust-container {
+        margin: 0 20px; /* Reduce margin for smaller screens */
+    }
+
+    .trust-title {
+        font-size: 1.1rem; /* Slightly smaller title for tablets */
+    }
+
+    .trust-text {
+        font-size: 2.5rem; /* Reduce text size for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .trust-container {
+        margin: 0 15px; /* Further reduce margin for tablets */
+    }
+
+    .trust-title {
+        font-size: 1rem; /* Adjust title size for smaller tablets */
+    }
+
+    .trust-text {
+        font-size: 2rem; /* Reduce text size for compact screens */
+        line-height: 1.3;
+    }
+}
+
+@media (max-width: 480px) {
+    .trust-container {
+        margin: 0 10px; /* Minimal margin for mobile devices */
+        padding: 10px 0; /* Adjust padding for smaller screens */
+    }
+
+    .trust-title {
+        font-size: 0.9rem; /* Smaller title size for mobile */
+    }
+
+    .trust-text {
+        font-size: 1.8rem; /* Adjust text size for smaller devices */
+    }
+}
+
+/* best section */
+@media (max-width: 1204px) {
+    .best-columns {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .best-column h3{
+        padding-top: 5%;
+    }
+
+    .best-column {
+        margin: 10px 0;
+        padding-right: 0;
+        border-left: none;
+    }
+
+    .best-column::before {
+        left: auto;
+        top: auto;
+        width: 100%;
+        height: 1.5px;
+    }
+
+    .best-column h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .best-starter {
+        font-size: 1rem;
+        padding-left: 20px;
+    }
+
+    .best-column ul {
+        padding-left: 40px;
+    }
+
+    .best-column ul i {
+        font-size: 1.2rem;
+        padding-right: 20px;
+    }
+}
+
+/* Adjust header sizes for smaller screens */
+@media (max-width: 1204px) {
+    .best-header .best-number {
+        font-size: 4rem;
+        margin-right: 10px;
+    }
+
+    .best-header .bestie {
+        font-size: 24px;
+    }
+}
+
+/* Ensure spacing and readability on very small screens */
+@media (max-width: 480px) {
+    .best-header {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .best-header .best-number {
+        font-size: 3rem;
+    }
+
+    .best-header .bestie {
+        font-size: 20px;
+    }
+
+    .best-columns {
+        margin: 0 auto;
+    }
+}
+
+/* last part */
+@media (max-width: 768px) {
+    .why-last p {
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .why-last button {
+        padding: 10px 40px;
+        font-size: 1rem;
+    }
+}
+
+/* Further adjustments for very small screens */
+@media (max-width: 480px) {
+    .why-last p {
+        font-size: 1.5rem;
+    }
+
+    .why-last button {
+        padding: 8px 30px;
+        font-size: 0.9rem;
+    }
+}

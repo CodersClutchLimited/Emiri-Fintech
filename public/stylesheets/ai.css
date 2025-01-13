@@ -113,6 +113,18 @@
     object-fit: cover;
 }
 
+.cod-merger{
+    margin-bottom: -30px;
+}
+
+.merger-title{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.galop{
+    font-size: 1.2rem;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {

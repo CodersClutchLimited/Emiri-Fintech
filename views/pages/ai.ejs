@@ -1,9 +1,11 @@
+<link rel="stylesheet" href="/stylesheets/aires.css">
+
 <%- layout('layouts/boilerplate') %>
     <link rel="stylesheet" href="/stylesheets/ai.css">
     <div class="digital-hero">
         <div class="digital-texts">
-            <div class=" title-1 font-bold text-5xl flex flex-col justify-center gap-7"><span><i
-                        class="ri-brain-line"></i> Artificial Intelligence and Machine Learning</span>
+            <div class=" title-1 font-bold flex flex-col justify-center gap-7"><span><i class="ri-brain-line"></i>AI &
+                    Machine Learning</span>
                 <div class="white-r"></div>
             </div>
         </div>
@@ -13,7 +15,8 @@
         <div class="forensic-dropper">
             <div class=" dropper-container zero-AI zero-pad">
                 <div class="acord-starter">
-                    <p class="acord-2 corder">Emiri FinTech’s artificial intelligence and machine learning experts
+                    <p class="acord-2 cod-merger corder">Emiri FinTech’s artificial intelligence and machine learning
+                        experts
                         provide businesses with first-class, domain-specific solutions of any complexity and scale. Our
                         developers are experts in rendering the services as follows:
                         <hr class="hrr">
@@ -21,185 +24,194 @@
                 </div>
 
                 <div class="dropper-expand flex justify-center corder text-center">
-                    <h1 class="text-3xl font-bold mb-6">Unlock true cloud value with expert deployments.</h1>
+                    <h1 class="merger-title text-3xl font-bold">Unlock true cloud value with expert deployments.</h1>
                 </div>
-
-                <div class="ai-grid grid grid-cols-3 gap-5">
-                    <div class="colo-1 space-y-6">
-                        <!-- Card 1 -->
-                        <div class="">
-                            <div class="pad  p-10">
-                                <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
-                                    class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                                    onclick="toggleContent(1)">
-                                    <div>
-                                        <i class="ri-cloud-line mr-2 text-xl "></i>AI Consulting
-                                    </div>
-                                    <i id="arrow-1" class="ri-arrow-drop-down-line text-4xl "></i>
-                                </h3>
-                                <div style="padding: 20px;" id="content-1"
-                                    class="text-gray-900 leading-relaxed  text-center hidden">
-                                    Artificial intelligence has already transformed how businesses function and will
-                                    continue to do so in the years ahead. As a leading IT advisory firm, our AI
-                                    consulting experts are here to help you adapt to this shift and build a more
-                                    efficient and successful business.
+                <!-- accordions -->
+                <div class="ai-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                    <!-- Card 1 -->
+                    <div class="">
+                        <div class="pad p-10">
+                            <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                                class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                                onclick="toggleContent(1)">
+                                <div class="galop">
+                                    <i class="ri-cloud-line mr-2 text-xl"></i>AI Consulting
                                 </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 2 -->
-                        <div class="">
-                            <div class="pad p-10">
-                                <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
-                                    class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                                    onclick="toggleContent(2)">
-                                    <div>
-                                        <i class="ri-cloud-line mr-2 text-xl "></i>Audit of AI/ML Algorithms
-                                    </div>
-                                    <i id="arrow-2" class="ri-arrow-drop-down-line text-4xl "></i>
-                                </h3>
-                                <div style="padding: 20px;" id="content-2"
-                                    class="text-gray-900 leading-relaxed  text-center hidden">
-                                    Emiri Fintech also offers audit services for businesses, leveraging artificial intelligence
-                                    and machine learning technologies. We assist companies in refining their business
-                                    strategies, ensuring a high level of automation and minimizing errors.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="">
-                            <div class="pad p-10">
-                                <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
-                                    class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                                    onclick="toggleContent(2)">
-                                    <div>
-                                        <i class="ri-cloud-line mr-2 text-xl "></i>Intelligent Automation
-                                    </div>
-                                    <i id="arrow-2" class="ri-arrow-drop-down-line text-4xl "></i>
-                                </h3>
-                                <div style="padding: 20px;" id="content-2"
-                                    class="text-gray-900 leading-relaxed  text-center hidden">
-                                    Emiri Fintech can seamlessly integrate its solutions to intelligently automate your operations. This includes the creation and management of metadata, as well as document recognition and information extraction from unstructured data volumes.
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="colo-2 space-y-6">
-                        <!-- Card 3 -->
-                        <div class="">
-                            <div class="pad p-10">
-                                <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
-                                    class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                                    onclick="toggleContent(3)">
-                                    <div>
-                                        <i class="ri-cloud-line mr-2 text-xl "></i>ANN Design
-                                    </div>
-                                    <i id="arrow-3" class="ri-arrow-drop-down-line text-4xl "></i>
-                                </h3>
-                                <div style="padding: 20px;" id="content-3"
-                                    class="text-gray-900 leading-relaxed  text-center hidden">
-                                    Emiri Fintech's specialists in artificial neural network development utilize AI-driven tools to enhance classification, prediction, regression, smart grid, and more, inspired by biological neural networks. This technology is beneficial for tasks such as object recognition, speech recognition, text generation, and various other applications.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 4 -->
-                        <div class="">
-                            <div class="pad p-10">
-                                <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
-                                    class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                                    onclick="toggleContent(4)">
-                                    <div>
-                                        <i class="ri-cloud-line mr-2 text-xl "></i> NN Optimization
-                                    </div>
-                                    <i id="arrow-4" class="ri-arrow-drop-down-line text-4xl "></i>
-                                </h3>
-                                <div style="padding: 20px;" id="content-4"
-                                    class="text-gray-900 leading-relaxed  text-center hidden">
-                                    Our team at Emiri Fintech specializes in enhancing neural network performance through advanced optimization techniques. By fine-tuning neural network parameters and leveraging cutting-edge optimization tools, we ensure faster and more precise analyses.
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 3 -->
-                        <div class="">
-
-                            <div class="pad p-10">
-                                <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
-                                    class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                                    onclick="toggleContent(3)">
-                                    <div>
-                                        <i class="ri-cloud-line mr-2 text-xl "></i>AI for Cybersecurity
-                                    </div>
-                                    <i id="arrow-3" class="ri-arrow-drop-down-line text-4xl "></i>
-                                </h3>
-                                <div style="padding: 20px;" id="content-3"
-                                    class="text-gray-900 leading-relaxed  text-center hidden">
-                                    AI is revolutionizing cybersecurity by automating threat detection and response, optimizing network security, and identifying vulnerabilities. Emiri Fintech leverages advanced AI technologies to enhance cybersecurity measures, ensuring robust protection against evolving threats.
-                                </div>
+                                <i id="arrow-1" class="ri-arrow-drop-down-line text-4xl"></i>
+                            </h3>
+                            <div style="padding: 20px;" id="content-1"
+                                class="text-gray-900 leading-relaxed text-center hidden">
+                                Artificial intelligence has already transformed how businesses function and will
+                                continue to do so in the years ahead. As a leading IT advisory firm, our AI
+                                consulting experts are here to help you adapt to this shift and build a more
+                                efficient and successful business.
                             </div>
                         </div>
                     </div>
-
-                    <div class="colo-3 space-y-6">
-                        <!-- Card 5 -->
-                        <div class="">
-                            <div class="pad p-10">
-                                <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
-                                    class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                                    onclick="toggleContent(5)">
-                                    <div>
-                                        <i class="ri-cloud-line mr-2 text-xl"></i>Predictive Analysis
-                                    </div>
-                                    <i id="arrow-5" class="ri-arrow-drop-down-line text-4xl "></i>
-                                </h3>
-                                <div style="padding: 20px;" id="content-5"
-                                    class="text-gray-900 leading-relaxed  text-center hidden">
-                                    Emiri Fintech excels in predictive analysis using advanced AI and ML techniques. Our expertise in this domain helps businesses forecast trends, optimize operations, and make data-driven decisions, ensuring enhanced efficiency and profitability.
+                
+                    <!-- Card 2 -->
+                    <div class="">
+                        <div class="pad p-10">
+                            <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                                class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                                onclick="toggleContent(2)">
+                                <div class="galop">
+                                    <i class="ri-cloud-line mr-2 text-xl"></i>Audit of AI/ML Algorithms
                                 </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 6 -->
-                        <div class="">
-                            <div class="pad p-10">
-                                <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
-                                    class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                                    onclick="toggleContent(6)">
-                                    <div>
-                                        <i class="ri-cloud-line mr-2 text-xl "></i>Fraud Detection Systems
-                                    </div>
-                                    <i id="arrow-6" class="ri-arrow-drop-down-line text-4xl "></i>
-                                </h3>
-                                <div style="padding: 20px;" id="content-6"
-                                    class="text-gray-900 leading-relaxed  text-center hidden">
-                                    Emiri Fintech leverages machine learning solutions to detect and prevent fraud by training algorithms on specific datasets. These algorithms monitor user actions based on predefined rules and identify anomalies that may indicate fraudulent activities.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="">
-                            <div class="pad p-10">
-                                <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
-                                    class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                                    onclick="toggleContent(10)">
-                                    <div>
-                                        <i class="ri-cloud-line mr-2 text-xl "></i>VA Develppment
-                                    </div>
-                                    <i id="arrow-6" class="ri-arrow-drop-down-line text-4xl "></i>
-                                </h3>
-                                <div style="padding: 20px;" id="content-10"
-                                    class="text-gray-900 leading-relaxed  text-center hidden">
-                                    At Emiri Fintech, we develop virtual assistants that foster a unique connection between your products and users through audiovisual comprehension, deep learning, and natural language processing. Additionally, a virtual assistant can serve as a catalyst for creating a comprehensive product ecosystem.
-                                </div>
+                                <i id="arrow-2" class="ri-arrow-drop-down-line text-4xl"></i>
+                            </h3>
+                            <div style="padding: 20px;" id="content-2"
+                                class="text-gray-900 leading-relaxed text-center hidden">
+                                Emiri Fintech also offers audit services for businesses, leveraging artificial
+                                intelligence and machine learning technologies. We assist companies in refining their business
+                                strategies, ensuring a high level of automation and minimizing errors.
                             </div>
                         </div>
                     </div>
-
-                </div>
-
+                
+                    <!-- Card 3 -->
+                    <div class="">
+                        <div class="pad p-10">
+                            <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                                class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                                onclick="toggleContent(3)">
+                                <div class="galop">
+                                    <i class="ri-cloud-line mr-2 text-xl"></i>Intelligent Automation
+                                </div>
+                                <i id="arrow-3" class="ri-arrow-drop-down-line text-4xl"></i>
+                            </h3>
+                            <div style="padding: 20px;" id="content-3"
+                                class="text-gray-900 leading-relaxed text-center hidden">
+                                Emiri Fintech can seamlessly integrate its solutions to intelligently automate your
+                                operations. This includes the creation and management of metadata, as well as document
+                                recognition and information extraction from unstructured data volumes.
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Card 4 -->
+                    <div class="">
+                        <div class="pad p-10">
+                            <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                                class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                                onclick="toggleContent(4)">
+                                <div class="galop">
+                                    <i class="ri-cloud-line mr-2 text-xl"></i>ANN Design
+                                </div>
+                                <i id="arrow-4" class="ri-arrow-drop-down-line text-4xl"></i>
+                            </h3>
+                            <div style="padding: 20px;" id="content-4"
+                                class="text-gray-900 leading-relaxed text-center hidden">
+                                Emiri Fintech's specialists in artificial neural network development utilize AI-driven
+                                tools to enhance classification, prediction, regression, smart grid, and more, inspired
+                                by biological neural networks. This technology is beneficial for tasks such as object
+                                recognition, speech recognition, text generation, and various other applications.
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Card 5 -->
+                    <div class="">
+                        <div class="pad p-10">
+                            <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                                class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                                onclick="toggleContent(5)">
+                                <div class="galop">
+                                    <i class="ri-cloud-line mr-2 text-xl"></i>NN Optimization
+                                </div>
+                                <i id="arrow-5" class="ri-arrow-drop-down-line text-4xl"></i>
+                            </h3>
+                            <div style="padding: 20px;" id="content-5"
+                                class="text-gray-900 leading-relaxed text-center hidden">
+                                Our team at Emiri Fintech specializes in enhancing neural network performance through
+                                advanced optimization techniques. By fine-tuning neural network parameters and
+                                leveraging cutting-edge optimization tools, we ensure faster and more precise analyses.
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Card 6 -->
+                    <div class="">
+                        <div class="pad p-10">
+                            <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                                class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                                onclick="toggleContent(6)">
+                                <div class="galop">
+                                    <i class="ri-cloud-line mr-2 text-xl"></i>AI for Cybersecurity
+                                </div>
+                                <i id="arrow-6" class="ri-arrow-drop-down-line text-4xl"></i>
+                            </h3>
+                            <div style="padding: 20px;" id="content-6"
+                                class="text-gray-900 leading-relaxed text-center hidden">
+                                AI is revolutionizing cybersecurity by automating threat detection and response,
+                                optimizing network security, and identifying vulnerabilities. Emiri Fintech leverages
+                                advanced AI technologies to enhance cybersecurity measures, ensuring robust protection
+                                against evolving threats.
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Card 7 -->
+                    <div class="">
+                        <div class="pad p-10">
+                            <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                                class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                                onclick="toggleContent(7)">
+                                <div class="galop">
+                                    <i class="ri-cloud-line mr-2 text-xl"></i>Predictive Analysis
+                                </div>
+                                <i id="arrow-7" class="ri-arrow-drop-down-line text-4xl"></i>
+                            </h3>
+                            <div style="padding: 20px;" id="content-7"
+                                class="text-gray-900 leading-relaxed text-center hidden">
+                                Emiri Fintech excels in predictive analysis using advanced AI and ML techniques. Our
+                                expertise in this domain helps businesses forecast trends, optimize operations, and make
+                                data-driven decisions, ensuring enhanced efficiency and profitability.
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Card 8 -->
+                    <div class="">
+                        <div class="pad p-10">
+                            <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                                class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                                onclick="toggleContent(8)">
+                                <div class="galop">
+                                    <i class="ri-cloud-line mr-2 text-xl"></i>Fraud Detection Systems
+                                </div>
+                                <i id="arrow-8" class="ri-arrow-drop-down-line text-4xl"></i>
+                            </h3>
+                            <div style="padding: 20px;" id="content-8"
+                                class="text-gray-900 leading-relaxed text-center hidden">
+                                Emiri Fintech leverages machine learning solutions to detect and prevent fraud by
+                                training algorithms on specific datasets. These algorithms monitor user actions based on
+                                predefined rules and identify anomalies that may indicate fraudulent activities.
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Card 9 -->
+                    <div class="">
+                        <div class="pad p-10">
+                            <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                                class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                                onclick="toggleContent(9)">
+                                <div class="galop">
+                                    <i class="ri-cloud-line mr-2 text-xl"></i>VA Development
+                                </div>
+                                <i id="arrow-9" class="ri-arrow-drop-down-line text-4xl"></i>
+                            </h3>
+                            <div style="padding: 20px;" id="content-9"
+                                class="text-gray-900 leading-relaxed text-center hidden">
+                                At Emiri Fintech, we develop virtual assistants that foster a unique connection between
+                                your products and users through audiovisual comprehension, deep learning, and natural
+                                language processing. Additionally, a virtual assistant can serve as a catalyst for
+                                creating a comprehensive product ecosystem.
+                            </div>
+                        </div>
+                    </div>
+                </div>                
             </div>
 
         </div>
@@ -225,7 +237,7 @@
                     <div class="cadder overflow-hidden">
                         <!-- Image at the top -->
                         <img class="w-full zoom-img"
-                            src=""
+                            src="https://img.freepik.com/free-photo/representation-user-experience-interface-design-smartphone_23-2150165982.jpg?t=st=1733205455~exp=1733209055~hmac=dafd361d40760c502b656252b730e318806628bb5e2732d1a66350a5d7560286&w=996"
                             alt="Card image">
 
                         <!-- Title below the image -->
@@ -235,7 +247,10 @@
 
                         <div class="account-description-outer">
                             <div class="account-description dess">
-                                <p class="text-xl font-medium ziga text-left">At Emiri Fintech, we excel in computer vision, utilizing advanced AI techniques to analyze images and videos. Our solutions automate processes, enhance accuracy, and provide insights, helping businesses improve operations and achieve greater efficiency.
+                                <p class="text-xl font-medium ziga text-left">At Emiri Fintech, we excel in computer
+                                    vision, utilizing advanced AI techniques to analyze images and videos. Our solutions
+                                    automate processes, enhance accuracy, and provide insights, helping businesses
+                                    improve operations and achieve greater efficiency.
                                 </p>
                             </div>
                         </div>
@@ -257,7 +272,10 @@
 
                         <div class="account-description-outer">
                             <div class="account-description dess">
-                                <p class="text-xl ziga font-medium">At Emiri Fintech, we excel in predictive analysis, leveraging advanced AI and machine learning techniques to forecast trends and optimize business operations. Our solutions help businesses make data-driven decisions, enhance efficiency, and achieve greater profitability.</p>
+                                <p class="text-xl ziga font-medium">At Emiri Fintech, we excel in predictive analysis,
+                                    leveraging advanced AI and machine learning techniques to forecast trends and
+                                    optimize business operations. Our solutions help businesses make data-driven
+                                    decisions, enhance efficiency, and achieve profitability.</p>
                             </div>
                         </div>
                     </div>
@@ -278,7 +296,10 @@
 
                         <div class="account-description-outer">
                             <div class="account-description dess">
-                                <p class="text-xl ziga font-medium">At Emiri Fintech, we specialize in sentiment analysis and natural language processing (NLP). Our advanced AI solutions analyze text data to understand emotions, opinions, and trends, helping businesses gain valuable insights and improve customer engagement.</p>
+                                <p class="text-xl ziga font-medium">At Emiri Fintech, we specialize in sentiment
+                                    analysis and natural language processing (NLP). Our advanced AI solutions analyze
+                                    text data to understand emotions, opinions, and trends, helping businesses gain
+                                    valuable insights and improve customer engagement.</p>
                             </div>
                         </div>
                     </div>
@@ -299,7 +320,10 @@
 
                         <div class="account-description-outer">
                             <div class="account-description dess">
-                                <p class="ziga text-xl font-medium">At Emiri Fintech, we specialize in optical character recognition (OCR) technology. Our advanced AI solutions accurately extract and process text from images and documents, streamlining data entry, enhancing accuracy, and improving operational efficiency for businesses.</p>
+                                <p class="ziga text-xl font-medium">At Emiri Fintech, we specialize in optical character
+                                    recognition (OCR) technology. Our advanced AI solutions accurately extract and
+                                    process text from images and documents, streamlining data entry, enhancing accuracy,
+                                    and improving operational efficiency for businesses.</p>
                             </div>
                         </div>
                     </div>
@@ -315,7 +339,8 @@
 
     <div class="bg-gray-900 acord-quote quotation-back mx-auto flex justify-around mt-6">
         <div class="w-2/3 pl-8 lg:flex flex-col justify-center sm:hidden">
-            <p class="para2 text-gray-200 text-lg mb-4 ml-7 pt-4 items-center"> At Innowise, we’re all about building fintech
+            <p class="para2 text-gray-200 text-lg mb-4 ml-7 pt-4 items-center"> At Innowise, we’re all about building
+                fintech
                 software solutions
                 that make business life easier. From using AI to<br>speed up data processing to securing every
                 transaction with blockchain, our solutions take the headache out of<br>managing finances. We help
@@ -448,7 +473,7 @@
 
     <div class="stellar-swiper-container AI-container">
         <h1 class="cosmic-title text-4xl font-medium">Our Artificial Intelligence Related Cases</h1>
-        <div class="cosmic-swiper ai-swiper">
+        <div class="cosmic-swiper">
             <div class="orbital-wrapper swiper-wrapper">
                 <!-- card 1 -->
                 <div class="galaxy-slide swiper-slide">
@@ -460,7 +485,7 @@
 
                         <!-- Title below the image -->
                         <div class="cadder-title">
-                            <div class="font-bold text-2xl mt-5 mb-2">Mobile Hypertension<br>Analyzer & Adviser</div>
+                            <div class="font-bold text-2xl mt-5 mb-2">Mobile Hypertension Analyzer & Adviser</div>
                         </div>
 
                         <!-- Links below the title -->
@@ -485,7 +510,7 @@
 
                         <!-- Title below the image -->
                         <div class="cadder-title">
-                            <div class="font-bold text-2xl mt-5 mb-2">AI Compliance<br>Management System</div>
+                            <div class="font-bold text-2xl mt-5 mb-2">AI Compliance Management System</div>
                         </div>
 
                         <!-- Links below the title -->
@@ -510,7 +535,7 @@
 
                         <!-- Title below the image -->
                         <div class="cadder-title">
-                            <div class="font-bold text-2xl mt-5 mb-2">AI-Powered<br>Stock Prediction Application</div>
+                            <div class="font-bold text-2xl mt-5 mb-2">AI-powered Stock Prediction Application</div>
                         </div>
 
                         <!-- Links below the title -->
@@ -526,11 +551,12 @@
                 </div>
             </div>
             <!-- Swiper Pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="digital-pagi swiper-pagination"></div>
             <!-- Swiper Navigation -->
             <!-- <div class="stellar-button-prev swiper-button-prev"></div>
             <div class="stellar-button-next swiper-button-next"></div> -->
         </div>
+
     </div>
 
     <div class="tech-container">

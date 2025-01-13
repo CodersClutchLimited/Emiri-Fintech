@@ -1,0 +1,140 @@
+@media screen and (max-width:500px){
+    .industrie.forensic-dropper{
+      width: 100% !important;
+    }
+  }
+  
+  @media (min-width: 501px) and (max-width:850px){
+    .industrie.forensic-dropper{
+      width: 95% !important;
+    }
+  }
+  
+  @media (min-width: 851px) and (max-width:1024px){
+    .industrie.forensic-dropper{
+      width: 90% !important;
+    }
+  }
+  
+  @media (min-width: 1025px) and (max-width:1400px){
+    .industrie.forensic-dropper{
+      width: 85% !important;
+    }
+  }
+  
+
+  @media screen and (max-width: 1400px){
+    .acord-starter{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+  }
+
+  @media screen and (max-width:1104px){
+    .industrial.core-container{
+        display: none;
+    }
+  }
+
+  @media screen and (min-width:1105px){
+    .industry-accordion-container{
+        display: none;
+    }
+  }
+
+  /* accordions on responsiveness */
+  .industry-accordion-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+/* Accordion Styles */
+.industry-accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.industry-accordion-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+/* Accordion Header */
+.industry-accordion-header {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #C353C9;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.industry-accordion-header:hover {
+    background-color: #A03DA7;
+}
+
+/* Active state for opened section */
+.industry-accordion-header.active {
+    background-color: #A03DA7;
+}
+
+/* Accordion Content */
+.industry-accordion-content {
+    display: none;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #f8f9fa;
+}
+
+.industry-accordion-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Tech Grid */
+.industry-tech-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.industry-tech-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.industry-tech-item img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.industry-tech-item span {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .industry-tech-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .industry-tech-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
