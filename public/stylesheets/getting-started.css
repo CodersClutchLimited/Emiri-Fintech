@@ -1,17 +1,17 @@
 /* starting hero */
   .starting-hero {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     padding: 3rem;
-    padding-top: 110px;
+    padding-top: 70px;
+    text-align: center;
     background-color: #2D2832;
     height: auto; /* Adjust height for smaller screens */
 }
 
 .starting-content {
     flex: 1;
-    max-width: 50%;
+    max-width: 70%;
     padding: 1rem;
 }
 
@@ -432,6 +432,7 @@
 .compatible-text {
   font-size: 2.2rem;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .compatible-logos {
@@ -457,7 +458,7 @@
   .micro-container {
     display: flex;
     justify-content: space-between;
-    height: 110vh;
+    height: 75vh;
     background-color: #2D2832; /* Dark background color */
   }
   
@@ -502,11 +503,11 @@
     height: 100vh; /* Ensures the image container takes full height */
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
   }
   
   .micro-image {
-    height: 100%; /* Ensures the image takes up the full height */
+    height: 70%; /* Ensures the image takes up the full height */
     width: auto; /* Keeps the image's aspect ratio */
     object-fit: cover; /* Ensures the image fills the space without distorting */
   }

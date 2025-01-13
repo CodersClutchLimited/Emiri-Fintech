@@ -1,4 +1,9 @@
 /* privacy-hero section */
+
+.et-logos{
+    gap: 50%;
+}
+
 .privacy-main {
     position: relative;
     background-image: url('https://www.taurushq.com/img/security/hero_img.webp');
@@ -152,14 +157,16 @@
 
 .risk-certifications {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 80%;
 }
 
 .risk-certification {
+    padding: 3%;
+    border: 1px solid #FA64FF;
     text-align: center;
-    max-width: 300px;
+    /* max-width: 300px; */
 }
 
 .risk-certification h2 {
