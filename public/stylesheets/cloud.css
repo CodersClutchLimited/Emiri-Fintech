@@ -41,14 +41,14 @@
 
 .pent {
     margin-bottom: 100px;
-    margin-top: 100px;
+    /* margin-top: 50px; */
 }
 
 @media (min-width: 1024px) {
     .ex {
         padding-right: 100px;
     }
-    
+
 }
 
 .content {
@@ -67,14 +67,14 @@
     margin-top: -50px;
 }
 
-.list  {
+.list {
     padding-left: 200px;
     padding: 50px;
     background-color: rgb(56, 49, 49) !important;
 
 }
 
-.acord-b{
+.acord-b {
     margin-top: 50px;
 }
 
@@ -94,29 +94,32 @@
 
 }
 
-.list-disc{
+.list-disc {
     margin-left: -120px;
 }
 
-.list-disc .ri-verified-badge-line{
+.list-disc .ri-verified-badge-line {
     color: #b9e000;
 }
 
-.list-tit{
+.list-tit {
     margin-top: -70px;
     margin-left: -100px;
 }
 
-.greene-icon{
+.greene-icon {
     color: #b9e000;
 }
 
 .lambda {
     height: 0.9px;
     width: 100%;
-    background-color: #1a1a1a; /* Equivalent to bg-gray-900 */
-    margin-bottom: 24px; /* Equivalent to mb-6 */
-    margin-top: 24px; /* Equivalent to mt-6 */
+    background-color: #1a1a1a;
+    /* Equivalent to bg-gray-900 */
+    margin-bottom: 24px;
+    /* Equivalent to mb-6 */
+    margin-top: 24px;
+    /* Equivalent to mt-6 */
 }
 
 /* Full-screen Horizontal Divider */
@@ -129,12 +132,14 @@
 .list a {
     position: relative;
     display: block;
-    padding-left: 20px; /* Add some space for the line */
+    padding-left: 20px;
+    /* Add some space for the line */
     transition: color 0.3s ease;
 }
 
 .list a.active {
-    color: #268a2b; /* Highlighted text color */
+    color: #268a2b;
+    /* Highlighted text color */
     font-weight: bold;
 }
 
@@ -146,7 +151,8 @@
     transform: translateY(-50%);
     width: 4px;
     height: 100%;
-    background-color: #268a2b; /* Line color */
+    background-color: #268a2b;
+    /* Line color */
     border-radius: 2px;
 }
 
@@ -163,8 +169,8 @@
 
 }
 
-.grayson{
-    padding-bottom: 70px;
+.grayson {
+    /* padding-bottom: 70px; */
     background: linear-gradient(to bottom, #f0f0f0, #ffffff);
 }
 
@@ -177,8 +183,13 @@
     border: 0.5px solid rgb(224, 206, 206);
 }
 
-.grayon{
+.grayon {
     background: linear-gradient(to top, #d9d9d9, #ffffff);
+}
+
+.cloud-titler{
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .padme {
@@ -189,19 +200,19 @@
 
 .cloud-services {
     margin-bottom: 50px;
-    margin-top: 100px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.service-item{
+.service-item {
     margin-top: 35px;
 }
 
-.hr {
+.dib.hr {
     margin: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .mix {
@@ -210,16 +221,22 @@
 
 
 .circle {
-    width: 150px; /* Adjust the size */
-    height: 150px; /* Adjust the size */
-    border: 2px solid green; /* Circle border color */
-    border-radius: 50%; /* Makes the div circular */
+    width: 150px;
+    /* Adjust the size */
+    height: 150px;
+    /* Adjust the size */
+    border: 2px solid green;
+    /* Circle border color */
+    border-radius: 50%;
+    /* Makes the div circular */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center; /* Centers text */
-    margin: -10px; /* Adds spacing between circles */
+    text-align: center;
+    /* Centers text */
+    margin: -10px;
+    /* Adds spacing between circles */
 }
 
 .circle:first-child {
@@ -231,17 +248,20 @@
 
 .men {
     padding-top: 30px;
-    padding-bottom:30px;
+    padding-bottom: 30px;
 }
 
 
 
 
 .circle img {
-    width: 50px; /* Adjust image size */
+    width: 50px;
+    /* Adjust image size */
     height: 50px;
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image fits well */
+    border-radius: 50%;
+    /* Makes the image circular */
+    object-fit: cover;
+    /* Ensures the image fits well */
 }
 
 .hugs {
@@ -256,34 +276,88 @@
     }
 }
 
-#content-title{
+#content-title {
     color: #333;
 }
 
-.cloud-title{
+.cloud-title {
     color: #333;
 }
 
-.cloudinary-img{
+.cloudinary-img {
     height: 500px;
     width: 450px;
 }
 
-.cube-title{
+.cube-title {
     color: #333;
     margin-left: -16px;
     width: 70%;
+    margin-top: 30px;
 }
 
-.deliver-title{
+.deliver-title {
     color: #333;
 }
 
-.cloud-merger{
+.cloud-merger {
     margin-bottom: -30px;
 }
 
-.merger-cloud{
+.merger-cloud {
     padding-top: 4%;
     padding-bottom: 4%;
+}
+
+
+.acc-container {
+    padding-bottom: 110px;
+    width: 100%;
+    background-color: #383131;
+}
+
+.acc-item {
+    background-color: #383131;
+    color: white;
+    border-bottom: 1px solid #374151;
+}
+
+.acc-header {
+    cursor: pointer;
+    padding: 1rem;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.acc-content {
+    padding: 1rem;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: none;
+    background-color: #181717;
+}
+
+.acc-content p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.acc-content ol {
+    padding-left: 1.5rem;
+}
+
+.acc-arrow {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+
+.rotate-arrow {
+    transform: rotate(180deg);
 }

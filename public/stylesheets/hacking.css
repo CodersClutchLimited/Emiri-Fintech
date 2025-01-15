@@ -45,15 +45,30 @@
 }
 
 .hacking-title {
+    font-size: 1.875rem;
     color: #333;
-    padding-left: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 60px;
     padding-bottom: 40px;
+}
+
+@media screen and (max-width:768px){
+    .hacking-title {
+        font-size: 1.4rem;
+    }
 }
 
 .benef-container .benef{
     width: 75%;
 }
+
+@media screen and (max-width: 1124px) {
+    .benef-container .benef{
+        width: 95%;
+    }
+}
+
 .benef-container{
     display: flex;
     justify-content: center;
@@ -185,4 +200,10 @@
 
 .active-slide .hire-card .hire-name{
     color: #fff;
+}
+
+@media screen and (max-width:1024px) {
+    .hidden-para{
+        display: none;
+    }
 }

@@ -6,6 +6,10 @@ min-height: 100vh;
 padding-bottom: 50px;
 }
 
+.developer-hover:hover{
+    color: #EC4899;
+}
+
 .developer-box{
     height: 216px;
     width: 229px;
@@ -17,11 +21,15 @@ padding-bottom: 50px;
 }
 
 .developer-1{
-    padding-top: 55px;
+    padding-top: 50px;
 }
 
 .developer-item{
     padding-top: 35px;
+}
+
+.descript-marger{
+    margin-bottom: 10px;
 }
 
 .icon-circle {

@@ -221,3 +221,16 @@ document.addEventListener("DOMContentLoaded", function () {
         setContent(initialTarget);
     }
 });
+
+function toggleAccordion(id) {
+    const content = document.getElementById(`content-${id}`);
+    const arrow = document.getElementById(`arrow-${id}`);
+
+    if (content.style.display === "block") {
+        content.style.display = "none";
+        arrow.classList.remove("rotate-arrow");
+    } else {
+        content.style.display = "block";
+        arrow.classList.add("rotate-arrow");
+    }
+}

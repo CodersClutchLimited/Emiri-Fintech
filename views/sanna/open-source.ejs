@@ -1,5 +1,6 @@
-    <%- layout('layouts/boilerplate') %>
+<%- layout('layouts/boilerplate') %>
     <link rel="stylesheet" href="/helper/google.css">
+    <link rel="stylesheet" href="/helper/web.css">
 
     <!-- SECTION ONE -->
     <div class="google flex flex-col lg:flex-row items-center justify-between">
@@ -59,47 +60,57 @@
                 </div>
                 <h2 class="mt-4 text-xl text-gray-800">Release</h2>
                 <p class="text-center text-gray-900 mt-2">
-                    We release our projects to the public to encourage innovation and collaboration.
+                    We release our projects to the public to encourage innovation, foster creativity, and inspire
+                    collaboration within the community.
                 </p>
             </div>
         </div>
     </div>
 
-    <!-- SECTION THREE -->
-    <div class="container1 w-full">
-        <!-- portion 1 -->
-        <div class="flex flex-col lg:flex-row items-center justify-between">
-            <div class=" sub1 flex flex-col space-y-2 pl">
-                <h1 class="text-2xl font-normal text-white">Featured events</h1>
-                <p class="text-white text-left text-base max-w-3xl">
-                    Discover and participate in our featured events to connect with the community, learn from experts,
-                    and contribute to open source projects at Emiri.
-                </p>
-            </div>
-            <div class="sub2 flex">
-                <img src="/helper/openlog.png"
-                    class="h-32 w-32 object-cover" alt="">
+    <div class="digital-hero">
+        <div class="digital-texts">
+            <div class=" title-1 font-bold gap-7">
+                <div>Featured Events</div>
             </div>
         </div>
+    </div>
 
+
+    <div class="acordion">
+        <div class="forensic-dropper">
+            <div class=" dropper-container zero-pad">
+                <div class="acord-starter">
+                    <p class="acord-2 corder">
+                        Discover and participate in our featured events to connect with the community, learn from
+                        experts,
+                        and contribute to open source projects at Emiri.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SECTION THREE -->
+    <div class="container1">
         <!-- portion 2 -->
         <div class="card-container w-full flex flex-col items-center gap-4">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <!-- card 1 -->
-                <div class="card1 flex  flex-col items-center justify-center bg-white rounded-lg shadow-md">
+                <div
+                    class="limited-color card1 flex  flex-col items-center justify-center bg-white rounded-lg shadow-md">
 
-                    <img src="/helper/summ.png"
-                        class="w-full h-full object-cover rounded-t-lg" alt="">
+                    <img src="/helper/summ.png" class="w-full h-full object-cover rounded-t-lg" alt="">
 
                     <div class="p-4">
-                        <h2 class="text-2xl font-semibold text-left text-blue-600 mt-4">Emiri Fintech Coding Summer</h2>
-                        <p class="text-gray-900 text-left mt-2">
+                        <h2 class="text-2xl font-semibold text-left open-color-2 mt-4">Emiri Fintech Coding Summer</h2>
+                        <p class=" text-left mt-2">
                             Emiri Fintech Coding Summer is a global, online program
                             focused on bringing new contributors into fintech software development. Participants
                             work with an open source organization on a 12+ week programming project under
                             the guidance of mentors.
                         </p>
-                        <a href="#" class="whitespace-nowrap text-blue-500 font-medium text-base border border-blue-600 rounded-lg p-1 mt-4 inline-block 
+                        <a href="#" class="whitespace-nowrap font-medium text-base border open-text-2 600 rounded-lg mt-4 inline-block 
                             hover:bg-gray-300 focus:outline focus:outline-blue-200 transition-all">
                             See program timeline
                         </a>
@@ -109,11 +120,10 @@
                 <!-- card 2 -->
                 <div class="card2 flex  flex-col items-center justify-center bg-white rounded-lg shadow-md">
 
-                    <img src="/helper/genx.png"
-                        class="w-full h-full object-cover rounded-t-lg" alt="">
+                    <img src="/helper/genx.png" class="w-full h-full object-cover rounded-t-lg" alt="">
 
                     <div class="p-4">
-                        <h2 class="text-2xl font-semibold text-left text-blue-600 mt-4">Emiri Annual Fintech conference
+                        <h2 class="text-2xl font-semibold text-left open-color mt-4">Emiri Annual Fintech conference
                         </h2>
                         <p class="text-gray-900 text-left mt-2">
                             The Emiri Annual Fintech Conference is a premier event that brings together industry
@@ -123,20 +133,20 @@
                             to network, learn, and collaborate on groundbreaking projects that shape the future of
                             finance.
                         </p>
-                        <a href="#" class="whitespace-nowrap text-blue-500 font-medium text-base border border-blue-600 rounded-lg p-1 mt-4 inline-block 
+                        <a href="#" class="whitespace-nowrap open-text font-medium text-base border rounded-lg p-1 mt-4 inline-block 
                         hover:bg-gray-300 focus:outline focus:outline-blue-200 transition-all">
-                            See program timeline
+                            More about event
                         </a>
                     </div>
 
                 </div>
 
             </div>
-
+            <!-- 
             <div class="push">
                 <a href="#" class="text-center bg-blue-500 text-white whitespace-nowrap rounded-lg p-2 font-medium">View
                     all programs</a>
-            </div>
+            </div> -->
         </div>
 
     </div>
@@ -155,110 +165,137 @@
                 </p>
             </div>
             <div class="sub2 flex">
-                <img src="/helper/openlog.png" class="h-32 w-32 object-cover"
-                    alt="">
+                <img src="/helper/openlog.png" class="h-32 w-32 object-cover" alt="">
             </div>
         </div>
+
+
+        <div class="coin-outer">
+        <div class="coin-grid grid grid-cols-2">
+            <div class="coin-1 coin-1-1 flex justify-center items-center">
+                <img src="/images/COIN1.png" alt="Kubernetes Logo" class="coin-image" />
+            </div>
+            <div class="coin-1 coin-1-2 flex justify-center items-center">
+                <div class="coin-details">
+                    <h1 class="text-3xl coin-h1 font-semibold">Emiri Coin</h1>
+                    <p class="coin-para text-base">
+                        Emiri Coin is a cryptocurrency developed by Emiri, designed to provide secure and efficient transactions within the Emiri ecosystem. It leverages blockchain technology to ensure transparency and trust.
+                    </p>
+                    <div class="coin-techs flex">
+                        <button>Mobile</button>
+                        <button>C</button>
+                        <button>Java</button>
+                    </div>
+
+                    <a href="#" class="coin-link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
         <!-- portion 2 -->
-        <div class="container4 mx-auto max-w-7xl">
+        <!-- <div class="container4 mx-auto max-w-7xl">
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                <!-- project 1 -->
-                <div class="bg-white border border-gray-200 rounded-lg shadow-md ">
-                    <img src="/coin.png" alt="Kubernetes Logo" class="mx-auto mb-4 coin" />
+                <div class=" bg-white border border-gray-200 rounded-lg shadow-md ">
+                    <img src="/images/COIN1.png" alt="Kubernetes Logo" class="mx-auto mb-4 coin" />
 
-                    <div class="p-4 text-left">
-                        <h2 class="text-lg font-semibold mb-2">Emiri Coin</h2>
-                        <p class="text-sm text-gray-900">
-                            Emiri Coin is a cryptocurrency developed by Emiri, designed to provide secure and efficient
-                            transactions within the Emiri ecosystem. It leverages blockchain technology to ensure
-                            transparency and trust.
-                        </p>
+                    <div class="limited-color">
+                        <div class="p-4 text-left">
+                            <h2 class="text-lg font-semibold mb-2">Emiri Coin</h2>
+                            <p class="text-sm text-gray-900">
+                                Emiri Coin is a cryptocurrency developed by Emiri, designed to provide secure and
+                                efficient
+                                transactions within the Emiri ecosystem. It leverages blockchain technology to ensure
+                                transparency and trust.
+                            </p>
 
-                    </div>
-                    <div class="flex mt-1 pl-4">
-                        <span
-                            class="mr-2 text-xs font-semibold inline-block py-2 px-3 rounded border border-gray-900 text-gray-900">Mobile</span>
-                        <span
-                            class="mr-2 text-xs font-semibold inline-block py-2 px-3 text-gray-900 rounded  border border-gray-900">C</span>
-                        <span
-                            class="mr-2 text-xs font-semibold inline-block py-2 px-3 text-gray-900 rounded  border border-gray-900">Java</span>
+                        </div>
+                        <div class="flex mt-1 pl-4">
+                            <span
+                                class="mr-2 text-xs font-semibold inline-block py-2 px-3 rounded border border-gray-900 text-gray-900">Mobile</span>
+                            <span
+                                class="mr-2 text-xs font-semibold inline-block py-2 px-3 text-gray-900 rounded  border border-gray-900">C</span>
+                            <span
+                                class="mr-2 text-xs font-semibold inline-block py-2 px-3 text-gray-900 rounded  border border-gray-900">Java</span>
 
-                    </div>
-                    <div class="mt-8 pl-4 pb-6">
-                        <a href="#"
-                            class="mt-2 bg-white border border-gray-600 hover:bg-gray-50 text-blue-600 font-bold py-2 px-4 rounded">View
-                            Project</a>
-                    </div>
-                </div>
-
-                <!-- project 2 -->
-                <div class="bg-white border border-gray-200 rounded-lg shadow-md ">
-                    <img src="https://opensource.google/images/projects/os-projects-chromium_thumbnail.png"
-                        alt="Kubernetes Logo" class="mx-auto mb-4" />
-
-                    <div class="p-4 text-left">
-                        <h2 class="text-lg font-semibold mb-2">GIISS</h2>
-                        <p class="text-sm text-gray-900">
-                            Gambia Inter-Bank InterWallet Security System provides autonomous cybersecurity services for financial institutions. It reduces costs on overheads and hiring personnel. The system offers 24/7 protection and oversight.
-                        </p>
-
-                    </div>
-                    <div class="flex mt-4 pl-4">
-                        <span
-                            class="mr-2 text-xs font-semibold inline-block py-2 px-3 text-gray-900 rounded  border border-gray-900">Web</span>
-
-                        <span
-                            class="mr-2 text-xs font-semibold inline-block py-2 px-3 rounded border border-gray-900 text-gray-900">C++</span>
-                        <span
-                            class="mr-2 text-xs font-semibold inline-block py-2 px-3 rounded border border-gray-900 text-gray-900">Objective-C</span>
-                        <span
-                            class="mr-2 text-xs font-semibold inline-block py-2 px-3 text-gray-900 rounded  border border-gray-900">Java</span>
-
-                    </div>
-                    <div class="mt-8 pl-4 pb-6">
-                        <a href="#"
-                            class="mt-2 bg-white border border-gray-600 hover:bg-gray-50 text-blue-600 font-bold py-2 px-4 rounded">View
-                            Project</a>
+                        </div>
+                        <div class="mt-8 pl-4 pb-6">
+                            <a href="#"
+                                class="mt-2 bg-white border border-gray-600 hover:bg-gray-50 text-blue-600 font-bold py-2 px-4 rounded">View
+                                Project</a>
+                        </div>
                     </div>
                 </div>
 
+                <div class=" bg-white border border-gray-200 rounded-lg shadow-md ">
+                    <img src="/images/GIISS1.png" alt="Kubernetes Logo" class="mx-auto mb-4 google-image" />
 
-                <!-- project 3 -->
-                <div class="bg-white border border-gray-200 rounded-lg shadow-md ">
-                    <img src="https://opensource.google/images/projects/os-projects-chromium_thumbnail.png"
-                        alt="Kubernetes Logo" class="mx-auto mb-4" />
+                    <div class="limited-color">
+                        <div class="p-4 text-left">
+                            <h2 class="text-lg font-semibold mb-2">GIISS</h2>
+                            <p class="text-sm text-gray-900">
+                                Gambia Inter-Bank InterWallet Security System provides autonomous cybersecurity services
+                                for financial institutions. It reduces costs on overheads and hiring personnel. The
+                                system offers 24/7 protection and oversight.
+                            </p>
 
-                    <div class="p-4 text-left">
-                        <h2 class="text-lg font-semibold mb-2">GIIPSS</h2>
-                        <p class="text-sm text-gray-900">
-                            GIIPSS manages interoperable payment systems for banks and non-bank financial institutions in Gambia. It includes solutions like National Switch, GACH, and Mobile Money Interoperability.
-                        </p>
+                        </div>
+                        <div class="flex mt-4 pl-4">
+                            <span
+                                class="mr-2 text-xs font-semibold inline-block py-2 px-3 text-gray-900 rounded  border border-gray-900">Web</span>
 
-                    </div>
-                    <div class="flex mt-4 pl-4">
-                        <span
-                            class="mr-2 text-xs font-semibold inline-block py-2 px-3 text-gray-900 rounded  border border-gray-900">Web</span>
+                            <span
+                                class="mr-2 text-xs font-semibold inline-block py-2 px-3 rounded border border-gray-900 text-gray-900">C++</span>
+                            <span
+                                class="mr-2 text-xs font-semibold inline-block py-2 px-3 rounded border border-gray-900 text-gray-900">Objective-C</span>
+                            <span
+                                class="mr-2 text-xs font-semibold inline-block py-2 px-3 text-gray-900 rounded  border border-gray-900">Java</span>
 
-                        <span
-                            class="mr-2 text-xs font-semibold inline-block py-2 px-3 rounded border border-gray-900 text-gray-900">C++</span>
-                        <span
-                            class="mr-2 text-xs font-semibold inline-block py-2 px-3 rounded border border-gray-900 text-gray-900">Objective-C</span>
-                        <span
-                            class="mr-2 text-xs font-semibold inline-block py-2 px-3 text-gray-900 rounded  border border-gray-900">Java</span>
-
-                    </div>
-                    <div class="mt-8 pl-4 pb-6">
-                        <a href="#"
-                            class="mt-2 bg-white border border-gray-600 hover:bg-gray-50 text-blue-600 font-bold py-2 px-4 rounded">View
-                            Project</a>
+                        </div>
+                        <div class="mt-8 pl-4 pb-6">
+                            <a href="#"
+                                class="mt-2 bg-white border border-gray-600 hover:bg-gray-50 text-blue-600 font-bold py-2 px-4 rounded">View
+                                Project</a>
+                        </div>
                     </div>
                 </div>
 
 
+                <div class=" bg-white border border-gray-200 rounded-lg shadow-md ">
+                    <img src="/images/GIIPSS1.png" alt="Kubernetes Logo" class="mx-auto mb-4 google-image" />
+                    <div class="limited-color">
+                        <div class="p-4 text-left">
+                            <h2 class="text-lg font-semibold mb-2">GIIPSS</h2>
+                            <p class="text-sm text-gray-900">
+                                GIIPSS manages interoperable payment systems for banks and non-bank financial
+                                institutions
+                                in Gambia. It includes solutions like National Switch, GACH, and Mobile Money
+                                Interoperability.
+                            </p>
+
+                        </div>
+                        <div class="flex mt-4 pl-4">
+                            <span
+                                class="mr-2 text-xs font-semibold inline-block py-2 px-3 text-gray-900 rounded  border border-gray-900">Web</span>
+
+                            <span
+                                class="mr-2 text-xs font-semibold inline-block py-2 px-3 rounded border border-gray-900 text-gray-900">C++</span>
+                            <span
+                                class="mr-2 text-xs font-semibold inline-block py-2 px-3 rounded border border-gray-900 text-gray-900">Objective-C</span>
+                            <span
+                                class="mr-2 text-xs font-semibold inline-block py-2 px-3 text-gray-900 rounded  border border-gray-900">Java</span>
+
+                        </div>
+                        <div class="mt-8 pl-4 pb-6">
+                            <a href="#"
+                                class="mt-2 bg-white border border-gray-600 hover:bg-gray-50 text-blue-600 font-bold py-2 px-4 rounded">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
-        </div>
+        </div> -->
 
         <div class="text-center mt-8 push">
             <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded">View all
@@ -267,5 +304,3 @@
 
 
     </div>
-
-

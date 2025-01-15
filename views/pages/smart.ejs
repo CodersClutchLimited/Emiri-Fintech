@@ -13,8 +13,8 @@
 
     <div class="digital-hero">
         <div class="digital-texts">
-            <div class=" title-1 font-bold text-5xl flex flex-col justify-center gap-7">
-                <div class="image-digi flex gap-3"> <img src="/images/business-contract.png" class="h-12"
+            <div class=" title-1 font-bold text-5xl flex flex-col justify-center items-center gap-7">
+                <div class="image-digi flex justify-center gap-3"> <img src="/images/business-contract.png" class="h-12"
                         alt=""><span>Smart contract development company</span></div>
                 <div class="white-r"></div>
             </div>
@@ -40,61 +40,127 @@
     <div class="nft-does cont flex items-center justify-center bg-no-repeat bg-center bg-cover bg-black bg-opacity-50"
         style="background-image: url('https://innowise.com/wp-content/uploads/2022/07/28c30c31555b64a90230b6a51cc563bb-scaled.jpg');">
         <div class="flex flex-col items-center text-center">
-            <p class="text-white text-4xl font-medium">Looking for smart contract developers?
+            <p class="text-white text-4xl font-medium">Smart contracts development services
             </p>
             <a href="#" class="mt-14 px-6 py-4 text-white bg-red-500 rounded-sm hover:bg-blue-700">Contact us</a>
         </div>
     </div>
 
-    <!-- section 3 -->
-    <div class="util-outer flex justify-center items-center">
-        <div class="util-container">
-            <h1 class="util-title">Smart contracts development services</h1>
-            <p class="util-description">Innowise has many qualified in-house blockchain developers. We have already <br>
-                spent 10+ years in this domain and built a range of state-of-the-art solutions. <br> Therefore, we can
-                provide our clients with full-stack development of smart <br> contracts as well as other related
-                services that are listed below.</p>
-
-            <div class="util-grid grid grid-cols-1 md:grid-cols-3">
-                <div class="util-grid-item">
-                    <h3 class="util-grid-item-title fifteenth-one font-semibold"><span>•</span> Smart contract
-                        development
-                    </h3>
-                    <p class="util-grid-item-description">Our experienced development team creates any type of such
-                        automated immutable “digital agreements” that will meet all the client’s requirements and can be
-                        implemented in various niches of business.</p>
+    <div class="acordion">
+        <div class="forensic-dropper">
+            <div class="dropper-container zero-pad">
+                <div class="acord-starter">
+                    <p class="acord-2">Emiri Fintech is backed by a team of highly skilled blockchain developers with
+                        extensive expertise in the field. With over a decade of experience, we have delivered a variety
+                        of cutting-edge solutions. This enables us to offer comprehensive full-stack smart contract
+                        development along with a range of related services detailed below.</p>
                 </div>
 
-                <div class="util-grid-item">
-                    <h3 class="util-grid-item-title fifteenth-one font-semibold"><span>•</span> Smart contract design
-                    </h3>
-                    <p class="util-grid-item-description">Some of the existing design patterns and programming
-                        principles for conventional software environments also apply to smart contracts. We build even
-                        the most complex designs at a reasonable cost.</p>
+                <div class="dropper-expand flex justify-between">
+                    <h1 class="text-2xl font-bold mb-6">Related services</h1>
+                    <a style="white-space: nowrap; color: #EC4899" href="#" class=" text-lg"
+                        onclick="toggleAllSections(event)"><strong>Expand
+                            All</strong></a>
                 </div>
 
-                <div class="util-grid-item">
-                    <h3 class="util-grid-item-title fifteenth-one font-semibold"><span>•</span>Smart contract audits
-                    </h3>
-                    <p class="util-grid-item-description">Before a solution of this type is even deployed on the
-                        mainnet, we test it to make sure it includes no errors or security vulnerabilities. We also
-                        audit third-party contracts to exclude any issues with them.</p>
+                <div class="border-b py-6">
+                    <button style="color: #EC4899"
+                        class="flex justify-between items-center w-full text-left text-xl font-semibold "
+                        onclick="toggleSection('section3')">
+                        Smart contract development
+                        <span class="text-gray-500">+</span>
+                    </button>
+                    <div id="section3" class="mt-2 hidden">
+                        <p class="text-gray-700 mb-3">Our skilled development team at Emiri Fintech specializes in
+                            creating various types of automated, immutable "digital agreements" tailored to meet all
+                            client requirements and applicable across diverse business sectors.</p>
+                    </div>
                 </div>
 
-                <div class="util-grid-item">
-                    <h3 class="util-grid-item-title fifteenth-one font-semibold"><span>•</span>Smart contract optimization</h3>
-                    <p class="util-grid-item-description">When developing smart contracts, Innowise implements an optimization approach that allows us to create cost- and computation-effective solutions. This, in turn, reduces the average usage of gas.</p>
+                <div class="border-b py-6">
+                    <button style="color: #EC4899"
+                        class="flex justify-between items-center w-full text-left text-xl font-semibold"
+                        onclick="toggleSection('section2')">
+                        Smart contract design
+                        <span class="text-gray-500">+</span>
+                    </button>
+                    <div id="section2" class="mt-2 hidden">
+                        <p class="text-gray-700">Many design patterns and programming principles used in traditional
+                            software development are also applicable to smart contracts. We create even the most
+                            intricate designs at a competitive price.</p>
+                    </div>
                 </div>
 
-                <div class="util-grid-item">
-                    <h3 class="util-grid-item-title fifteenth-one font-semibold"><span>•</span>Smart contracts for dApps</h3>
-                    <p class="util-grid-item-description">We build various decentralized applications that allow peering transactions directly between two parties. With our smart contracts, a client’s business can solve any task with the highest level of efficiency.</p>
+                <div class="border-b py-6">
+                    <button style="color: #EC4899"
+                        class="flex justify-between items-center w-full text-left text-xl font-semibold "
+                        onclick="toggleSection('section4')">
+                        Smart contract audits
+                        <span class="text-gray-500">+</span>
+                    </button>
+                    <div id="section4" class="mt-2 hidden">
+                        <p class="text-gray-700 mb-3">Before a solution of this type is even deployed on the mainnet, we
+                            test it to make sure it includes no errors or security vulnerabilities. We also audit
+                            third-party contracts to exclude any issues with them.</p>
+                    </div>
                 </div>
 
-                <div class="util-grid-item">
-                    <h3 class="util-grid-item-title fifteenth-one font-semibold"><span>•</span>Hire smart contract developers</h3>
-                    <p class="util-grid-item-description">If you are looking for dedicated blockchain experts to improve the ongoing project, you can hire our staff members. The professionals of Innowise are ready to join your development process at any stage.</p>
+                <div class="border-t border-b py-6">
+                    <button style="color: #EC4899"
+                        class="flex justify-between items-center w-full text-left text-xl font-semibold "
+                        onclick="toggleSection('section1')">
+                        Smart contract optimization
+                        <span class="text-gray-500">+</span>
+                    </button>
+                    <div id="section1" class="mt-2 hidden">
+                        <p class="text-gray-700">When developing smart contracts, Innowise implements an optimization
+                            approach that allows us to create cost- and computation-effective solutions. This, in turn,
+                            reduces the average usage of gas.</p>
+                    </div>
                 </div>
+
+                <div class="border-t border-b py-6">
+                    <button style="color: #EC4899"
+                        class="flex justify-between items-center w-full text-left text-xl font-semibold "
+                        onclick="toggleSection('section5')">
+                        Smart contracts for dApps
+                        <span class="text-gray-500">+</span>
+                    </button>
+                    <div id="section5" class="mt-2 hidden">
+                        <p class="text-gray-700">At Emiri Fintech, we develop decentralized applications that facilitate
+                            seamless peer-to-peer transactions. Our smart contracts empower businesses to achieve their
+                            goals with unmatched efficiency and precision.</p>
+                    </div>
+                </div>
+
+                <div class="border-t border-b py-6">
+                    <button style="color: #EC4899"
+                        class="flex justify-between items-center w-full text-left text-xl font-semibold "
+                        onclick="toggleSection('section6')">
+                        Smart contracts for dApps
+                        <span class="text-gray-500">+</span>
+                    </button>
+                    <div id="section6" class="mt-2 hidden">
+                        <p class="text-gray-700">Emiri Fintech specializes in creating decentralized applications that
+                            enable direct peer-to-peer transactions. Our smart contracts are designed to help businesses
+                            tackle any challenge with maximum efficiency and effectiveness.</p>
+                    </div>
+                </div>
+
+                <div class="border-t border-b py-6">
+                    <button style="color: #EC4899"
+                        class="flex justify-between items-center w-full text-left text-xl font-semibold "
+                        onclick="toggleSection('section7')">
+                        Hire smart contract developers
+                        <span class="text-gray-500">+</span>
+                    </button>
+                    <div id="section7" class="mt-2 hidden">
+                        <p class="text-gray-700">If you need dedicated blockchain experts to enhance your ongoing
+                            project, Emiri Fintech’s professionals are here to help. Our skilled team is ready to join
+                            your development process at any stage to ensure its success.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -103,120 +169,207 @@
     <div class="text-gray-800 nft-bug hexmen flex justify-center">
         <div class="mx-auto mainer">
             <div class="thug-header nft-thug-header">
-                <p class="thug-title">Best smart contracts platforms we work on</p>
-                <p>Innowise has strong experience in developing blockchain-based and <br> blockchain-related solutions.
-                    Not only do we provide our clients with all-in-one <br> smart contracts development services but
-                    also help them select the most <br> appropriate blockchain platform. Our team goes through every
-                    minor detail of <br> each particular smart contract use case to help clients pick one of the <br>
-                    platforms that are mentioned below.
+                <p class="thug-title text-center">Best smart contracts platforms we work on</p>
+                <p class="text-center">Emiri FinTech creates blockchain solutions, offering full smart contract
+                    development and helping clients <br> choose the best blockchain platform. Our team carefully reviews
+                    each use case to recommend the ideal platform.
                 </p>
             </div>
 
-            <div class="smart-logor grid grid-cols-1 md:grid-cols-3 gridder">
-                <!-- nft design -->
-                <div class="innertext flex flex-col">
-                    <div class="custom-nft">
-                        <img src="https://innowise.com/wp-content/uploads/2022/07/Ethereum.svg" class="h-12" alt="">
+            <!-- accords -->
+            <div class="jambolee ai-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <!-- Card 1 -->
+                <div class="">
+                    <div class="pad p-10">
+                        <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                            class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                            onclick="toggleContent(1)">
+                            <div class="galop flex">
+                                <img src="https://innowise.com/wp-content/uploads/2022/07/Ethereum.svg" alt=""
+                                    class="h-8 icon-smaller">
+                                <span>Ethereum</span>
+                            </div>
+                            <i id="arrow-1" class="ri-arrow-drop-down-line text-4xl"></i>
+                        </h3>
+                        <div style="padding: 20px;" id="content-1"
+                            class="text-gray-900 leading-relaxed text-center hidden">
+                            Emiri FinTech's Ethereum smart contract developers possess extensive experience in crafting
+                            various types of smart contracts, including decentralized applications, on one of the most
+                            established and reliable blockchain networks.
+                        </div>
                     </div>
-                    <a href="#" class="text-xl font-semibold text-gray-900  hoveffect">Ethereum</a>
-                    <p class="text-base font-medium leading-relaxed max-w-md">Our Ethereum smart contract developers
-                        have years of experience in creating smart contracts of all types, including decentralized
-                        applications on one of the oldest and most trusted blockchain networks.</p>
                 </div>
 
-                <!--intellectual-  -->
-                <div class="innertext flex flex-col">
-                    <div class="custom-nft">
-                        <img src="https://innowise.com/wp-content/uploads/2022/07/H.svg" class="h-12" alt="">
+                <!-- Card 2 -->
+                <div class="">
+                    <div class="pad p-10">
+                        <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                            class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                            onclick="toggleContent(2)">
+                            <div class="galop flex">
+                                <img src="https://innowise.com/wp-content/uploads/2022/07/H.svg" alt=""
+                                    class="h-8 icon-smaller">
+                                <span>Hyperledger</span>
+                            </div>
+                            <i id="arrow-2" class="ri-arrow-drop-down-line text-4xl"></i>
+                        </h3>
+                        <div style="padding: 20px;" id="content-2"
+                            class="text-gray-900 leading-relaxed text-center hidden">Emiri FinTech offers Hyperledger
+                            smart contracts (chaincode) of various types, built on a scalable and secure blockchain
+                            platform developed by Linux. These contracts are highly regarded for their ability to
+                            protect sensitive data.
+                        </div>
                     </div>
-                    <a href="#" class="text-xl font-semibold text-gray-900  hoveffect">Hyperledger</a>
-                    <p class="text-base font-medium leading-relaxed max-w-md">We will provide our clients with
-                        Hyperledger smart contracts (chaincode) of all types that are built on a scalable and secure
-                        blockchain platform designed by Linux. Such contracts are particularly praised for protection of
-                        sensitive data.</p>
                 </div>
 
-                <!-- NFT minting -->
-                <div class="innertext flex flex-col">
-                    <div class="custom-nft">
-                        <img src="https://innowise.com/wp-content/uploads/2022/07/EOS.svg" class="h-12" alt="">
+                <!-- Card 3 -->
+                <div class="">
+                    <div class="pad p-10">
+                        <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                            class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                            onclick="toggleContent(3)">
+                            <div class="galop flex">
+                                <img src="https://innowise.com/wp-content/uploads/2022/07/EOS.svg" alt=""
+                                    class="h-8 icon-smaller">
+                                <span>EOS</span>
+                            </div>
+                            <i id="arrow-3" class="ri-arrow-drop-down-line text-4xl"></i>
+                        </h3>
+                        <div style="padding: 20px;" id="content-3"
+                            class="text-gray-900 leading-relaxed text-center hidden">Emiri FinTech is equipped to
+                            develop any type of EOS smart contract, enabling our clients to leverage the high throughput
+                            and flexible governance structure that this platform provides.</div>
                     </div>
-                    <a href="#" class="text-xl font-semibold text-gray-900  hoveffect">EOS</a>
-                    <p class="text-base font-medium leading-relaxed max-w-md">Innowise is ready to develop any type of
-                        EOS smart contract that will allow our clients to benefit from the high throughput that this
-                        platform offers to all its users as well as its flexible governance structure model.</p>
                 </div>
 
-                <!-- Smart contract development -->
-                <div class="innertext flex flex-col">
-                    <div class="custom-nft">
-                        <img src="https://innowise.com/wp-content/uploads/2022/07/Vector-922.svg" class="h-12" alt="">
+                <!-- Card 4 -->
+                <div class="">
+                    <div class="pad p-10">
+                        <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                            class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                            onclick="toggleContent(4)">
+                            <div class="galop flex">
+                                <img src="https://innowise.com/wp-content/uploads/2022/07/Vector-922.svg" alt=""
+                                    class="h-8 mr-4 icon-smaller">
+                                <span>Tron</span>
+                            </div>
+                            <i id="arrow-4" class="ri-arrow-drop-down-line text-4xl"></i>
+                        </h3>
+                        <div style="padding: 20px;" id="content-4"
+                            class="text-gray-900 leading-relaxed text-center hidden">If you are in search of scalable
+                            and reliable solutions for your business, Emiri FinTech offers smart contract-based MLM
+                            solutions on the Tron platform that will significantly enhance business efficiency.
+                        </div>
                     </div>
-                    <a href="#" class="text-xl font-semibold text-gray-900  hoveffect">Tron</a>
-                    <p class="text-base font-medium leading-relaxed max-w-md">If you are in search of scalable and
-                        reliable solutions for your business, then Innowise will provide smart contract-based MLM on
-                        Tron solutions that will inevitably increase business efficiency.</p>
                 </div>
 
-                <!-- Migrating NFTs -->
-                <div class="innertext flex flex-col">
-                    <div class="custom-nft">
-                        <img src="https://innowise.com/wp-content/uploads/2022/07/Solana.svg" class="h-12" alt="">
+                <!-- Card 5 -->
+                <div class="">
+                    <div class="pad p-10">
+                        <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                            class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                            onclick="toggleContent(5)">
+                            <div class="galop flex">
+                                <img src="https://innowise.com/wp-content/uploads/2022/07/Solana.svg" alt=""
+                                    class="h-8 icon-smaller">
+                                <span>Solana</span>
+                            </div>
+                            <i id="arrow-5" class="ri-arrow-drop-down-line text-4xl"></i>
+                        </h3>
+                        <div style="padding: 20px;" id="content-5"
+                            class="text-gray-900 leading-relaxed text-center hidden">As one of the fastest blockchain
+                            platforms, Solana provides numerous benefits to its users. At Emiri FinTech, we develop
+                            various types of Solana smart contracts, enabling our clients to leverage the platform's key
+                            features such as transaction speed, cost efficiency, and scalability.
+                        </div>
                     </div>
-                    <a href="#" class="text-xl font-semibold text-gray-900  hoveffect">Solana</a>
-                    <p class="text-base font-medium leading-relaxed max-w-md">Being one of the fastest blockchain
-                        platforms, Solana offers a lot of advantages to its users. We create any type of Solana smart
-                        contract so that our clients can benefit from the blockchain’s key features, including
-                        transaction speed, costs, and scalability.</p>
                 </div>
 
-                <!-- Cross-chain NFT platform development -->
-                <div class="innertext flex flex-col">
-                    <div class="custom-nft">
-                        <img src="https://innowise.com/wp-content/uploads/2022/07/XDC-Network.svg" class="h-12" alt="">
+                <!-- Card 6 -->
+                <div class="">
+                    <div class="pad p-10">
+                        <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                            class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                            onclick="toggleContent(6)">
+                            <div class="galop flex">
+                                <img src="https://innowise.com/wp-content/uploads/2022/07/XDC-Network.svg" alt=""
+                                    class="h-8 icon-smaller">
+                                <span>XDC Network</span>
+                            </div>
+                            <i id="arrow-6" class="ri-arrow-drop-down-line text-4xl"></i>
+                        </h3>
+                        <div style="padding: 20px;" id="content-6"
+                            class="text-gray-900 leading-relaxed text-center hidden">Emiri Fintech's XDC smart contracts
+                            offer both efficiency and interoperability. Their inter-blockchain nature enables business
+                            owners to develop projects that are compatible with various scalable and cost-effective
+                            platforms.</div>
                     </div>
-                    <a href="#" class="text-xl font-semibold text-gray-900  hoveffect">XDC Network</a>
-                    <p class="text-base font-medium leading-relaxed max-w-md">XDC smart contracts can boast both
-                        efficiency and interoperability. The inter-blockchain nature of such applications allows
-                        business owners to build projects that will be compatible with various scalable and
-                        cost-effective platforms.</p>
                 </div>
 
-                <div class="innertext flex flex-col">
-                    <div class="custom-nft">
-                        <img src="https://innowise.com/wp-content/uploads/2022/07/Polkadot.svg" class="h-12" alt="">
+                <!-- Card 7 -->
+                <div class="">
+                    <div class="pad p-10">
+                        <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                            class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                            onclick="toggleContent(7)">
+                            <div class="galop flex">
+                                <img src="https://innowise.com/wp-content/uploads/2022/07/Polkadot.svg" alt=""
+                                    class="h-8 icon-smaller">
+                                <span>Polkadot</span>
+                            </div>
+                            <i id="arrow-7" class="ri-arrow-drop-down-line text-4xl"></i>
+                        </h3>
+                        <div style="padding: 20px;" id="content-7"
+                            class="text-gray-900 leading-relaxed text-center hidden"> Polkadot smart contracts developed
+                            by Emiri Fintech are renowned for their speed, decentralization, and top-notch security. Our
+                            developers leverage these advantages to deliver fast and highly secure dApps for businesses.
+                        </div>
                     </div>
-                    <a href="#" class="text-xl font-semibold text-gray-900  hoveffect">Polkadot</a>
-                    <p class="text-base font-medium leading-relaxed max-w-md">All the Polkadot smart contracts stand out
-                        for their speed, decentralization, and the highest level of security. With this in mind,
-                        Innowise’s developers use all of these benefits to provide businesses with fast and highly
-                        secured dApps.</p>
                 </div>
 
-                <!-- Migrating NFTs -->
-                <div class="innertext flex flex-col">
-                    <div class="custom-nft">
-                        <img src="https://innowise.com/wp-content/uploads/2022/07/Stellar.svg" class="h-12" alt="">
+                <!-- Card 8 -->
+                <div class="">
+                    <div class="pad p-10">
+                        <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                            class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                            onclick="toggleContent(8)">
+                            <div class="galop flex">
+                                <img src="https://innowise.com/wp-content/uploads/2022/07/Stellar.svg" alt=""
+                                    class="h-8 icon-smaller">
+                                <span>Stellar</span>
+                            </div>
+                            <i id="arrow-8" class="ri-arrow-drop-down-line text-4xl"></i>
+                        </h3>
+                        <div style="padding: 20px;" id="content-8"
+                            class="text-gray-900 leading-relaxed text-center hidden">With its high speed, scalability,
+                            robust security, and low-cost transactions, Stellar smart contracts are highly appealing to
+                            businesses of all kinds. If you want your application to leverage these benefits, Emiri
+                            FinTech's skilled developers will tailor a solution for you.</div>
                     </div>
-                    <a href="#" class="text-xl font-semibold text-gray-900  hoveffect">Stellar</a>
-                    <p class="text-base font-medium leading-relaxed max-w-md">With its high speed, scalability, robust
-                        security, and low-cost transactions, Stellar smart contracts are looking very attractive to
-                        businesses of all kinds. If you want your application to enjoy all of these benefits, our
-                        skilled developers will tailor such.</p>
                 </div>
 
-                <!-- Cross-chain NFT platform development -->
-                <div class="innertext flex flex-col">
-                    <div class="custom-nft">
-                        <img src="https://innowise.com/wp-content/uploads/2022/07/X.svg" class="h-12" alt="">
+                <!-- Card 9 -->
+                <div class="">
+                    <div class="pad p-10">
+                        <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                            class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                            onclick="toggleContent(9)">
+                            <div class="galop flex">
+                                <img src="https://innowise.com/wp-content/uploads/2022/07/X.svg" alt=""
+                                    class="h-8 icon-smaller">
+                                <span>XRP Ripple</span>
+                            </div>
+                            <i id="arrow-9" class="ri-arrow-drop-down-line text-4xl"></i>
+                        </h3>
+                        <div style="padding: 20px;" id="content-9"
+                            class="text-gray-900 leading-relaxed text-center hidden">Ripple is a widely-used currency
+                            exchange network and payment settlement system that facilitates transactions globally. Emiri
+                            FinTech specializes in developing smart contracts on the XRP Ledger to enhance transaction
+                            efficiency and security.</div>
                     </div>
-                    <a href="#" class="text-xl font-semibold text-gray-900  hoveffect">XRP Ripple</a>
-                    <p class="text-base font-medium leading-relaxed max-w-md">Ripple is a popular currency exchange
-                        network and payments settlement system that processes transactions from around the world. We are
-                        able to develop smart contracts based on the XRP Ledger as well.</p>
                 </div>
-
             </div>
+
         </div>
     </div>
 
@@ -225,14 +378,12 @@
         <div class="devicer">
             <h2 class="diverse">Hire smart contract developers
             </h2>
-            <p class="diverse-text smart-diverse">If you are in need of a smart contract to optimize your business,
-                Innowise will <br> provide you with first-class skilled developers that will help you reach all your
-                <br> business goals. Our blockchain experts have already saved time and effort for <br> many clients
-                around the world. We can both develop a smart contract solution <br> from scratch or outsource our
-                in-house professionals to join the project at <br> any stage. Also, we can audit smart contracts and
-                give a client detailed <br> recommendations on various aspects of the app.
+            <p class="diverse-text smart-diverse">Need a smart contract to boost your business operations?
+                Emiri Fintech <br> offers expert developers to help you achieve your goals. Our blockchain <br>
+                experts have streamlined processes for clients globally. We can develop <br> a smart contract solution
+                from scratch or support your project at any stage. <br> Additionally,
+                we offer smart contract audits and provide recommendations <br> to improve your application.
             </p>
-
             <div class="vidify-container grid grid-cols-1 md:grid-cols-2">
                 <div class="vidify-1">
                     <video width="100%" height="auto" controls autoplay muted>
@@ -244,7 +395,7 @@
                 <div class="vidify-2">
                     <div class="let-space">
                         <p class="vidify-title font-semibold">Do you have a smart contact in your mind?</p>
-                        <p class="vidify-question">Innowise can implement your big ideas.</p>
+                        <p class="vidify-question">Emiri Fintech can implement your big ideas.</p>
                         <div class="fire">
                             <a href="#" class="vidify-button">Drop us a line</a>
                         </div>
@@ -261,10 +412,10 @@
             Some of the industrial smart contract solutions we deliver
         </p>
 
-        <p class="smart-car">Blockchain and smart contracts, in particular, are applicable in many <br> industries,
-            meaning this is a universal solution for your business regardless of <br> the niche you work in. Innowise
-            builds smart contracts for various companies <br> in our daily development routine. The industries that we
-            cover include but are <br> not limited to the following ones.</p>
+        <p class="smart-car">Blockchain and smart contracts are versatile solutions that can be applied <br> across
+            various industries. At Emiri FinTech, we specialize in developing <br> smart contracts tailored to meet the
+            unique needs of businesses in different <br> sectors. Our expertise spans multiple industries, ensuring that
+            we can provide <br> effective blockchain solutions regardless of your business niche.</p>
         <div class="cosmic-swiper">
             <div class="orbital-wrapper swiper-wrapper">
                 <!-- card 1 -->
@@ -340,65 +491,22 @@
         </div>
     </div>
 
-    <!-- section 7 -->
-    <div class="util-outer flex nft-white justify-center items-center">
-        <div class="util-container">
-            <h1 class="util-title">Benefits of smart contracts for business</h1>
-            <p class="util-description">Smart contracts are already widely used in business especially when it comes
-                <br> to peering transactions and various asset exchange applications. Moreover, <br> they are the only
-                way for companies to launch blockchain-based crowdfunding <br> campaigns. Innowise’s experts list
-                transparency, immutability, irreversibility, <br> and accuracy among their major benefits.
-            </p>
-
-            <div class="util-grid grid grid-cols-1 md:grid-cols-3">
-                <div class="util-grid-item">
-                    <h3 class="util-grid-item-title fifteenth-one font-semibold"><span>•</span>Security
-                    </h3>
-                    <p class="util-grid-item-description">Being executed in a blockchain environment, smart contracts
-                        are highly protected by cryptography, which, in turn, can guarantee that they are nearly 100%
-                        invincible to all modern threats including hacker attacks.</p>
-                </div>
-
-                <div class="util-grid-item">
-                    <h3 class="util-grid-item-title fifteenth-one font-semibold"><span>•</span>Transparency
-                        technology</h3>
-                    <p class="util-grid-item-description">Smart contracts provide their users both businesses and end
-                        clients, with the highest level of transparency, which puts them on the highest levels of trust.
-                        Each participant of such an agreement can get access to the smart contract and its provisions at
-                        any time.</p>
-                </div>
-
-                <div class="util-grid-item">
-                    <h3 class="util-grid-item-title fifteenth-one font-semibold"><span>•</span>Independence
-                    </h3>
-                    <p class="util-grid-item-description">In contrast to traditional paper contracts, smart ones do not
-                        require any intermediary to be executed. This, in turn, allows your business to reduce costs and
-                        automate a lot of processes.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- section 8 -->
     <div class="smart-combiner nft-black">
         <div style="background-color: #333333;" class="second-kaira flex justify-start items-center">
             <div class="kaira-container">
-                <div class="kaira-image">
-                    <img src="https://innowise.com/wp-content/uploads/2023/12/img-1-2-1.png" alt="Andrew Nalichaev">
+                <div class="meddler kaira-image">
+                    <img src="/images/eric.png" alt="Andrew Nalichaev">
                 </div>
                 <div class="kaira-text">
-                    <p class="bigger">Do you remember Bill Gates saying that if your business is not on the Internet
-                        <br> then your business will be out of business? Well, nowadays the same can be <br> said about
-                        smart contracts and many online and offline businesses. It’s been a <br> while since smart
-                        contracts were a kind of a miracle or something that was <br> treated like a prototype that
-                        requires years of studies before implementation. <br> Today, such applications are employed by
-                        many businesses and enterprises to <br> facilitate processes, reduce costs, automate various
-                        solutions, etc. They are <br> around us already. We, at Innowise, will easily connect your
-                        business to this <br> technological solution so that you can benefit from all its strengths.
+                    <p class="bigger">As Bill Gates once said, if your business is not on the Internet, it will <br> be
+                        out of business. Today, the same applies to smart contracts. At <br> Emiri Fintech, we help
+                        businesses leverage smart contracts to <br> streamline processes, reduce costs, and automate
+                        solutions. <br> Join the many enterprises already benefiting from this technology.
                     </p>
                     <div class="kaira-author">
-                        <h4>Andrew Nalichaev</h4>
-                        <p class="font-semibold">Blockchain domain expert & DeFi analyst at Innowise</p>
+                        <h4>Eric Kabutey</h4>
+                        <p class="font-semibold">Blockchain domain expert & DeFi analyst at Emiri</p>
                     </div>
                 </div>
             </div>
@@ -438,15 +546,16 @@
     <div class="text-gray-800  hexmen flex justify-center">
         <div class="mx-auto mainer">
             <div class="thug-header nft-thug-header">
-                <p class="thug-title">Why choose Innowise as your smart contract development company</p>
-                <p class="that-para">With 10+ years of experience, Innowise delivers various types of smart contracts
-                    <br> based on the most popular and effective blockchain networks. Entrusting the <br> whole
-                    development process to our team, you get the following benefits.
+                <p class="thug-title text-center">Why choose Emiri FinTech</p>
+                <p class="that-para text-center">With over a decade of expertise, Emiri FinTech offers a wide range of
+                    smart contract solutions
+                    utilizing <br> advanced and reliable blockchain platforms. Partnering with us, you gain the
+                    following advantages:
                 </p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gridder">
+            <div class="lined-boxes grid grid-cols-1 md:grid-cols-3 gridder">
                 <!-- Security-->
-                <div class="innertext flex flex-col">
+                <div class="innertext box-liner flex flex-col">
                     <div class="custom-nft">
                         <img src="https://innowise.com/wp-content/uploads/2022/07/Research.svg" class="h-12" alt="">
                     </div>
@@ -458,7 +567,7 @@
                 </div>
 
                 <!--Versatility  -->
-                <div class="innertext flex flex-col">
+                <div class="innertext box-liner flex flex-col">
                     <div class="custom-nft">
                         <img src="https://innowise.com/wp-content/uploads/2022/07/Research2.svg" class="h-12" alt="">
                     </div>
@@ -470,7 +579,7 @@
                 </div>
 
                 <!-- Market efficiency-->
-                <div class="innertext flex flex-col">
+                <div class="innertext box-liner flex flex-col">
                     <div class="custom-nft">
                         <img src="https://innowise.com/wp-content/uploads/2022/07/Research3.svg" class="h-12" alt="">
                     </div>
@@ -485,7 +594,7 @@
     </div>
 
     <!-- section 10 -->
-    <div class="text-gray-800  hexmen flex justify-center">
+    <!-- <div class="text-gray-800  hexmen flex justify-center">
         <div class="mx-auto mainer">
             <div class="thug-header nft-thug-header">
                 <p class="thug-title">How much does it cost to create a smart contract?</p>
@@ -540,18 +649,20 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- section 11 -->
     <div class=" text-white font-sans step-content smart-content">
         <div class=" mx-auto space-y-3">
             <h1 style="font-size: 40px;" class="font-normal padder text-left">Our smart contract development process
             </h1>
-            <p class="diverse-text smart-dope">Innowise has all the necessary expertise to provide our clients with a
-                full- <br> fledged smart contract development process. It covers all the stages that are <br> necessary
-                to create any type of app or dApp, including asset exchanges or even <br> DeFi platforms. We carefully
-                analyze our client’s business needs and select a <br> methodology for each particular use case. The
-                whole development process <br> looks the following way.
+            <p class="diverse-text smart-dope">Emiri FinTech possesses the expertise required to deliver a comprehensive
+                smart <br> contract development process. This encompasses all stages necessary to create <br> various
+                applications
+                or dApps, including asset exchanges and DeFi platforms. <br> We meticulously analyze our clients'
+                business
+                needs and tailor our methodology <br> to each specific use case. The entire development process is as
+                follows:
             </p>
 
 
@@ -577,7 +688,11 @@
                 <div class="text-red-500 text-xl font-bold">02</div>
                 <div class="flex flex-col md:flex-row  step-res">
                     <h2 class="text-gray-300 text-2xl font-semibold stepper">Technical design</h2>
-                    <p class=" text-lg font-normal step">At this stage, Innowise’s professionals build a technical architecture of the project and develop all the necessary documents that will be used further during the putting into practice process. Our smart contract development company takes into consideration even minor details for the future application to meet all the clients’ use case requirements.
+                    <p class=" text-lg font-normal step">At this stage, Innowise’s professionals build a technical
+                        architecture of the project and develop all the necessary documents that will be used further
+                        during the putting into practice process. Our smart contract development company takes into
+                        consideration even minor details for the future application to meet all the clients’ use case
+                        requirements.
                     </p>
                 </div>
                 <img src="/icons/arrow.png" class="arrow h-5" alt="">
@@ -627,29 +742,6 @@
                 <img src="/icons/arrow.png" class="arrow h-5" alt="">
             </div>
 
-        </div>
-
-        <div class="devicer smart-kaira smart-devicer">
-            <div class="vidify-container smart-vidify grid grid-cols-1 md:grid-cols-2">
-                <div class="vidify-1">
-                    <video width="100%" height="auto" controls autoplay muted>
-                        <source src="https://innowise.com/wp-content/uploads/2022/12/2-call-to-action.mp4"
-                            type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </div>
-                <div class="vidify-2">
-                    <div class="let-space">
-                        <p class="vidify-title font-semibold">Do you want to bring your business to <br> the next level?
-                            smart contract?</p>
-                        <p class="vidify-question">Our smart contract professionals can help.
-                            complexity.</p>
-                        <div class="fire">
-                            <a href="#" class="vidify-button">Drop us a line</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 
@@ -742,8 +834,7 @@
                     <div class="cadder smart-geck nft-white overflow-hidden">
                         <!-- Image at the top -->
                         <img class="w-full zoom-img"
-                            src="https://innowise.com/wp-content/uploads/2024/10/eCommerce-TIZER.jpg"
-                            alt="Card image">
+                            src="https://innowise.com/wp-content/uploads/2024/10/eCommerce-TIZER.jpg" alt="Card image">
 
                         <!-- Title below the image -->
                         <div class="cadder-title">
@@ -865,7 +956,8 @@
                     <div class="cadder smart-geck nft-white overflow-hidden">
                         <!-- Image at the top -->
                         <img class="w-full zoom-img"
-                            src="https://innowise.com/wp-content/uploads/2024/03/Small-Cover-Admin-panel-for-QA-tests-1-Nikita-Sokolovsky-Lena-Akhmetava.png" alt="Card image">
+                            src="https://innowise.com/wp-content/uploads/2024/03/Small-Cover-Admin-panel-for-QA-tests-1-Nikita-Sokolovsky-Lena-Akhmetava.png"
+                            alt="Card image">
 
                         <!-- Title below the image -->
                         <div class="cadder-title">
@@ -888,8 +980,8 @@
                 <div class="galaxy-slide swiper-slide">
                     <div class="cadder smart-geck nft-white overflow-hidden">
                         <!-- Image at the top -->
-                        <img class="w-full zoom-img" src="https://innowise.com/wp-content/uploads/2024/01/image-3042.png"
-                            alt="Card image">
+                        <img class="w-full zoom-img"
+                            src="https://innowise.com/wp-content/uploads/2024/01/image-3042.png" alt="Card image">
 
                         <!-- Title below the image -->
                         <div class="cadder-title">
@@ -918,62 +1010,79 @@
 
     <!-- section 15 -->
     <div class="nft-lexus stack-outer flex justify-start items-center">
-        <div class=" tech-stack">
+        <div class="smart-stack tech-stack">
             <div class="dropper-expand flex justify-between">
                 <p class="text-left tech-text mb-6">FAQ about smart contracts</p>
             </div>
             <div class="border-b py-6">
                 <button class="flex  items-center w-full text-left text-lg font-semibold"
-                    onclick="toggleSection('section10')"><span class="text-gray-500 font-thin">+</span>What is a smart contract?
+                    onclick="toggleSection('section10')"><span class="text-gray-500 font-thin">+</span>What is a smart
+                    contract?
                 </button>
                 <div id="section10" class="mt-2 hidden">
-                    <p class=" mb-3">Smart contracts are irreversible and unmodifiable forms of agreement that allow businesses to automate a huge part of processes. The nature of a smart contract is simple and straightforward. Such an application triggers an event after a particular condition is met.
+                    <p class=" mb-3">Smart contracts are irreversible and unmodifiable forms of agreement that allow
+                        businesses to automate a huge part of processes. The nature of a smart contract is simple and
+                        straightforward. Such an application triggers an event after a particular condition is met.
                     </p>
                 </div>
             </div>
 
             <div class="border-b py-6">
                 <button class="flex  items-center w-full text-left text-lg font-semibold"
-                    onclick="toggleSection('section11')"><span class="text-gray-500 font-thin">+</span>What are the advantages of a smart contract?
+                    onclick="toggleSection('section11')"><span class="text-gray-500 font-thin">+</span>What are the
+                    advantages of a smart contract?
                 </button>
                 <div id="section11" class="mt-2 hidden">
-                    <p class=" mb-3">One of the advantages of using them is that they reduce or even remove the participation of intermediaries. Smart contracts are totally autonomous, meaning none of the parties is needed to monitor its workflow. Such apps are immutable, which makes smart contracts one of the safest and most powerful tools for creating digital agreements. They can be implemented in most if not all of the industries and branches.</p>
+                    <p class=" mb-3">One of the advantages of using them is that they reduce or even remove the
+                        participation of intermediaries. Smart contracts are totally autonomous, meaning none of the
+                        parties is needed to monitor its workflow. Such apps are immutable, which makes smart contracts
+                        one of the safest and most powerful tools for creating digital agreements. They can be
+                        implemented in most if not all of the industries and branches.</p>
                 </div>
             </div>
 
             <div class="border-b py-6">
                 <button class="flex  items-center w-full text-left text-lg font-semibold"
-                    onclick="toggleSection('section12')"><span class="text-gray-500 font-thin">+</span>What are smart technology advantages over traditional contracts?
+                    onclick="toggleSection('section12')"><span class="text-gray-500 font-thin">+</span>What are smart
+                    technology advantages over traditional contracts?
                 </button>
                 <div id="section12" class="mt-2 hidden">
-                    <p class=" mb-3">They are fast and secure. Smart contracts allow you to exclude intermediaries, and, thus, make all your transactions and other operations cost-effective.                    </p>
+                    <p class=" mb-3">They are fast and secure. Smart contracts allow you to exclude intermediaries, and,
+                        thus, make all your transactions and other operations cost-effective. </p>
                 </div>
             </div>
 
             <div class="border-b  py-6">
                 <button class="flex  items-center w-full text-left text-lg font-semibold"
-                    onclick="toggleSection('section13')"><span class="text-gray-500 font-thin">+</span>Which are the most suitable blockchain platforms for smart contract development?
+                    onclick="toggleSection('section13')"><span class="text-gray-500 font-thin">+</span>Which are the
+                    most suitable blockchain platforms for smart contract development?
                 </button>
                 <div id="section13" class="mt-2 hidden">
-                    <p class=" mb-3">When choosing the best platform for smart contracts development, our experts focus on various aspects, including, but not limited to transaction throughput, scalability, type of consensus, etc.</p>
+                    <p class=" mb-3">When choosing the best platform for smart contracts development, our experts focus
+                        on various aspects, including, but not limited to transaction throughput, scalability, type of
+                        consensus, etc.</p>
                 </div>
             </div>
 
             <div class="border-b  py-6">
                 <button class="flex  items-center w-full text-left text-lg font-semibold"
-                    onclick="toggleSection('section14')"><span class="text-gray-500 font-thin">+</span>How do smart contracts work?
+                    onclick="toggleSection('section14')"><span class="text-gray-500 font-thin">+</span>How do smart
+                    contracts work?
                 </button>
                 <div id="section14" class="mt-2 hidden">
-                    <p class=" mb-3">These are programmed applications that contain a certain sequence of events and conditions. Once a condition is met, a particular event triggers.</p>
+                    <p class=" mb-3">These are programmed applications that contain a certain sequence of events and
+                        conditions. Once a condition is met, a particular event triggers.</p>
                 </div>
             </div>
 
             <div class="border-b no-bottom py-6">
                 <button class="flex  items-center w-full text-left text-lg font-semibold"
-                    onclick="toggleSection('section15')"><span class="text-gray-500 font-thin">+</span>What are smart contracts used for?
+                    onclick="toggleSection('section15')"><span class="text-gray-500 font-thin">+</span>What are smart
+                    contracts used for?
                 </button>
                 <div id="section15" class="mt-2 hidden">
-                    <p class=" mb-3">This type of digital agreement is widely used in various industries to provide autonomous transactions of all kinds that can be completed at high speed and with reduced costs.
+                    <p class=" mb-3">This type of digital agreement is widely used in various industries to provide
+                        autonomous transactions of all kinds that can be completed at high speed and with reduced costs.
                     </p>
                 </div>
             </div>
@@ -1096,7 +1205,8 @@
                         <!-- Image at the top -->
                         <!-- Title below the image -->
                         <div class="cadder-title">
-                            <div class="font-bold text-xl">Decentralized finance (Defi) development company & services</div>
+                            <div class="font-bold text-xl">Decentralized finance (Defi) development company & services
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1254,6 +1364,7 @@
         </div>
     </div>
 
+    <script src="/javascripts/cloud.js"></script>
     <script src="/javascripts/nft.js"></script>
     <script src="/javascripts/digital.js"></script>
     <script src="/javascripts/account.js"></script>

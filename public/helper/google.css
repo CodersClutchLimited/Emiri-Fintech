@@ -12,6 +12,51 @@
    border-radius: 5px;
 }
 
+.gapper p{
+    max-width: 350px;
+}
+
+.open-color{
+    color: #EC4899;
+}
+
+.coin-grid{
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.coin-1-1{
+    border: 1px solid #ccc;
+}
+
+.open-color-2{
+    color: #fff;
+}
+
+.coin-image{
+    width: 400px;
+}
+
+.google-image{
+    height: 245px;
+}
+
+.limited-color{
+    background-color: #53789A;
+}
+
+.open-text{
+    padding: 5px 19px;
+    color: #EC4899;
+    border: 1px solid #EC4899;
+}
+
+.open-text-2{
+    padding: 5px 19px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
 .gif {
     max-width: 500px;
 }
@@ -32,6 +77,15 @@
  font-weight: 500;
 }
 
+.google-texter{
+    color: #333;
+}
+
+.gapper{
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
 .gapper-container {
     margin-top: 20px;
 }
@@ -39,11 +93,6 @@
 .excel {
     padding-top: 90px !important;
     padding-bottom: 90px !important;
-}
-
-.container1 {
-    background: #2D2832;
-
 }
 
 .sub1 {
@@ -64,8 +113,9 @@ padding-right: 60px;
 
 
 .card-container {
-    padding: 0 50px;
-    margin-top: 100px;
+    padding-left: 13%;
+    padding-right: 13%;
+    /* margin-top: 100px; */
 }
 
 
@@ -95,4 +145,42 @@ padding-right: 60px;
 
 .coin {
     height: 245px;
+}
+
+.coin-1{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.coin-h1{
+    color: #EC4899;
+    padding-bottom: 30px;
+}
+
+.coin-1-2{
+    padding-left: 10%;
+}
+
+.coin-para{
+    color: #333;
+    padding-bottom: 30px;
+}
+
+.coin-techs{
+    padding-bottom: 30px;
+    column-gap: 50px;
+}
+
+.coin-techs button{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 11px;
+    color: #333;
+}
+
+.coin-link{
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px 19px;
 }

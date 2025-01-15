@@ -10,7 +10,7 @@
     padding-top: 130px;
     background-color: #00072d;
     padding-bottom: 150px;
-    height: 680px;
+    /* height: 680px; */
 }
 .gena-cont-2{
     background-color: #FFF;
@@ -24,7 +24,6 @@
     color: #fff;
     padding-top: 40px;
     padding-bottom: 50px;
-    margin-left: 150px;
     margin-top: -70px;
 }
 
@@ -33,8 +32,8 @@
 }
 
 .greggo{
-    margin-left: 150px !important;
-    margin-right: 150px !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
 }
 
 /* .greggo-2{
@@ -83,4 +82,22 @@
 
 .gcr-padder{
     padding-bottom: 50px;
+}
+
+
+@media screen and (max-width: 767px){
+    .greggo-spacing{
+        row-gap: 95px;
+    }
+
+    .gena-title{
+        font-size: 1.5rem;
+    }
+
+    .greater-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }

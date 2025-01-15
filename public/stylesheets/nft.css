@@ -3,6 +3,18 @@
 height: 401px !important;
 }
 
+.meddler.kaira-image{
+    width: 300px;
+
+}
+
+
+
+.box-liner{
+    border: 1px solid #ccc;
+    padding: 15px !important;
+}
+
 /* third section */
 
 .thug-header {
@@ -20,12 +32,13 @@ height: 401px !important;
 
 
 .custom-nft{
-    padding-bottom: 40px;
+    padding-top: 0px !important;
+    padding-bottom: 15px;
 }
 
 .gridder {
     gap: 40px;
-    row-gap: 0px !important;
+    row-gap: 50px !important;
 }
 
 /* fourth section */
@@ -315,8 +328,8 @@ height: 401px !important;
 
 .tech-stack{
     color: #333;
-    width: 70%;
-    margin: 0 50px;
+    width: 100%;
+    margin: 0 40px;
 }
 .tech-text{
     padding-top: 100px;
@@ -331,8 +344,18 @@ height: 401px !important;
     border-bottom: 1px solid black;
 }
 
+.nfterr.kaira-image{
+    width: 300px;
+    margin-left: 10%;
+}
+
+
 .tech-stack .border-b p{
     padding-left: 90px;
+}
+
+.dobally{
+    padding-top: 15px !important;
 }
 
 .tech-stack .border-b:hover{
@@ -363,7 +386,7 @@ height: 401px !important;
 /* fourteenth section */
 .dev-cost-outer{
     color: #333;
-    padding-bottom: 70px;
+    padding-bottom: 80px;
 }
 
 /* .dev-cost{
@@ -385,10 +408,22 @@ height: 401px !important;
     padding-bottom: 25px !Important;
 }
 
+.container-wide{
+    padding-bottom: 130px;
+}
+
+.smart-tech-stack.tech-stack{
+    width: 70%;
+}
+
+.med-img{
+    width: 300px;
+}
+
 .dev-title{
     font-size: 35px;
     padding-bottom: 60px;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .dev-cost span{

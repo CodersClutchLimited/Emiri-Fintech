@@ -155,6 +155,11 @@ app.get('/industry', (req, res) =>{
     res.render('pages/industry')
 })
 
+app.get('/security-mother', (req, res) =>{
+    res.render('pages/security-mother')
+})
+
+
 app.listen(1000, () => {
     console.log("LISTENING ON PORT 1000");
 })

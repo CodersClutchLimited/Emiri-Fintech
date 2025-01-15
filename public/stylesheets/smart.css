@@ -9,6 +9,15 @@
     padding-bottom: 40px;
 }
 
+.jambolee{
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.icon-smaller{
+    margin-right: 10px;
+}
+
 /* section 5 */
 .nft-black{
     background-color: #2E2E2E !important;
@@ -50,6 +59,24 @@
     border-top: 1px solid #fff;
 }
 
+.meddler.kaira-image{
+    width: 300px;
+
+}
+
+.smart-stack.tech-stack{
+    width: 70%;
+}
+
+.lined-boxes{
+    padding-top: 50px;
+}
+
+.box-liner{
+    border: 1px solid #ccc;
+    padding: 30px;
+}
+
 /* section 9*/
 
 /* section 10*/
@@ -74,6 +101,10 @@
 
 .diverse-text.smart-dope{
     padding-bottom: 90px !Important;
+}
+
+.diverse-text.smart-diverse{
+    padding-bottom: 70px !important;
 }
 
 .step-content.smart-content{

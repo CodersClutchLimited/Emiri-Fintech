@@ -29,7 +29,12 @@
 }
 
 .acord-quote .para2{
-    margin-left: 110px;
+    margin-left: 140px;
+}
+
+.yolk.cosmic-title{
+    padding-left: 0px;
+    text-align: center;
 }
 
 .acord-quote .pakinese{
@@ -49,7 +54,7 @@
 
 /* challenges with AI */
 
-.tech-container {
+/* .tech-container {
     position: relative;
     width: 100%;
     height: 60vh;
@@ -61,13 +66,84 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
-.contacterer{
-    margin-left: 100px;
+.tech-container {
+    position: relative;
+    width: 100%;
+    height: auto; /* Use auto for height to allow flexibility */
+    padding: 2rem;
+    padding-left: 2rem; /* Reduce padding for smaller screens */
+    padding-right: 2rem; /* Reduce padding for smaller screens */
+    background-color: #1e1e1e;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: center; /* Center-align content for better look on smaller screens */
+    align-items: center;
+    gap: 1.5rem; /* Add spacing between items */
 }
 
 .tech-text {
+    max-width: 100%; /* Use full width for smaller screens */
+    text-align: center; /* Center-align text on smaller screens */
+}
+
+.tech-text h1 {
+    font-size: 1.8rem; /* Adjust font size for smaller screens */
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem; /* Reduce padding for smaller screens */
+}
+
+.tech-text p {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    margin-bottom: 1.5rem;
+    color: #bfbfbf;
+}
+
+.tech-image {
+    position: relative;
+    max-width: 100%; /* Use full width for smaller screens */
+    text-align: center; /* Center image on smaller screens */
+}
+
+.tech-image img {
+    width: 100%; /* Make image responsive */
+    max-width: 300px; /* Limit maximum size */
+    height: auto;
+    object-fit: cover;
+}
+
+/* Media Queries for Larger Screens */
+@media (min-width: 768px) {
+    .tech-container {
+        flex-wrap: nowrap; /* Keep items side-by-side on larger screens */
+        justify-content: space-between;
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
+    .tech-text {
+        max-width: 50%;
+        text-align: left;
+    }
+
+    .tech-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .tech-text p {
+        font-size: 1.3rem;
+    }
+
+    .tech-image {
+        max-width: 50%;
+    }
+}
+
+
+
+/* .tech-text {
     max-width: 50%;
 }
 
@@ -83,7 +159,7 @@
     margin-bottom: 2rem;
     color: #bfbfbf;
     padding-bottom: 30px;
-}
+} */
 
 .tech-button {
     background-color: #e63946;
@@ -102,7 +178,7 @@
     background-color: #d62839;
 }
 
-.tech-image {
+/* .tech-image {
     position: relative;
     max-width: 50%;
 }
@@ -111,7 +187,7 @@
     width: 300px;
     height: auto;
     object-fit: cover;
-}
+} */
 
 .cod-merger{
     margin-bottom: -30px;
@@ -126,22 +202,17 @@
     font-size: 1.2rem;
 }
 
+
+
+/* .magical{
+    margin-top: -50px;
+} */
+
+/* .ai-para-2{
+    margin-bottom: 30px;
+} */
+
 /* Responsive Design */
-@media (max-width: 768px) {
-    .tech-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .tech-text, .tech-image {
-        max-width: 100%;
-    }
-
-    .tech-button {
-        margin: 0 auto;
-    }
-}
-
 .ai-contact{
     padding-top: 50px;
 }

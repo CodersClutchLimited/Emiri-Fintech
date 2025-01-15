@@ -1,8 +1,10 @@
 <%- layout('layouts/boilerplate') %>
+    <link rel="stylesheet" href="/stylesheets/cloudres.css">
+    <link rel="stylesheet" href="/stylesheets/aires.css">
     <div class="digital-hero">
         <div class="digital-texts">
-            <div class=" title-1 font-bold text-5xl flex flex-col justify-center gap-7"><span><i
-                        class="ri-cloud-line"></i> Cloud Services And Solutions</span>
+            <div class=" title-1 font-bold flex flex-col justify-center items-center gap-7"><span><i class="ri-cloud-line"></i> Cloud
+                    Services</span>
                 <div class="white-r"></div>
             </div>
         </div>
@@ -26,7 +28,7 @@
                     <h1 class="merger-cloud text-3xl font-bold mb-6">We Thoroughly Analyze</h1>
                 </div>
 
-                <div class="grid grid-cols-2 gap-5">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
                     <div class="colo-1 space-y-6">
                         <div class="cost-padder text-xl font-medium flex items-center space-x-4">
                             <i class="ri-command-line"></i>
@@ -45,7 +47,7 @@
                         </div>
                         <div class="cost-padder text-xl font-medium flex items-center space-x-4">
                             <i class="ri-microscope-line"></i>
-                            <span></span>Agile Engagement, Swift Onboarding
+                            <span></span>Agile Engagement
                         </div>
                     </div>
                 </div>
@@ -68,7 +70,7 @@
         <!-- Right Text Section -->
         <div class="flex flex-col justify-center items-center p-4 w-full">
             <!-- Title -->
-            <h2 class="cube-title ex text-2xl md:text-4xl font-bold text-center mb-2">
+            <h2 class="cube-title ex text-xl md:text-4xl font-bold text-center mb-2">
                 Enhance Your Business with Our Premier Cloud Solutions
             </h2>
 
@@ -85,8 +87,7 @@
         </div>
     </div>
 
-
-    <div class="flex flex-row w-full">
+    <div class="generuca flex flex-row w-full">
         <div class="list w-1/2 ">
             <ol class="text-xl space-y-10 font-bold text-white ">
                 <li><a href="">Cloud Backup Services</a></li>
@@ -128,8 +129,198 @@
         </div>
     </div>
 
+    <div class="acc-container">
+        <div class="acc-dura">
+            <div class="acc-item" id="item-cloud-backup">
+                <div class="acc-header" onclick="toggleAccordion('cloud-backup')">
+                    Cloud Backup Services
+                    <span class="acc-arrow" id="arrow-cloud-backup"><i class="ri-arrow-drop-down-line"></i></span>
+                </div>
+                <div class="acc-content" id="content-cloud-backup">
+                    <h3>Cloud Backup Services</h3>
+                    <p>Transform your organization with reliable and automated backup solutions that ensure data safety
+                        and continuity at all times. Experience secure backups that adapt to your scaling needs with the
+                        highest industry standards.</p>
+                    <p>We specialize in creating custom backup strategies, ensuring seamless recovery processes, and
+                        safeguarding critical organizational data. Experience dedicated <a href="#"
+                            class="text-green-900 underline">backup optimization solutions</a> designed to fit your
+                        requirements.</p>
+                    <h4>Key Benefits:</h4>
+                    <ol>
+                        <li>Automated and secure backups</li>
+                        <li>Flexible recovery options</li>
+                        <li>Highly scalable storage</li>
+                        <li>24/7 data monitoring</li>
+                        <li>Optimized cost-effectiveness</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="acc-item" id="item-cloud-security">
+                <div class="acc-header" onclick="toggleAccordion('cloud-security')">
+                    Cloud Security Services
+                    <span class="acc-arrow" id="arrow-cloud-security"><i class="ri-arrow-drop-down-line"></i></span>
+                </div>
+                <div class="acc-content" id="content-cloud-security">
+                    <h3>Cloud Security Services</h3>
+                    <p>Transform your organization with robust security protocols that provide unmatched protection and
+                        peace of mind. Stay ahead of threats with advanced security measures tailored to your needs.</p>
+                    <p>We specialize in offering comprehensive threat detection systems, data encryption, and compliance
+                        monitoring. Experience tailored <a href="#" class="text-green-900 underline">security
+                            optimization solutions</a> designed to safeguard your operations.</p>
+                    <h4>Key Benefits:</h4>
+                    <ol>
+                        <li>Advanced threat detection</li>
+                        <li>Data encryption at every level</li>
+                        <li>Real-time security monitoring</li>
+                        <li>Compliance with global standards</li>
+                        <li>Scalable security frameworks</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="acc-item" id="item-cloud-computing">
+                <div class="acc-header" onclick="toggleAccordion('cloud-computing')">
+                    Cloud Computing Services
+                    <span class="acc-arrow" id="arrow-cloud-computing"><i class="ri-arrow-drop-down-line"></i></span>
+                </div>
+                <div class="acc-content" id="content-cloud-computing">
+                    <h3>Cloud Computing Services</h3>
+                    <p>Transform your organization with scalable and efficient cloud computing solutions that enable
+                        growth and innovation. Enhance performance and accessibility with cloud solutions that work for
+                        you.</p>
+                    <p>We specialize in seamless cloud integration, infrastructure optimization, and on-demand
+                        resources. Experience modern <a href="#" class="text-green-900 underline">computing
+                            solutions</a> tailored to your business needs.</p>
+                    <h4>Key Benefits:</h4>
+                    <ol>
+                        <li>Scalable cloud solutions</li>
+                        <li>Efficient infrastructure usage</li>
+                        <li>Global accessibility</li>
+                        <li>Seamless system integration</li>
+                        <li>Optimized performance</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="acc-item" id="item-hybrid-cloud">
+                <div class="acc-header" onclick="toggleAccordion('hybrid-cloud')">
+                    Hybrid Cloud Services
+                    <span class="acc-arrow" id="arrow-hybrid-cloud"><i class="ri-arrow-drop-down-line"></i></span>
+                </div>
+                <div class="acc-content" id="content-hybrid-cloud">
+                    <h3>Hybrid Cloud Services</h3>
+                    <p>Transform your organization with a flexible hybrid cloud solution that bridges the gap between
+                        on-premises infrastructure and public cloud services. Gain control over your data while
+                        leveraging the power of the cloud.</p>
+                    <p>We specialize in integrating private and public clouds to create a cohesive IT environment,
+                        optimizing workloads, and ensuring data security. Experience <a href="#"
+                            class="text-green-900 underline">hybrid cloud solutions</a> built for versatility and
+                        efficiency.</p>
+                    <h4>Key Benefits:</h4>
+                    <ol>
+                        <li>Flexible deployment models</li>
+                        <li>Seamless integration of cloud and on-premises</li>
+                        <li>Improved workload optimization</li>
+                        <li>Enhanced data security and control</li>
+                        <li>Cost-effective cloud solutions</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="acc-item" id="item-cloud-storage">
+                <div class="acc-header" onclick="toggleAccordion('cloud-storage')">
+                    Cloud Storage Services
+                    <span class="acc-arrow" id="arrow-cloud-storage"><i class="ri-arrow-drop-down-line"></i></span>
+                </div>
+                <div class="acc-content" id="content-cloud-storage">
+                    <h3>Cloud Storage Services</h3>
+                    <p>Transform your organization with scalable and secure cloud storage solutions that meet your
+                        growing data needs. Leverage cloud storage for easy access and long-term scalability.</p>
+                    <p>We specialize in providing flexible storage options that offer data redundancy, secure backup
+                        solutions, and fast retrieval times. Experience <a href="#"
+                            class="text-green-900 underline">cloud storage solutions</a> optimized for your business
+                        requirements.</p>
+                    <h4>Key Benefits:</h4>
+                    <ol>
+                        <li>Scalable storage solutions</li>
+                        <li>Data redundancy for added security</li>
+                        <li>Fast and easy data retrieval</li>
+                        <li>High availability and uptime</li>
+                        <li>Cost-efficient storage options</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="acc-item" id="item-private-cloud">
+                <div class="acc-header" onclick="toggleAccordion('private-cloud')">
+                    Private Cloud Services
+                    <span class="acc-arrow" id="arrow-private-cloud"><i class="ri-arrow-drop-down-line"></i></span>
+                </div>
+                <div class="acc-content" id="content-private-cloud">
+                    <h3>Private Cloud Services</h3>
+                    <p>Transform your organization with easy migration, improved performance, and increased security
+                        with Private Cloud Services. Looking at our flexible and scalable services, you will see that we
+                        provide private cloud solutions according to your requirements.</p>
+                    <p>We specialize in the virtualization of infrastructure, the reengineering of applications, and the
+                        management of private cloud services. Experience fully dedicated <a href="#"
+                            class="text-green-900 underline">cloud cost optimization solutions</a> with modern
+                        technologies at heart.</p>
+                    <h4>Key Benefits:</h4>
+                    <ol>
+                        <li>Customized private cloud solutions</li>
+                        <li>Infrastructure virtualization</li>
+                        <li>Application re-engineering</li>
+                        <li>Managed cloud operations</li>
+                        <li>Cost-effective cloud capabilities</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="acc-item" id="item-private-cloud">
+                <div class="acc-header" onclick="toggleAccordion('private-host')">
+                    Cloud Hosting Services
+                    <span class="acc-arrow" id="arrow-private-host"><i class="ri-arrow-drop-down-line"></i></span>
+                </div>
+                <div class="acc-content" id="content-private-host">
+                    <h3>Cloud Hosting Services</h3>
+                    <p>Transform your organization with reliable, scalable, and secure cloud hosting solutions that ensure uptime and smooth performance. Ensure high availability of your business services with cloud hosting optimized for your needs.</p>
+                    <p>We specialize in providing fully managed cloud hosting services, offering flexibility, security, and scalability. Experience hosting solutions that adapt to your business.</p>
+                    <h4>Key Benefits:</h4>
+                    <ol>
+                        <li>High availability and uptime</li>
+                        <li>Fully managed hosting</li>
+                        <li>Scalable hosting solutions</li>
+                        <li>Enhanced data protection</li>
+                        <li>Cost-effective hosting plans</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="acc-item" id="item-private-cloud">
+                <div class="acc-header" onclick="toggleAccordion('private-business')">
+                    Cloud Business Services
+                    <span class="acc-arrow" id="arrow-private-business"><i class="ri-arrow-drop-down-line"></i></span>
+                </div>
+                <div class="acc-content" id="content-private-business">
+                    <h3>Cloud Business Services</h3>
+                    <p>Transform your organization with comprehensive cloud solutions tailored to your business processes. Leverage technology to drive growth, innovation, and productivity in a rapidly evolving digital landscape.</p>
+                    <p>We specialize in providing business-centric cloud solutions designed to meet your specific business needs. Experience business cloud solutions built for success.</p>
+                    <h4>Key Benefits:</h4>
+                    <ol>
+                        <li>Business-centric cloud solutions</li>
+                        <li>Improved collaboration and productivity</li>
+                        <li>Streamlined processes and workflows</li>
+                        <li>Real-time business insights</li>
+                        <li>Scalable solutions to match business growth</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="acordion">
-        <div class="forensic-dropper">
+        <div class="acc-dropper forensic-dropper">
             <div class=" dropper-container zero-pad">
                 <div class="acord-starter">
                     <p class="acord-2 cloud-merger corder">We deliver a range of cloud services and solutions
@@ -143,140 +334,140 @@
                     <h1 class="merger-cloud text-3xl font-bold mb-6">Unlock true cloud value with expert deployments.
                     </h1>
                 </div>
-
-                <div class="ai-grid grid grid-cols-3 gap-5">
-                    <div class="colo-1 space-y-6">
-                        <!-- Card 1 -->
-                        <div class="">
-                            <div class="pad  p-10">
-                                <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
-                                    class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                                    onclick="toggleContent(1)">
-                                    <div>
-                                        <i class="ri-cloud-line mr-2 text-xl "></i>AI Consulting
-                                    </div>
-                                    <i id="arrow-1" class="ri-arrow-drop-down-line text-4xl "></i>
-                                </h3>
-                                <div style="padding: 20px;" id="content-1"
-                                    class="text-gray-900 leading-relaxed  text-center hidden">
-                                    Artificial intelligence has already transformed how businesses function and will
-                                    continue to do so in the years ahead. As a leading IT advisory firm, our AI
-                                    consulting experts are here to help you adapt to this shift and build a more
-                                    efficient and successful business.
+                <div class="ai-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                    <!-- Card 1 -->
+                    <div class="">
+                        <div class="pad p-10">
+                            <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                                class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                                onclick="toggleContent(1)">
+                                <div class="galop">
+                                    <i class="ri-cloud-line mr-2 text-xl"></i>AI Consulting
                                 </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 2 -->
-                        <div class="">
-                            <div class="pad p-10">
-                                <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
-                                    class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                                    onclick="toggleContent(2)">
-                                    <div>
-                                        <i class="ri-cloud-line mr-2 text-xl "></i>Audit of AI/ML Algorithms
-                                    </div>
-                                    <i id="arrow-2" class="ri-arrow-drop-down-line text-4xl "></i>
-                                </h3>
-                                <div style="padding: 20px;" id="content-2"
-                                    class="text-gray-900 leading-relaxed  text-center hidden">
-                                    Emiri Fintech also offers audit services for businesses, leveraging artificial intelligence
-                                    and machine learning technologies. We assist companies in refining their business
-                                    strategies, ensuring a high level of automation and minimizing errors.
-                                </div>
+                                <i id="arrow-1" class="ri-arrow-drop-down-line text-4xl"></i>
+                            </h3>
+                            <div style="padding: 20px;" id="content-1"
+                                class="text-gray-900 leading-relaxed text-center hidden">
+                                Artificial intelligence has already transformed how businesses function and will
+                                continue to do so in the years ahead. As a leading IT advisory firm, our AI
+                                consulting experts are here to help you adapt to this shift and build a more
+                                efficient and successful business.
                             </div>
                         </div>
                     </div>
 
-                    <div class="colo-2 space-y-6">
-                        <!-- Card 3 -->
-                        <div class="">
-                            <div class="pad p-10">
-                                <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
-                                    class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                                    onclick="toggleContent(3)">
-                                    <div>
-                                        <i class="ri-cloud-line mr-2 text-xl "></i>ANN Design
-                                    </div>
-                                    <i id="arrow-3" class="ri-arrow-drop-down-line text-4xl "></i>
-                                </h3>
-                                <div style="padding: 20px;" id="content-3"
-                                    class="text-gray-900 leading-relaxed  text-center hidden">
-                                    Emiri Fintech's specialists in artificial neural network development utilize AI-driven tools to enhance classification, prediction, regression, smart grid, and more, inspired by biological neural networks. This technology is beneficial for tasks such as object recognition, speech recognition, text generation, and various other applications.
+                    <!-- Card 2 -->
+                    <div class="">
+                        <div class="pad p-10">
+                            <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                                class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                                onclick="toggleContent(2)">
+                                <div class="galop">
+                                    <i class="ri-cloud-line mr-2 text-xl"></i>Audit of AI/ML Algorithms
                                 </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 4 -->
-                        <div class="">
-                            <div class="pad p-10">
-                                <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
-                                    class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                                    onclick="toggleContent(4)">
-                                    <div>
-                                        <i class="ri-cloud-line mr-2 text-xl "></i> NN Optimization
-                                    </div>
-                                    <i id="arrow-4" class="ri-arrow-drop-down-line text-4xl "></i>
-                                </h3>
-                                <div style="padding: 20px;" id="content-4"
-                                    class="text-gray-900 leading-relaxed  text-center hidden">
-                                    Our team at Emiri Fintech specializes in enhancing neural network performance through advanced optimization techniques. By fine-tuning neural network parameters and leveraging cutting-edge optimization tools, we ensure faster and more precise analyses.
-                                </div>
+                                <i id="arrow-2" class="ri-arrow-drop-down-line text-4xl"></i>
+                            </h3>
+                            <div style="padding: 20px;" id="content-2"
+                                class="text-gray-900 leading-relaxed text-center hidden">
+                                Emiri Fintech also offers audit services for businesses, leveraging artificial
+                                intelligence and machine learning technologies. We assist companies in refining their
+                                business
+                                strategies, ensuring a high level of automation and minimizing errors.
                             </div>
                         </div>
                     </div>
 
-                    <div class="colo-3 space-y-6">
-                        <!-- Card 5 -->
-                        <div class="">
-                            <div class="pad p-10">
-                                <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
-                                    class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                                    onclick="toggleContent(5)">
-                                    <div>
-                                        <i class="ri-cloud-line mr-2 text-xl"></i>Predictive Analysis
-                                    </div>
-                                    <i id="arrow-5" class="ri-arrow-drop-down-line text-4xl "></i>
-                                </h3>
-                                <div style="padding: 20px;" id="content-5"
-                                    class="text-gray-900 leading-relaxed  text-center hidden">
-                                    Emiri Fintech excels in predictive analysis using advanced AI and ML techniques. Our expertise in this domain helps businesses forecast trends, optimize operations, and make data-driven decisions, ensuring enhanced efficiency and profitability.
+                    <!-- Card 3 -->
+                    <div class="">
+                        <div class="pad p-10">
+                            <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                                class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                                onclick="toggleContent(3)">
+                                <div class="galop">
+                                    <i class="ri-cloud-line mr-2 text-xl"></i>Intelligent Automation
                                 </div>
-                            </div>
-                        </div>
-
-                        <!-- Card 6 -->
-                        <div class="">
-                            <div class="pad p-10">
-                                <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
-                                    class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
-                                    onclick="toggleContent(6)">
-                                    <div>
-                                        <i class="ri-cloud-line mr-2 text-xl "></i>Fraud Detection Systems
-                                    </div>
-                                    <i id="arrow-6" class="ri-arrow-drop-down-line text-4xl "></i>
-                                </h3>
-                                <div style="padding: 20px;" id="content-6"
-                                    class="text-gray-900 leading-relaxed  text-center hidden">
-                                    Emiri Fintech leverages machine learning solutions to detect and prevent fraud by training algorithms on specific datasets. These algorithms monitor user actions based on predefined rules and identify anomalies that may indicate fraudulent activities.
-                                </div>
+                                <i id="arrow-3" class="ri-arrow-drop-down-line text-4xl"></i>
+                            </h3>
+                            <div style="padding: 20px;" id="content-3"
+                                class="text-gray-900 leading-relaxed text-center hidden">
+                                Emiri Fintech can seamlessly integrate its solutions to intelligently automate your
+                                operations. This includes the creation and management of metadata, as well as document
+                                recognition and information extraction from unstructured data volumes.
                             </div>
                         </div>
                     </div>
 
+                    <!-- Card 4 -->
+                    <div class="">
+                        <div class="pad p-10">
+                            <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                                class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                                onclick="toggleContent(4)">
+                                <div class="galop">
+                                    <i class="ri-cloud-line mr-2 text-xl"></i>ANN Design
+                                </div>
+                                <i id="arrow-4" class="ri-arrow-drop-down-line text-4xl"></i>
+                            </h3>
+                            <div style="padding: 20px;" id="content-4"
+                                class="text-gray-900 leading-relaxed text-center hidden">
+                                Emiri Fintech's specialists in artificial neural network development utilize AI-driven
+                                tools to enhance classification, prediction, regression, smart grid, and more, inspired
+                                by biological neural networks. This technology is beneficial for tasks such as object
+                                recognition, speech recognition, text generation, and various other applications.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="">
+                        <div class="pad p-10">
+                            <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                                class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                                onclick="toggleContent(5)">
+                                <div class="galop">
+                                    <i class="ri-cloud-line mr-2 text-xl"></i>NN Optimization
+                                </div>
+                                <i id="arrow-5" class="ri-arrow-drop-down-line text-4xl"></i>
+                            </h3>
+                            <div style="padding: 20px;" id="content-5"
+                                class="text-gray-900 leading-relaxed text-center hidden">
+                                Our team at Emiri Fintech specializes in enhancing neural network performance through
+                                advanced optimization techniques. By fine-tuning neural network parameters and
+                                leveraging cutting-edge optimization tools, we ensure faster and more precise analyses.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="">
+                        <div class="pad p-10">
+                            <h3 style="white-space: nowrap; padding-top: 28px; padding-bottom: 20px; padding-left: 10px;"
+                                class="text-xl font-bold text-center cursor-pointer flex justify-between items-center"
+                                onclick="toggleContent(6)">
+                                <div class="galop">
+                                    <i class="ri-cloud-line mr-2 text-xl"></i>AI for Cybersecurity
+                                </div>
+                                <i id="arrow-6" class="ri-arrow-drop-down-line text-4xl"></i>
+                            </h3>
+                            <div style="padding: 20px;" id="content-6"
+                                class="text-gray-900 leading-relaxed text-center hidden">
+                                AI is revolutionizing cybersecurity by automating threat detection and response,
+                                optimizing network security, and identifying vulnerabilities. Emiri Fintech leverages
+                                advanced AI technologies to enhance cybersecurity measures, ensuring robust protection
+                                against evolving threats.
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
-
-
 
     <!-- SECTION -->
     <div class="grayson flex flex-col justify-center items-center mt-12 mb-12">
         <!-- Section Header -->
         <div class="section-header flex flex-col justify-center items-center text-center mb-12 p-12">
-            <h2 style="padding-top: 70px;" class="text-4xl font-bold text-gray-900 mb-4">Elite Partnerships for Premier
+            <h2 style="padding-top: 70px;" class="cloud-titler text-2xl font-bold text-gray-900 mb-4">Elite Partnerships for Premier
                 Cloud Solutions</h2>
             <p class="text-lg leading-relaxed text-gray-700">
                 We deliver a wide range of cloud services, specializing in tailored cloud strategies that optimize the
@@ -284,7 +475,7 @@
             </p>
         </div>
 
-        <div class="cloud-services bg-white grid grid-cols-1 lg:grid-cols-3 pb-8 gap-12 rounded-lg p-12">
+        <div class="cloud-services bg-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 pb-8 rounded-lg p-12">
 
             <!-- Amazon Web Services -->
             <div class="service-item flex flex-col justify-between items-center mb-8 px-6 py-8">
@@ -331,7 +522,7 @@
 
     </div>
 
-    <div class="bg-gray-100 p-8 rounded-lg shadow-md hr">
+    <div class="bg-gray-100 p-8 rounded-lg shadow-md dib hr">
         <!-- Title and Intro -->
         <h2 class=" text-gray-900 text-2xl font-bold mb-4 text-center">Advanced Tech Stack for Integrated Cloud Services
         </h2>
@@ -340,7 +531,7 @@
 
         <!-- Mini Cards as Links -->
         <!-- Mini Cards as Links -->
-        <div class="grid grid-cols-6 gap-4">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
             <a href="#" class="mini-card bg-gray-200 p-4 rounded-lg shadow-sm text-center" data-target="data-content">
                 <i class="fa-solid fa-database text-2xl text-gray-900"></i>
                 <p class="text-gray-900 mt-2">Data</p>
@@ -379,7 +570,7 @@
         <div class="flex flex-col md:flex-row justify-between items-start h-auto lg:ml-20">
             <!-- Left Side: Text Content -->
             <div style="padding-left: 50px; padding-right: 30px; border-right: 2px dashed #1a1a1a;"
-                class="w-full md:w-1/3 pr-4 mb-6 md:mb-0">
+                class="cloud-hider w-full md:w-1/3 pr-4 mb-6 md:mb-0">
                 <h3 class="text-xl font-bold mb-4" id="content-title">Modernization</h3>
                 <p class="text-gray-700 mb-4 leading-relaxed" id="content-text">Let us help you update your application
                     with cloud-native transformations <br> through AWS Lambda, Azure Functions, Kubernetes, and Docker.
@@ -387,7 +578,7 @@
             </div>
 
             <!-- Horizontal Divider for Mobile -->
-            <div class="border-b-2 border-dashed border-gray-800 w-full mb-4 md:hidden"></div>
+            <div class="cloud-hider border-b-2 border-dashed border-gray-800 w-full mb-4 md:hidden"></div>
 
             <!-- Vertical Divider for Desktop -->
             <div class="hidden md:block border-l-2 border-dashed border-gray-800 self-stretch mx-4"></div>
@@ -406,9 +597,9 @@
     <div class="grayon w-full flex items-center">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4">
             <div class="hugs text-justify">
-                <h1 class="text-2xl text-gray-900 text-justify font-bold leading-relaxed">Seeking to Hire your Remote
+                <h1 class="text-2xl text-gray-900 text-center font-bold leading-relaxed">Seeking to Hire your Remote
                     Developer?</h1>
-                <p class="text-md text-gray-700 leading-relaxed text-center text-justify">During our more than 14-year
+                <p class="text-md text-gray-700 leading-relaxed text-center">During our more than 14-year
                     journey, we
                     have worked with over five hundred Fortune 500 companies and start-ups worldwide and have seamlessly
                     delivered upwards of 1000 successful projects yielding desired results.</p>
@@ -429,6 +620,5 @@
 
         </div>
     </div>
-
 
     <script src="/javascripts/cloud.js"></script>

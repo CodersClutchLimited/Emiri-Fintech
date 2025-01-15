@@ -232,3 +232,52 @@
 .merge-me{
   margin-bottom: 100px;
 }
+
+@media screen and (max-width: 500px){
+  .title-1.flex{
+    font-size: 28px;
+  }
+
+  .white-r{
+    display: none;
+  }
+}
+
+
+@media (min-width:501px) and (max-width: 650px){
+  .title-1.flex{
+    font-size: 30px;
+  }
+
+  .white-r{
+    display: none;
+  }
+}
+
+@media (min-width:651px) and (max-width: 702px){
+  .title-1.flex{
+    font-size: 33px;
+  }
+
+  .white-r{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 703px) {
+  .title-1.flex{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .faq-text{
+    font-size: 1.5rem;
+  }
+}
+
+.faq-text{
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+  font-size: 1.875rem;
+}

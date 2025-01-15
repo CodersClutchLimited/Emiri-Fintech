@@ -1,3 +1,8 @@
+.image-sizer{
+    width: 280px;
+    height: auto;
+}
+
 .title-container {
     margin-top: 700px;
 }
@@ -174,7 +179,7 @@ body {
 
 .back {
     height: 400px;
-    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkFWeST_DaK1Y--4m_xd05c1pYo6Vrcej0cQ&s');
+    background-color: #2D2832;
 }
 
 /* nav navigator styling */
@@ -539,13 +544,18 @@ body {
     color: #fff;
 }
 .para-container {
-    padding-left: 70px;
-    padding-right: 70px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.container-main{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .container-main h1 {
     padding-left: 70px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 .container-main h2 {
@@ -563,15 +573,11 @@ body {
     font-size: 19px;
 }
 
-.titles-container {
-    width: 850px;
-}
 
 .mile-title{
     color: #333;
     padding-top: 100px;
     padding-bottom: 50px;
-    padding-left: 70px;
 }
 
 .dark-brown {
@@ -601,10 +607,15 @@ body {
     padding-right: 50px;
 }
 
+.top-marger.claire.nft-does{
+    height: 400px !important;
+    margin-top: 100px;
+}
 
 /* TIMELINE THING */
 .oxford {
-    margin-left: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* Base styles for the card */
