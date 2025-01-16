@@ -35,6 +35,9 @@
     transform: scale(1.1); /* Slightly enlarge the button on hover */
   }
   
+  .mobile-show{
+    padding-left: 3%;
+  }
 
   .benef{
     padding-bottom: 70px;

@@ -2,7 +2,7 @@
     margin: 0px;
     margin-left: 0px;
     margin-right: 0px;
-}
+}z
 
 
 .forensic-dropper{
@@ -67,6 +67,10 @@
     .title-1.flex{
       font-size: 28px;
     }
+
+    .title-1{
+      margin-bottom: 30%;
+    }    
 
     .white-r{
       display: none;

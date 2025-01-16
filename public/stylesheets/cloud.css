@@ -51,6 +51,13 @@
 
 }
 
+@media screen and (max-width: 500px){
+    .title-1{
+      margin-bottom: 30%;
+    }    
+  }
+
+
 .content {
     border-left: 10px solid rgb(49, 134, 49);
     background-color: rgb(24, 23, 23) !important;

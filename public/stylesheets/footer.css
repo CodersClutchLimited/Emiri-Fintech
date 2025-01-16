@@ -1,10 +1,12 @@
 .footer-container .container{
     max-width: 100%;
-/* padding-left: 50px;
-padding-right: 50px; */
-
+    /* padding-left: 5%; */
 }
 
+/* .footer-container{
+    padding-left:3%
+} */
+ 
 .footer-container .footer-second{
     max-width: 100%;
 }
@@ -17,9 +19,16 @@ padding-right: 50px; */
     border-color: #FA64FF;
 }
 
-.footer-form input{
-    width: 500px;
+.form-for{
+    margin-left: 13%;
 }
+
+.footer-form input{
+    width: 450px;
+}
+
+
+
 
 footer{
     padding-top: 65px;
@@ -30,11 +39,15 @@ footer{
     padding-bottom: 40px;
 }
 
-.footer-contact{
-    margin-left: -50px;
-}
+/* .footer-contact{
+    margin-left: 180px !important;
+} */
 
 /* footer responsiveness */
+
+@media screen and (max-width){
+
+}
 
 @media screen and (max-width:350px){
     .footer-grid{

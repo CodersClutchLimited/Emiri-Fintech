@@ -3,6 +3,11 @@
     height: auto;
 }
 
+.nft-final.digital-ngt{
+    padding-left:  5%;
+    padding-right: 5%;
+}
+
 .title-container {
     margin-top: 700px;
 }
@@ -399,7 +404,7 @@ body {
     color: #333;
     margin-bottom: 100px;
     margin-top: 75px;
-    padding-left: 60px;
+    /* padding-left: 60px; */
 }
 
 .stellar-swiper-container{
