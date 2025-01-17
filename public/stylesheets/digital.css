@@ -39,7 +39,7 @@
 }
 
 .content-title {
-    margin-top: 110px;
+    margin-top: 80px;
     margin-bottom: 80px;
 }
 
@@ -120,12 +120,14 @@
 }
 
 .right-container{
-    padding-left: 80px !important;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .section-content{
     margin-top: -110px;
-    padding-left: 80px !important;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .section-content h2{
@@ -402,9 +404,8 @@ body {
 
 .cosmic-title{
     color: #333;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     margin-top: 75px;
-    /* padding-left: 60px; */
 }
 
 .stellar-swiper-container{

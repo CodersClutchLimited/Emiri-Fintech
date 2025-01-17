@@ -10,6 +10,7 @@
 
 .business-tit{
     padding-bottom: 15px;
+    font-size: 1.875rem;
 }
 
 .business-button{
@@ -23,9 +24,13 @@
 }
 
 .business-table{
+    padding-left: 2%;
+    padding-right: 2%;
     margin-top: 120px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .business-table .right-container{
@@ -49,8 +54,7 @@
 
 .divares{
     margin-top: -70px;
-    padding-bottom: 40px
-;
+    padding-bottom: 40px;
 }
 
 .ai-solid{
@@ -82,16 +86,23 @@
     margin-top: 10px;
 }
 
-
 .cope{
     margin-top: 200px;
+}
+
+
+@media screen and (max-width : 600px){
+    .cosmic-title{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
 }
 
 .stick-container {
     color: #ffff;
     padding: 20px;
-    width: 80%;
-    margin-left: 100px;
+    width: 90%;
+    /* margin-left: 100px; */
 }
 
 .sticky-grid-outer{
@@ -100,7 +111,6 @@
 
 .sticky-bro{
     padding-top: 70px;
-    margin-left: 130px;
 }
 
 .step {

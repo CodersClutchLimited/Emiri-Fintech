@@ -1,0 +1,129 @@
+@media screen and (max-width:768px) {
+    .business-tit {
+        font-size: 1.5rem;
+    }
+
+    .ai-solid .hacking-solid {
+        border: none;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .business-table {
+        display: none;
+    }
+
+    .business-swiper.swiper-pagination{
+        margin-bottom: -8% !important;
+    }
+    
+}
+
+.john-text{
+    font-size: 1.125rem;
+}
+
+@media screen and (max-width: 860px) {
+    .john-text{
+        font-size:1rem ;
+    }
+}    
+
+
+@media screen and (min-width: 768px) {
+    .respond-container {
+        display: none;
+    }
+}    
+
+@media screen and (max-width: 1024px) {
+    .table-content.business-version {
+        padding-left: 10px;
+    }    
+}
+
+/* table content to accordion responsiveness handler */
+.respond-container {
+    max-width: 800px;
+    margin: 0px auto;
+    margin-top: 15%;
+    padding: 20px;
+    background: #fff;
+}
+
+.text-gone{
+    color: #333;
+    padding-bottom: 30px;
+    font-size: 1.875rem;
+}
+
+@media screen and (max-width: 768px){
+    .text-gone{
+        font-size: 1.6rem;
+    }
+
+    .stala i{
+        display: none;
+    }
+}
+
+.respond-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.respond-header {
+    padding: 15px;
+    background: #EC4899;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.respond-header:hover {
+    background: #C12C6D;
+}
+
+.respond-body {
+    color: #333;
+    padding: 15px;
+    display: none;
+    background: #f8f8f8;
+}
+
+.respond-body p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.respond-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.respond-header::after {
+    content: '+';
+    font-size: 24px;
+}
+
+.respond-header.active::after {
+    content: '−';
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .respond-header {
+        font-size: 16px;
+    }
+
+    .respond-body p {
+        font-size: 14px;
+    }
+}
