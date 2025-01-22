@@ -52,6 +52,21 @@
     overflow: hidden;
 }
 
+.swiper-pagination .swiper-pagination-bullet {
+    width: 43px !important;
+    height: 3px !important;
+    margin: 0 5px !important;
+    background-color: #888 !important;
+    border-radius: 0 !important;
+    opacity: 1 !important;
+  }
+  
+  .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #F50057 !important;
+    transform: translateY(-8px) !important;
+  }
+
+
 /* challenges with AI */
 
 /* .tech-container {

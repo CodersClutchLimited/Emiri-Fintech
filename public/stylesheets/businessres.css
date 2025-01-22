@@ -8,7 +8,6 @@
     }
 }
 
-
 @media screen and (max-width: 768px) {
     .business-table {
         display: none;
@@ -17,7 +16,6 @@
     .business-swiper.swiper-pagination{
         margin-bottom: -8% !important;
     }
-    
 }
 
 .john-text{
@@ -125,5 +123,18 @@
 
     .respond-body p {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 952px){
+    .gala-hider{
+        display: none;
+    }
+
+    .gala{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px !important;
     }
 }

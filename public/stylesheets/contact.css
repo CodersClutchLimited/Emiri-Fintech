@@ -1,7 +1,24 @@
 .mapper.container {
     max-width: 1300px;
     margin: 0 auto;
+    padding-top: 0px !important;
 }
+
+@keyframes zoomIn {
+    0% {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .location-img {
+    animation: zoomIn 1s ease-out;
+  }
+  
 
 .contact-section {
     padding: 2rem 1rem;
