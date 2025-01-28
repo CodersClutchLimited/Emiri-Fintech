@@ -9,7 +9,6 @@ height: 401px !important;
 }
 
 
-
 .box-liner{
     border: 1px solid #ccc;
     padding: 15px !important;
@@ -18,22 +17,27 @@ height: 401px !important;
 /* third section */
 
 .thug-header {
-    text-align: left;
     margin-bottom: 0px !important; ;
 }
 
-
 .thug-header p {
-    font-size: 20px;
-    padding-bottom: 10px !important;
+    padding-bottom: 0px !important;
     color: #333;
     padding-top: 50px;
 }
 
+.thug-header .text-con{
+    font-size: 2rem;
+}
 
 .custom-nft{
     padding-top: 0px !important;
     padding-bottom: 15px;
+}
+
+.nft-handler{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .gridder {
@@ -96,7 +100,7 @@ height: 401px !important;
 }
 
 .right-container img, .section-image{
-    height: 280px !important;
+    height: 280px;
 }
 
 
@@ -107,7 +111,6 @@ height: 401px !important;
 
 .kaira-text{
     margin-right: 70px;
-    white-space: nowrap;
     margin-left: -50px;
 }
 
@@ -130,6 +133,7 @@ height: 401px !important;
 
 /* seventh-section */
 .that-para{
+    font-size: 1rem;
     letter-spacing: .4px;
 }
 
@@ -233,12 +237,16 @@ height: 401px !important;
     background-color: #fff !important;
 }
 
+.cadder.nft-white:hover{
+background-color: #2E2E2E !important;
+}
+
 .neft{
     color: #333;
     padding-top: 60px;
-    font-size: 35px;
+    font-size: 1.9rem;
     padding-bottom: 65px;
-    margin-left: 50px;
+    text-align: center;
 }
 
 
@@ -246,6 +254,11 @@ height: 401px !important;
 .device-container{
     color: #333;
     background-color: #FBFBFD;
+}
+
+.pad-p{
+    margin-bottom: 100px;
+    font-size: 2.5rem;
 }
 
 .devicer{
@@ -324,18 +337,24 @@ height: 401px !important;
 .let-space{
     margin-left: -165px ;
 }
+
+ 
 /* twelveth section */
 
 .tech-stack{
     color: #333;
     width: 100%;
-    margin: 0 40px;
+    /* margin: 0 40px; */
 }
 .tech-text{
     padding-top: 100px;
     padding-bottom: 15px;
     color: #333;
-    font-size: 38px;
+    font-size: 2rem;
+}
+
+.business-stellar.nft-steal{
+    padding-bottom: 0px;
 }
 
 
@@ -389,9 +408,18 @@ height: 401px !important;
     padding-bottom: 80px;
 }
 
+.respond-container.nft-responder{
+    margin-top: 0px;
+}
+
 /* .dev-cost{
     padding-left: 60px;
 } */
+
+.table-content.nft-content{
+    padding-left: 3%;
+    padding-right: 3%;
+}
 
 .dev-cost-outer{
     display: flex;
@@ -413,7 +441,8 @@ height: 401px !important;
 }
 
 .smart-tech-stack.tech-stack{
-    width: 70%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .med-img{
@@ -528,6 +557,7 @@ height: 401px !important;
 
 .nft-related{
     padding-top:90px;
+    font-size: 2rem;
 }
 
 .nft-business:hover{

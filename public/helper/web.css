@@ -169,7 +169,7 @@
     max-width: 70%;
 }
 
-.step-content {
+/* .step-content {
     padding: 100px 60px;
     padding-bottom: 150px;
     background: #2E2E2E;
@@ -219,6 +219,10 @@
         max-width: 100%;
         padding-left: 200px;
     }
+} */
+
+.sticky-grid-outer.bottom-sp{
+    padding-bottom: 100px;
 }
 
 /* thug section not reponsive yet */
@@ -333,15 +337,20 @@
     background-color: #fff;
 }
 
+.next-titan{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    color: #333;
+}
+
 .antuan{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #FBFBFD;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 3%;
-    /* padding-right: 3%; */
 }
 
 .glorifier{
@@ -351,6 +360,7 @@
 .next-container {
     background: #F5F5F7;
     padding: 20px 40px;
+    padding-bottom: 8%;
     border-radius: 10px;
     max-width: 80%;
     height: 55%;

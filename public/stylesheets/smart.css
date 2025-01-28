@@ -41,9 +41,11 @@
 
 .smart-car{
     color: #333;
-    margin-left: 53px;
     padding-bottom: 50px;
+    padding-left: 4%;
+    padding-right: 4%;
     font-size: 21px;
+    text-align: center;
 }
 
 .cadder.geck-1{
@@ -52,6 +54,10 @@
 
 .cadder.smart-geck:hover{
     background-color: #2E2E2E !important;
+}
+
+.kaira-text.smart-ruby{
+    margin-right: 0px;
 }
 
 /* section 8 */
@@ -99,8 +105,12 @@
 }
 
 
-.diverse-text.smart-dope{
-    padding-bottom: 90px !Important;
+.smart-dope{
+    font-size: 1.2rem;
+    padding: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
 }
 
 .diverse-text.smart-diverse{

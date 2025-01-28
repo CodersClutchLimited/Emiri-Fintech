@@ -1,0 +1,25 @@
+@media screen and (max-width: 1004px){
+    .meddle.kaira-image{
+        display: none;
+    }
+
+    .meddle.kaira-text{
+        margin-left: 0px;
+    }   
+    
+    .kaira-author {
+        margin-bottom: 30%;
+    }
+    
+}
+
+@media screen and (max-width: 1004px){
+    .kaira-author {
+        margin-bottom: 45%;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+
+}

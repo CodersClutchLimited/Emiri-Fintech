@@ -1,0 +1,33 @@
+@media screen and (max-width: 1024px) {
+    .let-space{
+        margin-left: 0px;
+    }    
+}
+
+@media screen and (max-width: 1004px){
+    .meddler.kaira-image{
+        display: none;
+    }
+
+    .kaira-text.smart-ruby{
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .second-kaira .kaira-container{
+        margin: 0px 0px;
+        width: 100%;
+        justify-content: center;
+        padding-top: 3%;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .smart-dope{
+        padding: 3%;
+    }
+}

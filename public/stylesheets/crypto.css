@@ -7,6 +7,15 @@
     background-color: #2e2e2e !important;
 }
 
+.thug-title.crypto-thug{
+    font-size: 2rem;
+}
+
+.neft.crypto-neft{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 .ziga{
 padding: 30px;
 }
@@ -61,8 +70,13 @@ padding: 30px;
     margin-right: 8%;
 }
 
+.dropper-container.crypto-down{
+    /* margin-bottom: 0px; */
+    padding-bottom: 20px;
+}
+
 .meddle.kaira-text{
-    margin-left: 180px;
+    margin-left: 0px;
 }
 
 .meddle.kaira-image img{
@@ -79,7 +93,8 @@ padding: 30px;
 }
 
 .kaira-author {
-    padding-top: 48px;
+    padding-top: 25px;
+    margin-bottom: 80px;
 }
 
 .kaira-author h4 {
@@ -111,6 +126,10 @@ padding: 30px;
     height: 500px !important;
 }
 
+.crypto-lg{
+    font-size: 1rem;
+}
+
 /* section 3 */
 .cryptol{
     gap: 170px;
@@ -120,7 +139,7 @@ padding: 30px;
 
 /* section 5 */
 .cryptol-device{
-    margin-top: -100px;
+    margin-top: -150px;
 }
 
 .cryptol-gapper{
