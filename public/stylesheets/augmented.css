@@ -32,6 +32,34 @@
     color: #fff;
 }
 
+.aug-h6{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.aug-titler{
+    color: #2E2E2E;
+    padding-top: 100px !important;
+    font-size: 2rem !important;
+}
+
+.aug-titler.number-2{
+    padding-top: 50px !important;
+}
+
+.aug-yoda{
+    padding-bottom: 50px;
+}
+
+.aug-thug{
+    font-size: 2rem !important;
+}
+
+.dropper-container.aug-merger{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
 .expertise-card h3 {
     padding-bottom: 18px;
     font-size: 15px;
@@ -48,8 +76,6 @@
 
 /* section 4 */
 .latest-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: 37px;
     padding-top: 65px;
     padding-bottom: 40px;
@@ -62,7 +88,7 @@
     border-radius: 2px;
     text-align: left;
     padding: 20px 30px;
-    width: 440px;
+    max-width: 440px;
     height: 100px;
     display: flex;
     align-items: center;
@@ -112,6 +138,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
+}
+
+.aug-talent{
+    padding-top: 50px;
 }
 
 .augstaff-column {
@@ -169,81 +199,9 @@
     height: 50px;
 }
 
-/* section 9*/
-.core-container {
-    padding-bottom: 30px;
-    padding-top: 50px;
-    display: flex;
-    width: 100%;
-    gap: 50px;
-}
-.core-tabs {
-    width: 20%;
-    border-left: 1px solid #888;
-    display: flex;
-    flex-direction: column;
-}
-
-.core-tab {
-    font-size: 16px;
-    padding: 15px;
-    cursor: pointer;
-    text-align: left;
-    color: #888;
-}
-.core-tab:hover, .core-tab.active {
-    color: #e63946;
-}
-
-.core-content {
-    flex-grow: 1;
-    padding: 20px;
-}
-.core-content > div {
-    display: none;
-}
-
-.tab-gridder{
-    gap: 50px;
-    /* row-gap: 0px; */
-}
-
-.core-content h2{
-    padding-bottom: 50px;
-    font-size: 24px;
-    color: #444;
-}
-
-.core-content span{
-    font-size: 18px;
-    color: #444;
-}
-
-.core-content > div.active {
-    display: block;
-}
-.core-tech-item {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #777;
-}
-
-.core-tech-item:hover span{
-    color: #e63946;
-}
-
-.core-tech-item img {
-    filter: grayscale(100%);
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-}
-
-.core-tech-item:hover img{
-    filter: none;
+.cosmic-title.second-cos{
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 /* section 10 */
@@ -288,7 +246,7 @@
 .aug-g{
     font-size: 23px;
     padding-top: 50px;
-    padding-left: 50px;
+    padding-left: 15%;
 }
 
 .aug-dura{

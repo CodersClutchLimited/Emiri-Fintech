@@ -560,7 +560,6 @@ body {
 }
 
 .container-main h1 {
-    padding-left: 70px;
     margin-bottom: 60px;
 }
 
@@ -571,8 +570,9 @@ body {
 }
 
 .container-main h4 {
-    padding-left: 70px;
     margin-bottom: 70px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .para-main {
@@ -584,6 +584,8 @@ body {
     color: #333;
     padding-top: 100px;
     padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .dark-brown {

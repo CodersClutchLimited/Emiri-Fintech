@@ -1,0 +1,211 @@
+.expertise-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1024px) {
+    .expertise-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .expertise-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .aug-titler{
+        font-size: 1.9rem !important;
+    }
+
+    .augstaff-grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }    
+    
+}
+
+/* Mobile screens (1 column) */
+@media (max-width: 600px) {
+    .expertise-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.core-container {
+    padding-bottom: 30px;
+    padding-top: 50px;
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    flex-wrap: wrap; /* Allow the container to wrap on smaller screens */
+}
+
+.core-tabs {
+    width: 20%;
+    border-left: 1px solid #888;
+    display: flex;
+    flex-direction: column;
+}
+
+.core-tab {
+    font-size: 16px;
+    padding: 15px;
+    cursor: pointer;
+    text-align: left;
+    color: #888;
+}
+
+.core-tab:hover,
+.core-tab.active {
+    color: #e63946;
+}
+
+.core-content {
+    flex-grow: 1;
+    padding: 20px;
+    /* flex-basis: 100%; */
+}
+
+.core-content > div {
+    display: none;
+}
+
+.tab-gridder {
+    gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.core-content h2 {
+    padding-bottom: 50px;
+    font-size: 24px;
+    color: #444;
+}
+
+.core-content span {
+    font-size: 18px;
+    color: #444;
+}
+
+.core-content > div.active {
+    display: block;
+}
+
+.core-tech-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #777;
+}
+
+.core-tech-item:hover span {
+    color: #e63946;
+}
+
+.core-tech-item img {
+    filter: grayscale(100%);
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.core-tech-item:hover img {
+    filter: none;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1024px) {
+    .core-tabs {
+        width: 25%;
+    }
+
+    .tab-gridder {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1024px) {
+    .core-container {
+        gap: 20px;
+    }
+
+    .core-tabs {
+        width: 100%;
+        border-left: none;
+        border-bottom: 1px solid #888;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .core-tab {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .tab-gridder {
+        grid-template-columns: 1fr;
+    }
+
+    .core-content {
+        padding: 10px;
+    }
+
+    .core-content h2 {
+        font-size: 20px;
+    }
+
+    .core-tech-item img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .core-tech-item span {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .core-tabs {
+        width: 100%;
+        border-bottom: none;
+    }
+
+    .core-tab {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .core-content h2 {
+        font-size: 18px;
+    }
+
+    .core-tech-item img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .core-tech-item span {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .card-with{
+        font-size: 1rem;
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-width-2{
+        padding-bottom: 60px;
+    }    
+}
+
+@media (min-width:1024px) and (max-width:1300px) {
+    .card-with{
+        font-size: .8rem;
+    }
+}
