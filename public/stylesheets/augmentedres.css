@@ -39,6 +39,11 @@
     gap: 50px;
 }
 
+
+.core-container.augmented-core{
+    flex-wrap: wrap;
+}
+
 .core-tabs {
     width: 20%;
     border-left: 1px solid #888;
