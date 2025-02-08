@@ -430,7 +430,7 @@
 .logo-container {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  /* padding: 20px; */
   padding-top: 0px;
   background-color: white;
 }
@@ -458,6 +458,14 @@
   width: 225px; /* Set a fixed width for the logos */
   height: auto; /* Maintain the aspect ratio */
   max-width: 100%; /* Ensure logos do not exceed their container */
+}
+
+.special-logo img{
+  height: 150px;
+}
+
+.special-logo-2 img{
+  height: 75px;
 }
 
 @media (max-width: 768px) {
