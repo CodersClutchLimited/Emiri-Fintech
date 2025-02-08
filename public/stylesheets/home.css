@@ -49,17 +49,46 @@
     background-color: white; /* Outer container background */
     overflow: visible; /* Ensure inner container can overflow */
 }
+
+.mtn-1{
+  width: 140px;
+}
   
+.bitcoin-1{
+  width: 60px;
+  height: 60px;
+}
+
+.paxful-1{
+  width: 80px;
+  height: 80px;
+}
+
+.paypal-1{
+  width: 124px;
+  height: 53px;
+}
+
+.ethereum-1{
+  width: 100px;
+  height: 75px;
+}
+
+.intech-1{
+  height: 45px;
+}
+
 /* Style for inner container */
 .inner-container {
     position: absolute; /* Absolute positioning inside the outer container */
     top: 20%;
+    /* top: 30%; */
     left: 50%; /* Move the inner container to the middle */
     width: 90%; /* Inner container will take 90% of outer container's width */
     background-color: white; /* Inner container background */
     transform: translate(-50%, -50%); /* Center the inner container both vertically and horizontally */
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
     color: black; /* Adjust color as necessary */
 }
 
