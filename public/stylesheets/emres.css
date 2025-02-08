@@ -1,0 +1,247 @@
+/* hero section */
+
+@media (max-width: 1200px) {
+    .training-heading {
+        font-size: 2.5em;
+        /* Slightly smaller font size */
+    }
+
+    .training-description {
+        font-size: 1.1em;
+        /* Slightly smaller font size */
+    }
+
+    .training-button {
+        font-size: 1em;
+        /* Slightly smaller button font size */
+    }
+}
+
+@media (max-width: 768px) {
+    .training-heading {
+        font-size: 2em;
+        /* Smaller font size for tablets */
+    }
+
+    .training-description {
+        font-size: 1em;
+        /* Smaller font size for tablets */
+    }
+
+    .training-buttons {
+        gap: 4%;
+        /* Reduce gap between buttons */
+    }
+
+    .training-button {
+        padding: 8px 16px;
+        /* Smaller button padding */
+        font-size: 0.9em;
+        /* Smaller button font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .training-heading {
+        font-size: 1.5em;
+        /* Smaller font size for mobile */
+    }
+
+    .training-description {
+        font-size: 0.9em;
+        /* Smaller font size for mobile */
+    }
+
+    .training-hero {
+        height: 60vh;
+    }
+
+    .training-buttons {
+        flex-direction: column;
+        /* Stack buttons vertically */
+        gap: 10px;
+        /* Add vertical spacing between buttons */
+    }
+
+    .training-button {
+        width: 100%;
+        /* Full-width buttons on mobile */
+        padding: 10px;
+        /* Adjust padding */
+    }
+}
+
+/* cyber section */
+@media (max-width: 1200px) {
+    .cyber-card {
+        width: calc(33.33% - 40px);
+        /* 3 cards per row */
+    }
+}
+
+@media (max-width: 992px) {
+    .cyber-card {
+        width: calc(50% - 40px);
+        /* 2 cards per row */
+    }
+
+    .cyber-card .b-1,
+    .cyber-card .b-1-2 {
+        margin-top: 25px;
+        /* Reset margin for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .cyber-container h1 {
+        font-size: 1.5rem;
+        /* Smaller font size for tablets */
+    }
+
+    .cyber-card-title {
+        font-size: 1.4rem;
+        /* Smaller title font size */
+    }
+
+    .cyber-card-description {
+        font-size: 0.9rem;
+        /* Smaller description font size */
+    }
+
+    .cyber-card-button {
+        font-size: 0.9rem;
+        /* Smaller button font size */
+    }
+}
+
+@media (max-width: 576px) {
+    .cyber-card {
+        width: calc(100% - 40px);
+        /* 1 card per row */
+    }
+
+    .cyber-container h1 {
+        font-size: 1.3rem;
+        /* Smaller font size for mobile */
+    }
+
+    .cyber-card-title {
+        font-size: 1.2rem;
+        /* Smaller title font size */
+    }
+
+    .cyber-card-description {
+        font-size: 0.8rem;
+        /* Smaller description font size */
+    }
+
+    .cyber-card-button {
+        font-size: 0.8rem;
+        /* Smaller button font size */
+    }
+
+    .cyber-container h1 {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+/* upskill section */
+@media (max-width: 1200px) {
+    .upskill-card {
+        width: calc(33.33% - 40px); /* 3 cards per row */
+    }
+}
+
+@media (max-width: 992px) {
+    .upskill-card {
+        width: calc(50% - 40px); /* 2 cards per row */
+    }
+
+    .upskill-container h1 {
+        font-size: 1.5rem; /* Smaller font size for tablets */
+    }
+
+    .upskill-card-title {
+        font-size: 1.2rem; /* Smaller title font size */
+    }
+
+    .upskill-card-description {
+        font-size: 0.9rem; /* Smaller description font size */
+    }
+
+    .upskill-card-button {
+        font-size: 0.9rem; /* Smaller button font size */
+    }
+}
+
+@media (max-width: 768px) {
+    .upskill-card {
+        width: calc(100% - 40px); /* 1 card per row */
+    }
+
+    .upskill-container h1 {
+        font-size: 1.3rem; /* Smaller font size for mobile */
+    }
+
+    .upskill-card-title {
+        font-size: 1.1rem; /* Smaller title font size */
+    }
+
+    .upskill-card-description {
+        font-size: 0.8rem; /* Smaller description font size */
+    }
+
+    .upskill-card-button {
+        font-size: 0.8rem; /* Smaller button font size */
+    }
+}
+
+/* course section */
+@media (max-width: 1200px) {
+    /* .indivi-nav {
+        gap: 30px;
+    } */
+
+    .indivi-course-tile {
+        width: 45%; /* Adjust tile width for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    /* .indivi-nav {
+        gap: 20px;
+        width: 90%;
+    } */
+
+    .indivi-course-tile {
+        width: 100%; /* Full width for tiles on small screens */
+    }
+
+    .indivi-g {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .bot-1, .bot-2 {
+        width: 100%; /* Full width for buttons on small screens */
+        text-align: center; /* Center text in buttons */
+    }
+}
+
+@media (max-width: 480px) {
+    /* .indivi-nav {
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    } */
+
+    .indivi-g {
+        font-size: 1.2rem; /* Further reduce font size for very small screens */
+    }
+
+    .indivi-buttons {
+        flex-direction: column; /* Stack buttons vertically */
+    }
+}
+
+/* fortune section */

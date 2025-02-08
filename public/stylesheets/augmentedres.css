@@ -37,7 +37,6 @@
     display: flex;
     width: 100%;
     gap: 50px;
-    flex-wrap: wrap; /* Allow the container to wrap on smaller screens */
 }
 
 .core-tabs {

@@ -1,437 +1,524 @@
 <%- layout('layouts/boilerplate') %>
-<link rel="stylesheet" href="/stylesheets/industry.css">
-<link rel="stylesheet" href="/stylesheets/industryres.css">
-<link rel="stylesheet" href="/stylesheets/augmented.css">
-<link rel="stylesheet" href="/stylesheets/nft.css">
-<link rel="stylesheet" href="/stylesheets/technology.css">
+    <link rel="stylesheet" href="/stylesheets/industry.css">
+    <link rel="stylesheet" href="/stylesheets/industryres.css">
+    <link rel="stylesheet" href="/stylesheets/augmented.css">
+    <link rel="stylesheet" href="/stylesheets/augmentedres.css">
+    <link rel="stylesheet" href="/stylesheets/nft.css">
+    <link rel="stylesheet" href="/stylesheets/technology.css">
 
-<div class="digital-hero">
-    <div class="digital-texts">
-        <div class=" title-1 font-bold flex flex-col justify-center gap-7">
-            <div class="image-digi flex gap-3"> <img src="/images/global-network.png" class="h-12" alt=""><span>Industries</span></div>
-            <div class="white-r"></div>
+    <div class="digital-hero">
+        <div class="digital-texts">
+            <div class=" title-1 font-bold flex flex-col justify-center gap-7">
+                <div class="image-digi flex items-center justify-center gap-3"> <img src="/images/global-network.png" class="h-12"
+                        alt=""><span>Industries</span></div>
+                <div class="white-r"></div>
+            </div>
         </div>
     </div>
-</div>
 
-<div class="acordion">
-    <div class="industrie forensic-dropper">
-        <div class=" dropper-container zero-pad">
-            <div class="acord-starter">
-                <div class="industrial core-container">
-                    <div class="outdus core-tabs">
-                        <div class="indus-tab core-tab font-semibold active" data-target="frontend">Finance & Banking</div>
-                        <div class="indus-tab core-tab font-semibold" data-target="backend">Commerce & Retail</div>
-                        <div class="indus-tab core-tab font-semibold" data-target="mobile">Healthcare</div>
-                        <div class="indus-tab core-tab font-semibold" data-target="clouds">Education</div>
-                        <div class="indus-tab core-tab font-semibold" data-target="erp-crm">Telecommunications</div>
-                        <div class="indus-tab core-tab font-semibold" data-target="other">Business</div>
-                        <div class="indus-tab core-tab font-semibold" data-target="automotive">Automotive</div>
-                        <div class="indus-tab core-tab font-semibold" data-target="marketing">Marketing</div>
-                        <div class="indus-tab core-tab font-semibold" data-target="public">Public Sector</div>
-                        <div class="indus-tab core-tab font-semibold" data-target="real">Construction</div>
-                        <div class="indus-tab core-tab font-semibold" data-target="agric">Environment</div>
-                        <div class="indus-tab core-tab font-semibold" data-target="travel">Hospitality</div>
-                    </div>
-                    <div class="industrie core-content">
-                        <div id="frontend" class="active">
-                            <h2 class="font-semibold">Finance & Banking</h2>
-                            <div class="tab-gridder grid grid-cols-3">
-                                <div class="l-core-tech-item">
-                                    <img class="h-9" src="https://cdn-icons-png.flaticon.com/128/10438/10438381.png"
-                                        alt="React">
-                                    <span>Finance</span>
-                                </div>
-                                <div class="l-core-tech-item">
-                                    <img class="h-9" src="https://cdn-icons-png.flaticon.com/128/9359/9359415.png" alt="Angular">
-                                    <span>Banking</span>
-                                </div>
-                                <div class="l-core-tech-item">
-                                    <img class="h-9" src="https://cdn-icons-png.flaticon.com/128/10365/10365600.png" alt="Vue.js">
-                                    <span>Trading</span>
-                                </div>
-                                <div class="l-core-tech-item">
-                                    <img class="h-9" src="https://cdn-icons-png.flaticon.com/128/2603/2603735.png" alt="JavaScript">
-                                    <span>Insurance</span>
-                                </div>
-                            </div>
+    <div class="acordion">
+        <div class="industrie forensic-dropper">
+            <div class=" dropper-container zero-pad">
+                <div class="acord-starter">
+                    <div class="industrial core-container">
+                        <div class="outdus core-tabs">
+                            <div class="indus-tab core-tab font-semibold active" data-target="frontend">Finance &
+                                Banking</div>
+                            <div class="indus-tab core-tab font-semibold" data-target="backend">Commerce & Retail</div>
+                            <div class="indus-tab core-tab font-semibold" data-target="mobile">Healthcare</div>
+                            <div class="indus-tab core-tab font-semibold" data-target="clouds">Education</div>
+                            <div class="indus-tab core-tab font-semibold" data-target="erp-crm">Telecommunications</div>
+                            <div class="indus-tab core-tab font-semibold" data-target="other">Business</div>
+                            <div class="indus-tab core-tab font-semibold" data-target="automotive">Automotive</div>
+                            <div class="indus-tab core-tab font-semibold" data-target="marketing">Marketing</div>
+                            <div class="indus-tab core-tab font-semibold" data-target="public">Public Sector</div>
+                            <div class="indus-tab core-tab font-semibold" data-target="real">Construction</div>
+                            <div class="indus-tab core-tab font-semibold" data-target="agric">Environment</div>
+                            <div class="indus-tab core-tab font-semibold" data-target="travel">Hospitality</div>
                         </div>
-    
-                        <div id="backend">
-                            <h2 class="font-semibold">Commerce & Retail</h2>
-                            <div class="tab-gridder grid grid-cols-3">
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img class="h-8" src="https://cdn-icons-png.flaticon.com/128/962/962649.png" alt="React">
-                                    <span>eCommerce</span>
-                                </div>
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img class="h-8" src="https://cdn-icons-png.flaticon.com/128/2166/2166966.png" alt="Angular">
-                                    <span>Retail</span>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div id="mobile">
-                            <h2 class="font-semibold">Healthcare</h2>
-                            <div class="tab-gridder grid grid-cols-3">
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img class="h-8" src="https://cdn-icons-png.flaticon.com/128/2382/2382533.png" alt="">
-                                    <span>Medical care</span>
-                                </div>
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img class="h-8" src="https://cdn-icons-png.flaticon.com/128/4889/4889065.png" alt="">
-                                    <span>Pharmaceutics</span>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div id="clouds">
-                            <h2 class="font-semibold">Education & Knowledge</h2>
-                            <div class="tab-gridder grid grid-cols-3">
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/16811/16811637.png" class="h-8" alt="">
-                                    <span>Education</span>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div id="erp-crm">
-                            <h2 class="font-semibold">ERP & CRM</h2>
-                            <div class="tab-gridder grid grid-cols-3">
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/2649/2649792.png" class="h-8" alt="">
-                                    <span>Telecom</span>
-                                </div>
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/4187/4187336.png" class="h-7" alt="">
-                                    <span>Entertainment</span>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div id="other">
-                            <h2 class="font-semibold">Business & Industry</h2>
-                            <div class="tab-gridder grid grid-cols-3">
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/17258/17258901.png" class="h-8" alt="">
-                                    <span>Enterprise</span>
-                                </div>
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/2640/2640844.png" class="h-8" alt="">
-                                    <span>Manufacturing</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="automotive">
-                            <h2 class="font-semibold">Automotive & Transportation</h2>
-                            <div class="tab-gridder grid grid-cols-3">
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/3577/3577867.png" class="h-8" alt="">
-                                    <span>Automotive</span>
-                                </div>
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/4363/4363708.png" class="h-8" alt="">
-                                    <span>Logistics</span>
-                                </div>
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/826/826070.png" class="h-8" alt="">
-                                    <span>Transportation</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="marketing">
-                            <h2 class="font-semibold">Marketing & Advertising</h2>
-                            <div class="tab-gridder grid grid-cols-3">
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/3211/3211596.png" class="h-8" alt="">
-                                    <span>Marketing</span>
-                                </div>
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/12337/12337120.png" class="h-8" alt="">
-                                    <span>Advertising</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="public">
-                            <h2 class="font-semibold">Public Sector & Utilities</h2>
-                            <div class="tab-gridder grid grid-cols-3">
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/18591/18591577.png" class="h-8" alt="">
-                                    <span>Government</span>
-                                </div>
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/11741/11741971.png" class="h-8" alt="">
-                                    <span>Energy & Utilities</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="real">
-                            <h2 class="font-semibold">Construction & Real Estate</h2>
-                            <div class="tab-gridder grid grid-cols-3">
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/4490/4490381.png" class="h-8" alt="">
-                                    <span>Construction</span>
-                                </div>
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/2238/2238337.png" class="h-8" alt="">
-                                    <span>Real Estate</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="agric">
-                            <h2 class="font-semibold">Agriculture & Environment</h2>
-                            <div class="tab-gridder grid grid-cols-3">
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/15730/15730298.png" class="h-8" alt="">
-                                    <span>Agriculture</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="travel">
-                            <h2 class="font-semibold">Travel & Hospitality</h2>
-                            <div class="tab-gridder grid grid-cols-3">
-                                <div style="white-space: nowrap;" class="l-core-tech-item">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/15490/15490223.png" class="h-8" alt="">
-                                    <span>Travel</span>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- acordions on responsiveness -->
-                <div class="industry-accordion-container">
-                    <div class="industry-accordion">
-                        <div class="industry-accordion-item">
-                            <div class="industry-accordion-header" data-target="finance-banking">
-                                <span>Finance & Banking</span>
-                            </div>
-                            <div id="finance-banking" class="industry-accordion-content">
-                                <h2>Finance & Banking</h2>
-                                <div class="industry-tech-grid">
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/10438/10438381.png" alt="Finance">
+                        <div class="industrie core-content">
+                            <div id="frontend" class="active">
+                                <h2 class="font-semibold">Finance & Banking</h2>
+                                <div class="tab-gridder grid grid-cols-3">
+                                    <div class="l-core-tech-item">
+                                        <img class="h-9" src="https://cdn-icons-png.flaticon.com/128/10438/10438381.png"
+                                            alt="React">
                                         <span>Finance</span>
                                     </div>
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/9359/9359415.png" alt="Banking">
+                                    <div class="l-core-tech-item">
+                                        <img class="h-9" src="https://cdn-icons-png.flaticon.com/128/9359/9359415.png"
+                                            alt="Angular">
                                         <span>Banking</span>
                                     </div>
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/10365/10365600.png" alt="Trading">
+                                    <div class="l-core-tech-item">
+                                        <img class="h-9" src="https://cdn-icons-png.flaticon.com/128/10365/10365600.png"
+                                            alt="Vue.js">
                                         <span>Trading</span>
                                     </div>
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/2603/2603735.png" alt="Insurance">
+                                    <div class="l-core-tech-item">
+                                        <img class="h-9" src="https://cdn-icons-png.flaticon.com/128/2603/2603735.png"
+                                            alt="JavaScript">
                                         <span>Insurance</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                
-                        <div class="industry-accordion-item">
-                            <div class="industry-accordion-header" data-target="commerce-retail">
-                                <span>Commerce & Retail</span>
-                            </div>
-                            <div id="commerce-retail" class="industry-accordion-content">
-                                <h2>Commerce & Retail</h2>
-                                <div class="industry-tech-grid">
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/962/962649.png" alt="eCommerce">
+
+                            <div id="backend">
+                                <h2 class="font-semibold">Commerce & Retail</h2>
+                                <div class="tab-gridder grid grid-cols-3">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img class="h-8" src="https://cdn-icons-png.flaticon.com/128/962/962649.png"
+                                            alt="React">
                                         <span>eCommerce</span>
                                     </div>
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/2166/2166966.png" alt="Retail">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img class="h-8" src="https://cdn-icons-png.flaticon.com/128/2166/2166966.png"
+                                            alt="Angular">
                                         <span>Retail</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                
-                        <div class="industry-accordion-item">
-                            <div class="industry-accordion-header" data-target="healthcare">
-                                <span>Healthcare</span>
-                            </div>
-                            <div id="healthcare" class="industry-accordion-content">
-                                <h2>Healthcare</h2>
-                                <div class="industry-tech-grid">
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/2382/2382533.png" alt="Medical care">
+
+                            <div id="mobile">
+                                <h2 class="font-semibold">Healthcare</h2>
+                                <div class="tab-gridder grid grid-cols-3">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img class="h-8" src="https://cdn-icons-png.flaticon.com/128/2382/2382533.png"
+                                            alt="">
                                         <span>Medical care</span>
                                     </div>
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/4889/4889065.png" alt="Pharmaceutics">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img class="h-8" src="https://cdn-icons-png.flaticon.com/128/4889/4889065.png"
+                                            alt="">
                                         <span>Pharmaceutics</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                
-                        <div class="industry-accordion-item">
-                            <div class="industry-accordion-header" data-target="education-knowledge">
-                                <span>Education & Knowledge</span>
-                            </div>
-                            <div id="education-knowledge" class="industry-accordion-content">
-                                <h2>Education & Knowledge</h2>
-                                <div class="industry-tech-grid">
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/16811/16811637.png" alt="Education">
+
+                            <div id="clouds">
+                                <h2 class="font-semibold">Education & Knowledge</h2>
+                                <div class="tab-gridder grid grid-cols-3">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/16811/16811637.png" class="h-8"
+                                            alt="">
                                         <span>Education</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="industry-accordion-item">
-                            <div class="industry-accordion-header" data-target="telecom">
-                                <span>Telecommunications</span>
-                            </div>
-                            <div id="telecom" class="industry-accordion-content">
-                                <h2>Telecommunications</h2>
-                                <div class="industry-tech-grid">
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/2649/2649792.png" alt="Telecom">
+                            <div id="erp-crm">
+                                <h2 class="font-semibold">ERP & CRM</h2>
+                                <div class="tab-gridder grid grid-cols-3">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/2649/2649792.png" class="h-8"
+                                            alt="">
                                         <span>Telecom</span>
                                     </div>
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/4187/4187336.png" alt="Entertainment">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/4187/4187336.png" class="h-7"
+                                            alt="">
                                         <span>Entertainment</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                
-                        <div class="industry-accordion-item">
-                            <div class="industry-accordion-header" data-target="business-industry">
-                                <span>Business & Industry</span>
-                            </div>
-                            <div id="business-industry" class="industry-accordion-content">
-                                <h2>Business & Industry</h2>
-                                <div class="industry-tech-grid">
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/17258/17258901.png" alt="Enterprise">
+
+                            <div id="other">
+                                <h2 class="font-semibold">Business & Industry</h2>
+                                <div class="tab-gridder grid grid-cols-3">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/17258/17258901.png" class="h-8"
+                                            alt="">
                                         <span>Enterprise</span>
                                     </div>
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/2640/2640844.png" alt="Manufacturing">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/2640/2640844.png" class="h-8"
+                                            alt="">
                                         <span>Manufacturing</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                
-                        <div class="industry-accordion-item">
-                            <div class="industry-accordion-header" data-target="automotive-transportation">
-                                <span>Automotive & Transportation</span>
-                            </div>
-                            <div id="automotive-transportation" class="industry-accordion-content">
-                                <h2>Automotive & Transportation</h2>
-                                <div class="industry-tech-grid">
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/3577/3577867.png" alt="Automotive">
+
+                            <div id="automotive">
+                                <h2 class="font-semibold">Automotive & Transportation</h2>
+                                <div class="tab-gridder grid grid-cols-3">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/3577/3577867.png" class="h-8"
+                                            alt="">
                                         <span>Automotive</span>
                                     </div>
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/4363/4363708.png" alt="Logistics">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/4363/4363708.png" class="h-8"
+                                            alt="">
                                         <span>Logistics</span>
                                     </div>
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/826/826070.png" alt="Transportation">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/826/826070.png" class="h-8"
+                                            alt="">
                                         <span>Transportation</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                
-                        <div class="industry-accordion-item">
-                            <div class="industry-accordion-header" data-target="marketing-advertising">
-                                <span>Marketing & Advertising</span>
-                            </div>
-                            <div id="marketing-advertising" class="industry-accordion-content">
-                                <h2>Marketing & Advertising</h2>
-                                <div class="industry-tech-grid">
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/3211/3211596.png" alt="Marketing">
+
+                            <div id="marketing">
+                                <h2 class="font-semibold">Marketing & Advertising</h2>
+                                <div class="tab-gridder grid grid-cols-3">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/3211/3211596.png" class="h-8"
+                                            alt="">
                                         <span>Marketing</span>
                                     </div>
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/12337/12337120.png" alt="Advertising">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/12337/12337120.png" class="h-8"
+                                            alt="">
                                         <span>Advertising</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                
-                        <div class="industry-accordion-item">
-                            <div class="industry-accordion-header" data-target="public-sector-utilities">
-                                <span>Public Sector & Utilities</span>
-                            </div>
-                            <div id="public-sector-utilities" class="industry-accordion-content">
-                                <h2>Public Sector & Utilities</h2>
-                                <div class="industry-tech-grid">
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/18591/18591577.png" alt="Government">
+
+                            <div id="public">
+                                <h2 class="font-semibold">Public Sector & Utilities</h2>
+                                <div class="tab-gridder grid grid-cols-3">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/18591/18591577.png" class="h-8"
+                                            alt="">
                                         <span>Government</span>
                                     </div>
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/11741/11741971.png" alt="Energy & Utilities">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/11741/11741971.png" class="h-8"
+                                            alt="">
                                         <span>Energy & Utilities</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                
-                        <div class="industry-accordion-item">
-                            <div class="industry-accordion-header" data-target="construction-real-estate">
-                                <span>Construction & Real Estate</span>
-                            </div>
-                            <div id="construction-real-estate" class="industry-accordion-content">
-                                <h2>Construction & Real Estate</h2>
-                                <div class="industry-tech-grid">
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/4490/4490381.png" alt="Construction">
+
+                            <div id="real">
+                                <h2 class="font-semibold">Construction & Real Estate</h2>
+                                <div class="tab-gridder grid grid-cols-3">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/4490/4490381.png" class="h-8"
+                                            alt="">
                                         <span>Construction</span>
                                     </div>
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/2238/2238337.png" alt="Real Estate">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/2238/2238337.png" class="h-8"
+                                            alt="">
                                         <span>Real Estate</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                
-                        <div class="industry-accordion-item">
-                            <div class="industry-accordion-header" data-target="agriculture-environment">
-                                <span>Agriculture & Environment</span>
-                            </div>
-                            <div id="agriculture-environment" class="industry-accordion-content">
-                                <h2>Agriculture & Environment</h2>
-                                <div class="industry-tech-grid">
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/15730/15730298.png" alt="Agriculture">
+
+                            <div id="agric">
+                                <h2 class="font-semibold">Agriculture & Environment</h2>
+                                <div class="tab-gridder grid grid-cols-3">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/15730/15730298.png" class="h-8"
+                                            alt="">
                                         <span>Agriculture</span>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                
-                        <div class="industry-accordion-item">
-                            <div class="industry-accordion-header" data-target="travel-hospitality">
-                                <span>Travel & Hospitality</span>
-                            </div>
-                            <div id="travel-hospitality" class="industry-accordion-content">
-                                <h2>Travel & Hospitality</h2>
-                                <div class="industry-tech-grid">
-                                    <div class="industry-tech-item">
-                                        <img src="https://cdn-icons-png.flaticon.com/128/15490/15490223.png" alt="Travel">
+
+                            <div id="travel">
+                                <h2 class="font-semibold">Travel & Hospitality</h2>
+                                <div class="tab-gridder grid grid-cols-3">
+                                    <div style="white-space: nowrap;" class="l-core-tech-item">
+                                        <img src="https://cdn-icons-png.flaticon.com/128/15490/15490223.png" class="h-8"
+                                            alt="">
                                         <span>Travel</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- acordions on responsiveness -->
+                    <div class="industry-accordion-container">
+                        <div class="industry-accordion">
+                            <div class="industry-accordion-item">
+                                <div class="industry-accordion-header" data-target="finance-banking">
+                                    <div class="flex justify-between">
+                                        <span>Finance & Banking</span>
+                                        <i class="text-xl text-white ri-add-line"></i>
+                                    </div>
+                                    <div id="finance-banking" class="industry-accordion-content">
+                                        <h2>Finance & Banking</h2>
+                                        <div class="industry-tech-grid">
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/10438/10438381.png"
+                                                    alt="Finance">
+                                                <span>Finance</span>
+                                            </div>
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/9359/9359415.png"
+                                                    alt="Banking">
+                                                <span>Banking</span>
+                                            </div>
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/10365/10365600.png"
+                                                    alt="Trading">
+                                                <span>Trading</span>
+                                            </div>
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/2603/2603735.png"
+                                                    alt="Insurance">
+                                                <span>Insurance</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="industry-accordion-item">
+                                    <div class="industry-accordion-header" data-target="commerce-retail">
+                                        <div class="flex justify-between">
+                                            <span>Commercial & Retail</span>
+                                            <i class="text-xl text-white ri-add-line"></i>
+                                        </div>
+                                    </div>
+                                    <div id="commerce-retail" class="industry-accordion-content">
+                                        <h2>Commerce & Retail</h2>
+                                        <div class="industry-tech-grid">
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/962/962649.png"
+                                                    alt="eCommerce">
+                                                <span>eCommerce</span>
+                                            </div>
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/2166/2166966.png"
+                                                    alt="Retail">
+                                                <span>Retail</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="industry-accordion-item">
+                                    <div class="industry-accordion-header" data-target="healthcare">
+                                        <div class="flex justify-between">
+                                            <span>Healthcare</span>
+                                            <i class="text-xl text-white ri-add-line"></i>
+                                        </div>    
+                                    </div>
+                                    <div id="healthcare" class="industry-accordion-content">
+                                        <h2>Healthcare</h2>
+                                        <div class="industry-tech-grid">
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/2382/2382533.png"
+                                                    alt="Medical care">
+                                                <span>Medical care</span>
+                                            </div>
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/4889/4889065.png"
+                                                    alt="Pharmaceutics">
+                                                <span>Pharmaceutics</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="industry-accordion-item">
+                                    <div class="industry-accordion-header" data-target="education-knowledge">
+                                        <div class="flex justify-between">
+                                            <span>Education & Knowledge</span>
+                                            <i class="text-xl text-white ri-add-line"></i>
+                                        </div>
+                                    </div>
+                                    <div id="education-knowledge" class="industry-accordion-content">
+                                        <h2>Education & Knowledge</h2>
+                                        <div class="industry-tech-grid">
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/16811/16811637.png"
+                                                    alt="Education">
+                                                <span>Education</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="industry-accordion-item">
+                                    <div class="industry-accordion-header" data-target="telecom">
+                                        <div class="flex justify-between">
+                                            <span>Telecommunications</span>
+                                            <i class="text-xl text-white ri-add-line"></i>
+                                        </div>    
+                                    </div>
+                                    <div id="telecom" class="industry-accordion-content">
+                                        <h2>Telecommunications</h2>
+                                        <div class="industry-tech-grid">
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/2649/2649792.png"
+                                                    alt="Telecom">
+                                                <span>Telecom</span>
+                                            </div>
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/4187/4187336.png"
+                                                    alt="Entertainment">
+                                                <span>Entertainment</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="industry-accordion-item">
+                                    <div class="industry-accordion-header" data-target="business-industry">
+                                        <div class="flex justify-between">
+                                            <span>Business & Industry</span>
+                                            <i class="text-xl text-white ri-add-line"></i>
+                                        </div>    
+                                    </div>
+                                    <div id="business-industry" class="industry-accordion-content">
+                                        <h2>Business & Industry</h2>
+                                        <div class="industry-tech-grid">
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/17258/17258901.png"
+                                                    alt="Enterprise">
+                                                <span>Enterprise</span>
+                                            </div>
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/2640/2640844.png"
+                                                    alt="Manufacturing">
+                                                <span>Manufacturing</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="industry-accordion-item">
+                                    <div class="industry-accordion-header" data-target="automotive-transportation">
+                                        <div class="flex justify-between">
+                                            <span>Automotive & Transportation</span>
+                                            <i class="text-xl text-white ri-add-line"></i>
+                                        </div>    
+                                    </div>
+                                    <div id="automotive-transportation" class="industry-accordion-content">
+                                        <h2>Automotive & Transportation</h2>
+                                        <div class="industry-tech-grid">
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/3577/3577867.png"
+                                                    alt="Automotive">
+                                                <span>Automotive</span>
+                                            </div>
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/4363/4363708.png"
+                                                    alt="Logistics">
+                                                <span>Logistics</span>
+                                            </div>
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/826/826070.png"
+                                                    alt="Transportation">
+                                                <span>Transportation</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="industry-accordion-item">
+                                    <div class="industry-accordion-header" data-target="marketing-advertising">
+                                        <div class="flex justify-between">
+                                            <span>Marketing & Advertising</span>
+                                            <i class="text-xl text-white ri-add-line"></i>
+                                        </div>    
+                                    </div>
+                                    <div id="marketing-advertising" class="industry-accordion-content">
+                                        <h2>Marketing & Advertising</h2>
+                                        <div class="industry-tech-grid">
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/3211/3211596.png"
+                                                    alt="Marketing">
+                                                <span>Marketing</span>
+                                            </div>
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/12337/12337120.png"
+                                                    alt="Advertising">
+                                                <span>Advertising</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="industry-accordion-item">
+                                    <div class="industry-accordion-header" data-target="public-sector-utilities">
+                                        <div class="flex justify-between">
+                                            <span>Public Sector & Utilities</span>
+                                            <i class="text-xl text-white ri-add-line"></i>
+                                        </div>    
+                                    </div>
+                                    <div id="public-sector-utilities" class="industry-accordion-content">
+                                        <h2>Public Sector & Utilities</h2>
+                                        <div class="industry-tech-grid">
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/18591/18591577.png"
+                                                    alt="Government">
+                                                <span>Government</span>
+                                            </div>
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/11741/11741971.png"
+                                                    alt="Energy & Utilities">
+                                                <span>Energy & Utilities</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="industry-accordion-item">
+                                    <div class="industry-accordion-header" data-target="construction-real-estate">
+                                        <div class="flex justify-between">
+                                            <span>Construction & Real Estates</span>
+                                            <i class="text-xl text-white ri-add-line"></i>
+                                        </div>    
+                                    </div>
+                                    <div id="construction-real-estate" class="industry-accordion-content">
+                                        <h2>Construction & Real Estate</h2>
+                                        <div class="industry-tech-grid">
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/4490/4490381.png"
+                                                    alt="Construction">
+                                                <span>Construction</span>
+                                            </div>
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/2238/2238337.png"
+                                                    alt="Real Estate">
+                                                <span>Real Estate</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="industry-accordion-item">
+                                    <div class="industry-accordion-header" data-target="agriculture-environment">
+                                        <div class="flex justify-between">
+                                            <span>Agriculture & Environment</span>
+                                            <i class="text-xl text-white ri-add-line"></i>
+                                        </div>    
+                                    </div>
+                                    <div id="agriculture-environment" class="industry-accordion-content">
+                                        <h2>Agriculture & Environment</h2>
+                                        <div class="industry-tech-grid">
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/15730/15730298.png"
+                                                    alt="Agriculture">
+                                                <span>Agriculture</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="industry-accordion-item">
+                                    <div class="industry-accordion-header" data-target="travel-hospitality">
+                                        <div class="flex justify-between">
+                                            <span>Travel & Hospitality</span>
+                                            <i class="text-xl text-white ri-add-line"></i>
+                                        </div>    
+                                    </div>
+                                    <div id="travel-hospitality" class="industry-accordion-content">
+                                        <h2>Travel & Hospitality</h2>
+                                        <div class="industry-tech-grid">
+                                            <div class="industry-tech-item">
+                                                <img src="https://cdn-icons-png.flaticon.com/128/15490/15490223.png"
+                                                    alt="Travel">
+                                                <span>Travel</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -440,8 +527,6 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
 
-<script src="/javascripts/augmented.js"></script>
-<script src="/javascripts/industry.js"></script>
+        <script src="/javascripts/augmented.js"></script>
+        <script src="/javascripts/industry.js"></script>
