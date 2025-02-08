@@ -92,6 +92,12 @@
     color: black; /* Adjust color as necessary */
 }
 
+@media screen and (max-width:490px){
+  .inner-container{
+    width: 100%;
+  }
+}
+
 .texter{
   color: #2D2832;
 }
@@ -265,6 +271,13 @@
   /* padding-top: 65px !important; */
   padding-top: 40px !important;
   margin-bottom: -20px;
+}
+
+@media screen and (max-width:490px){
+  .unified{
+    padding-left: 8%;
+    padding-right: 8%;
+  }
 }
 
 
@@ -607,6 +620,17 @@
 .laptop-container{
   margin-left: 33px;
   margin-right: 33px;
+}
+
+@media screen and (max-width:490px){
+  .laptop-container{
+    margin-left: 3%;
+    margin-right:3%;
+  }
+
+  /* .special-logo-2{
+    height: 10px;
+  } */
 }
 
 .laptop-grid{
