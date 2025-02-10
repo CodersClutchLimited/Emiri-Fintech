@@ -1,10 +1,11 @@
 ScrollReveal({ reset: true });
+
 ScrollReveal().reveal('.rob1', {
     delay: 200,
     distance: '50px',
     origin: 'top',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 ScrollReveal().reveal('.divider', {
@@ -12,7 +13,7 @@ ScrollReveal().reveal('.divider', {
     distance: '50px',
     origin: 'bottom',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 ScrollReveal().reveal('.para1', {
@@ -20,7 +21,7 @@ ScrollReveal().reveal('.para1', {
     distance: '50px',
     origin: 'left',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 ScrollReveal().reveal('.hero-bots', {
@@ -28,7 +29,7 @@ ScrollReveal().reveal('.hero-bots', {
     distance: '50px',
     origin: 'bottom',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 ScrollReveal().reveal('.responsive-heading', {
@@ -36,7 +37,7 @@ ScrollReveal().reveal('.responsive-heading', {
     distance: '50px',
     origin: 'left',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 // Animate the subheading
@@ -45,7 +46,7 @@ ScrollReveal().reveal('.responsive-subheading', {
     distance: '50px',
     origin: 'left',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 // Animate the grid boxes
@@ -54,7 +55,7 @@ ScrollReveal().reveal('.software-2, .software-1', {
     distance: '50px',
     origin: 'bottom',
     easing: 'ease-in-out',
-    duration: 1000,
+    duration: 500,
     interval: 200 // Stagger the animations for each grid box
 });
 
@@ -63,7 +64,7 @@ ScrollReveal().reveal('.column-1', {
     distance: '50px',
     origin: 'left',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 // Animate the second column
@@ -72,7 +73,7 @@ ScrollReveal().reveal('.column-2', {
     distance: '50px',
     origin: 'right',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 // Animate the headings
@@ -81,7 +82,7 @@ ScrollReveal().reveal('.column-1-title, .column-2-title', {
     distance: '30px',
     origin: 'top',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 // Animate the paragraphs
@@ -90,7 +91,7 @@ ScrollReveal().reveal('.column-1-text, .column-2-text', {
     distance: '30px',
     origin: 'bottom',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 // Animate the images
@@ -99,7 +100,7 @@ ScrollReveal().reveal('.column-1 img, .column-2 img', {
     distance: '50px',
     origin: 'bottom',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 // Animate the buttons
@@ -108,7 +109,7 @@ ScrollReveal().reveal('.column-1 .button, .column-2 .button', {
     distance: '30px',
     origin: 'bottom',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 ScrollReveal().reveal('.four-1, .four-2', {
@@ -116,7 +117,7 @@ ScrollReveal().reveal('.four-1, .four-2', {
     distance: '30px',
     origin: 'left',
     easing: 'ease-in-out',
-    duration: 1000,
+    duration: 500,
     interval: 100 // Stagger the animations for each line
 });
 
@@ -126,7 +127,7 @@ ScrollReveal().reveal('.four-list p', {
     distance: '30px',
     origin: 'left',
     easing: 'ease-in-out',
-    duration: 1000,
+    duration: 500,
     interval: 100 // Stagger the animations for each list item
 });
 
@@ -136,7 +137,7 @@ ScrollReveal().reveal('.four-right-column img', {
     distance: '50px',
     origin: 'right',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 ScrollReveal().reveal('.find-taurus button', {
@@ -144,7 +145,7 @@ ScrollReveal().reveal('.find-taurus button', {
     distance: '50px', // Distance the button moves
     origin: 'bottom', // Direction from which the button animates
     easing: 'ease-in-out', // Smooth easing
-    duration: 1000 // Duration of the animation
+    duration: 500 // Duration of the animation
 });
 
 ScrollReveal().reveal('.text-starter', {
@@ -152,7 +153,7 @@ ScrollReveal().reveal('.text-starter', {
     distance: '50px',
     origin: 'left',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 // Animate the first column text
@@ -161,7 +162,7 @@ ScrollReveal().reveal('.grid-1', {
     distance: '50px',
     origin: 'bottom',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 // Animate the second column text
@@ -170,7 +171,7 @@ ScrollReveal().reveal('.grid-2', {
     distance: '50px',
     origin: 'bottom',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 ScrollReveal().reveal('.logo-item', {
@@ -178,7 +179,7 @@ ScrollReveal().reveal('.logo-item', {
     distance: '50px',
     origin: 'bottom',
     easing: 'ease-in-out',
-    duration: 1000,
+    duration: 500,
     interval: 200 // Stagger animations for each logo item
 });
 
@@ -188,7 +189,7 @@ ScrollReveal().reveal('.special-logo', {
     distance: '50px',
     origin: 'left',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
 
 ScrollReveal().reveal('.special-logo-2', {
@@ -196,5 +197,5 @@ ScrollReveal().reveal('.special-logo-2', {
     distance: '50px',
     origin: 'right',
     easing: 'ease-in-out',
-    duration: 1000
+    duration: 500
 });
