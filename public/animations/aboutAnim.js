@@ -58,25 +58,29 @@ sr.reveal('.link-container', {
 });
 
 // map section
-sr.reveal('.map-section', {
-    origin: 'top',
-    distance: '50px',
-    duration: 1000,
-    delay: 200
+ScrollReveal().reveal('.map-section', {
+    distance: '30px',
+    duration: 800,
+    delay: 200,
+    opacity: 0,
+    easing: 'ease-in-out',
 });
 
-sr.reveal('.map-itself', {
-    origin: 'bottom',
-    distance: '50px',
+ScrollReveal().reveal('.map-itself', {
+    distance: '40px',
     duration: 1000,
-    delay: 400
+    delay: 400,
+    opacity: 0,
+    easing: 'ease-in-out',
 });
 
-sr.reveal('.purple-circles', {
-    origin: 'bottom',
-    distance: '50px',
-    duration: 2000,
-    interval: 200
+ScrollReveal().reveal('.purple-circles', {
+    distance: '20px',
+    duration: 1000,
+    delay: 600,
+    opacity: 0,
+    easing: 'ease-in-out',
+    interval: 200 // Stagger animation for circles
 });
 
 // find us container
