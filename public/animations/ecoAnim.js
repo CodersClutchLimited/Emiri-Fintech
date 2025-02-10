@@ -130,3 +130,11 @@ ScrollReveal().reveal('.thorne-logos', {
 });
 
 
+ScrollReveal().reveal('.partner-text', {
+    distance: '30px',
+    duration: 800,
+    delay: 400,
+    opacity: 0,
+    easing: 'ease-in-out',
+    reset: true
+});
