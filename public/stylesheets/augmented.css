@@ -4,7 +4,7 @@
 
 /* section 3 */
 
-.hexmen.make-gray{
+.hexmen.make-gray {
     background-color: #FBFBFD !important;
 }
 
@@ -16,6 +16,10 @@
     gap: 37px;
 }
 
+.master-card-2{
+    height: 130px;
+}
+
 .expertise-card {
     background-color: #F5F5F7;
     text-align: start;
@@ -24,38 +28,38 @@
     cursor: pointer;
 }
 
-.expertise-card:hover{
+.expertise-card:hover {
     background-color: #2E2E2E;
 }
 
-.expertise-card:hover h3{
+.expertise-card:hover h3 {
     color: #fff;
 }
 
-.aug-h6{
+.aug-h6 {
     padding-left: 8%;
     padding-right: 8%;
 }
 
-.aug-titler{
+.aug-titler {
     color: #2E2E2E;
     padding-top: 100px !important;
     font-size: 2rem !important;
 }
 
-.aug-titler.number-2{
+.aug-titler.number-2 {
     padding-top: 50px !important;
 }
 
-.aug-yoda{
+.aug-yoda {
     padding-bottom: 50px;
 }
 
-.aug-thug{
+.aug-thug {
     font-size: 2rem !important;
 }
 
-.dropper-container.aug-merger{
+.dropper-container.aug-merger {
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
@@ -107,15 +111,15 @@
     color: #333;
 }
 
-.latest-card:hover{
+.latest-card:hover {
     background-color: #2E2E2E;
 }
 
-.latest-card:hover h3{
+.latest-card:hover h3 {
     color: #fff;
 }
 
-.latest-card:hover .icon{
+.latest-card:hover .icon {
     color: #e63946;
 }
 
@@ -124,11 +128,12 @@
 .owner .para2 {
     font-size: 21px;
 }
-.owner .d{
+
+.owner .d {
     color: #fff;
 }
 
-.owner .d2{
+.owner .d2 {
     color: #666;
 }
 
@@ -140,7 +145,7 @@
     gap: 40px;
 }
 
-.aug-talent{
+.aug-talent {
     padding-top: 50px;
 }
 
@@ -151,27 +156,27 @@
     border-radius: 2px;
 }
 
-.augstaff-column span{
+.augstaff-column span {
     font-size: 22px;
 }
 
-.augstaff-column ul span{
+.augstaff-column ul span {
     color: #e63946;
     margin-right: 5px;
 }
 
-.augstaff-column ul{
+.augstaff-column ul {
     padding-top: 20px;
     font-size: 17.3px;
 }
 
-.augstaff-column ul li{
+.augstaff-column ul li {
     padding-bottom: 15px;
 }
 
 /* section 7 */
 
-.nav-navigator.aug-nav{
+.nav-navigator.aug-nav {
     margin-top: 20px;
 }
 
@@ -182,74 +187,74 @@
 }
 
 
-.aug-nova h1{
+.aug-nova h1 {
     font-size: 2.5rem;
 }
 
-.aug-nova p{
+.aug-nova p {
     font-size: 21px;
     padding-top: 30px;
     padding-bottom: 30px;
     color: #222;
 }
 
-.aug-nova button{
+.aug-nova button {
     font-size: 17px;
     width: 264px;
     height: 50px;
 }
 
-.cosmic-title.second-cos{
+.cosmic-title.second-cos {
     padding-left: 5%;
     padding-right: 5%;
 }
 
 /* section 10 */
-.aug-spacer{
+.aug-spacer {
     gap: 110px !important;
     row-gap: 50px !important;
 }
 
 /* section 11 */
 
-.aug-card-gap{
+.aug-card-gap {
     padding-top: 70px;
     gap: 40px !important;
 }
 
-.aug-card-gap  .dev{
+.aug-card-gap .dev {
     border: 1px solid #222;
 }
 
-.aug-card-gap  .dev:hover{
+.aug-card-gap .dev:hover {
     background-color: #333333 !important;
 }
 
-.aug-card-gap .bottom-4{
+.aug-card-gap .bottom-4 {
     padding-bottom: 20px;
 }
 
 /* section 12 */
 
 
-.aug-ox.oxford{
+.aug-ox.oxford {
     margin-left: 0px;
     padding-top: 40px;
 }
 
 /* section 13 */
 
-.aug-g{
+.aug-g {
     background-color: #2E2E2E;
 }
 
-.aug-g{
+.aug-g {
     font-size: 23px;
     padding-top: 50px;
     padding-left: 15%;
 }
 
-.aug-dura{
+.aug-dura {
     font-size: 2.5rem;
 }
 
@@ -258,44 +263,44 @@
 /* section-15 */
 
 /* section-16 */
-.related-underline{
+.related-underline {
     font-weight: normal !important;
 }
 
-.aug-heart span{
+.aug-heart span {
     color: #e63946;
 }
 
-.heart-column-1.aut-heart .container{
+.heart-column-1.aut-heart .container {
     height: 430px !important;
 }
 
-.aug-heart span{
+.aug-heart span {
     font-size: 25px;
     margin-right: 15px;
 }
 
-.bitcoin-2{
+.bitcoin-2 {
     width: 70px;
     height: 70px;
 }
 
-.hp-2{
+.hp-2 {
     width: 100px;
     height: 100px;
 }
 
-.dell-2{
+.dell-2 {
     width: 160px;
     height: 95px;
 }
 
-.coders-2{
+.coders-2 {
     width: 100px;
     height: 130px;
 }
 
-.bloom-1{
-    width: 95px;
-    height: 95px;
+.bloom-1 {
+    width: 110px;
+    height: 130px;
 }
