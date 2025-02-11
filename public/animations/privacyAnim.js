@@ -1,5 +1,3 @@
-ScrollReveal({ reset: true });
-
 // privacy hero
 ScrollReveal().reveal('.privacy-hero', {
     delay: 200,
@@ -7,6 +5,7 @@ ScrollReveal().reveal('.privacy-hero', {
     origin: 'bottom',
     duration: 800,
     easing: 'ease-in-out',
+    reset: false
 });
 
 ScrollReveal().reveal('.private-hero-title', {
@@ -15,6 +14,7 @@ ScrollReveal().reveal('.private-hero-title', {
     origin: 'left',
     duration: 800,
     easing: 'ease-in-out',
+    reset: false
 });
 
 ScrollReveal().reveal('.private-hero-para', {
@@ -23,6 +23,7 @@ ScrollReveal().reveal('.private-hero-para', {
     origin: 'right',
     duration: 800,
     easing: 'ease-in-out',
+    reset: false
 });
 
 ScrollReveal().reveal('.wallet-container', {
@@ -31,6 +32,7 @@ ScrollReveal().reveal('.wallet-container', {
     delay: 200,
     opacity: 0,
     easing: 'ease-in-out',
+    reset: false
 });
 
 ScrollReveal().reveal('.wallet-content', {
@@ -39,6 +41,7 @@ ScrollReveal().reveal('.wallet-content', {
     delay: 400,
     opacity: 0,
     easing: 'ease-in-out',
+    reset: false
 });
 
 ScrollReveal().reveal('.wallet-feature', {
@@ -47,6 +50,7 @@ ScrollReveal().reveal('.wallet-feature', {
     delay: 500,
     opacity: 0,
     easing: 'ease-in-out',
+    reset: false
 });
 
 ScrollReveal().reveal('.wallet-image', {
@@ -55,6 +59,7 @@ ScrollReveal().reveal('.wallet-image', {
     delay: 600,
     opacity: 0,
     easing: 'ease-in-out',
+    reset: false
 });
 
 // Repeat for other sections
@@ -64,6 +69,7 @@ ScrollReveal().reveal('.infrastructure-container', {
     delay: 200,
     opacity: 0,
     easing: 'ease-in-out',
+    reset: false
 });
 
 ScrollReveal().reveal('.audit-container', {
@@ -72,6 +78,7 @@ ScrollReveal().reveal('.audit-container', {
     delay: 200,
     opacity: 0,
     easing: 'ease-in-out',
+    reset: false
 });
 
 ScrollReveal().reveal('.risk-container', {
@@ -80,4 +87,8 @@ ScrollReveal().reveal('.risk-container', {
     delay: 200,
     opacity: 0,
     easing: 'ease-in-out',
+    reset: false
 });
+
+
+// already done

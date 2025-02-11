@@ -448,3 +448,13 @@
     display: none;
   }
  }
+
+ @media screen and (max-width: 377px){
+  .hero-bots{
+    margin-bottom: 5%;
+  }
+
+  .all-hero{
+    height: 70vh;
+  }
+ }

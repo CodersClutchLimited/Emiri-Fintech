@@ -1,12 +1,10 @@
-ScrollReveal({ reset: true });
-
-// section below hero
 ScrollReveal().reveal('.about-colo', {
     delay: 200,
     distance: '50px',
     origin: 'left',
     easing: 'ease-in-out',
     duration: 1000,
+    reset: false
 });
 
 ScrollReveal().reveal('.colo-2', {
@@ -15,15 +13,16 @@ ScrollReveal().reveal('.colo-2', {
     origin: 'right',
     easing: 'ease-in-out',
     duration: 1000,
+    reset: false
 });
 
-// protocol section
 ScrollReveal().reveal('.column-title-2', {
     delay: 200,
     distance: '50px',
     origin: 'left',
     easing: 'ease-in-out',
     duration: 1000,
+    reset: false
 });
 
 ScrollReveal().reveal('.stat-card', {
@@ -33,37 +32,41 @@ ScrollReveal().reveal('.stat-card', {
     interval: 200,
     easing: 'ease-in-out',
     duration: 1000,
+    reset: false
 });
 
-// powered section
 const sr = ScrollReveal({
     origin: 'bottom',
     distance: '50px',
     duration: 1000,
     delay: 200,
+    reset: false
 });
 
 sr.reveal('.powered-paragraph', {
-    interval: 200
+    interval: 200,
+    reset: false
 });
 
 sr.reveal('.powered-image', {
     origin: 'right',
-    delay: 400
+    delay: 400,
+    reset: false
 });
 
 sr.reveal('.link-container', {
     origin: 'bottom',
-    delay: 600
+    delay: 600,
+    reset: false
 });
 
-// map section
 ScrollReveal().reveal('.map-section', {
     distance: '30px',
     duration: 800,
     delay: 200,
     opacity: 0,
     easing: 'ease-in-out',
+    reset: false
 });
 
 ScrollReveal().reveal('.map-itself', {
@@ -72,6 +75,7 @@ ScrollReveal().reveal('.map-itself', {
     delay: 400,
     opacity: 0,
     easing: 'ease-in-out',
+    reset: false
 });
 
 ScrollReveal().reveal('.purple-circles', {
@@ -80,15 +84,18 @@ ScrollReveal().reveal('.purple-circles', {
     delay: 600,
     opacity: 0,
     easing: 'ease-in-out',
-    interval: 200 // Stagger animation for circles
+    interval: 200,
+    reset: false
 });
 
-// find us container
 ScrollReveal().reveal('.box', {
     origin: 'bottom',
     distance: '50px',
     duration: 1000,
     delay: 200,
     easing: 'ease-in-out',
-    interval: 200
+    interval: 200,
+    reset: false
 });
+
+// already done

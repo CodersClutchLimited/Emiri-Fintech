@@ -1,5 +1,3 @@
-ScrollReveal({ reset: true });
-
 ScrollReveal().reveal('.board-texter h2', {
     delay: 300,
     distance: '50px',
@@ -7,4 +5,7 @@ ScrollReveal().reveal('.board-texter h2', {
     opacity: 0,
     duration: 1000,
     easing: 'ease-out',
+    reset: false
 });
+
+// already done

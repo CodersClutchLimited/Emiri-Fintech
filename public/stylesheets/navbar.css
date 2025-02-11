@@ -12,6 +12,10 @@
     padding-bottom: 15px;
 }
 
+.menu-item .yoda:hover{
+    color: #EC4899 !important;
+}
+
 .menu-column .staff-augmen::before{
     content: "";
     position: absolute;

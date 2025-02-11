@@ -1,11 +1,10 @@
-// eco hero
 ScrollReveal().reveal('.eco-hero-container', {
     distance: '50px',
     duration: 800,
     delay: 200,
     opacity: 0,
     easing: 'ease-in-out',
-    reset: true
+    reset: false
 });
 
 ScrollReveal().reveal('.eco-hero-content', {
@@ -14,7 +13,7 @@ ScrollReveal().reveal('.eco-hero-content', {
     delay: 400,
     opacity: 0,
     easing: 'ease-in-out',
-    reset: true
+    reset: false
 });
 
 ScrollReveal().reveal('.eco-hero-content-title', {
@@ -23,7 +22,7 @@ ScrollReveal().reveal('.eco-hero-content-title', {
     delay: 200,
     opacity: 0,
     easing: 'ease-in-out',
-    reset: true
+    reset: false
 });
 
 ScrollReveal().reveal('.eco-hero-content-paragraph', {
@@ -32,7 +31,7 @@ ScrollReveal().reveal('.eco-hero-content-paragraph', {
     delay: 400,
     opacity: 0,
     easing: 'ease-in-out',
-    reset: true
+    reset: false
 });
 
 ScrollReveal().reveal('.eco-hero-content-button', {
@@ -40,7 +39,7 @@ ScrollReveal().reveal('.eco-hero-content-button', {
     duration: 800,
     delay: 300,
     opacity: 0,
-    reset: true,
+    reset: false,
     easing: 'ease-in-out',
 });
 
@@ -50,19 +49,16 @@ ScrollReveal().reveal('.eco-hero-image-container', {
     delay: 400,
     opacity: 0,
     easing: 'ease-in-out',
-    reset: true
+    reset: false
 });
 
-
-// thorne section and academia section
-// Thorne section
 ScrollReveal().reveal('.thorner', {
     distance: '50px',
     duration: 800,
     delay: 200,
     opacity: 0,
     easing: 'ease-in-out',
-    reset: true
+    reset: false
 });
 
 ScrollReveal().reveal('.thorne-column-1', {
@@ -71,7 +67,7 @@ ScrollReveal().reveal('.thorne-column-1', {
     delay: 400,
     opacity: 0,
     easing: 'ease-in-out',
-    reset: true
+    reset: false
 });
 
 ScrollReveal().reveal('.thorne-column-2', {
@@ -80,7 +76,7 @@ ScrollReveal().reveal('.thorne-column-2', {
     delay: 400,
     opacity: 0,
     easing: 'ease-in-out',
-    reset: true
+    reset: false
 });
 
 ScrollReveal().reveal('.thorne-logos', {
@@ -89,17 +85,16 @@ ScrollReveal().reveal('.thorne-logos', {
     delay: 600,
     opacity: 0,
     easing: 'ease-in-out',
-    reset: true
+    reset: false
 });
 
-// Academia section
 ScrollReveal().reveal('.academia', {
     distance: '50px',
     duration: 800,
     delay: 200,
     opacity: 0,
     easing: 'ease-in-out',
-    reset: true
+    reset: false
 });
 
 ScrollReveal().reveal('.thorne-column-1', {
@@ -108,7 +103,7 @@ ScrollReveal().reveal('.thorne-column-1', {
     delay: 400,
     opacity: 0,
     easing: 'ease-in-out',
-    reset: true
+    reset: false
 });
 
 ScrollReveal().reveal('.thorne-column-2', {
@@ -117,7 +112,7 @@ ScrollReveal().reveal('.thorne-column-2', {
     delay: 400,
     opacity: 0,
     easing: 'ease-in-out',
-    reset: true
+    reset: false
 });
 
 ScrollReveal().reveal('.thorne-logos', {
@@ -126,9 +121,8 @@ ScrollReveal().reveal('.thorne-logos', {
     delay: 600,
     opacity: 0,
     easing: 'ease-in-out',
-    reset: true
+    reset: false
 });
-
 
 ScrollReveal().reveal('.partner-text', {
     distance: '30px',
@@ -136,5 +130,8 @@ ScrollReveal().reveal('.partner-text', {
     delay: 400,
     opacity: 0,
     easing: 'ease-in-out',
-    reset: true
+    reset: false
 });
+
+
+// done already

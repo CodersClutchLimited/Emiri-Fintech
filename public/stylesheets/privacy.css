@@ -1,7 +1,11 @@
 /* privacy-hero section */
 
-.et-logos{
+/* .et-logos{
     gap: 50%;
+} */
+
+.et-logos{
+    margin-top: 5%;
 }
 
 .privacy-main {
@@ -76,12 +80,12 @@
     color: #333;
 }
 
-.wallet-feature {
+/* .wallet-feature {
     display: flex;
     align-items: flex-start;
     margin-bottom: 15px;
     padding-bottom: 15px;
-}
+} */
 
 .wallet-feature-icon {
     color: #ff66cc;
