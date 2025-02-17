@@ -53,6 +53,19 @@
   /* Ensure inner container can overflow */
 }
 
+.home-carou-pad{
+  /* margin-top: 7%; */
+  background-color: white !important;
+}
+
+.digital-logo-container.uniq{
+  background-color: white !important;
+}
+
+.home-carou-pad-2{
+  background-color: white !important;
+}
+
 .mtn-1 {
   width: 140px;
 }

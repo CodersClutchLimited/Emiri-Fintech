@@ -1,3 +1,11 @@
+ScrollReveal().reveal('.title-1', {
+    duration: 1000,
+    origin: 'left',
+    distance: '50px',
+    easing: 'ease-in-out',
+    delay: 200
+  });
+  
 ScrollReveal().reveal('.about-colo', {
     delay: 200,
     distance: '50px',
