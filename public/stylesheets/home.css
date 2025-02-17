@@ -53,16 +53,31 @@
   /* Ensure inner container can overflow */
 }
 
-.home-carou-pad{
-  /* margin-top: 7%; */
+.home-carou-pad {
+  margin-left: 5%;
+  margin-right: 5%;
+  overflow: hidden;
   background-color: white !important;
 }
 
-.digital-logo-container.uniq{
+.digital-logo-container.uniq {
   background-color: white !important;
 }
 
-.home-carou-pad-2{
+.home-carou-pad.marg {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.home-carou-pad-2.marg {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.home-carou-pad-2 {
+  margin-left: 6%;
+  margin-right: 6%;
+  overflow: hidden;
   background-color: white !important;
 }
 
@@ -75,11 +90,11 @@
   height: 70px;
 }
 
-.master-card-1{
+.master-card-1 {
   height: 135px;
 }
 
-.bloom-1{
+.bloom-1 {
   width: 150px;
   height: 145px;
 }
