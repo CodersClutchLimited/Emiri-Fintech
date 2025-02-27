@@ -118,24 +118,21 @@
   height: 45px;
 }
 
-/* Style for inner container */
 .inner-container {
   position: absolute;
-  /* Absolute positioning inside the outer container */
   top: 20%;
-  /* top: 30%; */
   left: 50%;
-  /* Move the inner container to the middle */
   width: 90%;
-  /* Inner container will take 90% of outer container's width */
   background-color: white;
-  /* Inner container background */
   transform: translate(-50%, -50%);
-  /* Center the inner container both vertically and horizontally */
   text-align: center;
-  /* padding: 20px; */
   color: black;
-  /* Adjust color as necessary */
+}
+
+.top-margin{
+  margin-top: -40px;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
 }
 
 @media screen and (max-width:490px) {
@@ -363,8 +360,7 @@
   align-items: center;
   justify-content: center;
   padding: 75px;
-  /* padding-top: 65px !important; */
-  padding-top: 40px !important;
+  padding-top: 20px !important;
   margin-bottom: -20px;
 }
 
