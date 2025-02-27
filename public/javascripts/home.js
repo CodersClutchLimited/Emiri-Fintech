@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let scrollAmount = 0;
 
   function scrollSlider() {
-    scrollAmount -= 1; // Adjust speed (higher negative value for faster scroll)
+    scrollAmount -= 0.3; // Adjust speed (higher negative value for faster scroll)
     if (Math.abs(scrollAmount) >= sliderChildren[0].offsetWidth) {
       scrollAmount = 0; // Reset scroll amount when a full slide has passed
       slider.appendChild(slider.children[0]); // Move first element to the end
